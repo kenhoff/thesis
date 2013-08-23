@@ -1,7 +1,13 @@
 \documentclass[12pt]{report}
 \usepackage{url}
+\usepackage{graphicx}
 
-\author{Ken Hoff \\ University of Colorado at Boulder \\ \texttt{kendall.hoff@colorado.edu}}
+\author{Ken Hoff \\ University of Colorado at Boulder \\ \texttt{kendall.hoff@colorado.edu} 
+\\ \\ Advisor \\	\\ Alexander Repenning, Professor, University of Colorado 
+\\ \\ Committee \\	\\ Alexander Repenning, Professor, University of Colorado
+					\\ Michael Eisenberg, Professor, University of Colorado
+					\\ John Bennett, Professor, University of Colorado
+					\\ Julien Lynge, Research Faculty, NOAA}
 \date{\today}
 \title{Improving Educational Game Design Methods: A Rubric to Assess the Engagement and Educational Value of Educational Games
 }
@@ -12,14 +18,14 @@
 
 \begin{abstract}
 
-Existing educational games lack the combination of education and engagement. I'd like to research, synthesize, and test a more effective educational design method. I'll research current literature and existing effective educational games, synthesize my own educational game design method based off of this research, then apply this method to known educational games and compare the results.
+Existing educational games lack the combination of education and engagement. The objective is to research, synthesize, and test a more effective educational design method. The procedure is to research current literature and existing effective educational games, synthesize an educational game design rubric based off of this research, then apply this method to known educational games. Amazon's Mechanical Turk will be used to gather large amounts of data about the consistency of this rubric, after which the data will be collated and analyzed.
 
 \end{abstract}
 
 \tableofcontents
 
 \section{Problem}
-	Educational games lack the combination of education and engagement. We usually see “cheesy” games, where the content being taught is either uninteresting or unrelated to the type of play. A good example is Math Blaster; players answer simple arithmetic questions to fill up their energy, which they then use to shoot space debris. These “games” are usually just homework problems, either included as an unrelated component inside the game, or interspersed between gameplay segments in a quiz format.
+	Educational games lack the combination of education and engagement. The standard is “cheesy” games, where the content being taught is either uninteresting or unrelated to the type of play. A good example is Math Blaster; players answer simple arithmetic questions to fill up their energy, which they then use to shoot space debris. These “games” are usually just homework problems, either included as an unrelated component inside the game, or interspersed between gameplay segments in a quiz format.
 
 \section{Thesis Statement/Solution}
 	I'm going to synthesize an education game design method by creating a list of attributes that educational games should have a high degree of in order to be effective and engaging. The list is not a set of standards, but a set of guidelines; it is possible (though unlikely) for a game to contain all of the attributes and still be ineffective, or for a game to have none of the attributes and be very effective. It is simply meant to infer that game designs that contain these elements are more likely to be effective and engaging educational games.
@@ -73,29 +79,11 @@ Existing educational games lack the combination of education and engagement. I'd
 		What follows is a list of properties that make up the educational game design, created by researching and synthesizing properties of existing educational games. Games are not required to have all or any of these properties, but the hope is that games with more of these properties will be considered more effective and engaging educational games. Certain sections of the rubric are left blank, but properties of the section can be extrapolated from adjacent sections.
 	\subsection{Rubric Overview}
 	\subsection{Rubric Details}
+		(graphics go here)
 
-		chart
+		\includegraphics[width = \textwidth]{./Orca_H3.png}
 
-		\subsubsection{Location of Game Encyclopedia}
-			Some educational games include a game encyclopedia as part of the game, either internally or externally as a game manual or wiki. Having such an encyclopedia available within the game greatly increases the chance of players using it for self-directed and self-motivated learning, as part of tangential learning.
-		\subsubsection{Content of Game Encyclopedia}
-			Having a game encyclopedia as part of the game encourages self-motivated players to seek out additional help. If the encyclopedia includes more than just game mechanics as part of its content, players may be more encouraged to self-educate themselves about those topics.
-		\subsubsection{Amount and Popularity of Referential Material}
-			By having many objects or events in the game that are references to real-life objects or events, players may recognize certain objects or events and self-motivate themselves to learn more about those objects or events. In addition, having a large amount of those references be popular means that more players will recognize them, and by association, lesser-known objects will be the result of self-motivated education about the popular items.
-		\subsubsection{Rewards for knowing Referential Material}
-			If games allow players to use their knowledge of the referential material in a positive manner within the game, it reinforces the desire for the player to tangentially learn about all the referential material in the game. This is in contrast to traditional methods, where the content that the player is trying to be educated about serves as a barrier of entry to the later levels of the game, or the game penalizes players that don't know the content; with this, players can still play the entirety of the game, but are incentivized to do better by learning the referential material.
-		\subsubsection{Adaptive Difficulty}
-			In order to incorporate flow as much as possible, the game must use a form of Adaptive Difficulty; the game tries to match the difficulty of the obstacles to the skill level of the player. This can be done in a rudimentary way by allowing the player to select the difficulty themselves, but is most effective when it recognizes how well a player is doing on a certain puzzle and adjusting the difficulty automatically. This ensures that the player isn't trivially challenged, but at the same time isn't pushed outside the bounds of their ability.
-		\subsubsection{Contextual Tutorials, Tutorial Availability}
-			In keeping with flow, players need to be challenged at their level of skill within every game. This means that players shouldn't be hindered by challenges that are too easy for them, but likewise shouldn't feel completely lost on difficult challenges. The method of introducing these challenges is equally important; players that are forced to go through numerous, easy introductory levels will quickly become bored, but players that skip through tutorials at later stages or forget about valuable information learned early in the game quickly become frustrated. It's important to give the player only information that they need; similar to the concept of adaptive difficulty, the game gives the player helpful hints or suggestions when they are stuck, or when the player doesn't intuitively grasp a new mechanic the first time. Similarly, there needs to be tutorials for just about every concept in the game, to cater to players that might have learning ‘gaps' in their history.
-		\subsubsection{Low game resource penalty and “reset time” (time to return to failure point) for failure, High checkpoint frequency}
-			In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) and external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. In addition, having a high frequency of checkpoints reduces the amount of time that it takes for the player to return to the point of a failure.
-		\subsubsection{Freedom of exploration}
-			Similarly, if players are to be encouraged to explore, the nature of the game must be nonlinear and allow for players to progress in varying sections of the game at their own pace. That isn't saying that they shouldn't have a finite goal to work towards, but the methods or paths with which they work towards that goal should be optional and variable.
-		\subsubsection{Iterative feedback}
-			In the case of games with a high degree of free-form exploration, it's easy to see that some players might get lost and become frustrated. In order to maintain flow, these players must receive some kind of feedback that they're on the right track, and not just wandering aimlessly through the game world or puzzles. It's extremely helpful for players to receive feedback at every step they take, even during the completion of puzzles; that way, they can be sure that they're progressing, and easily see the steps ahead of them, enabling flow.
-		\subsubsection{Unorthodox problem solving}
-			Another important element of allowing players to explore and play is to give them the option to solve problems using unorthodox solutions; solutions that the game didn't anticipate, but still validate the puzzle's end condition. Sometimes, the player may be able to figure out how to circumvent certain sections of a puzzle; this should still be considered valid, but it's hoped that the circumvention wasn't because of faulty game logic. This allows players to try unusual solutions to problems, and help them understand the system far better than if they had just been taught the correct solution.
+		
 
 	\subsection{Games Overview}
 		chart

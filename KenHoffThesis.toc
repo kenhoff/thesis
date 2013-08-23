@@ -12,27 +12,17 @@
 \contentsline {subsection}{\numberline {0.5.1}Design Rubric}{7}
 \contentsline {subsection}{\numberline {0.5.2}Rubric Overview}{7}
 \contentsline {subsection}{\numberline {0.5.3}Rubric Details}{7}
-\contentsline {subsubsection}{Location of Game Encyclopedia}{7}
-\contentsline {subsubsection}{Content of Game Encyclopedia}{7}
-\contentsline {subsubsection}{Amount and Popularity of Referential Material}{8}
-\contentsline {subsubsection}{Rewards for knowing Referential Material}{8}
-\contentsline {subsubsection}{Adaptive Difficulty}{8}
-\contentsline {subsubsection}{Contextual Tutorials, Tutorial Availability}{8}
-\contentsline {subsubsection}{Low game resource penalty and “reset time” (time to return to failure point) for failure, High checkpoint frequency}{9}
-\contentsline {subsubsection}{Freedom of exploration}{9}
-\contentsline {subsubsection}{Iterative feedback}{9}
-\contentsline {subsubsection}{Unorthodox problem solving}{10}
-\contentsline {subsection}{\numberline {0.5.4}Games Overview}{10}
-\contentsline {subsection}{\numberline {0.5.5}Games Details}{10}
-\contentsline {subsubsection}{Number Munchers}{10}
-\contentsline {subsubsection}{Howling Dogs}{10}
-\contentsline {subsubsection}{BotLogic}{10}
-\contentsline {subsubsection}{Darfur is Dying}{10}
-\contentsline {subsubsection}{Math Baseball}{10}
-\contentsline {subsubsection}{Habbo Hotel}{10}
-\contentsline {subsubsection}{Light Bot}{11}
-\contentsline {subsubsection}{Pandemic 2}{11}
-\contentsline {subsubsection}{Notpron}{11}
-\contentsline {subsubsection}{Oregon Trail}{11}
-\contentsline {subsubsection}{Where in the World is Carmen Sandiego?}{11}
-\contentsline {section}{\numberline {0.6}Conclusion}{11}
+\contentsline {subsection}{\numberline {0.5.4}Games Overview}{8}
+\contentsline {subsection}{\numberline {0.5.5}Games Details}{8}
+\contentsline {subsubsection}{Darfur is Dying}{8}
+\contentsline {subsubsection}{Habbo Hotel}{8}
+\contentsline {subsubsection}{Light Bot}{8}
+\contentsline {subsubsection}{Pandemic 2}{9}
+\contentsline {subsubsection}{Howling Dogs}{9}
+\contentsline {subsubsection}{Notpron}{9}
+\contentsline {subsubsection}{Oregon Trail}{9}
+\contentsline {subsubsection}{Where in the World is Carmen Sandiego?}{9}
+\contentsline {subsubsection}{Math Baseball}{9}
+\contentsline {subsubsection}{Number Munchers}{9}
+\contentsline {subsubsection}{BotLogic}{9}
+\contentsline {section}{\numberline {0.6}Conclusion}{9}
