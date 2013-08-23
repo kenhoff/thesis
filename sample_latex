@@ -1,0 +1,46 @@
+\documentclass{article}
+
+\author{Terry~Sturtevant \thanks{Physics Lab Supervisor}}
+\date{\today}
+\title{PC132 Lab Project}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Very Important stuff}
+Here is my text, including the \LaTeX\ symbol.
+\subsection{Important stuff}
+More text here.
+\subsubsection{Less Important stuff}
+And even more text.
+\paragraph{Trivial stuff}
+Note that the text starts on the same line as the paragraph heading.
+\subparagraph{Mind-numbingly inconsequential stuff}
+
+Even if you skip lines.
+
+Just skipping a line starts a new paragraph.
+
+\noindent You can avoid an indent by using the \textbf{{$\mathbf \backslash$}noindent} command.
+
+\section*{Very Important stuff with no number}
+Here is my text, including the \LaTeX\ symbol.
+
+	\subsection*{Important stuff with no number}
+	Note neither the indent nor the blank line affects the output.
+
+		\subsubsection*{Less Important stuff with no number} The text
+		can even begin on the same line.
+
+			\paragraph*{Why bother?}
+			Note the indenting in the source file doesn't
+				show up in the output, so it's for your
+			benefit only.
+				\subparagraph*{Mind-numbingly inconsequential stuff}
+				Note which types of headings get numbered and/or highlighted.
+
+				Just skipping a line starts a new paragraph.
+
+\end{document}
