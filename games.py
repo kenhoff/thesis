@@ -4,6 +4,17 @@ class GameList:
 		content = f.read()
 		self.games = set()
 		gameArray = content.split('\n\n')
+
+
+		###############################################
+		# useless shit i wrote to try to read in keys
+		# keys = []
+		# game_properties = gameArray[0].split('\n')
+		# for prop in game_properties:
+		# 	keys.append(prop.strip('<').strip('>'))
+
+		gameArray.pop(0) # remove keys section
+
 		for game in gameArray:
 			info = game.split('\n')
 			self.games.add(Game(info[0], info[1], info[2]))
