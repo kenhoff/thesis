@@ -1,0 +1,38 @@
+\contentsline {section}{\numberline {0.1}Problem}{1}
+\contentsline {section}{\numberline {0.2}Thesis Statement/Solution}{2}
+\contentsline {section}{\numberline {0.3}Approach}{2}
+\contentsline {section}{\numberline {0.4}Research}{2}
+\contentsline {subsection}{\numberline {0.4.1}Edutainment vs Educational Games}{2}
+\contentsline {subsubsection}{Bloom's Taxonomy}{2}
+\contentsline {subsubsection}{Educational Games, Not Edutainment}{4}
+\contentsline {subsection}{\numberline {0.4.2}Tangential Learning}{4}
+\contentsline {subsection}{\numberline {0.4.3}Flow}{5}
+\contentsline {subsection}{\numberline {0.4.4}Play}{6}
+\contentsline {section}{\numberline {0.5}Findings}{7}
+\contentsline {subsection}{\numberline {0.5.1}Design Rubric}{7}
+\contentsline {subsection}{\numberline {0.5.2}Rubric Overview}{7}
+\contentsline {subsection}{\numberline {0.5.3}Rubric Details}{7}
+\contentsline {subsubsection}{Location of Game Encyclopedia}{7}
+\contentsline {subsubsection}{Content of Game Encyclopedia}{7}
+\contentsline {subsubsection}{Amount and Popularity of Referential Material}{8}
+\contentsline {subsubsection}{Rewards for knowing Referential Material}{8}
+\contentsline {subsubsection}{Adaptive Difficulty}{8}
+\contentsline {subsubsection}{Contextual Tutorials, Tutorial Availability}{8}
+\contentsline {subsubsection}{Low game resource penalty and “reset time” (time to return to failure point) for failure, High checkpoint frequency}{9}
+\contentsline {subsubsection}{Freedom of exploration}{9}
+\contentsline {subsubsection}{Iterative feedback}{9}
+\contentsline {subsubsection}{Unorthodox problem solving}{10}
+\contentsline {subsection}{\numberline {0.5.4}Games Overview}{10}
+\contentsline {subsection}{\numberline {0.5.5}Games Details}{10}
+\contentsline {subsubsection}{Number Munchers}{10}
+\contentsline {subsubsection}{Howling Dogs}{10}
+\contentsline {subsubsection}{BotLogic}{10}
+\contentsline {subsubsection}{Darfur is Dying}{10}
+\contentsline {subsubsection}{Math Baseball}{10}
+\contentsline {subsubsection}{Habbo Hotel}{10}
+\contentsline {subsubsection}{Light Bot}{11}
+\contentsline {subsubsection}{Pandemic 2}{11}
+\contentsline {subsubsection}{Notpron}{11}
+\contentsline {subsubsection}{Oregon Trail}{11}
+\contentsline {subsubsection}{Where in the World is Carmen Sandiego?}{11}
+\contentsline {section}{\numberline {0.6}Conclusion}{11}

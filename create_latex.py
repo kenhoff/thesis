@@ -1,11 +1,8 @@
-import games
+from games import Game, GameList
+content = ""
 
-games.generateGameSummaryDict()
+content += GameList('game_summaries').latex_output("subsubsection")
 
-content = "data"
-
-f = open('KenHoffThesis.tex', 'w')
-f.write('\documentclass{article}')
-f.write('\\begin{document}')
+f = open('GameSummaries.tex', 'w')
 f.write(content)
-f.write('\end{document}')
+f.close()
