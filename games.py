@@ -39,6 +39,6 @@ class Game:
 
 	def latex_output(self, nestlevel = "section"):
 		# print self.name
-		content = "\\newpage" + "\{}".format(nestlevel) + "{{{}}}".format(self.name) + "\subparagraph{}" + "\includegraphics[width = \\textwidth]{{{0}}}".format(self.title) + "\subparagraph{URL}" + "\url{{{}}}".format(self.url) + "\subparagraph{Description}" + "{}".format(self.description) + "\subparagraph{Educational Content}" + "{}".format(self.education) + "\subparagraph{}" + "\includegraphics[width = \\textwidth]{{{0}}}".format(self.screen)
+		content = "\{}".format(nestlevel) + "{{{}}}".format(self.name) + "\subparagraph{}" + "\includegraphics[width = \\textwidth]{{{0}}}".format(self.title) + "\subparagraph{URL}" + "\url{{{}}}".format(self.url) + "\subparagraph{Description}" + "{}".format(self.description) + "\subparagraph{Educational Content}" + "{}".format(self.education) + "\subparagraph{}" + "\includegraphics[width = \\textwidth]{{{0}}}".format(self.screen) + "\\newpage"
 		# print self.id
 		return content
