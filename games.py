@@ -37,5 +37,5 @@ class Game:
 	def latex_output(self, nestlevel = "section"):
 		# print self.name
 		content = "\{1}{{{0.name}}}\url{{{0.url}}}".format(self, nestlevel)
-		print self.id
+		# print self.id
 		return content

@@ -1,22 +1,149 @@
 <id>
+<name>
+<description>
+<weight>
+<1>
+<2>
+<3>
+<4>
+<5>
 
-\subsubsection{Location of Game Encyclopedia}
-			Some educational games include a game encyclopedia as part of the game, either internally or externally as a game manual or wiki. Having such an encyclopedia available within the game greatly increases the chance of players using it for self-directed and self-motivated learning, as part of tangential learning.
-		\subsubsection{Content of Game Encyclopedia}
-			Having a game encyclopedia as part of the game encourages self-motivated players to seek out additional help. If the encyclopedia includes more than just game mechanics as part of its content, players may be more encouraged to self-educate themselves about those topics.
-		\subsubsection{Amount and Popularity of Referential Material}
-			By having many objects or events in the game that are references to real-life objects or events, players may recognize certain objects or events and self-motivate themselves to learn more about those objects or events. In addition, having a large amount of those references be popular means that more players will recognize them, and by association, lesser-known objects will be the result of self-motivated education about the popular items.
-		\subsubsection{Rewards for knowing Referential Material}
-			If games allow players to use their knowledge of the referential material in a positive manner within the game, it reinforces the desire for the player to tangentially learn about all the referential material in the game. This is in contrast to traditional methods, where the content that the player is trying to be educated about serves as a barrier of entry to the later levels of the game, or the game penalizes players that don't know the content; with this, players can still play the entirety of the game, but are incentivized to do better by learning the referential material.
-		\subsubsection{Adaptive Difficulty}
-			In order to incorporate flow as much as possible, the game must use a form of Adaptive Difficulty; the game tries to match the difficulty of the obstacles to the skill level of the player. This can be done in a rudimentary way by allowing the player to select the difficulty themselves, but is most effective when it recognizes how well a player is doing on a certain puzzle and adjusting the difficulty automatically. This ensures that the player isn't trivially challenged, but at the same time isn't pushed outside the bounds of their ability.
-		\subsubsection{Contextual Tutorials, Tutorial Availability}
-			In keeping with flow, players need to be challenged at their level of skill within every game. This means that players shouldn't be hindered by challenges that are too easy for them, but likewise shouldn't feel completely lost on difficult challenges. The method of introducing these challenges is equally important; players that are forced to go through numerous, easy introductory levels will quickly become bored, but players that skip through tutorials at later stages or forget about valuable information learned early in the game quickly become frustrated. It's important to give the player only information that they need; similar to the concept of adaptive difficulty, the game gives the player helpful hints or suggestions when they are stuck, or when the player doesn't intuitively grasp a new mechanic the first time. Similarly, there needs to be tutorials for just about every concept in the game, to cater to players that might have learning ‘gaps' in their history.
-		\subsubsection{Low game resource penalty and “reset time” (time to return to failure point) for failure, High checkpoint frequency}
-			In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) and external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. In addition, having a high frequency of checkpoints reduces the amount of time that it takes for the player to return to the point of a failure.
-		\subsubsection{Freedom of exploration}
-			Similarly, if players are to be encouraged to explore, the nature of the game must be nonlinear and allow for players to progress in varying sections of the game at their own pace. That isn't saying that they shouldn't have a finite goal to work towards, but the methods or paths with which they work towards that goal should be optional and variable.
-		\subsubsection{Iterative feedback}
-			In the case of games with a high degree of free-form exploration, it's easy to see that some players might get lost and become frustrated. In order to maintain flow, these players must receive some kind of feedback that they're on the right track, and not just wandering aimlessly through the game world or puzzles. It's extremely helpful for players to receive feedback at every step they take, even during the completion of puzzles; that way, they can be sure that they're progressing, and easily see the steps ahead of them, enabling flow.
-		\subsubsection{Unorthodox problem solving}
-			Another important element of allowing players to explore and play is to give them the option to solve problems using unorthodox solutions; solutions that the game didn't anticipate, but still validate the puzzle's end condition. Sometimes, the player may be able to figure out how to circumvent certain sections of a puzzle; this should still be considered valid, but it's hoped that the circumvention wasn't because of faulty game logic. This allows players to try unusual solutions to problems, and help them understand the system far better than if they had just been taught the correct solution.
+01
+Location of Game Encyclopedia
+Some educational games include a game encyclopedia as part of the game, either internally or externally as a game manual or wiki. Having such an encyclopedia available within the game greatly increases the chance of players using it for self-directed and self-motivated learning, as part of tangential learning.
+0.25
+Game contains no encyclopedia of game content
+blah
+Game has an outside manual (or wiki) of game content
+blah
+Game has an in-game encyclopedia of game content
+
+02
+Content of Game Encyclopedia
+Having a game encyclopedia as part of the game encourages self-motivated players to seek out additional help. If the encyclopedia includes more than just game mechanics as part of its content, players may be more encouraged to self-educate themselves about those topics.
+0.25
+Game contains no encyclopedia or Encyclopedia contains no content
+Encyclopedia contains content only related to game mechanics
+blah
+Encyclopedia contains content related to game mechanics and historical/factual information
+Encyclopedia contains content related to game mechanics and historical/factual information and outside links or references
+
+03
+Amount of Referential Material
+By having many objects or events in the game that are references to real-life objects or events, players may recognize certain objects or events and self-motivate themselves to learn more about those objects or events. In addition, having a large amount of those references be popular means that more players will recognize them, and by association, lesser-known objects will be the result of self-motivated education about the popular items.
+0.33
+No game objects or events are references to real-life objects or events
+At least one event or object is a reference to an real-world event or object
+blah
+At least one group of objects or events are references to real-life objects or events
+Numerous groups of objects or events are references to real-life objects or events
+
+04
+Popularity of Referential Material
+By having many objects or events in the game that are references to real-life objects or events, players may recognize certain objects or events and self-motivate themselves to learn more about those objects or events. In addition, having a large amount of those references be popular means that more players will recognize them, and by association, lesser-known objects will be the result of self-motivated education about the popular items.
+0.33
+Existing references are extremely obscure
+blah
+About half of the references are popular
+blah
+Most or all of the references are popular
+
+05
+Rewards for knowing Referential Material
+If games allow players to use their knowledge of the referential material in a positive manner within the game, it reinforces the desire for the player to tangentially learn about all the referential material in the game. This is in contrast to traditional methods, where the content that the player is trying to be educated about serves as a barrier of entry to the later levels of the game, or the game penalizes players that don't know the content; with this, players can still play the entirety of the game, but are incentivized to do better by learning the referential material.
+0.50
+Knowing the referential material is purely irrelevant; doesn’t affect the gameplay at all
+blah
+Knowing the referential material is somewhat useful; moderately affects the player's choices during gameplay
+blah
+Knowing the referential material significantly affects gameplay (usually in a positive way)
+
+06
+Adaptive Difficulty
+In order to incorporate flow as much as possible, the game must use a form of Adaptive Difficulty; the game tries to match the difficulty of the obstacles to the skill level of the player. This can be done in a rudimentary way by allowing the player to select the difficulty themselves, but is most effective when it recognizes how well a player is doing on a certain puzzle and adjusting the difficulty automatically. This ensures that the player isn't trivially challenged, but at the same time isn't pushed outside the bounds of their ability.
+1.00
+Game only has one difficulty
+Game has several difficulties, but players can only select difficulty at beginning of game
+Game has several difficulties, and players can change difficulty mid-game
+Game has several difficulties, and prompts the player to increase or decrease the difficulty as needed
+Game has several difficulties, and automatically adjusts the difficulty of the game as needed
+
+07
+Contextual Tutorials
+In keeping with flow, players need to be challenged at their level of skill within every game. This means that players shouldn't be hindered by challenges that are too easy for them, but likewise shouldn't feel completely lost on difficult challenges. The method of introducing these challenges is equally important; players that are forced to go through numerous, easy introductory levels will quickly become bored, but players that skip through tutorials at later stages or forget about valuable information learned early in the game quickly become frustrated. It's important to give the player only information that they need; similar to the concept of adaptive difficulty, the game gives the player helpful hints or suggestions when they are stuck, or when the player doesn't intuitively grasp a new mechanic the first time. Similarly, there needs to be tutorials for just about every concept in the game, to cater to players that might have learning ‘gaps' in their history.
+0.75
+Tutorials are only given at the beginning of the game
+blah
+Tutorials are given at the beginning of every level
+blah
+Tutorials are offered only when is needed (e.g. when a player is encountering a mechanic for the first time, or demonstrates lack of understanding for that mechanic)
+
+08
+Tutorial availability
+In keeping with flow, players need to be challenged at their level of skill within every game. This means that players shouldn't be hindered by challenges that are too easy for them, but likewise shouldn't feel completely lost on difficult challenges. The method of introducing these challenges is equally important; players that are forced to go through numerous, easy introductory levels will quickly become bored, but players that skip through tutorials at later stages or forget about valuable information learned early in the game quickly become frustrated. It's important to give the player only information that they need; similar to the concept of adaptive difficulty, the game gives the player helpful hints or suggestions when they are stuck, or when the player doesn't intuitively grasp a new mechanic the first time. Similarly, there needs to be tutorials for just about every concept in the game, to cater to players that might have learning ‘gaps' in their history.
+0.25
+There are no tutorials available
+Tutorials are available for some mechanics of the game
+Tutorials are available for about half the mechanics of the game
+Tutorials are available for most mechanics of the game
+Tutorials are available for every mechanic in the game
+
+09
+Low game resource penalty for failure
+In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) and external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. In addition, having a high frequency of checkpoints reduces the amount of time that it takes for the player to return to the point of a failure.
+0.33
+Game resource penalty is large (e.g. ⅓ lives, 10 health points / 100)
+blah
+Game resource penalty is moderate
+blah
+Game resource penalty is nonexistent (e.g. unlimited lives)
+
+10
+Low "reset time" for failure (time to return to failure point)
+In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) and external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. In addition, having a high frequency of checkpoints reduces the amount of time that it takes for the player to return to the point of a failure.
+0.33
+Reset time is very long (e.g. reloading level takes a long time)
+Reset time is long (e.g. greater than 10 seconds)
+Reset time is moderate (e.g. up to 10 seconds)
+Reset time is short (e.g. a few seconds)
+Reset time is very short (e.g. near instant)
+
+11
+High checkpoint frequency
+In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) and external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. In addition, having a high frequency of checkpoints reduces the amount of time that it takes for the player to return to the point of a failure.
+0.33
+Zero checkpoints
+Checkpoints are few and far between (e.g. levels are the only places to restart)
+blah
+Checkpoints are numerous (e.g. players can restart at the beginning of each puzzle)
+Checkpoints are frequent (e.g. players can restart part of the way through puzzles)
+
+12
+Freedom of exploration
+Similarly, if players are to be encouraged to explore, the nature of the game must be nonlinear and allow for players to progress in varying sections of the game at their own pace. That isn't saying that they shouldn't have a finite goal to work towards, but the methods or paths with which they work towards that goal should be optional and variable.
+0.75
+Players are placed in a strictly linear world or lesson progression
+blah
+Players have the option to make choices about the direction of their progression in the world, but it is largely linear
+blah
+Players are free to choose the direction they want, both educationally and within the game world; allowed to jump between parallel lessons
+
+13
+Iterative feedback
+In the case of games with a high degree of free-form exploration, it's easy to see that some players might get lost and become frustrated. In order to maintain flow, these players must receive some kind of feedback that they're on the right track, and not just wandering aimlessly through the game world or puzzles. It's extremely helpful for players to receive feedback at every step they take, even during the completion of puzzles; that way, they can be sure that they're progressing, and easily see the steps ahead of them, enabling flow.
+0.50
+Game gives no feedback other than high-level progression through the game
+Game gives feedback after each level
+Game gives feedback at various points through a level, after a series of puzzles
+Game gives feedback after each puzzle
+Game constantly gives feedback (e.g. during a puzzle)
+
+14
+Unorthodox problem solving
+Another important element of allowing players to explore and play is to give them the option to solve problems using unorthodox solutions; solutions that the game didn't anticipate, but still validate the puzzle's end condition. Sometimes, the player may be able to figure out how to circumvent certain sections of a puzzle; this should still be considered valid, but it's hoped that the circumvention wasn't because of faulty game logic. This allows players to try unusual solutions to problems, and help them understand the system far better than if they had just been taught the correct solution.
+0.75
+There is only one way to solve any given problem, with one given progression that is valid as a solution
+blah
+Multiple solutions are available for each problem, but players are limited to using one of those solutions
+blah
+Players can solve a problem any way they like, or even circumvent the problem, and be given full (or bonus) points

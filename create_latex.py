@@ -6,3 +6,14 @@ content += GameList('game_summaries').latex_output("subsubsection")
 f = open('GameSummaries.tex', 'w')
 f.write(content)
 f.close()
+
+
+from rubric import Rubric, RubricItem
+
+content = ""
+
+content += Rubric('rubric_information').latex_output("subsubsection")
+
+f = open('Rubric.tex', 'w')
+f.write(content)
+f.close()
