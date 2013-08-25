@@ -1,7 +1,7 @@
 from games import Game, GameList
 content = ""
 
-content += GameList('game_summaries').latex_output("subsubsection")
+content += GameList('game_summaries').latex_output("subsection")
 
 f = open('GameSummaries.tex', 'w')
 f.write(content)
@@ -12,7 +12,7 @@ from rubric import Rubric, RubricItem
 
 content = ""
 
-content += Rubric('rubric_information').latex_output("subsubsection")
+content += Rubric('rubric_information').latex_output("subsection")
 
 f = open('Rubric.tex', 'w')
 f.write(content)

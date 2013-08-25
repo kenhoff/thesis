@@ -17,7 +17,7 @@ class GameList:
 
 		for game in gameArray:
 			info = game.split('\n')
-			self.games.add(Game(info[0], info[1], info[2]))
+			self.games.add(Game(info[0], info[1], info[2], info[3], info[4], info[5], info[6]))
 		f.close()
 
 	def latex_output(self, nestlevel = "section"):
@@ -28,14 +28,17 @@ class GameList:
 
 
 class Game:
-	def __init__(self, id, name, url = None, description = None):
+	def __init__(self, id, name, url = None, description = None, education = None, title_screen = None, screenshot = None):
 		self.name = name
 		self.url = url
 		self.description = description
 		self.id = id
+		self.education = education
+		self.title = "img/" + title_screen
+		self.screen = "img/" + screenshot
 
 	def latex_output(self, nestlevel = "section"):
 		# print self.name
-		content = "\{1}{{{0.name}}}\url{{{0.url}}}".format(self, nestlevel)
+		content = "\\newpage" + "\{}".format(nestlevel) + "{{{}}}".format(self.name) + "\subparagraph{}" + "\includegraphics[width = \\textwidth]{{{0}}}".format(self.title) + "\subparagraph{URL}" + "\url{{{}}}".format(self.url) + "\subparagraph{Description}" + "{}".format(self.description) + "\subparagraph{Educational Content}" + "{}".format(self.education) + "\subparagraph{}" + "\includegraphics[width = \\textwidth]{{{0}}}".format(self.screen)
 		# print self.id
 		return content
