@@ -31,7 +31,7 @@ class RubricItem:
 
 	def latex_output(self, nestlevel = "section"):
 		# content = "\{1}{{{foooooo}}}".format(self, nestlevel)
-		content = "\{1}{{{0.name}}}{{{0.description}}} ".format(self, nestlevel) + self.latex_weight_output() + self.latex_scale_output()
+		content = "\{1}{{{0.name}}}{{{0.description}}} ".format(self, nestlevel) + self.latex_scale_output()
 		return content
 
 	def latex_scale_output(self):
