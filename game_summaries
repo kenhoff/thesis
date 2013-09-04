@@ -10,7 +10,7 @@
 Darfur is Dying
 http://www.darfurisdying.com/
 Darfur is Dying, developed by mtvU, is a flash-based game released in April of 2006. The game consists of two main sections. In the first section, players must select a member of a Darfuri refugee; the family consists of a male, female, and several children. Once the player has chosen, the player must guide the refugee to a well using only compass and distance directions, while attempting to avoid Janjaweed militia patrols in trucks. If the player is caught, the game describes the fate of the refugee, and the player is prompted to select another refugee. Once the player has made it to the well, the player must return through the same section to their encampment, but lose water during their journey. Once they have returned to the encampment, the player enters a top-down strategy-like game simulation; they can use the water they have retrieved to grow crops and keep the encampment in good condition. However, if they run out of water, they will need to return to the first section and make the well run again. The goal of the game is to keep the encampment alive for 7 days. In addition, the community is constantly under threat from attacks from the militia; if the militia attacks, the encampment is lost, and the player must start again. The player can prevent attacks from the militia by participating in various viral and advocacy campaign tactics, such as inviting their friends to play, posting on social media, or writing to government officials. 
-education!
+The educational content of Darfur is Dying is centered almost entirely around awareness. Through playing the game, players learn about the nation of Darfur, including its history, wars, environment, climate, and people. The players are forced to be aware of the troubles that plight Darfuri residents and families, such as militia attacks. Players are encouraged to read the backstories of every man, woman, and child, as well as stories associated with locations within the village that expose various events that have happened, such as being unable to fend off sickness without medical aid, or when a militia recently stormed the village and murdered numerous people.
 darfur_title.png
 darfur_screen1.jpg
 
@@ -18,7 +18,7 @@ darfur_screen1.jpg
 Light Bot
 http://armorgames.com/play/2205/light-bot
 Light Bot, made by Danny Yaroslavski, is a programming and robotics puzzle game. It was originally a flash game, but has since been ported to iOS and Android. Players assume control of a robot on a grid of varying sizes and orientations. Each grid square can also have a height. The robot has the ability to move forward, turn left or right, jump up one level or down one level, and turn a square "on." The robot also has the ability to call "functions," where the robot can execute sequences of events and repeat functions several times or indefinitely. The goal of the robot is to navigate to all of the blue squares and turn them "on" to a yellow state. The robot can do this in any order and using any sequence they like, so long as it fits within the provided instruction spaces. There are 40 levels to the game, ranging from the simple to extremely difficult.
-education!
+Light Bot's educational purpose focuses on teaching programming at a very simple level. Players learn that the bot will follow sets of instructions. Initially, these instructions will be very simple (e.g. forward, turn, blink), but the player will realize quickly that the bot will follow the instructions explicitly, even if they do not solve the puzzle. This teaches players that computers are very powerful but very simple machines, and will do exactly what they are directed to do, even if it's not what the programmer intends to do. The game also teaches the concepts of functions and loops; players can "call" predefined functions numerous times, as well as have a function call itself to loop the function indefinitely. These programming concepts, while simple, are a wonderful introduction to programming for students. 
 lightbot_title.png
 lightbot_screen.jpg
 
@@ -26,7 +26,7 @@ lightbot_screen.jpg
 Pandemic 2
 http://www.crazymonkeygames.com/Pandemic-2.html#game
 Pandemic 2 is a flash-based strategy game involving infectious diseases, viruses, and bacteria. The player is in charge of designing and mutating an infectious organism, which infects the world population. The objective is to have the infection spread to and kill every human being on the planet, rendering the human race extinct. The virus starts out as being only mildly visible, lethal, and infectious, and can be mutated to more effective versions through "upgrades," received as more humans are infected and die. To combat the spread of the infection, world nations begin to close their borders, set up quarantines, and close off trade routes, cutting off the transmission of the infection to their nation and making it more difficult or nearly impossible for the disease to spread. The player typically alters between the disease upgrade screen and the world monitoring screen, which includes notable headlines and the statuses of the nations. Global high scores are given to players that successfully eliminate the human race in the shortest amount of time.
-education!
+Pandemic has two limited educational aspects to it. The first is the notion of learning about infectious diseases and organisms. While there isn't much science within the game behind mutating an organism to be more deadly, there are plenty of terms and game mechanics that the player can familiarize themselves with, such as organism's resistance to humidity, or how airborne diseases differ from waterborne. There's also an element of strategizing, risk-taking, and planning ahead associated with playing the game; if players run into a problem with a certain method, they may be able to solve the problem a different way, or circumvent the problem on another playthrough.
 pandemic_title.jpg
 pandemic_screen.jpg
 
@@ -37,14 +37,6 @@ The Oregon Trail is a series of games detailing the experience of a pioneers tra
 education!
 oregon_title.jpg
 oregon_screen.jpg
-
-05
-Where in the World is Carmen Sandiego?
-http://www.xtdos.com/game.php?id=1473
-Where in the World is Carmen Sandiego is a series of early PC games, along with a game show that began later in the series. The premise is that Carmen Sandiego, renown thief, leads a group of criminals to steal the world's treasures. The player takes the role of a detective with a crime fighting agency, and must travel all around the world to track down the criminal du jour. At first, the player is given information on what was stolen, and 
-education!
-carmen_title.jpg
-carmen_screen.jpg
 
 06
 Number Munchers
