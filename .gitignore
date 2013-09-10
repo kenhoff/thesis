@@ -1,6 +1,5 @@
 *.pyc
 *.aux
 *.dvi
-*.pdf
 *.log 
 *.toc
