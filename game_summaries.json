@@ -9,6 +9,159 @@
 			"images": [
 				{
 					"path": "darfur_title.png"
+				},
+				{
+					"path": "darfur_screen1.jpg"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Light Bot",
+			"url": "http://armorgames.com/play/2205/light-bot",
+			"description": "Light Bot, made by Danny Yaroslavski, is a programming and robotics puzzle game. It was originally a flash game, but has since been ported to iOS and Android. Players assume control of a robot on a grid of varying sizes and orientations. Each grid square can also have a height. The robot has the ability to move forward, turn left or right, jump up one level or down one level, and turn a square \"on.\" The robot also has the ability to call \"functions,\" where the robot can execute sequences of events and repeat functions several times or indefinitely. The goal of the robot is to navigate to all of the blue squares and turn them \"on\" to a yellow state. The robot can do this in any order and using any sequence they like, so long as it fits within the provided instruction spaces. There are 40 levels to the game, ranging from the simple to extremely difficult.",
+			"education": "Light Bot's educational purpose focuses on teaching programming at a very simple level. Players learn that the bot will follow sets of instructions. Initially, these instructions will be very simple (e.g. forward, turn, blink), but the player will realize quickly that the bot will follow the instructions explicitly, even if they do not solve the puzzle. This teaches players that computers are very powerful but very simple machines, and will do exactly what they are directed to do, even if it's not what the programmer intends to do. The game also teaches the concepts of functions and loops; players can \"call\" predefined functions numerous times, as well as have a function call itself to loop the function indefinitely. These programming concepts, while simple, are a wonderful introduction to programming for students. ",
+			"images": [
+				{
+					"path": "lightbot_title.png"
+				},
+				{
+					"path": "lightbot_screen.jpg"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"title": "Pandemic 2",
+			"url": "http://www.crazymonkeygames.com/Pandemic-2.html#game",
+			"description": "Pandemic 2 is a flash-based strategy game involving infectious diseases, viruses, and bacteria. The player is in charge of designing and mutating an infectious organism, which infects the world population. The objective is to have the infection spread to and kill every human being on the planet, rendering the human race extinct. The virus starts out as being only mildly visible, lethal, and infectious, and can be mutated to more effective versions through \"upgrades,\" received as more humans are infected and die. To combat the spread of the infection, world nations begin to close their borders, set up quarantines, and close off trade routes, cutting off the transmission of the infection to their nation and making it more difficult or nearly impossible for the disease to spread. The player typically alters between the disease upgrade screen and the world monitoring screen, which includes notable headlines and the statuses of the nations. Global high scores are given to players that successfully eliminate the human race in the shortest amount of time.",
+			"education": "Pandemic has two limited educational aspects to it. The first is the notion of learning about infectious diseases and organisms. While there isn't much science within the game behind mutating an organism to be more deadly, there are plenty of terms and game mechanics that the player can familiarize themselves with, such as organism's resistance to humidity, or how airborne diseases differ from waterborne. There's also an element of strategizing, risk-taking, and planning ahead associated with playing the game; if players run into a problem with a certain method, they may be able to solve the problem a different way, or circumvent the problem on another playthrough.",
+			"images": [
+				{
+					"path": "pandemic_title.jpg"
+				},
+				{
+					"path": "pandemic_screen.jpg"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"title": "Oregon Trail",
+			"url": "http://www.virtualapple.org/oregontraildisk.html",
+			"description": "The Oregon Trail is a series of games detailing the experience of a pioneers traveling the Oregon Trail, a wagon route from the Missouri river to Oregon in 1848. The original game, developed for the Apple II in December of 1971, turned out to be a extremely well received by middle and high school students. In the game, the player first selects an identity which determines how much starting money they have. They then select supplies to buy for their journey; wagons, spare parts, oxen, food, and other supplies. Once they embark on their journey, time passes and food is automatically consumed. Occasionally, players have the chance to hunt, where they can play a simple top-down 2D game to shoot animals that provide food to their party. In addition, numerous events will happen that the player needs to make descisions for, such as a party member falling ill, a wagon part breaking or oxen becoming injured, or needing to cross a river. The player's objective is to travel the entire Oregon Trail with using the minimum amount of resources; the player receives more points at the end for having living party members, items in inventory, and number of dollars, as well as receiving a multiplier if they started the game with less cash.",
+			"education": "Oregon Trail's educational value comes in two forms. The first is the most apparent one; though not explicitly sitting players down and teaching them, the game educates students on life in the 19th century, as well as the hardships and trials endured by explorers of the early Oregon Trail. It teaches them about the kinds of materials that were used in everyday life, like wagons and oxen, as well as the diseases that commonly plagued explorers (diarrhea, dysentery), and what day-to-day activities were like on the trails, such as maintaining the wagons, crossing rivers, and hunting for food. The other educational aspect that Oregon Trail focuses on is planning and risk management; though not explicitly teaching players how to assess the risk of various actions, players who properly evaluate their initial inventory options as well as the options they have during events on the trail will end up doing better than players who don't.",
+			"images": [
+				{
+					"path": "oregon_title.jpg"
+				},
+				{
+					"path": "oregon_screen.jpg"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"title": "Number Munchers",
+			"url": "http://wallofgame.com/free-online-games/arcade/988/Number_Munchers.html",
+			"description": "Number Munchers is part of a \"Munchers\" series that began as a strictly educational game around teaching children basic arithmetic and other numerical concepts. The series then expanded to teach words and other knowledge. The player first selects the educational content that they'd like to play, including grade level. Administrative controls are available for parents and teachers to restrict what kind of content is available; for example, restricting higher-grade students to their level, instead of allowing them to play at trivial levels. Once in the game, the player assumes control of a green 'Muncher,' which can move up, down, left or right. The game board is a grid, with each space containing a number that is a solution to the level they're playing (e.g. equal to 12, multiples of 3, divisible by 5). The player moves onto the appropriate space, and presses the space key to 'eat' the number. If the number matches the level criteria, the player gets points; if it does not, the player loses one of three lives. The player also has to deal with 'troggles,' which cross the grid slowly at random intervals. If the player occupies the same space as a troggle, the player loses a life and is reset to a different grid space. The level ends once all the appropriate numbers are eaten, and the player recieves a bonus for time.",
+			"education": "The educational content of Number Munchers is extremely straightforward. Players will learn arithmetic, primes, and other numerical concepts while playing this game. Players who learn the concepts will be able to identify the correct solutions faster, and consequently achieve a higher score while playing this game.",
+			"images": [
+				{
+					"path": "munchers_title.png"
+				},
+				{
+					"path": "munchers_screen.png"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"title": "BotLogic",
+			"url": "http://botlogic.us/",
+			"description": "BotLogic is a HTML5/Javascript developed by Dolphin Micro, a web development consulting firm located in Colorado. In the game, the players assume control of a robot whose task is to return home. The game takes place on a grid, with the robot located on one space, the home on another space some distance away, and a number of obstacles in between. The player can direct the robot up, down, left, or right, and does so by queueing up commands before running the program. The player can wait for the program to run, then add more commands before running the rest of the program, which allows players to incrementally build their program. However, the robot has a limited amount of energy, which limits the number of moves the player can take. Later in the game, more obstacles and powerups are introduced, such as electric fences, buttons, and recharging stations. The game contains 20 levels.",
+			"education": "Botlogic teaches players about simple programming concepts, namely passing a sequence of instructions to a robot and watching them run. However, the game doesn't include any functional or object-oriented programming concepts, and is only slightly abstracted away from the player having direct directional control of the robot.",
+			"images": [
+				{
+					"path": "botlogic_title.jpg"
+				},
+				{
+					"path": "botlogic_screen.png"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"title": "Math Baseball",
+			"url": "http://www.funbrain.com/math/index.html",
+			"description": "Math Baseball is an extremely simple HTML game. Initially, the player selects what type of arithmetic they'd like to do, as well as the grade level. Then, they assume the role of a baseball player at bat. For each throw, the players are given unlimited time to answer one arithmetic question. If they get the question right, the player earns a randomly selected single, double, or triple and gets a runner on base, as well as advancing any other runners. The player's score is determined by how many runs they get in. If they don't get the question right, then they recieve a strike. After three strikes, the player is \"out,\" and the game ends.",
+			"education": "The education in \"Math Baseball\" is very straightforward. Players can learn addition, subtraction, multiplication, and division, with the player's knowledge of the topic reflected in their higher score of the game.",
+			"images": [
+				{
+					"path": "baseball_title.jpg"
+				},
+				{
+					"path": "baseball_screen.jpg"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"title": "Howling Dogs",
+			"url": "http://aliendovecote.com/uploads/twine/howling%20dogs.html#2m",
+			"description": "Howling Dogs is an award-winning Twine game. A Twine game is very different from a traditional game; it is best described as an \"interactive story.\" Twine games take place in static text-only HTML pages, linked together by the Twine editor. This allows players to take part in \"choose-your-own-adventure\" style stories, with descision-making, conditionals, and rudimentary inventories. Howling Dogs in particular contains very adult themes, such as \"escapism, violence and religious experience;\" the setting is extremely morbid, and the player views it through the perspective of a patient in some sort of asylum.",
+			"education": "Howling Dogs' educational content is both emotional and tangential. Through the course of the game, players encounter many confusing or bizarre situations; players can investigate such circumstances on their own, or sometimes some deep reflection may be sparked inside the player, encouraging them to try to understand the stories more.",
+			"images": [
+				{
+					"path": "dogs_title.jpg"
+				},
+				{
+					"path": "dogs_screen.png"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"title": "Notpron",
+			"url": "http://notpron.org/notpron/",
+			"description": "Notpron is an ARG (alternate-reality game) for the browser. The player begins Level 1 with an image of a house with a partially open door in front, as well as some slightly opaque text that says \"Enter the door.\" The player needs to click the door (not the image, but the door itself) to advance to Level 2. In Level 2, a finger points to the address bar, where the player can replace \"level2.htm\" with \"level3.htm\" to advance to the next level. In Level 3, the player must change \"false\" in the URL to \"true\" to advance to the next level. The game continues like this, adding in new elements each level. There are a total of 140 levels, and only 31 people have completed all 140 levels, out of about 16 million players.",
+			"education": "From the Notpron site: \\quotation{\"[Players who finish the game] have persisted with a broad range of complex ways of thinking, while maintaining focus and dedication over a long period. [Their] detective skills have been tested to the limits, yet the smallest hint proved sufficient to solve the most complicated tasks. Furthermore, competence in the following areas have been displayed: Sound editing, Graphic editing, Musical understanding, Insight into HTML programming, Rapid learning of new programs, Efficient online research techniques, [and] Insight into the complex workings of a computer.\"}",
+			"images": [
+				{
+					"path": "notpron_title.jpeg"
+				},
+				{
+					"path": "notpron_screen.jpg"
+				}
+			]
+		},
+		{
+			"id": 11,
+			"title": "Lemmings",
+			"url": "http://www.elizium.nu/scripts/lemmings/",
+			"description": "Lemmings, a PC game, was originally developed in 1991. The game plays from a 2D side-scrolling perspective. The player directs \"lemmings,\" small, humanoid creatures that are reminiscient of the mammal in their behavior. They operate almost entirely on their own, walking in one direction until they run into something, then reversing direction. They begin by dropping out of the entrance door, and successfully exit the level through another door in the level. However, the lemmings are very susceptible to dying; falling too far without a parachute will kill them, and numerous obstacles litter the courses, such as spike pits and smashers. The game contains four difficulty levels, with roughly 20 levels per difficulty level.",
+			"education": "Lemmings teaches players problem-solving, multitasking, and resource management. Because a fixed number of lemmings are required to finish the level, players must learn the proper methods for getting around obstacles by using the minimum number of lemmings possible.",
+			"images": [
+				{
+					"path": "lemmings_title.jpg"
+				},
+				{
+					"path": "lemmings_screen.jpg"
+				}
+			]
+		},
+		{
+			"id": 12,
+			"title": "The Incredible Machine",
+			"url": "http://www.classicdosgames.com/online/timdemo.html",
+			"description": "The Incredible Machine, originally developed in 1993, is a side-view 2D construction game. During a level, the player will have an objective (e.g. get the ball into the basket). The play area will already have some parts set up, so the player can use the parts that they have in reserve to construct the rest of the Rube Goldberg-style machine to accomplish the objective. There were around 80 levels in the game. The game was extremely successful, and spawned numerous sequels and ports.",
+			"education": "The Incredible Machine teaches players about physics and problem solving. Players learn about the physical properties of various objects (for example, the tennis ball might not knock down the board, but the bowling ball might), and learn how to use limited combinations of those objects together to solve the puzzles. ",
+			"images": [
+				{
+					"path": "machine_title.png"
+				},
+				{
+					"path": "machine_screen.png"
 				}
 			]
 		}

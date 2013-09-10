@@ -10,7 +10,7 @@ class GameList:
 		# gameArray.pop(0) # remove keys section
 
 		for game in content["gamelist"]:
-			self.games.add(Game(game["id"], game["name"]))
+			self.games.add(Game(game["id"], game["title"], game["url"], game["description"], game['education'], game['images'][0]['path'], game['images'][1]['path']))
 		f.close()
 
 	def latex_output(self, nestlevel = "section"):

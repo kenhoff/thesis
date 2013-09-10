@@ -1,7 +1,7 @@
 from games import Game, GameList
 content = ""
 
-content += GameList('game_summaries').latex_output("subsection")
+content += GameList('game_summaries.json').latex_output("subsection")
 
 f = open('GameSummaries.tex', 'w')
 f.write(content)
