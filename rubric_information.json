@@ -11,7 +11,7 @@
 				},
 				{
 					"value": 2,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 3,
@@ -19,7 +19,7 @@
 				},
 				{
 					"value": 4,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 5,
@@ -42,7 +42,7 @@
 				},
 				{
 					"value": 3,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 4,
@@ -69,7 +69,7 @@
 				},
 				{
 					"value": 3,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 4,
@@ -92,7 +92,7 @@
 				},
 				{
 					"value": 2,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 3,
@@ -100,7 +100,7 @@
 				},
 				{
 					"value": 4,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 5,
@@ -115,11 +115,11 @@
 			"scale": [
 				{
 					"value": 1,
-					"description": "Knowing the referential material is purely irrelevant; doesn’t affect the gameplay at all"
+					"description": "Knowing the referential material is purely irrelevant; doesn't affect the gameplay at all"
 				},
 				{
 					"value": 2,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 3,
@@ -127,7 +127,7 @@
 				},
 				{
 					"value": 4,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 5,
@@ -165,7 +165,7 @@
 		{
 			"id": 7,
 			"name": "Contextual Tutorials",
-			"description": "In keeping with flow, players need to be challenged at their level of skill within every game. This means that players shouldn't be hindered by challenges that are too easy for them, but likewise shouldn't feel completely lost on difficult challenges. The method of introducing these challenges is equally important; players that are forced to go through numerous, easy introductory levels will quickly become bored, but players that skip through tutorials at later stages or forget about valuable information learned early in the game quickly become frustrated. It's important to give the player only information that they need; similar to the concept of adaptive difficulty, the game gives the player helpful hints or suggestions when they are stuck, or when the player doesn't intuitively grasp a new mechanic the first time. Similarly, there needs to be tutorials for just about every concept in the game, to cater to players that might have learning ‘gaps' in their history.",
+			"description": "In keeping with flow, players need to be challenged at their level of skill within every game. This means that players shouldn't be hindered by challenges that are too easy for them, but likewise shouldn't feel completely lost on difficult challenges. The method of introducing these challenges is equally important; players that are forced to go through numerous, easy introductory levels will quickly become bored, but players that skip through tutorials at later stages or forget about valuable information learned early in the game quickly become frustrated. It's important to give the player only information that they need; similar to the concept of adaptive difficulty, the game gives the player helpful hints or suggestions when they are stuck, or when the player doesn't intuitively grasp a new mechanic the first time. Similarly, there needs to be tutorials for just about every concept in the game, to cater to players that might have learning 'gaps' in their history.",
 			"scale": [
 				{
 					"value": 1,
@@ -173,7 +173,7 @@
 				},
 				{
 					"value": 2,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 3,
@@ -181,7 +181,7 @@
 				},
 				{
 					"value": 4,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 5,
@@ -192,7 +192,7 @@
 		{
 			"id": 8,
 			"name": "Tutorial availability",
-			"description": "In keeping with flow, players need to be challenged at their level of skill within every game. This means that players shouldn't be hindered by challenges that are too easy for them, but likewise shouldn't feel completely lost on difficult challenges. The method of introducing these challenges is equally important; players that are forced to go through numerous, easy introductory levels will quickly become bored, but players that skip through tutorials at later stages or forget about valuable information learned early in the game quickly become frustrated. It's important to give the player only information that they need; similar to the concept of adaptive difficulty, the game gives the player helpful hints or suggestions when they are stuck, or when the player doesn't intuitively grasp a new mechanic the first time. Similarly, there needs to be tutorials for just about every concept in the game, to cater to players that might have learning ‘gaps' in their history.",
+			"description": "In keeping with flow, players need to be challenged at their level of skill within every game. This means that players shouldn't be hindered by challenges that are too easy for them, but likewise shouldn't feel completely lost on difficult challenges. The method of introducing these challenges is equally important; players that are forced to go through numerous, easy introductory levels will quickly become bored, but players that skip through tutorials at later stages or forget about valuable information learned early in the game quickly become frustrated. It's important to give the player only information that they need; similar to the concept of adaptive difficulty, the game gives the player helpful hints or suggestions when they are stuck, or when the player doesn't intuitively grasp a new mechanic the first time. Similarly, there needs to be tutorials for just about every concept in the game, to cater to players that might have learning 'gaps' in their history.",
 			"scale": [
 				{
 					"value": 1,
@@ -223,11 +223,11 @@
 			"scale": [
 				{
 					"value": 1,
-					"description": "Game resource penalty is large (e.g. ⅓ lives, 10 health points / 100)"
+					"description": "Game resource penalty is large (e.g. 1/3 lives, 10 health points / 100)"
 				},
 				{
 					"value": 2,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 3,
@@ -235,7 +235,7 @@
 				},
 				{
 					"value": 4,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 5,
@@ -285,7 +285,7 @@
 				},
 				{
 					"value": 3,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 4,
@@ -308,7 +308,7 @@
 				},
 				{
 					"value": 2,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 3,
@@ -316,7 +316,7 @@
 				},
 				{
 					"value": 4,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 5,
@@ -362,7 +362,7 @@
 				},
 				{
 					"value": 2,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 3,
@@ -370,7 +370,7 @@
 				},
 				{
 					"value": 4,
-					"description": ""
+					"description": "placeholder"
 				},
 				{
 					"value": 5,
