@@ -1,156 +1,380 @@
 {
 	"rubricitems": [
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 1,
+			"name": "Location of Game Encyclopedia",
+			"description": "Some educational games include a game encyclopedia as part of the game, either internally or externally as a game manual or wiki. Having such an encyclopedia available within the game greatly increases the chance of players using it for self-directed and self-motivated learning, as part of tangential learning.",
 			"scale": [
 				{
-					"value": ,
+					"value": 1,
+					"description": "Game contains no encyclopedia of game content"
+				},
+				{
+					"value": 2,
 					"description": ""
+				},
+				{
+					"value": 3,
+					"description": "Game has an outside manual (or wiki) of game content"
+				},
+				{
+					"value": 4,
+					"description": ""
+				},
+				{
+					"value": 5,
+					"description": "Game has an in-game encyclopedia of game content"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 2,
+			"name": "Content of Game Encyclopedia",
+			"description": "Having a game encyclopedia as part of the game encourages self-motivated players to seek out additional help. If the encyclopedia includes more than just game mechanics as part of its content, players may be more encouraged to self-educate themselves about those topics.",
 			"scale": [
 				{
-					"value": ,
+					"value": 1,
+					"description": "Game contains no encyclopedia or Encyclopedia contains no content"
+				},
+				{
+					"value": 2,
+					"description": "Encyclopedia contains content only related to game mechanics"
+				},
+				{
+					"value": 3,
 					"description": ""
+				},
+				{
+					"value": 4,
+					"description": "Encyclopedia contains content related to game mechanics and historical/factual information"
+				},
+				{
+					"value": 5,
+					"description": "Encyclopedia contains content related to game mechanics and historical/factual information and outside links or references"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 3,
+			"name": "Amount of Referential Material",
+			"description": "By having many objects or events in the game that are references to real-life objects or events, players may recognize certain objects or events and self-motivate themselves to learn more about those objects or events. In addition, having a large amount of those references be popular means that more players will recognize them, and by association, lesser-known objects will be the result of self-motivated education about the popular items.",
 			"scale": [
 				{
-					"value": ,
+					"value": 1,
+					"description": "No game objects or events are references to real-life objects or events"
+				},
+				{
+					"value": 2,
+					"description": "At least one event or object is a reference to an real-world event or object"
+				},
+				{
+					"value": 3,
 					"description": ""
+				},
+				{
+					"value": 4,
+					"description": "At least one group of objects or events are references to real-life objects or events"
+				},
+				{
+					"value": 5,
+					"description": "Numerous groups of objects or events are references to real-life objects or events"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 4,
+			"name": "Popularity of Referential Material",
+			"description": "By having many objects or events in the game that are references to real-life objects or events, players may recognize certain objects or events and self-motivate themselves to learn more about those objects or events. In addition, having a large amount of those references be popular means that more players will recognize them, and by association, lesser-known objects will be the result of self-motivated education about the popular items.",
 			"scale": [
 				{
-					"value": ,
+					"value": 1,
+					"description": "Existing references are extremely obscure"
+				},
+				{
+					"value": 2,
 					"description": ""
+				},
+				{
+					"value": 3,
+					"description": "About half of the references are popular"
+				},
+				{
+					"value": 4,
+					"description": ""
+				},
+				{
+					"value": 5,
+					"description": "Most or all of the references are popular"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 5,
+			"name": "Rewards for knowing Referential Material",
+			"description": "If games allow players to use their knowledge of the referential material in a positive manner within the game, it reinforces the desire for the player to tangentially learn about all the referential material in the game. This is in contrast to traditional methods, where the content that the player is trying to be educated about serves as a barrier of entry to the later levels of the game, or the game penalizes players that don't know the content; with this, players can still play the entirety of the game, but are incentivized to do better by learning the referential material.",
 			"scale": [
 				{
-					"value": ,
+					"value": 1,
+					"description": "Knowing the referential material is purely irrelevant; doesn’t affect the gameplay at all"
+				},
+				{
+					"value": 2,
 					"description": ""
+				},
+				{
+					"value": 3,
+					"description": "Knowing the referential material is somewhat useful; moderately affects the player's choices during gameplay"
+				},
+				{
+					"value": 4,
+					"description": ""
+				},
+				{
+					"value": 5,
+					"description": "Knowing the referential material significantly affects gameplay (usually in a positive way)"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 6,
+			"name": "Adaptive Difficulty",
+			"description": "In order to incorporate flow as much as possible, the game must use a form of Adaptive Difficulty; the game tries to match the difficulty of the obstacles to the skill level of the player. This can be done in a rudimentary way by allowing the player to select the difficulty themselves, but is most effective when it recognizes how well a player is doing on a certain puzzle and adjusting the difficulty automatically. This ensures that the player isn't trivially challenged, but at the same time isn't pushed outside the bounds of their ability.",
 			"scale": [
 				{
-					"value": ,
-					"description": ""
+					"value": 1,
+					"description": "Game only has one difficulty"
+				},
+				{
+					"value": 2,
+					"description": "Game has several difficulties, but players can only select difficulty at beginning of game"
+				},
+				{
+					"value": 3,
+					"description": "Game has several difficulties, and players can change difficulty mid-game"
+				},
+				{
+					"value": 4,
+					"description": "Game has several difficulties, and prompts the player to increase or decrease the difficulty as needed"
+				},
+				{
+					"value": 5,
+					"description": "Game has several difficulties, and automatically adjusts the difficulty of the game as needed"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 7,
+			"name": "Contextual Tutorials",
+			"description": "In keeping with flow, players need to be challenged at their level of skill within every game. This means that players shouldn't be hindered by challenges that are too easy for them, but likewise shouldn't feel completely lost on difficult challenges. The method of introducing these challenges is equally important; players that are forced to go through numerous, easy introductory levels will quickly become bored, but players that skip through tutorials at later stages or forget about valuable information learned early in the game quickly become frustrated. It's important to give the player only information that they need; similar to the concept of adaptive difficulty, the game gives the player helpful hints or suggestions when they are stuck, or when the player doesn't intuitively grasp a new mechanic the first time. Similarly, there needs to be tutorials for just about every concept in the game, to cater to players that might have learning ‘gaps' in their history.",
 			"scale": [
 				{
-					"value": ,
+					"value": 1,
+					"description": "Tutorials are only given at the beginning of the game"
+				},
+				{
+					"value": 2,
 					"description": ""
+				},
+				{
+					"value": 3,
+					"description": "Tutorials are given at the beginning of every level"
+				},
+				{
+					"value": 4,
+					"description": ""
+				},
+				{
+					"value": 5,
+					"description": "Tutorials are offered only when is needed (e.g. when a player is encountering a mechanic for the first time, or demonstrates lack of understanding for that mechanic)"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 8,
+			"name": "Tutorial availability",
+			"description": "In keeping with flow, players need to be challenged at their level of skill within every game. This means that players shouldn't be hindered by challenges that are too easy for them, but likewise shouldn't feel completely lost on difficult challenges. The method of introducing these challenges is equally important; players that are forced to go through numerous, easy introductory levels will quickly become bored, but players that skip through tutorials at later stages or forget about valuable information learned early in the game quickly become frustrated. It's important to give the player only information that they need; similar to the concept of adaptive difficulty, the game gives the player helpful hints or suggestions when they are stuck, or when the player doesn't intuitively grasp a new mechanic the first time. Similarly, there needs to be tutorials for just about every concept in the game, to cater to players that might have learning ‘gaps' in their history.",
 			"scale": [
 				{
-					"value": ,
-					"description": ""
+					"value": 1,
+					"description": "There are no tutorials available"
+				},
+				{
+					"value": 2,
+					"description": "Tutorials are available for some mechanics of the game"
+				},
+				{
+					"value": 3,
+					"description": "Tutorials are available for about half the mechanics of the game"
+				},
+				{
+					"value": 4,
+					"description": "Tutorials are available for most mechanics of the game"
+				},
+				{
+					"value": 5,
+					"description": "Tutorials are available for every mechanic in the game"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 9,
+			"name": "Low game resource penalty for failure",
+			"description": "In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) and external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. In addition, having a high frequency of checkpoints reduces the amount of time that it takes for the player to return to the point of a failure.",
 			"scale": [
 				{
-					"value": ,
+					"value": 1,
+					"description": "Game resource penalty is large (e.g. ⅓ lives, 10 health points / 100)"
+				},
+				{
+					"value": 2,
 					"description": ""
+				},
+				{
+					"value": 3,
+					"description": "Game resource penalty is moderate"
+				},
+				{
+					"value": 4,
+					"description": ""
+				},
+				{
+					"value": 5,
+					"description": "Game resource penalty is nonexistent (e.g. unlimited lives)"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 10,
+			"name": "Low \"reset time\" for failure (time to return to failure point)",
+			"description": "In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) and external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. In addition, having a high frequency of checkpoints reduces the amount of time that it takes for the player to return to the point of a failure.",
 			"scale": [
 				{
-					"value": ,
-					"description": ""
+					"value": 1,
+					"description": "Reset time is very long (e.g. reloading level takes a long time)"
+				},
+				{
+					"value": 2,
+					"description": "Reset time is long (e.g. greater than 10 seconds)"
+				},
+				{
+					"value": 3,
+					"description": "Reset time is moderate (e.g. up to 10 seconds)"
+				},
+				{
+					"value": 4,
+					"description": "Reset time is short (e.g. a few seconds)"
+				},
+				{
+					"value": 5,
+					"description": "Reset time is very short (e.g. near instant)"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 11,
+			"name": "High checkpoint frequency",
+			"description": "In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) and external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. In addition, having a high frequency of checkpoints reduces the amount of time that it takes for the player to return to the point of a failure.",
 			"scale": [
 				{
-					"value": ,
+					"value": 1,
+					"description": "Zero checkpoints"
+				},
+				{
+					"value": 2,
+					"description": "Checkpoints are few and far between (e.g. levels are the only places to restart)"
+				},
+				{
+					"value": 3,
 					"description": ""
+				},
+				{
+					"value": 4,
+					"description": "Checkpoints are numerous (e.g. players can restart at the beginning of each puzzle)"
+				},
+				{
+					"value": 5,
+					"description": "Checkpoints are frequent (e.g. players can restart part of the way through puzzles)"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 12,
+			"name": "Freedom of exploration",
+			"description": "Similarly, if players are to be encouraged to explore, the nature of the game must be nonlinear and allow for players to progress in varying sections of the game at their own pace. That isn't saying that they shouldn't have a finite goal to work towards, but the methods or paths with which they work towards that goal should be optional and variable.",
 			"scale": [
 				{
-					"value": ,
+					"value": 1,
+					"description": "Players are placed in a strictly linear world or lesson progression"
+				},
+				{
+					"value": 2,
 					"description": ""
+				},
+				{
+					"value": 3,
+					"description": "Players have the option to make choices about the direction of their progression in the world, but it is largely linear"
+				},
+				{
+					"value": 4,
+					"description": ""
+				},
+				{
+					"value": 5,
+					"description": "Players are free to choose the direction they want, both educationally and within the game world; allowed to jump between parallel lessons"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 13,
+			"name": "Iterative feedback",
+			"description": "In the case of games with a high degree of free-form exploration, it's easy to see that some players might get lost and become frustrated. In order to maintain flow, these players must receive some kind of feedback that they're on the right track, and not just wandering aimlessly through the game world or puzzles. It's extremely helpful for players to receive feedback at every step they take, even during the completion of puzzles; that way, they can be sure that they're progressing, and easily see the steps ahead of them, enabling flow.",
 			"scale": [
 				{
-					"value": ,
-					"description": ""
+					"value": 1,
+					"description": "Game gives no feedback other than high-level progression through the game"
+				},
+				{
+					"value": 2,
+					"description": "Game gives feedback after each level"
+				},
+				{
+					"value": 3,
+					"description": "Game gives feedback at various points through a level, after a series of puzzles"
+				},
+				{
+					"value": 4,
+					"description": "Game gives feedback after each puzzle"
+				},
+				{
+					"value": 5,
+					"description": "Game constantly gives feedback (e.g. during a puzzle)"
 				}
 			]
-		}
+		},
 		{
-			"id": ,
-			"name": "",
-			"description": "",
+			"id": 14,
+			"name": "Unorthodox problem solving",
+			"description": "Another important element of allowing players to explore and play is to give them the option to solve problems using unorthodox solutions; solutions that the game didn't anticipate, but still validate the puzzle's end condition. Sometimes, the player may be able to figure out how to circumvent certain sections of a puzzle; this should still be considered valid, but it's hoped that the circumvention wasn't because of faulty game logic. This allows players to try unusual solutions to problems, and help them understand the system far better than if they had just been taught the correct solution.",
 			"scale": [
 				{
-					"value": ,
+					"value": 1,
+					"description": "There is only one way to solve any given problem, with one given progression that is valid as a solution"
+				},
+				{
+					"value": 2,
 					"description": ""
+				},
+				{
+					"value": 3,
+					"description": "Multiple solutions are available for each problem, but players are limited to using one of those solutions"
+				},
+				{
+					"value": 4,
+					"description": ""
+				},
+				{
+					"value": 5,
+					"description": "Players can solve a problem any way they like, or even circumvent the problem, and be given full (or bonus) points"
 				}
 			]
 		}
