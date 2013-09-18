@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  17 SEP 2013 18:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  17 SEP 2013 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -241,7 +241,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 88--1
 [][] 
  []
 
-[9] [10 <./img/Orca_H3.png>] [11] [12] [13] [14] [15] [16]) [17]
+[9] [10 <./img/Orca_H3.png>] [11] [12] [13] [14] [15] [16] [17])
 (./GameSummaries.tex [18]
 <img/baseball_title.jpg, id=73, 564.1075pt x 221.82875pt>
 File: img/baseball_title.jpg Graphic file (type jpg)
@@ -642,7 +642,7 @@ Here is how much of TeX's memory you used:
 ive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
 exlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
 l/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on KenHoffThesis.pdf (49 pages, 3008159 bytes).
+Output written on KenHoffThesis.pdf (49 pages, 3008188 bytes).
 PDF statistics:
  221 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
