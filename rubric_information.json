@@ -11,7 +11,7 @@
 				},
 				{
 					"value": 2,
-					"description": "placeholder"
+					"description": "Game information is located online, in a non-central location"
 				},
 				{
 					"value": 3,
@@ -19,7 +19,7 @@
 				},
 				{
 					"value": 4,
-					"description": "placeholder"
+					"description": "Game doesn't have an in-game encyclopedia, but points to a central location elsewhere"
 				},
 				{
 					"value": 5,
@@ -42,7 +42,7 @@
 				},
 				{
 					"value": 3,
-					"description": "placeholder"
+					"description": "Encyclopedia contains information about game mechanics, and also limited historical/factual information"
 				},
 				{
 					"value": 4,
@@ -57,7 +57,7 @@
 		{
 			"id": 3,
 			"name": "Amount of Referential Material",
-			"description": "By having many objects or events in the game that are references to real-life objects or events, players may recognize certain objects or events and self-motivate themselves to learn more about those objects or events. In addition, having a large amount of those references be popular means that more players will recognize them, and by association, lesser-known objects will be the result of self-motivated education about the popular items.",
+			"description": "By having many objects or events in the game that are references to real-life objects or events, players may recognize certain objects or events and self-motivate themselves to learn more about those objects or events. More objects like that in the game means more chances for a player to recognize a real-life object or event.",
 			"scale": [
 				{
 					"value": 1,
@@ -65,11 +65,11 @@
 				},
 				{
 					"value": 2,
-					"description": "At least one event or object is a reference to an real-world event or object"
+					"description": "At least one event or object is a reference to a real-world event or object"
 				},
 				{
 					"value": 3,
-					"description": "placeholder"
+					"description": "Several non-connected events or objects are references to a real-world event or object"
 				},
 				{
 					"value": 4,
@@ -84,7 +84,7 @@
 		{
 			"id": 4,
 			"name": "Popularity of Referential Material",
-			"description": "By having many objects or events in the game that are references to real-life objects or events, players may recognize certain objects or events and self-motivate themselves to learn more about those objects or events. In addition, having a large amount of those references be popular means that more players will recognize them, and by association, lesser-known objects will be the result of self-motivated education about the popular items.",
+			"description": "Having real-life objects or events in the game means that some players will recognize them and attempt to self-educate themselves about those objects or events. In addition, having a large amount of those references be popular means that more players will recognize the more popular objects/events, and by association, education about the lesser-known objects/events will be the result of self-motivated education about the popular items.",
 			"scale": [
 				{
 					"value": 1,
@@ -92,7 +92,7 @@
 				},
 				{
 					"value": 2,
-					"description": "placeholder"
+					"description": "Some of the references are popular"
 				},
 				{
 					"value": 3,
@@ -100,7 +100,7 @@
 				},
 				{
 					"value": 4,
-					"description": "placeholder"
+					"description": "Many of the references are popular"
 				},
 				{
 					"value": 5,
@@ -119,7 +119,7 @@
 				},
 				{
 					"value": 2,
-					"description": "placeholder"
+					"description": "Knowing the referential material is a little useful; only affects the gameplay a small amount"
 				},
 				{
 					"value": 3,
@@ -127,11 +127,11 @@
 				},
 				{
 					"value": 4,
-					"description": "placeholder"
+					"description": "Knowing the referential material is very useful; usually affects the player's choices"
 				},
 				{
 					"value": 5,
-					"description": "Knowing the referential material significantly affects gameplay (usually in a positive way)"
+					"description": "Knowing the referential material always significantly affects gameplay"
 				}
 			]
 		},
@@ -169,65 +169,38 @@
 			"scale": [
 				{
 					"value": 1,
-					"description": "Tutorials are only given at the beginning of the game"
+					"description": "Tutorials aren't given in the game"
 				},
 				{
 					"value": 2,
-					"description": "placeholder"
+					"description": "Tutorials are given at the beginning of the game"
 				},
 				{
 					"value": 3,
-					"description": "Tutorials are given at the beginning of every level"
+					"description": "Tutorials are given every few levels/sections of the game"
 				},
 				{
 					"value": 4,
-					"description": "placeholder"
+					"description": "Tutorials are given at the beginning of every level/section"
 				},
 				{
 					"value": 5,
-					"description": "Tutorials are offered only when is needed (e.g. when a player is encountering a mechanic for the first time, or demonstrates lack of understanding for that mechanic)"
-				}
-			]
-		},
-		{
-			"id": 8,
-			"name": "Tutorial availability",
-			"description": "In keeping with flow, players need to be challenged at their level of skill within every game. This means that players shouldn't be hindered by challenges that are too easy for them, but likewise shouldn't feel completely lost on difficult challenges. The method of introducing these challenges is equally important; players that are forced to go through numerous, easy introductory levels will quickly become bored, but players that skip through tutorials at later stages or forget about valuable information learned early in the game quickly become frustrated. It's important to give the player only information that they need; similar to the concept of adaptive difficulty, the game gives the player helpful hints or suggestions when they are stuck, or when the player doesn't intuitively grasp a new mechanic the first time. Similarly, there needs to be tutorials for just about every concept in the game, to cater to players that might have learning 'gaps' in their history.",
-			"scale": [
-				{
-					"value": 1,
-					"description": "There are no tutorials available"
-				},
-				{
-					"value": 2,
-					"description": "Tutorials are available for some mechanics of the game"
-				},
-				{
-					"value": 3,
-					"description": "Tutorials are available for about half the mechanics of the game"
-				},
-				{
-					"value": 4,
-					"description": "Tutorials are available for most mechanics of the game"
-				},
-				{
-					"value": 5,
-					"description": "Tutorials are available for every mechanic in the game"
+					"description": "Tutorials are offered continuously"
 				}
 			]
 		},
 		{
 			"id": 9,
 			"name": "Low game resource penalty for failure",
-			"description": "In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) and external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. In addition, having a high frequency of checkpoints reduces the amount of time that it takes for the player to return to the point of a failure.",
+			"description": "In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty.",
 			"scale": [
 				{
 					"value": 1,
-					"description": "Game resource penalty is large (e.g. 1/3 lives, 10 health points / 100)"
+					"description": "Game resource penalty is extreme (e.g. restart the game)"
 				},
 				{
 					"value": 2,
-					"description": "placeholder"
+					"description": "Game resource penalty is large (e.g. 1/3 lives, 10 health points / 100)"
 				},
 				{
 					"value": 3,
@@ -235,7 +208,7 @@
 				},
 				{
 					"value": 4,
-					"description": "placeholder"
+					"description": "Game resrouce penalty is small"
 				},
 				{
 					"value": 5,
@@ -246,7 +219,7 @@
 		{
 			"id": 10,
 			"name": "Low \"reset time\" for failure (time to return to failure point)",
-			"description": "In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) and external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. In addition, having a high frequency of checkpoints reduces the amount of time that it takes for the player to return to the point of a failure.",
+			"description": "In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. ",
 			"scale": [
 				{
 					"value": 1,
@@ -273,7 +246,7 @@
 		{
 			"id": 11,
 			"name": "High checkpoint frequency",
-			"description": "In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) and external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. In addition, having a high frequency of checkpoints reduces the amount of time that it takes for the player to return to the point of a failure.",
+			"description": "It's important to have players feel free to fail within games. Having a high frequency of checkpoints reduces both the amount of time/frustration that it takes for the player to return to the point of a failure, as well as in-game resources.",
 			"scale": [
 				{
 					"value": 1,
@@ -285,7 +258,7 @@
 				},
 				{
 					"value": 3,
-					"description": "placeholder"
+					"description": "Checkpoints are moderate"
 				},
 				{
 					"value": 4,
@@ -300,7 +273,7 @@
 		{
 			"id": 12,
 			"name": "Freedom of exploration",
-			"description": "Similarly, if players are to be encouraged to explore, the nature of the game must be nonlinear and allow for players to progress in varying sections of the game at their own pace. That isn't saying that they shouldn't have a finite goal to work towards, but the methods or paths with which they work towards that goal should be optional and variable.",
+			"description": "If players are to be encouraged to explore, the nature of the game must be nonlinear and allow for players to progress in varying sections of the game at their own pace. That isn't saying that they shouldn't have a finite goal to work towards, but the methods or paths with which they work towards that goal should be optional and variable.",
 			"scale": [
 				{
 					"value": 1,
@@ -308,7 +281,7 @@
 				},
 				{
 					"value": 2,
-					"description": "placeholder"
+					"description": "Players are allowed just a few large-scale choices in their game world"
 				},
 				{
 					"value": 3,
@@ -316,7 +289,7 @@
 				},
 				{
 					"value": 4,
-					"description": "placeholder"
+					"description": "Players can choose from many choices within the game world to explore, including lessons"
 				},
 				{
 					"value": 5,
@@ -362,7 +335,7 @@
 				},
 				{
 					"value": 2,
-					"description": "placeholder"
+					"description": "Some problems within the game may be solved more than one way"
 				},
 				{
 					"value": 3,
@@ -370,7 +343,7 @@
 				},
 				{
 					"value": 4,
-					"description": "placeholder"
+					"description": "Players can solve each problem via any solution, so long as they do not circumvent it"
 				},
 				{
 					"value": 5,

@@ -8,10 +8,12 @@
 			"education": "The educational content of Darfur is Dying is centered almost entirely around awareness. Through playing the game, players learn about the nation of Darfur, including its history, wars, environment, climate, and people. The players are forced to be aware of the troubles that plight Darfuri residents and families, such as militia attacks. Players are encouraged to read the backstories of every man, woman, and child, as well as stories associated with locations within the village that expose various events that have happened, such as being unable to fend off sickness without medical aid, or when a militia recently stormed the village and murdered numerous people.",
 			"images": [
 				{
-					"path": "darfur_title.png"
+					"path": "darfur_title.png",
+					"caption": "Darfur is Dying's title screen"
 				},
 				{
-					"path": "darfur_screen1.jpg"
+					"path": "darfur_screen1.jpg",
+					"caption": "A screenshot from Darfur Is Dying's village management section"
 				}
 			]
 		},
@@ -23,10 +25,12 @@
 			"education": "Light Bot's educational purpose focuses on teaching programming at a very simple level. Players learn that the bot will follow sets of instructions. Initially, these instructions will be very simple (e.g. forward, turn, blink), but the player will realize quickly that the bot will follow the instructions explicitly, even if they do not solve the puzzle. This teaches players that computers are very powerful but very simple machines, and will do exactly what they are directed to do, even if it's not what the programmer intends to do. The game also teaches the concepts of functions and loops; players can \"call\" predefined functions numerous times, as well as have a function call itself to loop the function indefinitely. These programming concepts, while simple, are a wonderful introduction to programming for students. ",
 			"images": [
 				{
-					"path": "lightbot_title.png"
+					"path": "lightbot_title.png", 
+					"caption": "Light Bot's main menu"
 				},
 				{
-					"path": "lightbot_screen.jpg"
+					"path": "lightbot_screen.jpg", 
+					"caption": "A screenshot from one of Light Bot's levels"
 				}
 			]
 		},
@@ -38,10 +42,12 @@
 			"education": "Pandemic has two limited educational aspects to it. The first is the notion of learning about infectious diseases and organisms. While there isn't much science within the game behind mutating an organism to be more deadly, there are plenty of terms and game mechanics that the player can familiarize themselves with, such as organism's resistance to humidity, or how airborne diseases differ from waterborne. There's also an element of strategizing, risk-taking, and planning ahead associated with playing the game; if players run into a problem with a certain method, they may be able to solve the problem a different way, or circumvent the problem on another playthrough.",
 			"images": [
 				{
-					"path": "pandemic_title.jpg"
+					"path": "pandemic_title.jpg",
+					"caption": "The title screen of Pandemic 2"
 				},
 				{
-					"path": "pandemic_screen.jpg"
+					"path": "pandemic_screen.jpg",
+					"caption": "A screenshot from Pandemic 2's evolution view"
 				}
 			]
 		},
@@ -53,10 +59,12 @@
 			"education": "Oregon Trail's educational value comes in two forms. The first is the most apparent one; though not explicitly sitting players down and teaching them, the game educates students on life in the 19th century, as well as the hardships and trials endured by explorers of the early Oregon Trail. It teaches them about the kinds of materials that were used in everyday life, like wagons and oxen, as well as the diseases that commonly plagued explorers (diarrhea, dysentery), and what day-to-day activities were like on the trails, such as maintaining the wagons, crossing rivers, and hunting for food. The other educational aspect that Oregon Trail focuses on is planning and risk management; though not explicitly teaching players how to assess the risk of various actions, players who properly evaluate their initial inventory options as well as the options they have during events on the trail will end up doing better than players who don't.",
 			"images": [
 				{
-					"path": "oregon_title.jpg"
+					"path": "oregon_title.jpg",
+					"caption": "A screenshot from the opening sequence of Oregon Trail"
 				},
 				{
-					"path": "oregon_screen.jpg"
+					"path": "oregon_screen.jpg",
+					"caption": "A screenshot from the gameplay of Oregon Trail"
 				}
 			]
 		},
@@ -68,10 +76,12 @@
 			"education": "The educational content of Number Munchers is extremely straightforward. Players will learn arithmetic, primes, and other numerical concepts while playing this game. Players who learn the concepts will be able to identify the correct solutions faster, and consequently achieve a higher score while playing this game.",
 			"images": [
 				{
-					"path": "munchers_title.png"
+					"path": "munchers_title.png",
+					"caption": "The Number Munchers opening screen"
 				},
 				{
-					"path": "munchers_screen.png"
+					"path": "munchers_screen.png",
+					"caption": "A screenshot from the gameplay of Number Munchers"
 				}
 			]
 		},
@@ -83,10 +93,12 @@
 			"education": "Botlogic teaches players about simple programming concepts, namely passing a sequence of instructions to a robot and watching them run. However, the game doesn't include any functional or object-oriented programming concepts, and is only slightly abstracted away from the player having direct directional control of the robot.",
 			"images": [
 				{
-					"path": "botlogic_title.jpg"
+					"path": "botlogic_title.jpg",
+					"caption": "BotLogic's logo"
 				},
 				{
-					"path": "botlogic_screen.png"
+					"path": "botlogic_screen.png",
+					"caption": "One of the levels from BotLogic"
 				}
 			]
 		},
@@ -98,10 +110,12 @@
 			"education": "The education in \"Math Baseball\" is very straightforward. Players can learn addition, subtraction, multiplication, and division, with the player's knowledge of the topic reflected in their higher score of the game.",
 			"images": [
 				{
-					"path": "baseball_title.jpg"
+					"path": "baseball_title.jpg",
+					"caption": "Math Baseball's title screen"
 				},
 				{
-					"path": "baseball_screen.jpg"
+					"path": "baseball_screen.jpg",
+					"caption": "A screenshot from the gameplay of Math Baseball"
 				}
 			]
 		},
@@ -113,10 +127,12 @@
 			"education": "Howling Dogs' educational content is both emotional and tangential. Through the course of the game, players encounter many confusing or bizarre situations; players can investigate such circumstances on their own, or sometimes some deep reflection may be sparked inside the player, encouraging them to try to understand the stories more.",
 			"images": [
 				{
-					"path": "dogs_title.jpg"
+					"path": "dogs_title.jpg",
+					"caption": "A booth from the Independent Games Festival, whose award-nominated owner chose to promote Howling Dogs instead of their own game"
 				},
 				{
-					"path": "dogs_screen.png"
+					"path": "dogs_screen.png",
+					"caption": "The first 'level' of Howling Dogs"
 				}
 			]
 		},
@@ -128,10 +144,12 @@
 			"education": "From the Notpron site: \\quotation{\"[Players who finish the game] have persisted with a broad range of complex ways of thinking, while maintaining focus and dedication over a long period. [Their] detective skills have been tested to the limits, yet the smallest hint proved sufficient to solve the most complicated tasks. Furthermore, competence in the following areas have been displayed: Sound editing, Graphic editing, Musical understanding, Insight into HTML programming, Rapid learning of new programs, Efficient online research techniques, [and] Insight into the complex workings of a computer.\"}",
 			"images": [
 				{
-					"path": "notpron_title.jpeg"
+					"path": "notpron_title.jpeg",
+					"caption": "The Notpron opening screen"
 				},
 				{
-					"path": "notpron_screen.jpg"
+					"path": "notpron_screen.jpg",
+					"caption": "The first level of Notpron"
 				}
 			]
 		},
@@ -143,10 +161,12 @@
 			"education": "Lemmings teaches players problem-solving, multitasking, and resource management. Because a fixed number of lemmings are required to finish the level, players must learn the proper methods for getting around obstacles by using the minimum number of lemmings possible.",
 			"images": [
 				{
-					"path": "lemmings_title.jpg"
+					"path": "lemmings_title.jpg",
+					"caption": "The Lemmings box art"
 				},
 				{
-					"path": "lemmings_screen.jpg"
+					"path": "lemmings_screen.jpg",
+					"caption": "One of the levels from Lemmings"
 				}
 			]
 		},
@@ -158,10 +178,12 @@
 			"education": "The Incredible Machine teaches players about physics and problem solving. Players learn about the physical properties of various objects (for example, the tennis ball might not knock down the board, but the bowling ball might), and learn how to use limited combinations of those objects together to solve the puzzles. ",
 			"images": [
 				{
-					"path": "machine_title.png"
+					"path": "machine_title.png",
+					"caption": "The title screen from The Incredible Machine"
 				},
 				{
-					"path": "machine_screen.png"
+					"path": "machine_screen.png",
+					"caption": "One of the levels from The Incredible Machine"
 				}
 			]
 		}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  9 SEP 2013 19:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  17 SEP 2013 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -143,471 +143,423 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/usr/local/texlive/2013basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1
-] (./KenHoffThesis.toc)
-\tf@toc=\write3
-\openout3 = `KenHoffThesis.toc'.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- [1
-
-] [2]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- [3]
-Overfull \hbox (7.16347pt too wide) in paragraph at lines 64--65
-\OT1/cmr/m/n/12 from be-ing placed in the con-text of the ed-u-ca-tional goal. 
-An easy-to-implement
- []
-
-[4]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
- [5] <img/Orca_H3.png, id=29, 2454.16875pt x 1877.0125pt>
-File: img/Orca_H3.png Graphic file (type png)
-
-<use img/Orca_H3.png>
-Package pdftex.def Info: img/Orca_H3.png used on input line 87.
-(pdftex.def)             Requested size: 390.0pt x 298.26599pt.
- (./Rubric.tex
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 87--1
-[][] 
- []
-
-[6] [7 <./img/Orca_H3.png>] [8] [9] [10] [11] [12] [13] [14])
-(./GameSummaries.tex <img/munchers_title.png, id=60, 481.8pt x 301.125pt>
-File: img/munchers_title.png Graphic file (type png)
-
-<use img/munchers_title.png>
-Package pdftex.def Info: img/munchers_title.png used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 243.75827pt.
-
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-[15]
+] (./KenHoffThesis.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 1.
+ [1
 
-Overfull \hbox (27.08046pt too wide) in paragraph at lines 1--1
- \OT1/cmr/bx/n/12 URL[] $\OT1/cmtt/m/n/12 http : / / wallofgame . com / free-[]
-online-[]games / arcade / 988 / Number _
+])
+\tf@toc=\write3
+\openout3 = `KenHoffThesis.toc'.
+
+ [2] (./KenHoffThesis.lof)
+\tf@lof=\write4
+\openout4 = `KenHoffThesis.lof'.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [3
+
+] [4] [5]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [6]
+Overfull \hbox (7.16347pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/12 from be-ing placed in the con-text of the ed-u-ca-tional goal. 
+An easy-to-implement
  []
 
-[16 <./img/munchers_title.png>]
-<img/munchers_screen.png, id=68, 642.4pt x 401.5pt>
-File: img/munchers_screen.png Graphic file (type png)
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+[7]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+ [8] <img/Orca_H3.png, id=38, 2454.16875pt x 1877.0125pt>
+File: img/Orca_H3.png Graphic file (type png)
 
-<use img/munchers_screen.png>
-Package pdftex.def Info: img/munchers_screen.png used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 243.75674pt.
-
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
- [] [] 
+<use img/Orca_H3.png>
+Package pdftex.def Info: img/Orca_H3.png used on input line 88.
+(pdftex.def)             Requested size: 390.0pt x 298.26599pt.
+ (./Rubric.tex
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 88--1
+[][] 
  []
 
-<img/darfur_title.png, id=69, 855.195pt x 604.2575pt>
-File: img/darfur_title.png Graphic file (type png)
-
-<use img/darfur_title.png>
-Package pdftex.def Info: img/darfur_title.png used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 275.56456pt.
-
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-[17 <./img/munchers_screen.png>] [18 <./img/darfur_title.png>]
-<img/darfur_screen1.jpg, id=78, 639.13782pt x 443.40656pt>
-File: img/darfur_screen1.jpg Graphic file (type jpg)
-
-<use img/darfur_screen1.jpg>
-Package pdftex.def Info: img/darfur_screen1.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 270.56555pt.
-
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-<img/botlogic_title.jpg, id=79, 923.45pt x 371.3875pt>
-File: img/botlogic_title.jpg Graphic file (type jpg)
-
-<use img/botlogic_title.jpg>
-Package pdftex.def Info: img/botlogic_title.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 156.84871pt.
-
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-[19 <./img/darfur_screen1.jpg>]
-<img/botlogic_screen.png, id=83, 545.03625pt x 349.305pt>
-File: img/botlogic_screen.png Graphic file (type png)
-
-<use img/botlogic_screen.png>
-Package pdftex.def Info: img/botlogic_screen.png used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 249.94305pt.
-
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-[20 <./img/botlogic_title.jpg>]
-<img/baseball_title.jpg, id=87, 564.1075pt x 221.82875pt>
+[9] [10 <./img/Orca_H3.png>] [11] [12] [13] [14] [15] [16]) [17]
+(./GameSummaries.tex [18]
+<img/baseball_title.jpg, id=73, 564.1075pt x 221.82875pt>
 File: img/baseball_title.jpg Graphic file (type jpg)
 
 <use img/baseball_title.jpg>
 Package pdftex.def Info: img/baseball_title.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 153.36324pt.
+(pdftex.def)             Requested size: 460.29013pt x 181.006pt.
 
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
- [] [] 
+Overfull \hbox (70.29013pt too wide) in paragraph at lines 1--1
+ [][] 
  []
 
-[21 <./img/botlogic_screen.png> <./img/baseball_title.jpg>]
+<img/baseball_screen.jpg, id=74, 402.75468pt x 310.91156pt>
+File: img/baseball_screen.jpg Graphic file (type jpg)
+
+<use img/baseball_screen.jpg>
+Package pdftex.def Info: img/baseball_screen.jpg used on input line 1.
+(pdftex.def)             Requested size: 234.47668pt x 181.006pt.
+
 Overfull \hbox (13.39845pt too wide) in paragraph at lines 1--1
  \OT1/cmr/bx/n/12 Ed-u-ca-tional Con-tent[] \OT1/cmr/m/n/12 The ed-u-ca-tion in
  "Math Base-ball" is very straight-
  []
 
-<img/baseball_screen.jpg, id=91, 402.75468pt x 310.91156pt>
-File: img/baseball_screen.jpg Graphic file (type jpg)
 
-<use img/baseball_screen.jpg>
-Package pdftex.def Info: img/baseball_screen.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 301.06673pt.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-<img/dogs_title.jpg, id=92, 642.4pt x 428.60126pt>
-File: img/dogs_title.jpg Graphic file (type jpg)
- <use img/dogs_title.jpg>
-Package pdftex.def Info: img/dogs_title.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 260.21033pt.
-
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-[22 <./img/baseball_screen.jpg>]
+[19 <./img/baseball_title.jpg>]
 Overfull \hbox (1.38045pt too wide) in paragraph at lines 1--1
  \OT1/cmr/bx/n/12 URL[] $\OT1/cmtt/m/n/12 http : / / aliendovecote . com / uplo
 ads / twine / howling % 20dogs .
  []
 
-[23 <./img/dogs_title.jpg>]
-<img/dogs_screen.png, id=100, 670.00313pt x 356.83313pt>
+<img/dogs_title.jpg, id=78, 642.4pt x 428.60126pt>
+File: img/dogs_title.jpg Graphic file (type jpg)
+ <use img/dogs_title.jpg>
+Package pdftex.def Info: img/dogs_title.jpg used on input line 1.
+(pdftex.def)             Requested size: 271.2961pt x 181.006pt.
+
+<img/dogs_screen.png, id=79, 670.00313pt x 356.83313pt>
 File: img/dogs_screen.png Graphic file (type png)
 
 <use img/dogs_screen.png>
 Package pdftex.def Info: img/dogs_screen.png used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 207.70384pt.
+(pdftex.def)             Requested size: 339.86708pt x 181.006pt.
 
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
- [] [] 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20 <./img/baseball_screen.jpg>] [21 <./img/dogs_title.jpg> <./img/dogs_screen.
+png>] <img/lightbot_title.png, id=86, 814.04124pt x 404.51125pt>
+File: img/lightbot_title.png Graphic file (type png)
+
+<use img/lightbot_title.png>
+Package pdftex.def Info: img/lightbot_title.png used on input line 1.
+(pdftex.def)             Requested size: 364.26566pt x 181.006pt.
+
+<img/lightbot_screen.jpg, id=87, 632.3625pt x 321.2pt>
+File: img/lightbot_screen.jpg Graphic file (type jpg)
+
+<use img/lightbot_screen.jpg>
+Package pdftex.def Info: img/lightbot_screen.jpg used on input line 1.
+(pdftex.def)             Requested size: 356.35918pt x 181.006pt.
+
+Overfull \hbox (7.75407pt too wide) in paragraph at lines 1--1
+ \OT1/cmr/bx/n/12 Ed-u-ca-tional Con-tent[] \OT1/cmr/m/n/12 Light Bot's ed-u-ca
+-tional pur-pose fo-cuses on teach-
  []
 
-<img/notpron_title.jpeg, id=101, 542.025pt x 370.38374pt>
-File: img/notpron_title.jpeg Graphic file (type jpg)
 
-<use img/notpron_title.jpeg>
-Package pdftex.def Info: img/notpron_title.jpeg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 266.50653pt.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
- [] [] 
- []
 
-[24 <./img/dogs_screen.png>]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22] [23 <./img/lightbot_title.png> <./img/lightbot_screen.jpg>]
+<img/machine_title.png, id=96, 642.4pt x 400.49625pt>
+File: img/machine_title.png Graphic file (type png)
+
+<use img/machine_title.png>
+Package pdftex.def Info: img/machine_title.png used on input line 1.
+(pdftex.def)             Requested size: 290.34181pt x 181.006pt.
+
+<img/machine_screen.png, id=97, 642.4pt x 447.6725pt>
+File: img/machine_screen.png Graphic file (type png)
+
+<use img/machine_screen.png>
+Package pdftex.def Info: img/machine_screen.png used on input line 1.
+(pdftex.def)             Requested size: 259.73927pt x 181.006pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24 <./img/machine_title.png>]
 Overfull \hbox (8.83698pt too wide) in paragraph at lines 1--1
  \OT1/cmr/bx/n/12 De-scrip-tion[] \OT1/cmr/m/n/12 Not-pron is an ARG (alternate
 -reality game) for the browser.
  []
 
-[25 <./img/notpron_title.jpeg>]
-<img/notpron_screen.jpg, id=108, 642.4pt x 481.8pt>
+<img/notpron_title.jpeg, id=102, 542.025pt x 370.38374pt>
+File: img/notpron_title.jpeg Graphic file (type jpg)
+
+<use img/notpron_title.jpeg>
+Package pdftex.def Info: img/notpron_title.jpeg used on input line 1.
+(pdftex.def)             Requested size: 264.89156pt x 181.006pt.
+
+<img/notpron_screen.jpg, id=103, 642.4pt x 481.8pt>
 File: img/notpron_screen.jpg Graphic file (type jpg)
 
 <use img/notpron_screen.jpg>
 Package pdftex.def Info: img/notpron_screen.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 292.5081pt.
-
-Overfull \hbox (88.12408pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-<img/lightbot_title.png, id=109, 814.04124pt x 404.51125pt>
-File: img/lightbot_title.png Graphic file (type png)
-
-<use img/lightbot_title.png>
-Package pdftex.def Info: img/lightbot_title.png used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 193.79901pt.
-
-Overfull \hbox (88.12408pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-[26 <./img/notpron_screen.jpg>] [27 <./img/lightbot_title.png>]
-<img/lightbot_screen.jpg, id=117, 632.3625pt x 321.2pt>
-File: img/lightbot_screen.jpg Graphic file (type jpg)
-
-<use img/lightbot_screen.jpg>
-Package pdftex.def Info: img/lightbot_screen.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 198.098pt.
-
-Overfull \hbox (88.12408pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-<img/lemmings_title.jpg, id=118, 360.34625pt x 311.1625pt>
-File: img/lemmings_title.jpg Graphic file (type jpg)
-
-<use img/lemmings_title.jpg>
-Package pdftex.def Info: img/lemmings_title.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 336.76744pt.
-
-Overfull \hbox (88.12408pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-[28 <./img/lightbot_screen.jpg>] [29 <./img/lemmings_title.jpg>]
-<img/lemmings_screen.jpg, id=126, 642.4pt x 401.5pt>
-File: img/lemmings_screen.jpg Graphic file (type jpg)
-
-<use img/lemmings_screen.jpg>
-Package pdftex.def Info: img/lemmings_screen.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 243.75674pt.
-
-Overfull \hbox (88.12408pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-<img/pandemic_title.jpg, id=127, 602.25pt x 401.5pt>
-File: img/pandemic_title.jpg Graphic file (type jpg)
-
-<use img/pandemic_title.jpg>
-Package pdftex.def Info: img/pandemic_title.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 260.01006pt.
-
-Overfull \hbox (88.12408pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-[30 <./img/lemmings_screen.jpg>]
+(pdftex.def)             Requested size: 241.3405pt x 181.006pt.
+ [25 <./img/machine_screen.png>] [26 <./img/notpron_title.jpeg> <./img/notpron_
+screen.jpg>]
 Overfull \hbox (23.57982pt too wide) in paragraph at lines 1--1
  \OT1/cmr/bx/n/12 URL[] $\OT1/cmtt/m/n/12 http : / / www . crazymonkeygames . c
 om / Pandemic-[]2 . html #
  []
 
-[31 <./img/pandemic_title.jpg>]
-<img/pandemic_screen.jpg, id=134, 592.2125pt x 408.52625pt>
+<img/pandemic_title.jpg, id=111, 602.25pt x 401.5pt>
+File: img/pandemic_title.jpg Graphic file (type jpg)
+
+<use img/pandemic_title.jpg>
+Package pdftex.def Info: img/pandemic_title.jpg used on input line 1.
+(pdftex.def)             Requested size: 271.51541pt x 181.006pt.
+
+<img/pandemic_screen.jpg, id=112, 592.2125pt x 408.52625pt>
 File: img/pandemic_screen.jpg Graphic file (type jpg)
 
 <use img/pandemic_screen.jpg>
 Package pdftex.def Info: img/pandemic_screen.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 269.04219pt.
-
-Overfull \hbox (88.12408pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-<img/machine_title.png, id=135, 642.4pt x 400.49625pt>
-File: img/machine_title.png Graphic file (type png)
-
-<use img/machine_title.png>
-Package pdftex.def Info: img/machine_title.png used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 243.14735pt.
-
-Overfull \hbox (88.12408pt too wide) in paragraph at lines 1--1
- [] [] 
- []
-
-[32 <./img/pandemic_screen.jpg>]
-Overfull \hbox (10.72981pt too wide) in paragraph at lines 1--1
- \OT1/cmr/bx/n/12 URL[] $\OT1/cmtt/m/n/12 http : / / www . classicdosgames . co
-m / online / timdemo .
- []
+(pdftex.def)             Requested size: 262.39063pt x 181.006pt.
 
 
-Overfull \hbox (5.26936pt too wide) in paragraph at lines 1--1
- \OT1/cmr/bx/n/12 Ed-u-ca-tional Con-tent[] \OT1/cmr/m/n/12 The In-cred-i-ble M
-a-chine teaches play-
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/machine_screen.png, id=139, 642.4pt x 447.6725pt>
-File: img/machine_screen.png Graphic file (type png)
 
-<use img/machine_screen.png>
-Package pdftex.def Info: img/machine_screen.png used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 271.78877pt.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Overfull \hbox (88.12408pt too wide) in paragraph at lines 1--1
- [] [] 
- []
+[27] [28 <./img/pandemic_title.jpg> <./img/pandemic_screen.jpg>]
+<img/lemmings_title.jpg, id=119, 360.34625pt x 311.1625pt>
+File: img/lemmings_title.jpg Graphic file (type jpg)
 
-[33 <./img/machine_title.png>]
-<img/oregon_title.jpg, id=144, 602.25pt x 408.52625pt>
-File: img/oregon_title.jpg Graphic file (type jpg)
+<use img/lemmings_title.jpg>
+Package pdftex.def Info: img/lemmings_title.jpg used on input line 1.
+(pdftex.def)             Requested size: 209.61679pt x 181.006pt.
 
-<use img/oregon_title.jpg>
-Package pdftex.def Info: img/oregon_title.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 264.56024pt.
+<img/lemmings_screen.jpg, id=120, 642.4pt x 401.5pt>
+File: img/lemmings_screen.jpg Graphic file (type jpg)
 
-Overfull \hbox (88.12408pt too wide) in paragraph at lines 1--1
- [] [] 
- []
+<use img/lemmings_screen.jpg>
+Package pdftex.def Info: img/lemmings_screen.jpg used on input line 1.
+(pdftex.def)             Requested size: 289.61646pt x 181.006pt.
 
-[34 <./img/machine_screen.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29 <./img/lemmings_title.jpg>]
 Overfull \hbox (23.07982pt too wide) in paragraph at lines 1--1
  \OT1/cmr/bx/n/12 URL[] $\OT1/cmtt/m/n/12 http : / / www . virtualapple . org /
  oregontraildisk . html$ 
  []
 
-[35 <./img/oregon_title.jpg>]
+[30 <./img/lemmings_screen.jpg>]
+<img/oregon_title.jpg, id=128, 602.25pt x 408.52625pt>
+File: img/oregon_title.jpg Graphic file (type jpg)
+
+<use img/oregon_title.jpg>
+Package pdftex.def Info: img/oregon_title.jpg used on input line 1.
+(pdftex.def)             Requested size: 266.83792pt x 181.006pt.
+
+<img/oregon_screen.jpg, id=129, 198.7425pt x 145.2627pt>
+File: img/oregon_screen.jpg Graphic file (type jpg)
+
+<use img/oregon_screen.jpg>
+Package pdftex.def Info: img/oregon_screen.jpg used on input line 1.
+(pdftex.def)             Requested size: 247.6633pt x 181.006pt.
+
 Overfull \hbox (14.48177pt too wide) in paragraph at lines 1--1
  \OT1/cmr/bx/n/12 Ed-u-ca-tional Con-tent[] \OT1/cmr/m/n/12 Ore-gon Trail's ed-
 u-ca-tional value comes
  []
 
-<img/oregon_screen.jpg, id=153, 198.7425pt x 145.2627pt>
-File: img/oregon_screen.jpg Graphic file (type jpg)
 
-<use img/oregon_screen.jpg>
-Package pdftex.def Info: img/oregon_screen.jpg used on input line 1.
-(pdftex.def)             Requested size: 390.0pt x 285.08751pt.
-)
-Overfull \hbox (88.12408pt too wide) in paragraph at lines 1--91
- [] [] 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31 <./img/oregon_title.jpg>] [32 <./img/oregon_screen.jpg>]
+<img/darfur_title.png, id=136, 855.195pt x 604.2575pt>
+File: img/darfur_title.png Graphic file (type png)
+
+<use img/darfur_title.png>
+Package pdftex.def Info: img/darfur_title.png used on input line 1.
+(pdftex.def)             Requested size: 256.169pt x 181.006pt.
+
+<img/darfur_screen1.jpg, id=137, 639.13782pt x 443.40656pt>
+File: img/darfur_screen1.jpg Graphic file (type jpg)
+
+<use img/darfur_screen1.jpg>
+Package pdftex.def Info: img/darfur_screen1.jpg used on input line 1.
+(pdftex.def)             Requested size: 260.90717pt x 181.006pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33 <./img/darfur_title.png>]
+Overfull \hbox (17.90482pt too wide) in paragraph at lines 1--1
+ \OT1/cmr/bx/n/12 URL[] $\OT1/cmtt/m/n/12 http : / / wallofgame . com / free-[]
+online-[]games / arcade /
  []
 
-(./MechanicalTurk.tex [36]
+[34 <./img/darfur_screen1.jpg>]
+<img/munchers_title.png, id=144, 481.8pt x 301.125pt>
+File: img/munchers_title.png Graphic file (type png)
+
+<use img/munchers_title.png>
+Package pdftex.def Info: img/munchers_title.png used on input line 1.
+(pdftex.def)             Requested size: 289.6189pt x 181.006pt.
+
+<img/munchers_screen.png, id=145, 642.4pt x 401.5pt>
+File: img/munchers_screen.png Graphic file (type png)
+
+<use img/munchers_screen.png>
+Package pdftex.def Info: img/munchers_screen.png used on input line 1.
+(pdftex.def)             Requested size: 289.61646pt x 181.006pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35 <./img/munchers_title.png>]
+<img/botlogic_title.jpg, id=151, 923.45pt x 371.3875pt>
+File: img/botlogic_title.jpg Graphic file (type jpg)
+
+<use img/botlogic_title.jpg>
+Package pdftex.def Info: img/botlogic_title.jpg used on input line 1.
+(pdftex.def)             Requested size: 450.07086pt x 181.006pt.
+
+Overfull \hbox (60.07086pt too wide) in paragraph at lines 1--1
+ [][] 
+ []
+
+<img/botlogic_screen.png, id=152, 545.03625pt x 349.305pt>
+File: img/botlogic_screen.png Graphic file (type png)
+
+<use img/botlogic_screen.png>
+Package pdftex.def Info: img/botlogic_screen.png used on input line 1.
+(pdftex.def)             Requested size: 282.43082pt x 181.006pt.
+) [36 <./img/munchers_screen.png>]
+(./MechanicalTurk.tex
 Overfull \hbox (1.56052pt too wide) in paragraph at lines 2--3
 \OT1/cmr/m/n/12 Many ref-er-ences taken from $\OT1/cmtt/m/n/12 http : / / homep
 age . psy . utexas . edu /
  []
 
-<img/survey1.png, id=157, 615.29875pt x 287.0725pt>
+[37 <./img/botlogic_title.jpg> <./img/botlogic_screen.png>]
+<img/survey1.png, id=160, 615.29875pt x 287.0725pt>
 File: img/survey1.png Graphic file (type png)
  <use img/survey1.png>
 Package pdftex.def Info: img/survey1.png used on input line 5.
 (pdftex.def)             Requested size: 390.0pt x 181.96048pt.
 
-<img/survey2.png, id=158, 611.28375pt x 577.15625pt>
+<img/survey2.png, id=161, 611.28375pt x 577.15625pt>
 File: img/survey2.png Graphic file (type png)
  <use img/survey2.png>
 Package pdftex.def Info: img/survey2.png used on input line 6.
 (pdftex.def)             Requested size: 390.0pt x 368.22505pt.
 
-<img/survey3.png, id=159, 604.2575pt x 298.11375pt>
+<img/survey3.png, id=162, 604.2575pt x 298.11375pt>
 File: img/survey3.png Graphic file (type png)
  <use img/survey3.png>
 Package pdftex.def Info: img/survey3.png used on input line 7.
 (pdftex.def)             Requested size: 390.0pt x 192.40698pt.
 
-<img/survey4.png, id=160, 609.27625pt x 222.8325pt>
+<img/survey4.png, id=163, 609.27625pt x 222.8325pt>
 File: img/survey4.png Graphic file (type png)
  <use img/survey4.png>
 Package pdftex.def Info: img/survey4.png used on input line 8.
 (pdftex.def)             Requested size: 390.0pt x 142.63951pt.
 
-<img/survey5.png, id=161, 601.24625pt x 644.4075pt>
+<img/survey5.png, id=164, 601.24625pt x 644.4075pt>
 File: img/survey5.png Graphic file (type png)
  <use img/survey5.png>
 Package pdftex.def Info: img/survey5.png used on input line 9.
 (pdftex.def)             Requested size: 390.0pt x 418.01428pt.
 
-<img/survey6.png, id=162, 604.2575pt x 636.3775pt>
+<img/survey6.png, id=165, 604.2575pt x 636.3775pt>
 File: img/survey6.png Graphic file (type png)
  <use img/survey6.png>
 Package pdftex.def Info: img/survey6.png used on input line 10.
 (pdftex.def)             Requested size: 390.0pt x 410.72737pt.
 
-<img/survey7.png, id=163, 603.25375pt x 558.085pt>
+<img/survey7.png, id=166, 603.25375pt x 558.085pt>
 File: img/survey7.png Graphic file (type png)
  <use img/survey7.png>
 Package pdftex.def Info: img/survey7.png used on input line 11.
 (pdftex.def)             Requested size: 390.0pt x 360.79236pt.
 
-<img/survey8.png, id=164, 606.265pt x 644.4075pt>
+<img/survey8.png, id=167, 606.265pt x 644.4075pt>
 File: img/survey8.png Graphic file (type png)
  <use img/survey8.png>
 Package pdftex.def Info: img/survey8.png used on input line 12.
 (pdftex.def)             Requested size: 390.0pt x 414.54329pt.
 
-<img/survey9.png, id=165, 602.25pt x 655.44875pt>
+<img/survey9.png, id=168, 602.25pt x 655.44875pt>
 File: img/survey9.png Graphic file (type png)
  <use img/survey9.png>
 Package pdftex.def Info: img/survey9.png used on input line 13.
 (pdftex.def)             Requested size: 390.0pt x 424.46643pt.
 
-<img/survey10.png, id=166, 602.25pt x 263.98625pt>
+<img/survey10.png, id=169, 602.25pt x 263.98625pt>
 File: img/survey10.png Graphic file (type png)
  <use img/survey10.png>
 Package pdftex.def Info: img/survey10.png used on input line 14.
 (pdftex.def)             Requested size: 390.0pt x 170.9566pt.
 
-<img/survey11.png, id=167, 589.20125pt x 471.7625pt>
+<img/survey11.png, id=170, 589.20125pt x 471.7625pt>
 File: img/survey11.png Graphic file (type png)
  <use img/survey11.png>
 Package pdftex.def Info: img/survey11.png used on input line 15.
@@ -673,25 +625,24 @@ Overfull \hbox (58.74939pt too wide) in paragraph at lines 4--16
 [] 
  []
 
-[37 <./img/oregon_screen.jpg>] [38 <./img/survey1.png>] [39 <./img/survey2.png>
-] [40 <./img/survey3.png> <./img/survey4.png>] [41 <./img/survey5.png>]
-[42 <./img/survey6.png>] [43 <./img/survey7.png>] [44 <./img/survey8.png>]
-[45 <./img/survey9.png>] [46 <./img/survey10.png> <./img/survey11.png>])
-[47] (./KenHoffThesis.aux) ) 
+[38 <./img/survey1.png>] [39 <./img/survey2.png>] [40 <./img/survey3.png> <./im
+g/survey4.png>] [41 <./img/survey5.png>] [42 <./img/survey6.png>] [43 <./img/su
+rvey7.png>] [44 <./img/survey8.png>] [45 <./img/survey9.png>] [46 <./img/survey
+10.png> <./img/survey11.png>]) [47] (./KenHoffThesis.aux) ) 
 Here is how much of TeX's memory you used:
- 1771 strings out of 494536
- 26906 string characters out of 6167446
- 78768 words of memory out of 5000000
- 4977 multiletter control sequences out of 15000+600000
+ 1775 strings out of 494536
+ 26952 string characters out of 6167446
+ 80768 words of memory out of 5000000
+ 4978 multiletter control sequences out of 15000+600000
  9752 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 37i,6n,23p,18928b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013basic/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013basic/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013basic/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on KenHoffThesis.pdf (49 pages, 3005739 bytes).
+ 37i,6n,23p,20784b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/
+2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texl
+ive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
+exlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on KenHoffThesis.pdf (49 pages, 3008159 bytes).
 PDF statistics:
  221 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams

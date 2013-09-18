@@ -10,7 +10,7 @@ class GameList:
 		# gameArray.pop(0) # remove keys section
 
 		for game in content["gamelist"]:
-			self.games.add(Game(game["id"], game["title"], game["url"], game["description"], game['education'], game['images'][0]['path'], game['images'][1]['path']))
+			self.games.add(Game(game["id"], game["title"], game["url"], game["description"], game['education'], game['images']))
 		f.close()
 
 	def latex_output(self, nestlevel = "section"):
@@ -21,17 +21,18 @@ class GameList:
 
 
 class Game:
-	def __init__(self, id, name, url = None, description = None, education = None, title_screen = None, screenshot = None):
+	def __init__(self, id, name, url, description, education, images):
 		self.name = name
 		self.url = url
 		self.description = description
 		self.id = id
 		self.education = education
-		self.title = "img/" + title_screen
-		self.screen = "img/" + screenshot
+		self.images = images
 
 	def latex_output(self, nestlevel = "section"):
 		# print self.name
-		content = "\{}".format(nestlevel) + "{{{}}}".format(self.name) + "\subparagraph{}" + "\includegraphics[width = \\textwidth]{{{0}}}".format(self.title) + "\subparagraph{URL}" + "\url{{{}}}".format(self.url) + "\subparagraph{Description}" + "{}".format(self.description) + "\subparagraph{Educational Content}" + "{}".format(self.education) + "\subparagraph{}" + "\includegraphics[width = \\textwidth]{{{0}}}".format(self.screen) # + "\\newpage"
+		content = "\\newpage" + "\{}".format(nestlevel) + "{{{}}}".format(self.name) + "\subparagraph{URL}" + "\url{{{}}}".format(self.url) + "\subparagraph{Description}" + "{}".format(self.description) + "\subparagraph{Educational Content}" + "{}".format(self.education)
+		for image in self.images:
+			content += "\\begin{figure}[h!]" + "\centering \includegraphics[height=0.33\\textheight]{{{0}}}".format('img/' + image['path']) + "\caption{{{0}}}".format(image['caption']) + "\end{figure}"
 		# print self.id
 		return content
