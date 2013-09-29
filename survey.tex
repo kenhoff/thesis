@@ -1,0 +1,47 @@
+\newpage
+\section{Survey}
+	
+	\subsection{Demographic Information and Preferences}
+		\subsubsection{What is your gender?} Male/Female
+		\subsubsection{What is your age?} 3-99
+		\subsubsection{How many years have you been playing video games?} 3-99
+		\subsubsection{Fun games can be educational.} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{Most fun games are educational.} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{Games are more fun when they are cooperative (instead of competitive).} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{Games are more fun when you play by yourself (instead of with others).} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{Games are more fun when you play online (instead of with others in the same room).} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{Educational games can be fun.} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{Most educational games are fun.} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{Games are more educational when they are cooperative (instead of competitive).} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{Games are more educational when you play by yourself (instead of with others).} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{Games are more educational when you play online (instead of with others in the same room).} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{List some fun games.} Freeform response
+		\subsubsection{List some educational games.} Freeform Response
+	\subsection{Game}
+		\subsubsection{Navigate to this page and play this game for at least 10 minutes.} Game URL
+		\subsubsection{Estimate the amount of time that you played the game for.} Hrs, Mins, Secs
+		\subsubsection{Enter your score/farthest level from your play session.} Int/Float 
+	\subsection{Rubric}
+	\input survey_rubric
+	\subsection{Feedback}
+		\subsubsection{This game was fun.} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{I had fun playing this game.} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{This game was educational.} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{I learned something from playing this game.} Strongly disagree - Disagree - Agree - Strongly agree
+		\subsubsection{What did you learn from playing this game?} Freeform response
+		\subsubsection{Provide some comments and feedback on the game.} Freeform response
+		\subsubsection{Provide some comments and feedback on this survey.} Freeform response
+		\subsubsection{Provide your Mechanical Turk worker ID.} Int
+
+		\newpage
+
+\section{Survey Design}
+Many references taken from \url{http://homepage.psy.utexas.edu/homepage/faculty/gosling/reprints/MTurkhowto.pdf}
+	\subsection{Compensation Scheme}
+		Mechanical Turk workers are commonly compensated at 10 cents per person per 10 minute response. This seems more than adequate; however, the rate will begin at \$0.05 per survey response. If the requisite number of responses hasn't been received in one week, the rate will increase to \$0.10 per survey response, and will continue to increase each \$0.05 each week until all the survey responses are received.
+	\subsection{Ensuring High-Quality Responses}
+		To ensure high-quality survey responses, there are a number of measures that can be taken. The first is the criteria option built in to Mechanical Turk for workers. It's recommended to avoid translation issues by restricting to US workers only, and to filter out workers with a bad history of responses by using a 95\% HIT acceptance rate criteria.
+
+		It is harder to ensure that the workers actually play the requisite amount of the game. To combat workers not actually playing the game, the workers will be required to upload a screenshot of their final score playing the game. This screenshot can be searched for online to see if they uploaded an image found elsewhere; if so, the result will be rejected.
+
+		The hardest part will be to ensure that the workers fill the form out without providing any bogus responses. There's not much that can be done for this (due to us testing to see if the rubric is excessively vague), but we can implement safegaurds such as the cleverly-hidden "answer this number for this question" section.

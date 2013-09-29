@@ -1,0 +1,115 @@
+light-bot questions
+
+
+light-bot
+"Light-bot lets players gain a practical understanding of basic control-flow concepts like procedures, loops, and conditionals, just by guiding a robot with commands to light up tiles and solve levels." 
+
+
+http://www.cs.iastate.edu/~honavar/JavaNotes/Notes/chap16/chap16quiz.html
+
+
+functions
+
+// code
+function foo() {
+	bar();
+	print('foo');
+}
+function bar() {
+	print('bar');
+}
+
+for print('fizz'), write "fizz" (no quotes) in the text box. for print('fizz') followed later in the program by print('buzz'), write "fizzbuzz" in the text box.
+
+questions: 4 pre, 4 post. random permutations of 4 foo or bar function calls strung together.
+
+ex:
+
+foo()
+bar()
+bar()
+foo()
+
+or:
+
+bar()
+bar()
+bar()
+bar()
+
+
+
+loops
+
+using 2 of the following questions for pre and the other 2 for post
+
+4. Examine the following code:
+    int count = 0;                                  
+    while ( count <= 6 )  
+    {
+      System.out.print( count + " " );
+      count = count + 2; 
+    }
+    System.out.println(  );
+What does this code print on the monitor?
+a. 1 2 3 4 5 6
+b. 0 2 4 6 8
+c. 0 2 4
+d. 0 2 4 6
+
+5. Examine the following code:
+    int count = 7;                                  
+    while ( count >= 4 )  
+    {
+      System.out.print( count + " " );
+      count = count - 1; 
+    }
+    System.out.println(  );
+What does this code print on the monitor?
+a. 1 2 3 4 5 6 7
+b. 7 6 5 4
+c. 6 5 4 3
+d. 7 6 5 4 3
+
+6. Examine the following code:
+    int count = -2 ;                                  
+    while ( count < 3 )  
+    {
+      System.out.print( count + " " );
+      count = count + 1; 
+    }
+    System.out.println(  );
+What does this code print on the monitor?
+a. -2 -1 1 2 3 4
+b. -2 -1 1 2 3
+c. -3 -4 -5 -6 -7
+d. -2 -1 0 1 2
+
+7. Examine the following code:
+    int count =  1;                                  
+    while ( count < 5 )  
+    {
+      System.out.print( count + " " );
+    }
+    System.out.println(  );
+What does this code print on the monitor?
+a. 1 2 3 4
+b. 1 2 3 4 5
+c. 2 3 4
+d. 1 1 1 1 1 1 1 1 1 1 1 . . . .
+
+
+conditionals
+
+
+procedural generation
+X: for each instance, randomly choose between True or False
+%%: for each instance, randomly choose between 'and' or 'or'
+#: for each instance, randomly choose between 'not' or blank
+
+format:
+#(#X %% #X) %% #(#X %% #X)
+
+for pre and post, generate 4 questions each
+
+Does this conditional evaluate to True or False? (multiple choice)
