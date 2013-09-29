@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  28 SEP 2013 12:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  29 SEP 2013 12:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -60,35 +60,60 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
+(/usr/local/texlive/2013basic/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count89
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count90
+\lst@currlwidth=\dimen105
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen108
+
+(/usr/local/texlive/2013basic/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box27
+)
+(/usr/local/texlive/2013basic/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
 (./KenHoffThesis.aux)
 \openout1 = `KenHoffThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (/usr/local/texlive/2013basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count89
-\scratchdimen=\dimen105
-\scratchbox=\box26
-\nofMPsegments=\count90
-\nofMParguments=\count91
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count92
-\MPscratchDim=\dimen106
-\MPnumerator=\count93
-\makeMPintoPDFobject=\count94
-\everyMPtoPDFconversion=\toks16
+\scratchcounter=\count97
+\scratchdimen=\dimen109
+\scratchbox=\box28
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen110
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks17
 ) (/usr/local/texlive/2013basic/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -136,10 +161,11 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\c@lstlisting=\count103
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 18.
+(Font)              <14.4> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 19.
  [1
 
 {/usr/local/texlive/2013basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1
@@ -193,7 +219,7 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
  [4]
-Overfull \hbox (7.16347pt too wide) in paragraph at lines 65--66
+Overfull \hbox (7.16347pt too wide) in paragraph at lines 66--67
 \OT1/cmr/m/n/12 from be-ing placed in the con-text of the ed-u-ca-tional goal. 
 An easy-to-implement
  []
@@ -227,10 +253,10 @@ Missing character: There is no ò in font cmr12!
 File: img/Orca_H3.png Graphic file (type png)
 
 <use img/Orca_H3.png>
-Package pdftex.def Info: img/Orca_H3.png used on input line 88.
+Package pdftex.def Info: img/Orca_H3.png used on input line 89.
 (pdftex.def)             Requested size: 390.0pt x 298.26599pt.
  (./Rubric.tex
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 88--1
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 89--1
 [][] 
  []
 
@@ -497,36 +523,116 @@ Overfull \hbox (14.00574pt too wide) in paragraph at lines 4--4
 []\OT1/cmr/bx/n/14.4 Demographic In-for-ma-tion and Pref-er-ences 
  []
 
-[36] [37] (./survey_rubric.tex [38] [39] [40]
-Overfull \hbox (17.39438pt too wide) in paragraph at lines 1--1
-\OT1/cmr/m/n/12 Of the ob-jects/events that are in the game, how rec-og-niz-abl
-e/popular
+[36] [37] (./survey_rubric.tex [38] [39]
+Overfull \hbox (1.0751pt too wide) in paragraph at lines 1--1
+\OT1/cmr/m/n/12 Of the ob-ject-s/events that are in the game, how rec-og-niz-ab
+le/pop-
  []
 
-[41] [42] [43]) [44] [45]
-Overfull \hbox (1.56052pt too wide) in paragraph at lines 39--40
+[40] [41] [42] [43]) [44] [45] (./educational_quiz.tex
+Overfull \hbox (9.79803pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/bx/n/12 Sources[] $\OT1/cmtt/m/n/12 http : / / www . proprofs . com /
+ quiz-[]school / story . php ?
+ []
+
+
+Overfull \hbox (17.5106pt too wide) in paragraph at lines 5--6
+\OT1/cmtt/m/n/12 title = what-[]do-[]you-[]know-[]about-[]darfur-[]genocide$\OT
+1/cmr/m/n/12 , $\OT1/cmtt/m/n/12 http : / / www .
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+[46]
+Overfull \hbox (3.19955pt too wide) in paragraph at lines 78--79
+\OT1/cmtt/m/n/12 / / www . quizmoz . com / quizzes / Interesting-[]Facts-[]Quiz
+zes / o /
+ []
+
+
+Overfull \hbox (3.1606pt too wide) in paragraph at lines 78--79
+\OT1/cmtt/m/n/12 Oregon-[]Trail-[]Quiz . asp$\OT1/cmr/m/n/12 , $\OT1/cmtt/m/n/1
+2 http : / / www . quia . com / quiz / 462983 .
+ []
+
+[47]
+Overfull \hbox (26.51234pt too wide) in paragraph at lines 130--135
+\OT1/cmr/m/n/12 dence, Michi-gan In-de-pen-dence, Mon-tana In-de-pen-dence, Mas
+-sachusetts 
+ []
+
+
+Overfull \hbox (3.12303pt too wide) in paragraph at lines 152--153
+ \OT1/cmr/bx/n/12 Sources[] $\OT1/cmtt/m/n/12 http : / / www . cs . iastate . e
+du / []honavar / JavaNotes /
+ []
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 184.
+
+(/usr/local/texlive/2013basic/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 184.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 185.
+
+
+(/usr/local/texlive/2013basic/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 185.
+ [48]
+[49]
+Overfull \hbox (84.69867pt too wide) in paragraph at lines 243--244
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (91.74866pt too wide) in paragraph at lines 244--245
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (105.84863pt too wide) in paragraph at lines 245--247
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (134.04858pt too wide) in paragraph at lines 252--254
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [50]
+Overfull \hbox (1.56052pt too wide) in paragraph at lines 43--44
 \OT1/cmr/m/n/12 Many ref-er-ences taken from $\OT1/cmtt/m/n/12 http : / / homep
 age . psy . utexas . edu /
  []
 
-) [46] [47] (./KenHoffThesis.aux) ) 
+) [51] [52] (./KenHoffThesis.aux) ) 
 Here is how much of TeX's memory you used:
- 1723 strings out of 494536
- 25977 string characters out of 6167446
- 78768 words of memory out of 5000000
- 4934 multiletter control sequences out of 15000+600000
+ 2950 strings out of 494536
+ 44262 string characters out of 6167446
+ 117813 words of memory out of 5000000
+ 6140 multiletter control sequences out of 15000+600000
  9752 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 37i,6n,23p,20784b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,32p,20784b,1393s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013basic/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013basic/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013basic/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013basic/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on KenHoffThesis.pdf (49 pages, 2700620 bytes).
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013basic/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013basic/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013basic/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013ba
+sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on KenHoffThesis.pdf (54 pages, 2726053 bytes).
 PDF statistics:
- 210 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+ 233 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
