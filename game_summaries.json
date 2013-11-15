@@ -120,23 +120,6 @@
 			]
 		},
 		{
-			"id": 9,
-			"title": "Howling Dogs",
-			"url": "http://aliendovecote.com/uploads/twine/howling%20dogs.html#2m",
-			"description": "Howling Dogs is an award-winning Twine game. A Twine game is very different from a traditional game; it is best described as an \"interactive story.\" Twine games take place in static text-only HTML pages, linked together by the Twine editor. This allows players to take part in \"choose-your-own-adventure\" style stories, with descision-making, conditionals, and rudimentary inventories. Howling Dogs in particular contains very adult themes, such as \"escapism, violence and religious experience;\" the setting is extremely morbid, and the player views it through the perspective of a patient in some sort of asylum.",
-			"education": "Howling Dogs' educational content is both emotional and tangential. Through the course of the game, players encounter many confusing or bizarre situations; players can investigate such circumstances on their own, or sometimes some deep reflection may be sparked inside the player, encouraging them to try to understand the stories more.",
-			"images": [
-				{
-					"path": "dogs_title.jpg",
-					"caption": "A booth from the Independent Games Festival, whose award-nominated owner chose to promote Howling Dogs instead of their own game"
-				},
-				{
-					"path": "dogs_screen.png",
-					"caption": "The first 'level' of Howling Dogs"
-				}
-			]
-		},
-		{
 			"id": 10,
 			"title": "Notpron",
 			"url": "http://notpron.org/notpron/",

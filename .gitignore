@@ -3,4 +3,4 @@
 *.dvi
 *.log 
 *.toc
-aws*
+mturk.properties

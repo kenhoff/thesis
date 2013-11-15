@@ -1,0 +1,118 @@
+2013-11-09 22:24:13,723 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-11-09 22:24:13,723 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-11-09 22:24:13,723 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-11-09 22:24:13,724 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:270)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:144)
+	at com.amazonaws.mturk.addon.HITQuestion.<init>(HITQuestion.java:69)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:185)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 15 more
+2013-11-09 22:24:13,726 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-11-09 22:24:13,726 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-11-09 22:24:13,729 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-11-09 22:24:13,734 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-11-09 22:24:13,735 - Do unicode file recognition:  false
+2013-11-09 22:24:13,736 - FileResourceLoader : adding path '../samples/simple_survey2'
+2013-11-09 22:24:13,748 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-11-09 22:24:13,750 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-11-09 22:24:13,754 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-11-09 22:24:13,756 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-11-09 22:24:13,758 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-11-09 22:24:13,759 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-11-09 22:24:13,792 - Created '20' parsers.
+2013-11-09 22:24:13,800 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-11-09 22:24:13,800 - Velocimacro : Default library not found.
+2013-11-09 22:24:13,800 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-11-09 22:24:13,800 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-11-09 22:24:13,800 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-11-09 22:24:13,801 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-11-09 22:24:13,885 - ResourceManager : found darfur_survey.xml with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-11-09 22:24:13,896 - Log4JLogChute initialized using file 'velocity.log'
+2013-11-09 22:24:13,896 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-11-09 22:24:13,896 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-11-09 22:24:13,896 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-11-09 22:24:13,896 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:270)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:113)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:83)
+	at com.amazonaws.mturk.util.VelocityUtil.doMerge(VelocityUtil.java:34)
+	at com.amazonaws.mturk.addon.HITProperties.getMaxAssignments(HITProperties.java:268)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 16 more
+2013-11-09 22:24:13,898 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-11-09 22:24:13,898 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-11-09 22:24:13,898 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-11-09 22:24:13,898 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-11-09 22:24:13,898 - Do unicode file recognition:  false
+2013-11-09 22:24:13,898 - FileResourceLoader : adding path '.'
+2013-11-09 22:24:13,898 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-11-09 22:24:13,899 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-11-09 22:24:13,899 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-11-09 22:24:13,899 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-11-09 22:24:13,899 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-11-09 22:24:13,899 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-11-09 22:24:13,901 - Created '20' parsers.
+2013-11-09 22:24:13,901 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-11-09 22:24:13,901 - Velocimacro : Default library not found.
+2013-11-09 22:24:13,901 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-11-09 22:24:13,901 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-11-09 22:24:13,902 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-11-09 22:24:13,902 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+ying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-11-09 22:24:13,898 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-11-09 22:24:13,898 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-11-09 22:24:13,898 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-11-09 22:24:13,898 - Do unicode file recognition:  false
+2013-11-09 22:24:13,898 - FileResourceLoader : adding path '.'
+2013-11-09 22:24:13,898 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-11-09 22:24:13,899 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-11-09 22:24:13,899 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-11-09 22:24:13,899 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-11-09 22:24:13,899 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-11-09 22:24:13,899 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-11-09 22:24:13,901 - Created '20' parsers.
+2013-11-09 22:24:13,901 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-11-09 22:24:13,901 - Velocimacro : Default library not found.
+2013-11-09 22:24:13,901 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-11-09 22:24:13,901 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-11-09 22:24:13,902 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-11-09 22:24:13,902 - Velocimacro : autoload off : VM system will not automatically reload global library macros

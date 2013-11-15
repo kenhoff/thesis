@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Question>
+    <QuestionIdentifier>
+      Gender
+    </QuestionIdentifier>
+    <QuestionContent>
+            <Text>What is your gender?</Text>
+    </QuestionContent>
+    <IsRequired>true</IsRequired>
+
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>Male</SelectionIdentifier>
+            <Text>Male</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Female</SelectionIdentifier>
+            <Text>Female</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>
+      Age
+    </QuestionIdentifier>
+    <QuestionContent>
+      <Text>What is your age?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>dropdown</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>
+              3
+            </SelectionIdentifier>
+            <Text>
+              3
+            </Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>
+      Years Playing Video Games
+    </QuestionIdentifier>
+    <QuestionContent>
+      <Text>How many years have you been playing video games?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>dropdown</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>
+              3
+            </SelectionIdentifier>
+            <Text>
+              3
+            </Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+
+  <Question>
+    <QuestionIdentifier>Fun games can be educational</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Fun games can be educational.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Most fun games are educational</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Most fun games are educational.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Games are more fun when they are cooperative (instead of competitive)</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Games are more fun when they are cooperative (instead of competitive).</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+</QuestionForm>
+

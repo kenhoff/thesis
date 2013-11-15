@@ -1,0 +1,1205 @@
+[2013-11-04 19:20:32] ERROR (GetBalance.java: 44) - An error occurred while fetching your balance: This request must be made over a secure channel. You must use 'https' rather than 'http'.
+com.amazonaws.mturk.service.exception.InternalServiceException: This request must be made over a secure channel. You must use 'https' rather than 'http'.
+	at com.amazonaws.mturk.service.axis.AWSService.executeRequestMessage(AWSService.java:243)
+	at com.amazonaws.mturk.filter.FinalFilter.execute(FinalFilter.java:38)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.execute(ErrorProcessingFilter.java:46)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.RetryFilter.execute(RetryFilter.java:115)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.sendMessage(CLTExceptionFilter.java:77)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.execute(CLTExceptionFilter.java:62)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequests(FilteredAWSService.java:172)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:152)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:116)
+	at com.amazonaws.mturk.service.axis.RequesterServiceRaw.getAccountBalance(RequesterServiceRaw.java:1193)
+	at com.amazonaws.mturk.service.axis.RequesterService.getAccountBalance(RequesterService.java:922)
+	at com.amazonaws.mturk.cmd.GetBalance.getBalance(GetBalance.java:50)
+	at com.amazonaws.mturk.cmd.GetBalance.runCommand(GetBalance.java:41)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.GetBalance.main(GetBalance.java:28)
+Caused by: This request must be made over a secure channel. You must use 'https' rather than 'http'.
+	at org.apache.axis.message.SOAPFaultBuilder.createFault(SOAPFaultBuilder.java:222)
+	at org.apache.axis.message.SOAPFaultBuilder.endElement(SOAPFaultBuilder.java:129)
+	at org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1087)
+	at org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanEndElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.apache.axis.encoding.DeserializationContext.parse(DeserializationContext.java:227)
+	at org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:696)
+	at org.apache.axis.Message.getSOAPEnvelope(Message.java:435)
+	at org.apache.axis.handlers.soap.MustUnderstandChecker.invoke(MustUnderstandChecker.java:62)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:206)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.amazonaws.mturk.requester.AWSMechanicalTurkRequesterBindingStub.getAccountBalance(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.amazonaws.mturk.service.axis.AWSService.executeRequestMessage(AWSService.java:220)
+	... 17 more
+[2013-11-04 19:26:10] INFO  (GetBalance.java: 51) - Your account balance: $0.00
+[2013-11-04 19:33:29] ERROR (GetBalance.java: 44) - An error occurred while fetching your balance: This request must be made over a secure channel. You must use 'https' rather than 'http'.
+com.amazonaws.mturk.service.exception.InternalServiceException: This request must be made over a secure channel. You must use 'https' rather than 'http'.
+	at com.amazonaws.mturk.service.axis.AWSService.executeRequestMessage(AWSService.java:243)
+	at com.amazonaws.mturk.filter.FinalFilter.execute(FinalFilter.java:38)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.execute(ErrorProcessingFilter.java:46)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.RetryFilter.execute(RetryFilter.java:115)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.sendMessage(CLTExceptionFilter.java:77)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.execute(CLTExceptionFilter.java:62)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequests(FilteredAWSService.java:172)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:152)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:116)
+	at com.amazonaws.mturk.service.axis.RequesterServiceRaw.getAccountBalance(RequesterServiceRaw.java:1193)
+	at com.amazonaws.mturk.service.axis.RequesterService.getAccountBalance(RequesterService.java:922)
+	at com.amazonaws.mturk.cmd.GetBalance.getBalance(GetBalance.java:50)
+	at com.amazonaws.mturk.cmd.GetBalance.runCommand(GetBalance.java:41)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.GetBalance.main(GetBalance.java:28)
+Caused by: This request must be made over a secure channel. You must use 'https' rather than 'http'.
+	at org.apache.axis.message.SOAPFaultBuilder.createFault(SOAPFaultBuilder.java:222)
+	at org.apache.axis.message.SOAPFaultBuilder.endElement(SOAPFaultBuilder.java:129)
+	at org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1087)
+	at org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanEndElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.apache.axis.encoding.DeserializationContext.parse(DeserializationContext.java:227)
+	at org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:696)
+	at org.apache.axis.Message.getSOAPEnvelope(Message.java:435)
+	at org.apache.axis.handlers.soap.MustUnderstandChecker.invoke(MustUnderstandChecker.java:62)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:206)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.amazonaws.mturk.requester.AWSMechanicalTurkRequesterBindingStub.getAccountBalance(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.amazonaws.mturk.service.axis.AWSService.executeRequestMessage(AWSService.java:220)
+	... 17 more
+[2013-11-04 19:33:39] INFO  (GetBalance.java: 51) - Your account balance: $10000.00
+[2013-11-04 19:34:31] ERROR (LoadHITs.java: 85) - Missing: -input [path to input file -- ie. c:\mturk\helloworld.input]
+[2013-11-04 19:39:24] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 19:39:24] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 19:39:24] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 19:39:24] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 19:39:24] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 19:39:26] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 19:39:26] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 19:39:26 MST 2013
+[2013-11-04 19:39:26] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 19:39:27] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2BCU00OQKKA4WHVLELL2980E80UXXA
+[2013-11-04 19:39:27] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IIC6SK9RJ852YLC00DADPMOOEF4SX' here: 
+[2013-11-04 19:39:27] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IIC6SK9RJ852YLC00DADPMOOEF4SX
+
+[2013-11-04 19:39:27] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 19:39:27 MST 2013
+[2013-11-04 19:39:27] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 19:39:27] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 19:39:27] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-04 19:42:18] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 19:42:18] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 19:42:18] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 19:42:18] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 19:42:18] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 19:42:20] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 19:42:20] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 19:42:20 MST 2013
+[2013-11-04 19:42:20] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 19:42:21] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2ZCB2YU98JHS7KEG7J6BM9IONJXBNW
+[2013-11-04 19:42:21] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IIC6SK9RJ852YLC00DADPMOOEF4SX' here: 
+[2013-11-04 19:42:21] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IIC6SK9RJ852YLC00DADPMOOEF4SX
+
+[2013-11-04 19:42:21] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 19:42:21 MST 2013
+[2013-11-04 19:42:21] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 19:42:21] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 19:42:21] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-04 21:03:34] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 21:03:34] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 21:03:34] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 21:03:34] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 21:03:34] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 21:03:36] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 21:03:36] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 21:03:36 MST 2013
+[2013-11-04 21:03:37] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:03:37] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2YZRRLFQ0ONN9QKE60F9HGRBJ67IR1
+[2013-11-04 21:03:37] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IIC6SK9RJ852YLC00DADPMOOEF4SX' here: 
+[2013-11-04 21:03:37] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IIC6SK9RJ852YLC00DADPMOOEF4SX
+
+[2013-11-04 21:03:37] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 21:03:37 MST 2013
+[2013-11-04 21:03:37] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 21:03:37] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 21:03:37] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-04 21:12:27] INFO  (DeleteHITs.java: 67) - --- Starting to delete HITs ---
+[2013-11-04 21:12:27] INFO  (AbstractCmd.java: 224) - You are about to delete 1 HITs.
+[2013-11-04 21:12:27] INFO  (AbstractCmd.java: 225) - To confirm this operation, please press ENTER (or press Ctrl+C to abort): 
+[2013-11-04 21:12:31] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:12:33] INFO  (DeleteHITs.java: 102) - [2YZRRLFQ0ONN9QKE60F9HGRBJ67IR1] Successfully deleted HIT (1/1)
+[2013-11-04 21:12:33] INFO  (DeleteHITs.java: 74) - --- Finished to delete HITs ---
+[2013-11-04 21:12:33] INFO  (DeleteHITs.java: 75) -   1 HITs have been deleted or were deleted previously.
+[2013-11-04 21:12:33] INFO  (DeleteHITs.java: 76) -   0 errors occured.
+[2013-11-04 21:12:49] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 21:12:49] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 21:12:49] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 21:12:49] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 21:12:49] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 21:12:50] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 21:12:50] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 21:12:50 MST 2013
+[2013-11-04 21:12:51] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:12:51] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2YZRRLFQ0ONN9QKE60F9HGRBJ67RIA
+[2013-11-04 21:12:51] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IIC6SK9RJ852YLC00DADPMOOEF4SX' here: 
+[2013-11-04 21:12:51] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IIC6SK9RJ852YLC00DADPMOOEF4SX
+
+[2013-11-04 21:12:51] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 21:12:51 MST 2013
+[2013-11-04 21:12:51] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 21:12:51] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 21:12:51] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-04 21:12:59] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-11-04 21:12:59] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:13:01] INFO  (GetResults.java: 162) - Retrieved HIT 1/1, 2YZRRLFQ0ONN9QKE60F9HGRBJ67RIA
+[2013-11-04 21:13:01] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-11-04 21:13:01] INFO  (GetResults.java: 130) - 
+Results have been written to file '../samples/simple_survey/simple_survey.results'.
+
+[2013-11-04 21:13:01] INFO  (GetResults.java: 134) - Assignments completed: 0/100 (0%)
+[2013-11-04 21:13:01] INFO  (GetResults.java: 137) -          Time elapsed: 0:00:19 (h:mm:ss)
+[2013-11-04 21:13:01] INFO  (GetResults.java: 142) -   Average submit time: 0.0 seconds
+[2013-11-04 21:14:09] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-11-04 21:14:09] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:14:11] INFO  (GetResults.java: 162) - Retrieved HIT 1/1, 2YZRRLFQ0ONN9QKE60F9HGRBJ67RIA
+[2013-11-04 21:14:11] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-11-04 21:14:11] INFO  (GetResults.java: 130) - 
+Results have been written to file '../samples/simple_survey/simple_survey.results'.
+
+[2013-11-04 21:14:11] INFO  (GetResults.java: 134) - Assignments completed: 1/100 (1%)
+[2013-11-04 21:14:11] INFO  (GetResults.java: 137) -          Time elapsed: 0:01:29 (h:mm:ss)
+[2013-11-04 21:14:11] INFO  (GetResults.java: 142) -   Average submit time: 4.0 seconds
+[2013-11-04 21:14:24] INFO  (DeleteHITs.java: 67) - --- Starting to delete HITs ---
+[2013-11-04 21:14:24] INFO  (AbstractCmd.java: 224) - You are about to delete 1 HITs.
+[2013-11-04 21:14:24] INFO  (AbstractCmd.java: 225) - To confirm this operation, please press ENTER (or press Ctrl+C to abort): 
+[2013-11-04 21:14:25] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:14:27] INFO  (DeleteHITs.java: 102) - [2YZRRLFQ0ONN9QKE60F9HGRBJ67RIA] Successfully deleted HIT (1/1)
+[2013-11-04 21:14:27] INFO  (DeleteHITs.java: 74) - --- Finished to delete HITs ---
+[2013-11-04 21:14:27] INFO  (DeleteHITs.java: 75) -   1 HITs have been deleted or were deleted previously.
+[2013-11-04 21:14:27] INFO  (DeleteHITs.java: 76) -   0 errors occured.
+[2013-11-04 21:14:36] INFO  (DeleteHITs.java: 67) - --- Starting to delete HITs ---
+[2013-11-04 21:14:36] INFO  (AbstractCmd.java: 224) - You are about to delete 1 HITs.
+[2013-11-04 21:14:36] INFO  (AbstractCmd.java: 225) - To confirm this operation, please press ENTER (or press Ctrl+C to abort): 
+[2013-11-04 21:14:37] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:14:39] INFO  (DeleteHITs.java: 102) - [2YZRRLFQ0ONN9QKE60F9HGRBJ67RIA] HIT already deleted. Skipping HIT (1/1)
+[2013-11-04 21:14:39] INFO  (DeleteHITs.java: 74) - --- Finished to delete HITs ---
+[2013-11-04 21:14:39] INFO  (DeleteHITs.java: 75) -   1 HITs have been deleted or were deleted previously.
+[2013-11-04 21:14:39] INFO  (DeleteHITs.java: 76) -   0 errors occured.
+[2013-11-04 21:14:46] INFO  (DeleteHITs.java: 67) - --- Starting to delete HITs ---
+[2013-11-04 21:14:46] INFO  (AbstractCmd.java: 224) - You are about to delete 1 HITs.
+[2013-11-04 21:14:46] INFO  (AbstractCmd.java: 225) - To confirm this operation, please press ENTER (or press Ctrl+C to abort): 
+[2013-11-04 21:14:47] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:14:49] INFO  (DeleteHITs.java: 102) - [2YZRRLFQ0ONN9QKE60F9HGRBJ67RIA] HIT already deleted. Skipping HIT (1/1)
+[2013-11-04 21:14:49] INFO  (DeleteHITs.java: 74) - --- Finished to delete HITs ---
+[2013-11-04 21:14:49] INFO  (DeleteHITs.java: 75) -   1 HITs have been deleted or were deleted previously.
+[2013-11-04 21:14:49] INFO  (DeleteHITs.java: 76) -   0 errors occured.
+[2013-11-04 21:20:28] INFO  (DeleteHITs.java: 67) - --- Starting to delete HITs ---
+[2013-11-04 21:20:28] INFO  (AbstractCmd.java: 224) - You are about to delete 1 HITs.
+[2013-11-04 21:20:28] INFO  (AbstractCmd.java: 225) - To confirm this operation, please press ENTER (or press Ctrl+C to abort): 
+[2013-11-04 21:20:34] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 21:20:34] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 21:20:34] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 21:20:34] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 21:20:34] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 21:20:37] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 21:20:37] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 21:20:37 MST 2013
+[2013-11-04 21:20:37] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 21:20:37 MST 2013
+[2013-11-04 21:20:37] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 21:20:37] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 21:20:37] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-04 21:21:26] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 21:21:26] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 21:21:26] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 21:21:26] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 21:21:26] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 21:21:27] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 21:21:27] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 21:21:27 MST 2013
+[2013-11-04 21:21:27] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 21:21:27 MST 2013
+[2013-11-04 21:21:27] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 21:21:27] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 21:21:27] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-04 21:21:34] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 21:21:34] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 21:21:34] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 21:21:34] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 21:21:34] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 21:21:36] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 21:21:36] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 21:21:36 MST 2013
+[2013-11-04 21:21:36] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:21:36] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=27L9Z0B6UTO673H8ECMRNGPW4WPOZV
+[2013-11-04 21:21:36] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IIC6SK9RJ852YLC00DADPMOOEF4SX' here: 
+[2013-11-04 21:21:36] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IIC6SK9RJ852YLC00DADPMOOEF4SX
+
+[2013-11-04 21:21:36] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 21:21:36 MST 2013
+[2013-11-04 21:21:36] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 21:21:36] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 21:21:36] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-04 21:25:01] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 21:25:01] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 21:25:01] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 21:25:01] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 21:25:01] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 21:25:03] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 21:25:03] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 21:25:03 MST 2013
+[2013-11-04 21:25:03] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:25:03] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2MAW6NG1FS3NCMMOKYSF2SZLEXBKYG
+[2013-11-04 21:25:03] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IIC6SK9RJ852YLC00DADPMOOEF4SX' here: 
+[2013-11-04 21:25:03] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IIC6SK9RJ852YLC00DADPMOOEF4SX
+
+[2013-11-04 21:25:03] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 21:25:03 MST 2013
+[2013-11-04 21:25:03] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 21:25:03] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 21:25:03] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-04 21:25:27] INFO  (DeleteHITs.java: 67) - --- Starting to delete HITs ---
+[2013-11-04 21:25:27] INFO  (AbstractCmd.java: 224) - You are about to delete 1 HITs.
+[2013-11-04 21:25:27] INFO  (AbstractCmd.java: 225) - To confirm this operation, please press ENTER (or press Ctrl+C to abort): 
+[2013-11-04 21:25:29] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:25:31] INFO  (DeleteHITs.java: 102) - [2MAW6NG1FS3NCMMOKYSF2SZLEXBKYG] Successfully deleted HIT (1/1)
+[2013-11-04 21:25:31] INFO  (DeleteHITs.java: 74) - --- Finished to delete HITs ---
+[2013-11-04 21:25:31] INFO  (DeleteHITs.java: 75) -   1 HITs have been deleted or were deleted previously.
+[2013-11-04 21:25:31] INFO  (DeleteHITs.java: 76) -   0 errors occured.
+[2013-11-04 21:26:53] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 21:26:53] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 21:26:53] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 21:26:53] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 21:26:53] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 21:26:54] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 21:26:54] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 21:26:54 MST 2013
+[2013-11-04 21:26:54] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:26:55] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2H1PPSI2KYEPZRSKR3CM9WJ30A1RLO
+[2013-11-04 21:26:55] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MGQYN5F3Q0JU4WB863W1B49FX2AED' here: 
+[2013-11-04 21:26:55] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MGQYN5F3Q0JU4WB863W1B49FX2AED
+
+[2013-11-04 21:26:55] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 21:26:55 MST 2013
+[2013-11-04 21:26:55] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 21:26:55] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 21:26:55] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-04 21:41:52] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 21:41:52] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 21:41:52] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 21:41:52] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 21:41:52] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 21:41:53] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 21:41:53] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 21:41:53 MST 2013
+[2013-11-04 21:41:53] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:41:54] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (What is your political party affiliation?): [-1,-1] cvc-enumeration-valid: Value '
+          dropdown
+        ' is not facet-valid with respect to enumeration '[radiobutton, checkbox, list, dropdown, combobox, multichooser]'. It must be a value from the enumeration.
+[2013-11-04 21:41:54] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 21:41:54 MST 2013
+[2013-11-04 21:41:54] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 21:41:54] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 21:41:54] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-04 21:41:54] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-11-04 21:42:22] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 21:42:22] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 21:42:22] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 21:42:22] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 21:42:22] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 21:42:23] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 21:42:23] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 21:42:23 MST 2013
+[2013-11-04 21:42:24] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:42:24] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2J845UUKQOYG1HZE9BZOJ010JSFWE9
+[2013-11-04 21:42:24] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MGQYN5F3Q0JU4WB863W1B49FX2AED' here: 
+[2013-11-04 21:42:24] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MGQYN5F3Q0JU4WB863W1B49FX2AED
+
+[2013-11-04 21:42:24] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 21:42:24 MST 2013
+[2013-11-04 21:42:24] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 21:42:24] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 21:42:24] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-04 21:59:29] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 21:59:29] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 21:59:29] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 21:59:29] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 21:59:29] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 21:59:30] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 21:59:30] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 21:59:30 MST 2013
+[2013-11-04 21:59:30] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 21:59:31] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2PW4BLYHVI442R5X7DZDQEZSNAA1VM
+[2013-11-04 21:59:31] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MGQYN5F3Q0JU4WB863W1B49FX2AED' here: 
+[2013-11-04 21:59:31] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MGQYN5F3Q0JU4WB863W1B49FX2AED
+
+[2013-11-04 21:59:31] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 21:59:31 MST 2013
+[2013-11-04 21:59:31] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 21:59:31] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 21:59:31] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-04 22:01:27] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 22:01:27] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 22:01:27] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 22:01:27] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 22:01:27] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 22:01:29] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 22:01:29] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 22:01:29 MST 2013
+[2013-11-04 22:01:29] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 22:01:29] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=292MT6YTWX4HHG52XN49CGI6UJC1WW
+[2013-11-04 22:01:29] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MGQYN5F3Q0JU4WB863W1B49FX2AED' here: 
+[2013-11-04 22:01:29] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MGQYN5F3Q0JU4WB863W1B49FX2AED
+
+[2013-11-04 22:01:29] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 22:01:29 MST 2013
+[2013-11-04 22:01:29] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 22:01:29] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 22:01:29] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-04 22:05:44] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 22:05:44] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 22:05:44] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 22:05:44] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 22:05:44] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 22:05:47] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 22:05:47] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 22:05:47 MST 2013
+[2013-11-04 22:05:47] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 22:05:47] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (What is your political party affiliation?): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'MinSelectionCount'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":StyleSuggestion, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":Selections}' is expected.
+[2013-11-04 22:05:47] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 22:05:47 MST 2013
+[2013-11-04 22:05:47] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 22:05:47] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 22:05:47] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-04 22:05:47] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-11-04 22:06:21] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 22:06:21] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 22:06:21] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 22:06:21] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 22:06:21] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 22:06:22] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 22:06:22] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 22:06:22 MST 2013
+[2013-11-04 22:06:23] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 22:06:23] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2AKD5NQYN5F34ZMTRCPMQCWYN4UB7N
+[2013-11-04 22:06:23] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MGQYN5F3Q0JU4WB863W1B49FX2AED' here: 
+[2013-11-04 22:06:23] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MGQYN5F3Q0JU4WB863W1B49FX2AED
+
+[2013-11-04 22:06:23] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 22:06:23 MST 2013
+[2013-11-04 22:06:23] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 22:06:23] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 22:06:23] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-04 22:10:03] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 22:10:03] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 22:10:03] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 22:10:03] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 22:10:03] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 22:10:04] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 22:10:04] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 22:10:04 MST 2013
+[2013-11-04 22:10:05] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 22:10:05] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (What is your political party affiliation?): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'IsRequired'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":QuestionIdentifier}' is expected.
+[2013-11-04 22:10:05] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 22:10:05 MST 2013
+[2013-11-04 22:10:05] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 22:10:05] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 22:10:05] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-04 22:10:05] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-11-04 22:10:20] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 22:10:20] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 22:10:20] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 22:10:20] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 22:10:20] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 22:10:21] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 22:10:21] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 22:10:21 MST 2013
+[2013-11-04 22:10:21] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 22:10:21] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2WQ06UFBNFSVUTOSPSWSZ6NGDFD3HQ
+[2013-11-04 22:10:21] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MGQYN5F3Q0JU4WB863W1B49FX2AED' here: 
+[2013-11-04 22:10:21] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MGQYN5F3Q0JU4WB863W1B49FX2AED
+
+[2013-11-04 22:10:21] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 22:10:21 MST 2013
+[2013-11-04 22:10:21] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 22:10:21] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 22:10:21] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-04 22:15:56] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-04 22:15:56] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-04 22:15:56] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-04 22:15:56] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-04 22:15:56] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-04 22:15:58] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-04 22:15:58] INFO  (LoadHITs.java: 231) -   Start time: Mon Nov 04 22:15:58 MST 2013
+[2013-11-04 22:15:58] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-04 22:15:58] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=21MF0OHOVR14WWN1O402KECWM6I45V
+[2013-11-04 22:15:58] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MGQYN5F3Q0JU4WB863W1B49FX2AED' here: 
+[2013-11-04 22:15:58] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MGQYN5F3Q0JU4WB863W1B49FX2AED
+
+[2013-11-04 22:15:58] INFO  (LoadHITs.java: 239) -   End time: Mon Nov 04 22:15:58 MST 2013
+[2013-11-04 22:15:58] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-04 22:15:58] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-04 22:15:58] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-06 18:37:30] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 18:37:30] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 18:37:30] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 18:37:30] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/simple_survey.question
+[2013-11-06 18:37:30] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 18:37:32] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 18:37:32] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 18:37:32 MST 2013
+[2013-11-06 18:37:32] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 18:37:33] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (What is your political party affiliation?): [-1,-1] cvc-complex-type.3.2.2: Attribute 'type' is not allowed to appear in element 'QuestionForm'.
+[2013-11-06 18:37:33] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 18:37:33 MST 2013
+[2013-11-06 18:37:33] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 18:37:33] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-06 18:37:33] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-06 18:37:33] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-11-06 19:07:21] ERROR (LoadHITs.java: 133) - Error loading HITs: Unable to find resource 'mturk_survery.xml'
+org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'mturk_survery.xml'
+	at org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(ResourceManagerImpl.java:452)
+	at org.apache.velocity.runtime.resource.ResourceManagerImpl.getResource(ResourceManagerImpl.java:335)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1102)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1077)
+	at org.apache.velocity.app.VelocityEngine.getTemplate(VelocityEngine.java:528)
+	at com.amazonaws.mturk.addon.HITQuestion.<init>(HITQuestion.java:71)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:185)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+[2013-11-06 19:07:31] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 19:07:31] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 19:07:31] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 19:07:31] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 19:07:31] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 19:07:32] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 19:07:32] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 19:07:32 MST 2013
+[2013-11-06 19:07:32] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 19:07:33] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (What is your political party affiliation?): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'IsRequired'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":AnswerSpecification}' is expected.
+[2013-11-06 19:07:33] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 19:07:33 MST 2013
+[2013-11-06 19:07:33] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 19:07:33] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-06 19:07:33] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-06 19:07:33] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-11-06 19:08:01] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 19:08:01] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 19:08:01] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 19:08:01] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 19:08:01] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 19:08:02] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 19:08:02] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 19:08:02 MST 2013
+[2013-11-06 19:08:02] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 19:08:03] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (What is your political party affiliation?): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'IsRequired'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":AnswerSpecification}' is expected.
+[2013-11-06 19:08:03] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 19:08:03 MST 2013
+[2013-11-06 19:08:03] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 19:08:03] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-06 19:08:03] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-06 19:08:03] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-11-06 19:09:14] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 19:09:14] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 19:09:14] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 19:09:14] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 19:09:14] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 19:09:16] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 19:09:16] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 19:09:16 MST 2013
+[2013-11-06 19:09:16] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 19:09:17] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (What is your political party affiliation?): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'IsRequired'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":AnswerSpecification}' is expected.
+[2013-11-06 19:09:17] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 19:09:17 MST 2013
+[2013-11-06 19:09:17] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 19:09:17] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-06 19:09:17] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-06 19:09:17] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-11-06 19:10:47] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 19:10:47] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 19:10:47] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 19:10:47] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 19:10:47] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 19:11:01] ERROR (LoadHITs.java: 133) - Error loading HITs: java.net.UnknownHostException: mechanicalturk.sandbox.amazonaws.com
+com.amazonaws.mturk.service.exception.InternalServiceException: java.net.UnknownHostException: mechanicalturk.sandbox.amazonaws.com
+	at com.amazonaws.mturk.service.axis.AWSService.executeRequestMessage(AWSService.java:243)
+	at com.amazonaws.mturk.filter.FinalFilter.execute(FinalFilter.java:38)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.execute(ErrorProcessingFilter.java:46)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.RetryFilter.execute(RetryFilter.java:115)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.sendMessage(CLTExceptionFilter.java:77)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.execute(CLTExceptionFilter.java:62)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequests(FilteredAWSService.java:172)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:152)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:116)
+	at com.amazonaws.mturk.service.axis.RequesterServiceRaw.getAccountBalance(RequesterServiceRaw.java:1193)
+	at com.amazonaws.mturk.service.axis.RequesterService.getAccountBalance(RequesterService.java:922)
+	at com.amazonaws.mturk.cmd.LoadHITs.checkFunds(LoadHITs.java:150)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.net.UnknownHostException: mechanicalturk.sandbox.amazonaws.com
+	at org.apache.axis.AxisFault.makeFault(AxisFault.java:101)
+	at org.apache.axis.transport.http.CommonsHTTPSender.invoke(CommonsHTTPSender.java:301)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:83)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:165)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.amazonaws.mturk.requester.AWSMechanicalTurkRequesterBindingStub.getAccountBalance(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.amazonaws.mturk.service.axis.AWSService.executeRequestMessage(AWSService.java:220)
+	... 18 more
+Caused by: java.net.UnknownHostException: mechanicalturk.sandbox.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:618)
+	at org.apache.commons.httpclient.contrib.ssl.StrictSSLProtocolSocketFactory.createSocket(StrictSSLProtocolSocketFactory.java:213)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.open(MultiThreadedHttpConnectionManager.java:1361)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.axis.transport.http.CommonsHTTPSender.invoke(CommonsHTTPSender.java:196)
+	... 33 more
+[2013-11-06 19:11:12] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 19:11:12] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 19:11:12] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 19:11:12] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 19:11:12] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 19:11:12] ERROR (LoadHITs.java: 133) - Error loading HITs: java.net.UnknownHostException: mechanicalturk.sandbox.amazonaws.com
+com.amazonaws.mturk.service.exception.InternalServiceException: java.net.UnknownHostException: mechanicalturk.sandbox.amazonaws.com
+	at com.amazonaws.mturk.service.axis.AWSService.executeRequestMessage(AWSService.java:243)
+	at com.amazonaws.mturk.filter.FinalFilter.execute(FinalFilter.java:38)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.execute(ErrorProcessingFilter.java:46)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.RetryFilter.execute(RetryFilter.java:115)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.sendMessage(CLTExceptionFilter.java:77)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.execute(CLTExceptionFilter.java:62)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequests(FilteredAWSService.java:172)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:152)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:116)
+	at com.amazonaws.mturk.service.axis.RequesterServiceRaw.getAccountBalance(RequesterServiceRaw.java:1193)
+	at com.amazonaws.mturk.service.axis.RequesterService.getAccountBalance(RequesterService.java:922)
+	at com.amazonaws.mturk.cmd.LoadHITs.checkFunds(LoadHITs.java:150)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.net.UnknownHostException: mechanicalturk.sandbox.amazonaws.com
+	at org.apache.axis.AxisFault.makeFault(AxisFault.java:101)
+	at org.apache.axis.transport.http.CommonsHTTPSender.invoke(CommonsHTTPSender.java:301)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:83)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:165)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.amazonaws.mturk.requester.AWSMechanicalTurkRequesterBindingStub.getAccountBalance(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.amazonaws.mturk.service.axis.AWSService.executeRequestMessage(AWSService.java:220)
+	... 18 more
+Caused by: java.net.UnknownHostException: mechanicalturk.sandbox.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:618)
+	at org.apache.commons.httpclient.contrib.ssl.StrictSSLProtocolSocketFactory.createSocket(StrictSSLProtocolSocketFactory.java:213)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.open(MultiThreadedHttpConnectionManager.java:1361)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.axis.transport.http.CommonsHTTPSender.invoke(CommonsHTTPSender.java:196)
+	... 33 more
+[2013-11-06 19:11:24] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 19:11:24] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 19:11:24] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 19:11:24] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 19:11:24] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 19:11:25] ERROR (LoadHITs.java: 133) - Error loading HITs: java.net.UnknownHostException: mechanicalturk.sandbox.amazonaws.com
+com.amazonaws.mturk.service.exception.InternalServiceException: java.net.UnknownHostException: mechanicalturk.sandbox.amazonaws.com
+	at com.amazonaws.mturk.service.axis.AWSService.executeRequestMessage(AWSService.java:243)
+	at com.amazonaws.mturk.filter.FinalFilter.execute(FinalFilter.java:38)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.execute(ErrorProcessingFilter.java:46)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.RetryFilter.execute(RetryFilter.java:115)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.sendMessage(CLTExceptionFilter.java:77)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.execute(CLTExceptionFilter.java:62)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequests(FilteredAWSService.java:172)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:152)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:116)
+	at com.amazonaws.mturk.service.axis.RequesterServiceRaw.getAccountBalance(RequesterServiceRaw.java:1193)
+	at com.amazonaws.mturk.service.axis.RequesterService.getAccountBalance(RequesterService.java:922)
+	at com.amazonaws.mturk.cmd.LoadHITs.checkFunds(LoadHITs.java:150)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.net.UnknownHostException: mechanicalturk.sandbox.amazonaws.com
+	at org.apache.axis.AxisFault.makeFault(AxisFault.java:101)
+	at org.apache.axis.transport.http.CommonsHTTPSender.invoke(CommonsHTTPSender.java:301)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:83)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:165)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.amazonaws.mturk.requester.AWSMechanicalTurkRequesterBindingStub.getAccountBalance(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.amazonaws.mturk.service.axis.AWSService.executeRequestMessage(AWSService.java:220)
+	... 18 more
+Caused by: java.net.UnknownHostException: mechanicalturk.sandbox.amazonaws.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:618)
+	at org.apache.commons.httpclient.contrib.ssl.StrictSSLProtocolSocketFactory.createSocket(StrictSSLProtocolSocketFactory.java:213)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.open(MultiThreadedHttpConnectionManager.java:1361)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.axis.transport.http.CommonsHTTPSender.invoke(CommonsHTTPSender.java:196)
+	... 33 more
+[2013-11-06 19:12:47] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 19:12:47] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 19:12:47] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 19:12:47] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 19:12:47] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 19:12:48] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 19:12:48] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 19:12:48 MST 2013
+[2013-11-06 19:12:48] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 19:12:49] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (What is your political party affiliation?): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'IsRequired'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":AnswerSpecification}' is expected.
+[2013-11-06 19:12:49] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 19:12:49 MST 2013
+[2013-11-06 19:12:49] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 19:12:49] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-06 19:12:49] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-06 19:12:49] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-11-06 19:13:05] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 19:13:05] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 19:13:05] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 19:13:05] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 19:13:05] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 19:13:06] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 19:13:06] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 19:13:06 MST 2013
+[2013-11-06 19:13:06] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 19:13:07] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (test): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'IsRequired'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":AnswerSpecification}' is expected.
+[2013-11-06 19:13:07] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 19:13:07 MST 2013
+[2013-11-06 19:13:07] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 19:13:07] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-06 19:13:07] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-06 19:13:07] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-11-06 19:14:04] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 19:14:04] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 19:14:04] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 19:14:04] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 19:14:04] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 19:14:05] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 19:14:05] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 19:14:05 MST 2013
+[2013-11-06 19:14:06] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 19:14:06] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=24RU8P9Y38TWAWLGEDPIP0JTMIKYH7
+[2013-11-06 19:14:06] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MGQYN5F3Q0JU4WB863W1B49FX2AED' here: 
+[2013-11-06 19:14:06] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MGQYN5F3Q0JU4WB863W1B49FX2AED
+
+[2013-11-06 19:14:06] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 19:14:06 MST 2013
+[2013-11-06 19:14:06] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 19:14:06] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-06 19:14:06] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-06 19:14:45] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 19:14:45] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 19:14:45] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 19:14:45] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 19:14:45] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 19:14:47] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 19:14:47] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 19:14:47 MST 2013
+[2013-11-06 19:14:47] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 19:14:48] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2CYULF395SW61F4SEMEYQJBYR3CRDP
+[2013-11-06 19:14:48] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MGQYN5F3Q0JU4WB863W1B49FX2AED' here: 
+[2013-11-06 19:14:48] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MGQYN5F3Q0JU4WB863W1B49FX2AED
+
+[2013-11-06 19:14:48] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 19:14:48 MST 2013
+[2013-11-06 19:14:48] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 19:14:48] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-06 19:14:48] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-06 19:28:06] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 19:28:07] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 19:28:07] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 19:28:07] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 19:28:07] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 19:28:08] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 19:28:08] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 19:28:08 MST 2013
+[2013-11-06 19:28:08] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 19:28:09] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=22DWJ5OPB0YVUYBB8F27HP9UF315XT
+[2013-11-06 19:28:09] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2222HECWA6X3CNFP1J3P8KXPT6XKLP' here: 
+[2013-11-06 19:28:09] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2222HECWA6X3CNFP1J3P8KXPT6XKLP
+
+[2013-11-06 19:28:09] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 19:28:09 MST 2013
+[2013-11-06 19:28:09] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 19:28:09] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-06 19:28:09] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-06 20:01:43] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 20:01:43] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 20:01:43] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 20:01:43] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 20:01:43] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 20:01:44] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 20:01:44] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 20:01:44 MST 2013
+[2013-11-06 20:01:44] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 20:01:45] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2F5J92NJKM05PLM6G0PW5GTPLUC9EK
+[2013-11-06 20:01:45] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2222HECWA6X3CNFP1J3P8KXPT6XKLP' here: 
+[2013-11-06 20:01:45] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2222HECWA6X3CNFP1J3P8KXPT6XKLP
+
+[2013-11-06 20:01:45] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 20:01:45 MST 2013
+[2013-11-06 20:01:45] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 20:01:45] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-06 20:01:45] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-06 20:33:19] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 20:33:19] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 20:33:19] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 20:33:19] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 20:33:19] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 20:33:21] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 20:33:21] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 20:33:21 MST 2013
+[2013-11-06 20:33:21] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 20:33:22] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (test): [-1,-1] cvc-complex-type.2.1: Element 'IsNumeric' must have no character or element information item [children], because the type's content type is empty.
+[2013-11-06 20:33:22] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 20:33:22 MST 2013
+[2013-11-06 20:33:22] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 20:33:22] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-06 20:33:22] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-06 20:33:22] ERROR (LoadHITs.java: 254) -   Failed to load 1 HITs.
+[2013-11-06 20:34:28] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 20:34:28] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 20:34:28] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 20:34:28] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 20:34:28] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 20:34:30] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 20:34:30] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 20:34:30 MST 2013
+[2013-11-06 20:34:30] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 20:34:31] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2QG8TNKIMZSMJJIUELFM3PGVR6NBYE
+[2013-11-06 20:34:31] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2222HECWA6X3CNFP1J3P8KXPT6XKLP' here: 
+[2013-11-06 20:34:31] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2222HECWA6X3CNFP1J3P8KXPT6XKLP
+
+[2013-11-06 20:34:31] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 20:34:31 MST 2013
+[2013-11-06 20:34:31] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 20:34:31] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-06 20:34:31] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-06 20:36:17] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 20:36:17] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 20:36:17] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 20:36:17] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 20:36:17] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 20:36:19] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 20:36:19] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 20:36:19 MST 2013
+[2013-11-06 20:36:19] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 20:36:20] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2ZB3HVWAVKI6GMM3OKY2299QT9GGOP
+[2013-11-06 20:36:20] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2222HECWA6X3CNFP1J3P8KXPT6XKLP' here: 
+[2013-11-06 20:36:20] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2222HECWA6X3CNFP1J3P8KXPT6XKLP
+
+[2013-11-06 20:36:20] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 20:36:20 MST 2013
+[2013-11-06 20:36:20] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 20:36:20] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-06 20:36:20] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-06 20:40:24] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 20:40:24] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 20:40:24] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 20:40:24] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 20:40:24] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 20:40:26] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 20:40:26] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 20:40:26 MST 2013
+[2013-11-06 20:40:26] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 20:40:27] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2N9LPHIT3HVWOUNVSLEJT217E2EJBS
+[2013-11-06 20:40:27] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2222HECWA6X3CNFP1J3P8KXPT6XKLP' here: 
+[2013-11-06 20:40:27] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2222HECWA6X3CNFP1J3P8KXPT6XKLP
+
+[2013-11-06 20:40:27] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 20:40:27 MST 2013
+[2013-11-06 20:40:27] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 20:40:27] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-06 20:40:27] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-06 20:41:20] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-06 20:41:20] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-06 20:41:20] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-06 20:41:20] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-06 20:41:20] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-06 20:41:22] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-06 20:41:22] INFO  (LoadHITs.java: 231) -   Start time: Wed Nov 06 20:41:22 MST 2013
+[2013-11-06 20:41:22] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-06 20:41:22] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2UY67D1X3V0FYZF16LAE4M7PWNEJCZ
+[2013-11-06 20:41:22] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2222HECWA6X3CNFP1J3P8KXPT6XKLP' here: 
+[2013-11-06 20:41:22] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2222HECWA6X3CNFP1J3P8KXPT6XKLP
+
+[2013-11-06 20:41:22] INFO  (LoadHITs.java: 239) -   End time: Wed Nov 06 20:41:22 MST 2013
+[2013-11-06 20:41:22] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-06 20:41:22] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-06 20:41:22] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-07 19:47:55] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-07 19:47:55] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-07 19:47:55] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-07 19:47:55] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-07 19:47:55] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-07 19:47:57] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-07 19:47:57] INFO  (LoadHITs.java: 231) -   Start time: Thu Nov 07 19:47:57 MST 2013
+[2013-11-07 19:47:57] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-07 19:47:58] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=24M6UXFCD45XQDW0ZBETNIN35JMWU9
+[2013-11-07 19:47:58] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2222HECWA6X3CNFP1J3P8KXPT6XKLP' here: 
+[2013-11-07 19:47:58] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2222HECWA6X3CNFP1J3P8KXPT6XKLP
+
+[2013-11-07 19:47:58] INFO  (LoadHITs.java: 239) -   End time: Thu Nov 07 19:47:58 MST 2013
+[2013-11-07 19:47:58] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-07 19:47:58] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-07 19:47:58] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-07 19:51:09] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-07 19:51:09] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-07 19:51:09] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-07 19:51:09] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-07 19:51:09] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-07 19:51:10] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-07 19:51:10] INFO  (LoadHITs.java: 231) -   Start time: Thu Nov 07 19:51:10 MST 2013
+[2013-11-07 19:51:11] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-07 19:51:11] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2NPD1X3V0FK0QNNF5XSMAPKKLOOLEO
+[2013-11-07 19:51:11] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2222HECWA6X3CNFP1J3P8KXPT6XKLP' here: 
+[2013-11-07 19:51:11] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2222HECWA6X3CNFP1J3P8KXPT6XKLP
+
+[2013-11-07 19:51:11] INFO  (LoadHITs.java: 239) -   End time: Thu Nov 07 19:51:11 MST 2013
+[2013-11-07 19:51:11] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-07 19:51:11] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-07 19:51:11] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-07 19:56:26] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-07 19:56:26] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-07 19:56:26] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-07 19:56:26] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-07 19:56:26] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-07 19:56:27] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-07 19:56:27] INFO  (LoadHITs.java: 231) -   Start time: Thu Nov 07 19:56:27 MST 2013
+[2013-11-07 19:56:27] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-07 19:56:28] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=20BUHYW2GTP959A5RFD199YS0I4MR4
+[2013-11-07 19:56:28] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=207PSI2KYEPL6OAI64D6ZJ3OMKNMSS
+[2013-11-07 19:56:29] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=22X395SW6NG1TR60K6AB1F1FBVWUG8
+[2013-11-07 19:56:29] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=26EZ9RNDWIOVFRA59M4TJU13AGWUF9
+[2013-11-07 19:56:29] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2ELV0FK0COK2XD4ZT8BKCLRWIRWPIZ
+[2013-11-07 19:56:29] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=25LW5XH0JPPSW1NB08CSS75KXP3LF6
+[2013-11-07 19:56:29] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2222HECWA6X3CNFP1J3P8KXPT6XKLP' here: 
+[2013-11-07 19:56:29] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2222HECWA6X3CNFP1J3P8KXPT6XKLP
+
+[2013-11-07 19:56:29] INFO  (LoadHITs.java: 239) -   End time: Thu Nov 07 19:56:29 MST 2013
+[2013-11-07 19:56:29] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-07 19:56:29] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-07 19:56:29] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-07 20:03:50] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-07 20:03:50] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-07 20:03:50] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-07 20:03:50] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-07 20:03:50] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-07 20:03:51] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-07 20:03:51] INFO  (LoadHITs.java: 231) -   Start time: Thu Nov 07 20:03:51 MST 2013
+[2013-11-07 20:03:52] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-07 20:03:52] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2CUPWZ9RNDWI2U45TBE3GTGUD6VSDG
+[2013-11-07 20:03:52] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2A3B3L0FBJ9I2AMR5A5VH5RP35JMY6
+[2013-11-07 20:03:53] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2SOBFMFFOYYI70WW1W7EVC0R9ZNMZX
+[2013-11-07 20:03:53] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=24VWIOV1S7SNHCWTGKUYGZ8NKUSZK5
+[2013-11-07 20:03:53] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2TEA6X3YOCCFEBSI6GGTLNII91DPQ2
+[2013-11-07 20:03:53] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=27E618N46UXFQC7IJV5TQDSN5NFPR3
+[2013-11-07 20:03:53] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2222HECWA6X3CNFP1J3P8KXPT6XKLP' here: 
+[2013-11-07 20:03:53] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2222HECWA6X3CNFP1J3P8KXPT6XKLP
+
+[2013-11-07 20:03:53] INFO  (LoadHITs.java: 239) -   End time: Thu Nov 07 20:03:53 MST 2013
+[2013-11-07 20:03:53] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-07 20:03:53] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-07 20:03:53] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-07 20:57:08] INFO  (GetBalance.java: 51) - Your account balance: $0.00
+[2013-11-07 21:20:10] INFO  (GetBalance.java: 51) - Your account balance: $20.00
+[2013-11-07 21:23:04] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-07 21:23:04] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey/simple_survey.input
+[2013-11-07 21:23:04] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey/simple_survey.properties
+[2013-11-07 21:23:04] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey/mturk_survey.xml
+[2013-11-07 21:23:04] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-07 21:23:05] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-07 21:23:05] INFO  (LoadHITs.java: 231) -   Start time: Thu Nov 07 21:23:05 MST 2013
+[2013-11-07 21:23:06] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-11-07 21:23:07] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=29TRI8IUB2Y0QSTPWYCBEL0FB196IB
+[2013-11-07 21:23:07] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2W80ONNVRH1QY8JMKW27HNV9L1VNW6
+[2013-11-07 21:23:07] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2YDKCJ011K2DL3HHOVN6C8N46CX9BG
+[2013-11-07 21:23:07] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=21K74J79KQWCISXCAZOFND45XUEHJZ
+[2013-11-07 21:23:07] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2PQMQU6L5OB1T2BZ12VATJF7GC1EX4
+[2013-11-07 21:23:07] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=26E1INMHGYQA0NXIFB2FXFFOYGIK7Z
+[2013-11-07 21:23:07] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2FHCCF0CP5K36DSVMNOYR4PM7NIVWT' here: 
+[2013-11-07 21:23:07] INFO  (RequesterService.java: 1593) - 
+  https://www.mturk.com/mturk/preview?groupId=2FHCCF0CP5K36DSVMNOYR4PM7NIVWT
+
+[2013-11-07 21:23:07] INFO  (LoadHITs.java: 239) -   End time: Thu Nov 07 21:23:07 MST 2013
+[2013-11-07 21:23:07] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-07 21:23:07] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-07 21:23:07] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-09 14:31:08] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-09 14:31:08] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey2/simple_survey.input
+[2013-11-09 14:31:08] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey2/simple_survey.properties
+[2013-11-09 14:31:08] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey2/mturk_survey.xml
+[2013-11-09 14:31:08] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-09 14:31:11] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-09 14:31:11] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 09 14:31:11 MST 2013
+[2013-11-09 14:31:11] ERROR (LoadHITs.java: 133) - Error loading HITs: Error executing operation: Error #1 for RequestId: 16365b6a-2e28-48e6-9895-c2aee54874c8 - AWS.MechanicalTurk.MustRegister: Please log in to https://requestersandbox.mturk.com/ and complete registration. (1384032665925 s)
+com.amazonaws.mturk.service.exception.InternalServiceException: Error executing operation: Error #1 for RequestId: 16365b6a-2e28-48e6-9895-c2aee54874c8 - AWS.MechanicalTurk.MustRegister: Please log in to https://requestersandbox.mturk.com/ and complete registration. (1384032665925 s)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.processErrors(ErrorProcessingFilter.java:158)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.execute(ErrorProcessingFilter.java:48)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.RetryFilter.execute(RetryFilter.java:115)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.sendMessage(CLTExceptionFilter.java:77)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.execute(CLTExceptionFilter.java:62)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequests(FilteredAWSService.java:172)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:152)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:116)
+	at com.amazonaws.mturk.service.axis.RequesterServiceRaw.registerHITType(RequesterServiceRaw.java:440)
+	at com.amazonaws.mturk.service.axis.RequesterService.createHITs(RequesterService.java:1512)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:236)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+[2013-11-09 14:33:05] INFO  (GetBalance.java: 51) - Your account balance: $10000.00
+[2013-11-09 14:33:19] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-09 14:33:19] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey2/simple_survey.input
+[2013-11-09 14:33:19] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey2/simple_survey.properties
+[2013-11-09 14:33:19] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey2/mturk_survey.xml
+[2013-11-09 14:33:19] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-09 14:33:20] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-09 14:33:20] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 09 14:33:20 MST 2013
+[2013-11-09 14:33:20] ERROR (LoadHITs.java: 133) - Error loading HITs: Error executing operation: Error #1 for RequestId: bfd2b82d-aac3-4b17-8764-d95488cb5ac1 - AWS.MechanicalTurk.MustRegister: Please log in to https://requestersandbox.mturk.com/ and complete registration. (1384032795357 s)
+com.amazonaws.mturk.service.exception.InternalServiceException: Error executing operation: Error #1 for RequestId: bfd2b82d-aac3-4b17-8764-d95488cb5ac1 - AWS.MechanicalTurk.MustRegister: Please log in to https://requestersandbox.mturk.com/ and complete registration. (1384032795357 s)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.processErrors(ErrorProcessingFilter.java:158)
+	at com.amazonaws.mturk.filter.ErrorProcessingFilter.execute(ErrorProcessingFilter.java:48)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.filter.RetryFilter.execute(RetryFilter.java:115)
+	at com.amazonaws.mturk.filter.Filter.passMessage(Filter.java:56)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.sendMessage(CLTExceptionFilter.java:77)
+	at com.amazonaws.mturk.util.CLTExceptionFilter.execute(CLTExceptionFilter.java:62)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequests(FilteredAWSService.java:172)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:152)
+	at com.amazonaws.mturk.service.axis.FilteredAWSService.executeRequest(FilteredAWSService.java:116)
+	at com.amazonaws.mturk.service.axis.RequesterServiceRaw.registerHITType(RequesterServiceRaw.java:440)
+	at com.amazonaws.mturk.service.axis.RequesterService.createHITs(RequesterService.java:1512)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:236)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+[2013-11-09 14:34:10] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-09 14:34:10] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey2/simple_survey.input
+[2013-11-09 14:34:10] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey2/simple_survey.properties
+[2013-11-09 14:34:10] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey2/mturk_survey.xml
+[2013-11-09 14:34:10] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-09 14:34:12] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-09 14:34:12] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 09 14:34:12 MST 2013
+[2013-11-09 14:34:12] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-09 14:34:13] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=21RRJ85OZIZKY6KITRFOT5EW11E9XU
+[2013-11-09 14:34:13] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2V99Y8TNKIM596FSJMJ2RM0PSZ89W1
+[2013-11-09 14:34:13] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2J9CJK63ZVE9YBASYN1QCJL53789Y0
+[2013-11-09 14:34:13] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=21UCVLL3CA3931KXU939QQU791C9ZR
+[2013-11-09 14:34:13] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2OEGKCCVLL3IRNDULFGQ7C9N2Y06WN
+[2013-11-09 14:34:13] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=26OAUC26DG6DUL7BZ56K3COKEN7C54
+[2013-11-09 14:34:13] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2DVDIPDOBDDVP9T4OZ4DBXMB3EF0BM' here: 
+[2013-11-09 14:34:13] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2DVDIPDOBDDVP9T4OZ4DBXMB3EF0BM
+
+[2013-11-09 14:34:13] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 09 14:34:13 MST 2013
+[2013-11-09 14:34:13] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-09 14:34:13] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-09 14:34:13] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-09 15:06:10] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-09 15:06:10] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey2/simple_survey.input
+[2013-11-09 15:06:10] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey2/simple_survey.properties
+[2013-11-09 15:06:10] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey2/mturk_survey.xml
+[2013-11-09 15:06:10] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-09 15:06:13] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-09 15:06:13] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 09 15:06:13 MST 2013
+[2013-11-09 15:06:13] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-09 15:06:14] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=22H6R70G5R9EUSTBZJYWVSTNAG9QAT
+[2013-11-09 15:06:14] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2DVDIPDOBDDVP9T4OZ4DBXMB3EF0BM' here: 
+[2013-11-09 15:06:14] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2DVDIPDOBDDVP9T4OZ4DBXMB3EF0BM
+
+[2013-11-09 15:06:14] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 09 15:06:14 MST 2013
+[2013-11-09 15:06:14] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-09 15:06:14] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-09 15:06:14] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-09 15:08:17] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-09 15:08:17] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey2/simple_survey.input
+[2013-11-09 15:08:17] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey2/simple_survey.properties
+[2013-11-09 15:08:17] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey2/mturk_survey.xml
+[2013-11-09 15:08:17] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-09 15:08:18] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-09 15:08:18] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 09 15:08:18 MST 2013
+[2013-11-09 15:08:18] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-09 15:08:19] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=22OVCPWZ9RNJD2Y35XYSQ3DTSYUQBO
+[2013-11-09 15:08:19] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2DVDIPDOBDDVP9T4OZ4DBXMB3EF0BM' here: 
+[2013-11-09 15:08:19] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2DVDIPDOBDDVP9T4OZ4DBXMB3EF0BM
+
+[2013-11-09 15:08:19] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 09 15:08:19 MST 2013
+[2013-11-09 15:08:19] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-09 15:08:19] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-09 15:08:19] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-09 22:14:29] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-09 22:14:29] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey2/oregon_survey.input
+[2013-11-09 22:14:29] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey2/simple_survey.properties
+[2013-11-09 22:14:29] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey2/oregon_survey.xml
+[2013-11-09 22:14:29] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-09 22:14:32] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-09 22:14:32] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 09 22:14:32 MST 2013
+[2013-11-09 22:14:32] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-09 22:14:33] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2U425L8I9NZ2N1O7AT54TW7TKA6TJU
+[2013-11-09 22:14:33] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '282ZJMJUNU8RGQ1F4LWRC8D8JR70G3' here: 
+[2013-11-09 22:14:33] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=282ZJMJUNU8RGQ1F4LWRC8D8JR70G3
+
+[2013-11-09 22:14:33] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 09 22:14:33 MST 2013
+[2013-11-09 22:14:33] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-09 22:14:33] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-09 22:14:33] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-09 22:24:02] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-09 22:24:02] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey2/oregon_survey.input
+[2013-11-09 22:24:02] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey2/simple_survey.properties
+[2013-11-09 22:24:02] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey2/oregon_survey.xml
+[2013-11-09 22:24:02] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-09 22:24:04] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-09 22:24:04] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 09 22:24:04 MST 2013
+[2013-11-09 22:24:04] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-09 22:24:05] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2OIG5R98D8J9CYH4WXKN1CG3YGHUE1
+[2013-11-09 22:24:05] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '282ZJMJUNU8RGQ1F4LWRC8D8JR70G3' here: 
+[2013-11-09 22:24:05] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=282ZJMJUNU8RGQ1F4LWRC8D8JR70G3
+
+[2013-11-09 22:24:05] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 09 22:24:05 MST 2013
+[2013-11-09 22:24:05] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-09 22:24:05] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-09 22:24:05] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-09 22:24:06] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-09 22:24:06] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey2/numbers_survey.input
+[2013-11-09 22:24:06] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey2/simple_survey.properties
+[2013-11-09 22:24:06] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey2/numbers_survey.xml
+[2013-11-09 22:24:06] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-09 22:24:07] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-09 22:24:07] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 09 22:24:07 MST 2013
+[2013-11-09 22:24:07] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-09 22:24:08] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2PG1THV8ER94PDXSMRQSP5KFTWZP2Y
+[2013-11-09 22:24:08] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '282ZJMJUNU8RGQ1F4LWRC8D8JR70G3' here: 
+[2013-11-09 22:24:08] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=282ZJMJUNU8RGQ1F4LWRC8D8JR70G3
+
+[2013-11-09 22:24:08] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 09 22:24:08 MST 2013
+[2013-11-09 22:24:08] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-09 22:24:08] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-09 22:24:08] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-09 22:24:10] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-09 22:24:10] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey2/lightbot_survey.input
+[2013-11-09 22:24:10] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey2/simple_survey.properties
+[2013-11-09 22:24:10] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey2/lightbot_survey.xml
+[2013-11-09 22:24:10] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-09 22:24:11] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-09 22:24:11] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 09 22:24:11 MST 2013
+[2013-11-09 22:24:11] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-09 22:24:12] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=25XXRDS4IC1KFXX5NKD14A2I721WZ8
+[2013-11-09 22:24:12] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '282ZJMJUNU8RGQ1F4LWRC8D8JR70G3' here: 
+[2013-11-09 22:24:12] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=282ZJMJUNU8RGQ1F4LWRC8D8JR70G3
+
+[2013-11-09 22:24:12] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 09 22:24:12 MST 2013
+[2013-11-09 22:24:12] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-09 22:24:12] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-09 22:24:12] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-09 22:24:13] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-09 22:24:13] INFO  (LoadHITs.java: 194) -  Input: ../samples/simple_survey2/darfur_survey.input
+[2013-11-09 22:24:13] INFO  (LoadHITs.java: 195) -  Properties: ../samples/simple_survey2/simple_survey.properties
+[2013-11-09 22:24:13] INFO  (LoadHITs.java: 196) -  Question File: ../samples/simple_survey2/darfur_survey.xml
+[2013-11-09 22:24:13] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-09 22:24:15] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-09 22:24:15] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 09 22:24:15 MST 2013
+[2013-11-09 22:24:15] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-09 22:24:16] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2F8S1CSTMOF38X2CMHSE1DNXVJJROY
+[2013-11-09 22:24:16] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '282ZJMJUNU8RGQ1F4LWRC8D8JR70G3' here: 
+[2013-11-09 22:24:16] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=282ZJMJUNU8RGQ1F4LWRC8D8JR70G3
+
+[2013-11-09 22:24:16] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 09 22:24:16 MST 2013
+[2013-11-09 22:24:16] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-09 22:24:16] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-09 22:24:16] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-11 21:18:08] ERROR (LoadHITs.java: 85) - Missing: -input [path to input file -- ie. c:\mturk\helloworld.input]
+[2013-11-11 21:31:14] ERROR (LoadHITs.java: 85) - Missing: -input [path to input file -- ie. c:\mturk\helloworld.input]

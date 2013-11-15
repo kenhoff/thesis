@@ -1,0 +1,1819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+    <Title>
+      Pre-Quiz
+    </Title>
+    <Text>
+      Please answer the following questions to the best of your ability.
+    </Text>
+  </Overview>
+
+  <Question>
+    <QuestionIdentifier>How many miles long was the Oregon Trail?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>How many miles long was the Oregon Trail?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>500</SelectionIdentifier>
+            <Text>500 Miles</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1000</SelectionIdentifier>
+            <Text>1000 Miles</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2000</SelectionIdentifier>
+            <Text>2000 Miles</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3000</SelectionIdentifier>
+            <Text>3000 Miles</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>20000</SelectionIdentifier>
+            <Text>20000 Miles</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>What is the name of a disease like malaria that the pioneers might catch?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What is the name of a disease like malaria that the pioneers might catch?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>ague</SelectionIdentifier>
+            <Text>ague</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>pneumonia</SelectionIdentifier>
+            <Text>pneumonia</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>epilepsy</SelectionIdentifier>
+            <Text>epilepsy</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>measles</SelectionIdentifier>
+            <Text>measles</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>What year was the Oregon Trail first opened?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What year was the Oregon Trail first opened?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1847</SelectionIdentifier>
+            <Text>1847</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1843</SelectionIdentifier>
+            <Text>1843</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1899</SelectionIdentifier>
+            <Text>1899</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1876</SelectionIdentifier>
+            <Text>1876</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>What disease killed more people on the trail than any
+other?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What disease killed more people on the trail than any
+other?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>smallpox</SelectionIdentifier>
+            <Text>smallpox</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>plague</SelectionIdentifier>
+            <Text>plague</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>cholera</SelectionIdentifier>
+            <Text>cholera</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>scarlet fever</SelectionIdentifier>
+            <Text>scarlet fever</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>When was the first transcontinental railroad built that eventually ended the Oregon Trail?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>When was the first transcontinental railroad built that eventually ended the Oregon Trail?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1867</SelectionIdentifier>
+            <Text>1867</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1870</SelectionIdentifier>
+            <Text>1870</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1899</SelectionIdentifier>
+            <Text>1899</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1869</SelectionIdentifier>
+            <Text>1869</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>How many modern states did the travelers travel through when crossing the trail?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>How many modern states did the travelers travel through when crossing the trail?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>6</SelectionIdentifier>
+            <Text>6</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>8</SelectionIdentifier>
+            <Text>8</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>3</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>10</SelectionIdentifier>
+            <Text>10</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>How many people died on the Oregon Trail?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>How many people died on the Oregon Trail?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>50,000-60,000</SelectionIdentifier>
+            <Text>50,000-60,000</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>20,000-30,000</SelectionIdentifier>
+            <Text>20,000-30,000</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>90,000-100,000</SelectionIdentifier>
+            <Text>90,000-100,000</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>10,000-20,000</SelectionIdentifier>
+            <Text>10,000-20,000</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Where did the Oregon Trail begin?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Where did the Oregon Trail begin?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>Independence, Mississippi</SelectionIdentifier>
+            <Text>Independence, Mississippi</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Independence, Missouri</SelectionIdentifier>
+            <Text>Independence, Missouri</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Independence, Michigan</SelectionIdentifier>
+            <Text>Independence, Michigan</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Independence, Montana</SelectionIdentifier>
+            <Text>Independence, Montana</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Independence, Massachusetts</SelectionIdentifier>
+            <Text>Independence, Massachusetts</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Where did the Oregon Trail end?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Where did the Oregon Trail end?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>Vancouver, Washington</SelectionIdentifier>
+            <Text>Vancouver, Washington</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>The Dalles, Oregon</SelectionIdentifier>
+            <Text>The Dalles, Oregon</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Portland, Oregon</SelectionIdentifier>
+            <Text>Portland, Oregon</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stevenson, Washington</SelectionIdentifier>
+            <Text>Stevenson, Washington</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Oregon City, Oregon</SelectionIdentifier>
+            <Text>Oregon City, Oregon</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>How many people came west on the Oregon Trail?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>How many people came west on the Oregon Trail?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>around 500</SelectionIdentifier>
+            <Text>around 500</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>around 5000</SelectionIdentifier>
+            <Text>around 5000</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>around 50000</SelectionIdentifier>
+            <Text>around 50000</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>around 500000</SelectionIdentifier>
+            <Text>around 500000</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>around 5000000</SelectionIdentifier>
+            <Text>around 5000000</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Overview>
+    <Title>
+      Survey
+    </Title>
+    <Text>
+      Please answer the following questions to the best of your ability.
+    </Text>
+  </Overview>
+
+  <Question>
+    <QuestionIdentifier>
+      Gender
+    </QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+            <Text>What is your gender?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>Male</SelectionIdentifier>
+            <Text>Male</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Female</SelectionIdentifier>
+            <Text>Female</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>What is your age?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What is your age?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <Constraints>
+          <IsNumeric />
+        </Constraints>
+        <DefaultText></DefaultText>
+        <NumberOfLinesSuggestion>1</NumberOfLinesSuggestion>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>How many years have you been playing video games?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>How many years have you been playing video games?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <Constraints>
+          <IsNumeric />
+        </Constraints>
+        <DefaultText></DefaultText>
+        <NumberOfLinesSuggestion>1</NumberOfLinesSuggestion>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+
+
+  <Question>
+    <QuestionIdentifier>Fun games can be educational</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Fun games can be educational.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Most fun games are educational</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Most fun games are educational.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Games are more fun when they are cooperative (instead of competitive)</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Games are more fun when they are cooperative (instead of competitive).</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Games are more fun when you play by yourself (instead of with others).</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Games are more fun when you play by yourself (instead of with others).</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Games are more fun when you play online (instead of with others in the same room).</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Games are more fun when you play online (instead of with others in the same room).</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Educational games can be fun.</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Educational games can be fun.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Most educational games are fun.</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Most educational games are fun.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Games are more educational when they are cooperative (instead of competitive).</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Games are more educational when they are cooperative (instead of competitive).</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Games are more educational when you play by yourself (instead of with others).</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Games are more educational when you play by yourself (instead of with others).</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Games are more educational when you play online (instead of with others in the same room).</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Games are more educational when you play online (instead of with others in the same room).</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>List some fun games.</QuestionIdentifier>
+    <QuestionContent>
+      <Text>List some fun games.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <DefaultText></DefaultText>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>List some educational games.</QuestionIdentifier>
+    <QuestionContent>
+      <Text>List some educational games.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <DefaultText></DefaultText>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Overview>
+    <Title>
+      Game
+    </Title>
+    <Text>
+      For the following questions, please refer to this game.
+    </Text>
+    <Text>
+      ${gameurl}
+    </Text>
+  </Overview>
+
+  <Question>
+    <QuestionIdentifier>Low game resource penalty for failure</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>Low game resource penalty for failure</Title><Text>If the player fails, how many game resources do they lose?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Game resource penalty is extreme (e.g. restart the game)</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Game resource penalty is large (e.g. 1/3 lives, 10 health points
+/ 100)</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Game resource penalty is moderate</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>Game resource penalty is small</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Game resource penalty is nonexistent (e.g. unlimited lives)</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Low ”reset time” for failure (time to return to failure point)</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>Low ”reset time” for failure (time to return to failure point)</Title><Text>If the player fails, how long is the wait until they restart play?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Reset time is very long (e.g. reloading level takes a long time)</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Reset time is long (e.g. greater than 10 seconds)</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Reset time is moderate (e.g. up to 10 seconds)</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>Reset time is short (e.g. a few seconds)</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Reset time is very short (e.g. near instant)</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Content of Game Encyclopedia</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>Content of Game Encyclopedia</Title><Text>If this game contains an encyclopedia of game content, what kind of content does it contain?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Game contains no encyclopedia or Encyclopedia contains no content</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Encyclopedia contains content only related to game mechanics</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Encyclopedia contains information about game mechanics,
+and also limited historical/factual information</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>Encyclopedia contains content related to game mechanics and historical/factual information</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Encyclopedia contains content related to game mechanics and historical/factual information and outside links or references</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Amount of Referential Material</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>Amount of Referential Material</Title><Text>How many game objects or events reference real-life objects or events?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>No game objects or events are references to real-life objects or events</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>At least one event or object is a reference to a real-world event or object</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Several non-connected events or objects are references to a real-world event or object</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>At least one group of objects or events are references to real-life objects or events</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Numerous groups of objects or events are references to real-life objects or events</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>High checkpoint frequency</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>High checkpoint frequency</Title><Text>How often are there in-game checkpoints?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Zero checkpoints</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Checkpoints are few and far between (e.g. levels are the only places to restart)</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Checkpoints are moderate</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>Checkpoints are numerous (e.g. players can restart at the beginning of each puzzle)</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Checkpoints are frequent (e.g. players can restart part of the way through puzzles)</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Popularity of Referential Material</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>Popularity of Referential Material</Title><Text>Of the objects/events that are in the game, how recognizable/popular are they?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Existing references are extremely obscure</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Some of the references are popular</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>About half of the references are popular</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>Many of the references are popular</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Most or all of the references are popular</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Freedom of exploration</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>Freedom of exploration</Title><Text>How much freedom of choice is there in the game, including both game world and choice of lessons?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Players are placed in a strictly linear world or lesson progression</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Players are allowed just a few large-scale choices in their game world</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Players have the option to make choices about the direction of their progression in the world, but it is largely linear</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>Players can choose from many choices within the game world to explore, including lessons</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Players are free to choose the direction they want, both edu- cationally and within the game world; allowed to jump between parallel lessons</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Iterative feedback</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>Iterative feedback</Title><Text>How much and how often is there feedback regarding progress on the game?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Game gives no feedback other than high-level progression through the game</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Game gives feedback after each level</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Game gives feedback at various points through a level, after a series of puzzles</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>Game gives feedback after each puzzle</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Game constantly gives feedback (e.g. during a puzzle)</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Rewards for knowing Referential Material</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>Rewards for knowing Referential Material</Title><Text>How much does knowing the real-life objects/events a↵ect the gameplay?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Knowing the referential material is purely irrelevant; doesn’t affect the gameplay at all</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Knowing the referential material is a little useful; only affects the gameplay a small amount</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Knowing the referential material is somewhat useful; moderately affects the player’s choices during gameplay</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>Knowing the referential material is very useful; usually affects the player’s choices</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Knowing the referential material always significantly affects gameplay</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Location of Game Encyclopedia</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>Location of Game Encyclopedia</Title><Text>Does this game have an encyclopedia of game content? If so, where?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Game contains no encyclopedia of game content</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Game information is located online, in a non-central location</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Game has an outside manual (or wiki) of game content</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>Game doesn’t have an in-game encyclopedia, but points to a central location elsewhere</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Game has an in-game encyclopedia of game content</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Unorthodox problem solving</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>Unorthodox problem solving</Title><Text>Are problems able to be solved multiple ways, or circumvented entirely?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>There is only one way to solve any given problem, with one given progression that is valid as a solution</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Some problems within the game may be solved more than one way</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Multiple solutions are available for each problem, but players are limited to using one of those solutions</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>Players can solve each problem via any solution, so long as they do not circumvent it</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Players can solve a problem any way they like, or even circumvent the problem, and be given full (or bonus) points</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Adaptive Difficulty</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>Adaptive Difficulty</Title><Text>How many difficulty levels are there in the game, and how is the difficulty changed?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Game only has one difficulty</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Game has several difficulties, but players can only select difficulty at beginning of game</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Game has several difficulties, and players can change difficulty mid-game</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>Game has several difficulties, and prompts the player to increase or decrease the difficulty as needed</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Game has several difficulties, and automatically adjusts the difficulty of the game as needed</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Contextual Tutorials</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent><Title>Contextual Tutorials</Title><Text>How often are tutorials offered in the game?</Text></QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Tutorials aren’t given in the game</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Tutorials are given at the beginning of the game</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Tutorials are given every few levels/sections of the game</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>4</SelectionIdentifier>
+            <Text>Tutorials are given at the beginning of every level/section</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>5</SelectionIdentifier>
+            <Text>Tutorials are offered continuously</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>This game was fun.</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>This game was fun.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>I had fun playing this game.</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>I had fun playing this game.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>This game was educational.</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>This game was educational.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>I learned something from playing this game.</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>I learned something from playing this game.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>StronglyAgree</SelectionIdentifier>
+            <Text>Strongly Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Agree</SelectionIdentifier>
+            <Text>Agree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Disagree</SelectionIdentifier>
+            <Text>Disagree</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stronglydisagree</SelectionIdentifier>
+            <Text>Strongly Disagree</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>What did you learn from playing this game?</QuestionIdentifier>
+    <QuestionContent>
+      <Text>What did you learn from playing this game?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <DefaultText></DefaultText>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Provide some comments and feedback on the game.</QuestionIdentifier>
+    <QuestionContent>
+      <Text>Provide some comments and feedback on the game.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <DefaultText></DefaultText>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Provide some comments and feedback on this survey.</QuestionIdentifier>
+    <QuestionContent>
+      <Text>Provide some comments and feedback on this survey.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <DefaultText></DefaultText>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Estimate the number of minutes that you've played this game.</QuestionIdentifier>
+    <QuestionContent>
+      <Text>Estimate the number of minutes that you've played this game.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <Constraints>
+          <IsNumeric />
+        </Constraints>
+        <DefaultText></DefaultText>
+        <NumberOfLinesSuggestion>1</NumberOfLinesSuggestion>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Enter your score/farthest level from your play session.</QuestionIdentifier>
+    <QuestionContent>
+      <Text>Enter your highest score/farthest level from your play session.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <Constraints>
+          <IsNumeric />
+        </Constraints>
+        <DefaultText></DefaultText>
+        <NumberOfLinesSuggestion>1</NumberOfLinesSuggestion>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Overview>
+    <Title>
+      Post-Quiz
+    </Title>
+    <Text>
+      Again, please answer the following questions to the best of your ability.
+    </Text>
+  </Overview>
+
+<Question>
+    <QuestionIdentifier>How many miles long was the Oregon Trail?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>How many miles long was the Oregon Trail?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>500</SelectionIdentifier>
+            <Text>500 Miles</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1000</SelectionIdentifier>
+            <Text>1000 Miles</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2000</SelectionIdentifier>
+            <Text>2000 Miles</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3000</SelectionIdentifier>
+            <Text>3000 Miles</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>20000</SelectionIdentifier>
+            <Text>20000 Miles</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>What is the name of a disease like malaria that the pioneers might catch?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What is the name of a disease like malaria that the pioneers might catch?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>ague</SelectionIdentifier>
+            <Text>ague</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>pneumonia</SelectionIdentifier>
+            <Text>pneumonia</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>epilepsy</SelectionIdentifier>
+            <Text>epilepsy</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>measles</SelectionIdentifier>
+            <Text>measles</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>What year was the Oregon Trail first opened?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What year was the Oregon Trail first opened?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1847</SelectionIdentifier>
+            <Text>1847</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1843</SelectionIdentifier>
+            <Text>1843</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1899</SelectionIdentifier>
+            <Text>1899</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1876</SelectionIdentifier>
+            <Text>1876</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>What disease killed more people on the trail than any
+other?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What disease killed more people on the trail than any
+other?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>smallpox</SelectionIdentifier>
+            <Text>smallpox</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>plague</SelectionIdentifier>
+            <Text>plague</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>cholera</SelectionIdentifier>
+            <Text>cholera</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>scarlet fever</SelectionIdentifier>
+            <Text>scarlet fever</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>When was the first transcontinental railroad built that eventually ended the Oregon Trail?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>When was the first transcontinental railroad built that eventually ended the Oregon Trail?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1867</SelectionIdentifier>
+            <Text>1867</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1870</SelectionIdentifier>
+            <Text>1870</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1899</SelectionIdentifier>
+            <Text>1899</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>1869</SelectionIdentifier>
+            <Text>1869</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>How many modern states did the travelers travel through when crossing the trail?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>How many modern states did the travelers travel through when crossing the trail?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>6</SelectionIdentifier>
+            <Text>6</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>8</SelectionIdentifier>
+            <Text>8</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>3</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>10</SelectionIdentifier>
+            <Text>10</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>How many people died on the Oregon Trail?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>How many people died on the Oregon Trail?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>50,000-60,000</SelectionIdentifier>
+            <Text>50,000-60,000</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>20,000-30,000</SelectionIdentifier>
+            <Text>20,000-30,000</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>90,000-100,000</SelectionIdentifier>
+            <Text>90,000-100,000</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>10,000-20,000</SelectionIdentifier>
+            <Text>10,000-20,000</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Where did the Oregon Trail begin?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Where did the Oregon Trail begin?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>Independence, Mississippi</SelectionIdentifier>
+            <Text>Independence, Mississippi</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Independence, Missouri</SelectionIdentifier>
+            <Text>Independence, Missouri</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Independence, Michigan</SelectionIdentifier>
+            <Text>Independence, Michigan</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Independence, Montana</SelectionIdentifier>
+            <Text>Independence, Montana</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Independence, Massachusetts</SelectionIdentifier>
+            <Text>Independence, Massachusetts</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>Where did the Oregon Trail end?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>Where did the Oregon Trail end?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>Vancouver, Washington</SelectionIdentifier>
+            <Text>Vancouver, Washington</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>The Dalles, Oregon</SelectionIdentifier>
+            <Text>The Dalles, Oregon</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Portland, Oregon</SelectionIdentifier>
+            <Text>Portland, Oregon</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Stevenson, Washington</SelectionIdentifier>
+            <Text>Stevenson, Washington</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Oregon City, Oregon</SelectionIdentifier>
+            <Text>Oregon City, Oregon</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>How many people came west on the Oregon Trail?</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>How many people came west on the Oregon Trail?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>around 500</SelectionIdentifier>
+            <Text>around 500</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>around 5000</SelectionIdentifier>
+            <Text>around 5000</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>around 50000</SelectionIdentifier>
+            <Text>around 50000</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>around 500000</SelectionIdentifier>
+            <Text>around 500000</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>around 5000000</SelectionIdentifier>
+            <Text>around 5000000</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+
+  <Overview>
+    <Title>
+      Thanks for your time!
+    </Title>
+  </Overview>
+
+
+</QuestionForm>
+
