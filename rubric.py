@@ -4,11 +4,11 @@ class Rubric:
 	def __init__(self, infile):
 		f = open(infile, 'r')
 		content = json.load(f)
-		self.items = set()
+		self.items = []
 		rubricItems = content['rubricitems']
 
 		for item in rubricItems:
-			self.items.add(RubricItem(item['id'], item['name'], item['description'], item['scale'], item['prompt']))
+			self.items.append(RubricItem(item['id'], item['name'], item['description'], item['scale'], item['prompt']))
 		f.close()
 
 	def latex_output(self, nestlevel = "section"):

@@ -1,0 +1,282 @@
+{
+	"questions": [
+		{
+			"id": 1,
+			"required": 1,
+			"text": "When did the violence in Darfur first start?",
+			"type": "multiple-choice",
+			"correct": 3,
+			"options": [
+				{
+					"id": 1,
+					"text": "2001"
+				},
+				{
+					"id": 2,
+					"text": "2002"
+				},
+				{
+					"id": 3,
+					"text": "2003"
+				},
+				{
+					"id": 4,
+					"text": "2004"
+				},
+				{
+					"id": 5,
+					"text": "2005"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"required": 1,
+			"text": "Who is the fighting between?",
+			"type": "multiple-choice",
+			"correct": 2,
+			"options": [
+				{
+					"id": 1,
+					"text": "two different tribes"
+				},
+				{
+					"id": 2,
+					"text": "arabs and non-arabs"
+				},
+				{
+					"id": 3,
+					"text": "Hutu and Tutsi"
+				},
+				{
+					"id": 4,
+					"text": "Blacks and Whites"
+				},
+				{
+					"id": 5,
+					"text": "rich and poor"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"required": 1,
+			"text": "A genocide is defined as killing, causing serious bodily or mental harm and preventing births of ______",
+			"type": "multiple-choice",
+			"correct": 5,
+			"options": [
+				{
+					"id": 1,
+					"text": "a specific national group"
+				},
+				{
+					"id": 2,
+					"text": "a specific ethnical group"
+				},
+				{
+					"id": 3,
+					"text": "a specific racial group"
+				},
+				{
+					"id": 4,
+					"text": "a specific religious group"
+				},
+				{
+					"id": 5,
+					"text": "all of the above"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"required": 1,
+			"text": "How did the conflict start?",
+			"type": "multiple-choice",
+			"correct": 4,
+			"options": [
+				{
+					"id": 1,
+					"text": "bombing in a main city"
+				},
+				{
+					"id": 2,
+					"text": "government's drafting of soldiers"
+				},
+				{
+					"id": 3,
+					"text": "accidental killing of 5 civilians by police"
+				},
+				{
+					"id": 4,
+					"text": "rebellion attacks of government targets"
+				},
+				{
+					"id": 5,
+					"text": "public protest against new law"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"required": 1,
+			"text": "How many people have died as a result of the violence, hunger, and disease?",
+			"type": "multiple-choice",
+			"correct": 3,
+			"options": [
+				{
+					"id": 1,
+					"text": "up to 3,000"
+				},
+				{
+					"id": 2,
+					"text": "up to 30,000"
+				},
+				{
+					"id": 3,
+					"text": "up to 300,000"
+				},
+				{
+					"id": 4,
+					"text": "up to 3,000,000"
+				},
+				{
+					"id": 5,
+					"text": "up to 3.5 milion"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"required": 1,
+			"text": "Where is Darfur?",
+			"type": "multiple-choice",
+			"correct": 4,
+			"options": [
+				{
+					"id": 1,
+					"text": "northern Sudan"
+				},
+				{
+					"id": 2,
+					"text": "southern Sudan"
+				},
+				{
+					"id": 3,
+					"text": "eastern Sudan"
+				},
+				{
+					"id": 4,
+					"text": "western Sudan"
+				},
+				{
+					"id": 5,
+					"text": "central Sudan"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"required": 1,
+			"text": "When was the height of the violence in Darfur?",
+			"type": "multiple-choice",
+			"correct": 2,
+			"options": [
+				{
+					"id": 1,
+					"text": "2003-2004"
+				},
+				{
+					"id": 2,
+					"text": "2003-2005"
+				},
+				{
+					"id": 3,
+					"text": "2004-2005"
+				},
+				{
+					"id": 4,
+					"text": "2004-2006"
+				},
+				{
+					"id": 5, 
+					"text": "2005-2006"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"required": 1,
+			"text": "What group is referred to as Devils on horseback?",
+			"type": "multiple-choice",
+			"correct": 4,
+			"options": [
+				{
+					"id": 1,
+					"text": "Sunnis"
+				},
+				{
+					"id": 2,
+					"text": "Shiite"
+				},
+				{
+					"id": 3,
+					"text": "Tumoils"
+				},
+				{
+					"id": 4,
+					"text": "Janjaweed"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"required": 1,
+			"text": "Darfur is a region in the African country of Sudan. Which countries border Sudan?",
+			"type": "multiple-choice",
+			"correct": 3,
+			"options": [
+				{
+					"id": 1,
+					"text": "Rwanda, Somalia, Tanzania"
+				},
+				{
+					"id": 2,
+					"text": "Algeria, Morocco, Tunisia"
+				},
+				{
+					"id": 3,
+					"text": "Central African Republic, Chad, Libya"
+				},
+				{
+					"id": 4,
+					"text": "Kenya, Ethiopia, Malawi"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"required": 1,
+			"text": " Which two major powers united with the Sudanese government to keep the United Nations out of Darfur?",
+			"type": "multiple-choice",
+			"correct": 4,
+			"options": [
+				{
+					"id": 1,
+					"text": "United States and Canada"
+				},
+				{
+					"id": 2,
+					"text": "Iraq and Iran"
+				},
+				{
+					"id": 3,
+					"text": "Egypt and Libya"
+				},
+				{
+					"id": 4,
+					"text": "Russia and China"
+				}
+			]
+		}
+	]
+}

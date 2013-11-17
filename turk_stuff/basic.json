@@ -1,0 +1,161 @@
+{
+	"questions": [
+		{
+			"id": "gender",
+			"required": 1,
+			"text": "What is your gender?",
+			"type": "multiple-choice",
+			"options": [
+				{
+					"id": "male",
+					"text": "Male"
+				},
+				{
+					"id": "female",
+					"text": "Female"
+				}
+			]
+		},
+		{
+			"id": "age",
+			"required": 1,
+			"text": "What is your age?",
+			"type": "number"
+		},
+		{
+			"id": "years_playing",
+			"required": 1,
+			"text": "How many years have you been playing video games?",
+			"type": "number"
+		},
+		{
+			"id": "fun_can_be_educational",
+			"required": 1,
+			"text": "Fun games can be educational.",
+			"type": "likert"
+		},
+		{
+			"id": "most_fun_are_educational",
+			"required": 1,
+			"text": "Most fun games are educational.",
+			"type": "likert"
+		},
+		{
+			"id": "more_fun_when_competitive",
+			"required": 1,
+			"text": "Games are more fun when they are cooperative (instead of competitive).",
+			"type": "likert"
+		},
+		{
+			"id": "more_fun_by_yourself",
+			"required": 1,
+			"text": "Games are more fun when you play by yourself (instead of with others).",
+			"type": "likert"
+		},
+		{
+			"id": "more_fun_online",
+			"required": 1,
+			"text": "Games are more fun when you play online (instead of with others in the same room).",
+			"type": "likert"
+		},
+		{
+			"id": "educational_can_be_fun",
+			"required": 1,
+			"text": "Educational games can be fun.",
+			"type": "likert"
+		},
+		{
+			"id": "most_educational_are_fun",
+			"required": 1,
+			"text": "Most educational games are fun.",
+			"type": "likert"
+		},
+		{
+			"id": "more_educational_when_cooperative",
+			"required": 1,
+			"text": "Games are more educational when they are cooperative (instead of competitive).",
+			"type": "likert"
+		},
+		{
+			"id": "more_educational_by_yourself",
+			"required": 1,
+			"text": "Games are more educational when you play by yourself (instead of with others).",
+			"type": "likert"
+		},
+		{
+			"id": "more_educational_online",
+			"required": 1,
+			"text": "Games are more educational when you play online (instead of with others in the same room).",
+			"type": "likert"
+		},
+		{
+			"id": "fun_game_list",
+			"required": 0,
+			"text": "List some fun games.",
+			"type": "freeform"
+		},
+		{
+			"id": "educational_game_list",
+			"required": 0,
+			"text": "List some educational games.",
+			"type": "freeform"
+		},
+		{
+			"id": "survey"
+		},
+		{
+			"id": "this_game_was_fun",
+			"required": 1,
+			"text": "This game was fun.",
+			"type": "likert"
+		},
+		{
+			"id": "i_had_fun",
+			"required": 1,
+			"text": "I had fun playing this game.",
+			"type": "likert"
+		},
+		{
+			"id": "this_game_was_educational",
+			"required": 1,
+			"text": "This game was educational.",
+			"type": "likert"
+		},
+		{
+			"id": "i_learned_something",
+			"required": 1,
+			"text": "I learned something from playing this game.",
+			"type": "likert"
+		},
+		{
+			"id": "what_did_you_learn",
+			"required": 1,
+			"text": "What did you learn from playing this game?",
+			"type": "freeform"
+		},
+		{
+			"id": "comments_on_game",
+			"required": 1,
+			"text": "Provide some comments and feedback on the game.",
+			"type": "freeform"
+		},
+		{
+			"id": "comments_on_survey",
+			"required": 1,
+			"text": "Provide some comments and feedback on this survey.",
+			"type": "freeform"
+		},
+		{
+			"id": "estimated_time_played",
+			"required": 1,
+			"text": "Estimate the number of minutes that you've played this game.",
+			"type": "number"
+		},
+		{
+			"id": "estimated_score",
+			"required": 1,
+			"text": "Estimate your highest score/level from your play session.",
+			"type": "number"
+		}
+	]
+}

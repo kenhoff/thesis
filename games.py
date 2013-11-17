@@ -4,13 +4,13 @@ class GameList:
 	def __init__(self, infile):
 		f = open(infile, 'r')
 		content = json.load(f)
-		self.games = set()
+		self.games = []
 		# gameArray = content.split('\n\n')
 
 		# gameArray.pop(0) # remove keys section
 
 		for game in content["gamelist"]:
-			self.games.add(Game(game["id"], game["title"], game["url"], game["description"], game['education'], game['images']))
+			self.games.append(Game(game["id"], game["title"], game["url"], game["description"], game['education'], game['images']))
 		f.close()
 
 	def latex_output(self, nestlevel = "section"):

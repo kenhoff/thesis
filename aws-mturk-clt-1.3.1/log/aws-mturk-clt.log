@@ -1203,3 +1203,2046 @@ You may see your HIT(s) with HITTypeId '282ZJMJUNU8RGQ1F4LWRC8D8JR70G3' here:
 [2013-11-09 22:24:16] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
 [2013-11-11 21:18:08] ERROR (LoadHITs.java: 85) - Missing: -input [path to input file -- ie. c:\mturk\helloworld.input]
 [2013-11-11 21:31:14] ERROR (LoadHITs.java: 85) - Missing: -input [path to input file -- ie. c:\mturk\helloworld.input]
+[2013-11-14 23:25:39] ERROR (LoadHITs.java: 133) - Error loading HITs: ../../../turk_stuff/basic.input (No such file or directory)
+java.io.FileNotFoundException: ../../../turk_stuff/basic.input (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:97)
+	at com.amazonaws.mturk.addon.HITDataCSVReader.<init>(HITDataCSVReader.java:46)
+	at com.amazonaws.mturk.addon.HITDataCSVReader.<init>(HITDataCSVReader.java:41)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:183)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+[2013-11-14 23:28:05] ERROR (LoadHITs.java: 133) - Error loading HITs: ../../../turk_stuff/basic.input (No such file or directory)
+java.io.FileNotFoundException: ../../../turk_stuff/basic.input (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:97)
+	at com.amazonaws.mturk.addon.HITDataCSVReader.<init>(HITDataCSVReader.java:46)
+	at com.amazonaws.mturk.addon.HITDataCSVReader.<init>(HITDataCSVReader.java:41)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:183)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+[2013-11-14 23:28:34] ERROR (LoadHITs.java: 133) - Error loading HITs: ../../../turk_stuff/basic.input (No such file or directory)
+java.io.FileNotFoundException: ../../../turk_stuff/basic.input (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:97)
+	at com.amazonaws.mturk.addon.HITDataCSVReader.<init>(HITDataCSVReader.java:46)
+	at com.amazonaws.mturk.addon.HITDataCSVReader.<init>(HITDataCSVReader.java:41)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:183)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+[2013-11-14 23:29:10] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-14 23:29:10] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-14 23:29:10] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-14 23:29:10] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-14 23:29:10] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-14 23:29:12] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-14 23:29:12] INFO  (LoadHITs.java: 231) -   Start time: Thu Nov 14 23:29:12 MST 2013
+[2013-11-14 23:29:13] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-14 23:29:13] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 1 (incrediblemachine): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'MinSelectionCount'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":FreeTextAnswer, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":SelectionAnswer, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":FileUploadAnswer}' is expected.
+[2013-11-14 23:29:13] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 2 (pandemic): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'MinSelectionCount'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":FreeTextAnswer, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":SelectionAnswer, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":FileUploadAnswer}' is expected.
+[2013-11-14 23:29:13] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 3 (botlogic): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'MinSelectionCount'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":FreeTextAnswer, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":SelectionAnswer, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":FileUploadAnswer}' is expected.
+[2013-11-14 23:29:13] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 4 (mathbaseball): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'MinSelectionCount'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":FreeTextAnswer, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":SelectionAnswer, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":FileUploadAnswer}' is expected.
+[2013-11-14 23:29:13] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 5 (notpron): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'MinSelectionCount'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":FreeTextAnswer, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":SelectionAnswer, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":FileUploadAnswer}' is expected.
+[2013-11-14 23:29:13] ERROR (RequesterService.java: 1570) - [ERROR] Error creating HIT 6 (lemmings): [-1,-1] cvc-complex-type.2.4.a: Invalid content was found starting with element 'MinSelectionCount'. One of '{"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":FreeTextAnswer, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":SelectionAnswer, "http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd":FileUploadAnswer}' is expected.
+[2013-11-14 23:29:13] INFO  (LoadHITs.java: 239) -   End time: Thu Nov 14 23:29:13 MST 2013
+[2013-11-14 23:29:13] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-14 23:29:13] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-14 23:29:13] INFO  (LoadHITs.java: 243) -   Successfully loaded 0 HITs.
+[2013-11-14 23:29:13] ERROR (LoadHITs.java: 254) -   Failed to load 6 HITs.
+[2013-11-14 23:31:13] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-14 23:31:13] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-14 23:31:13] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-14 23:31:13] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-14 23:31:13] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-14 23:31:15] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-14 23:31:15] INFO  (LoadHITs.java: 231) -   Start time: Thu Nov 14 23:31:15 MST 2013
+[2013-11-14 23:31:15] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-14 23:31:15] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2TJPC6SK9RJEM89Q3J8MDAPM0YK3RO
+[2013-11-14 23:31:15] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=20KD21O3W5XNH3ZXWNTK1EPL4Z1AGV
+[2013-11-14 23:31:16] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2UV2AC9KSSZ1EHCY8ALUNQOYSXC1J2
+[2013-11-14 23:31:16] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=280LKH1Q6SVWP1IGQVL6O5OB7MC1K1
+[2013-11-14 23:31:16] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=297W1INMHGYWL3DVEGXBIMFF08S6J5
+[2013-11-14 23:31:16] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2TFKNQY2RCJQNN93I88R3KUIM033SC
+[2013-11-14 23:31:16] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-14 23:31:16] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-14 23:31:16] INFO  (LoadHITs.java: 239) -   End time: Thu Nov 14 23:31:16 MST 2013
+[2013-11-14 23:31:16] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-14 23:31:16] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-14 23:31:16] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 00:06:36] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 00:06:36] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 00:06:36] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 00:06:36] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 00:06:36] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 00:07:00] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 00:07:00] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 00:07:00] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 00:07:00] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 00:07:00] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 00:07:01] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 00:07:01] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 00:07:01 MST 2013
+[2013-11-15 00:07:02] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 00:07:02] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=28K4SMEZZ2MO16XHYDG9138T86R4LK
+[2013-11-15 00:07:02] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2CZVKCJ011K8OOTFDPHW918NGGO8AD
+[2013-11-15 00:07:02] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2C6K5UFJ51YD7YY7J3HS4CSTYY98B8
+[2013-11-15 00:07:02] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2C73TVOK5UFPML8FUJFZIYQSDMM74E
+[2013-11-15 00:07:02] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2J5JKM05BMJZB1846LKPCRA74FQDIS
+[2013-11-15 00:07:02] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2ZZPCGJ2D21UKGF5L5APSSI2W88B59
+[2013-11-15 00:07:02] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 00:07:02] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 00:07:02] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 00:07:02 MST 2013
+[2013-11-15 00:07:02] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 00:07:02] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 00:07:02] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 00:10:08] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 00:10:08] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 00:10:08] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 00:10:08] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 00:10:08] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 00:10:11] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 00:10:11] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 00:10:11 MST 2013
+[2013-11-15 00:10:11] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 00:10:12] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2BR8JHSTLB3RHZLRDNFBMEJRQ58GSX
+[2013-11-15 00:10:12] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2BVD8XMB3Q3FGKLEYYF6W4EV43PGR9
+[2013-11-15 00:10:13] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=27ACM6IAA2SKZE4245FQNKA4USMLLU
+[2013-11-15 00:10:13] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2WAVGULF395YDQXO5KJ3QYNJN89BPV
+[2013-11-15 00:10:13] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2Z7DOBDDP8PPD44LHDOME3Q3L9UE3M
+[2013-11-15 00:10:13] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2B8IHPCGJ2D8I8D49280MPPSUCE937
+[2013-11-15 00:10:13] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 00:10:13] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 00:10:13] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 00:10:13 MST 2013
+[2013-11-15 00:10:13] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 00:10:13] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 00:10:13] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 00:11:38] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 00:11:38] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 00:11:38] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 00:11:38] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 00:11:38] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 00:11:41] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 00:11:41] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 00:11:41 MST 2013
+[2013-11-15 00:11:41] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 00:11:41] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=204JUNU8LZ6XOKQDVEZDBJ3VQHQJ3C
+[2013-11-15 00:11:42] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2PWBDPGFL6VI6G9HVS4WLOV14HMJ4X
+[2013-11-15 00:11:42] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2OZ57DZKPFEAV0NPHRT5O8I9Z9QE47
+[2013-11-15 00:11:42] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2GRO9Z6KW4ZSRJRPVWCFT0ONZ5LE5C
+[2013-11-15 00:11:42] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2SST2D5NQYNBWN08NLWT1MNC88595X
+[2013-11-15 00:11:42] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2QKHECWA6X345WMN4HG5NXPTUXCLMW
+[2013-11-15 00:11:42] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 00:11:42] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 00:11:42] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 00:11:42 MST 2013
+[2013-11-15 00:11:42] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 00:11:42] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 00:11:42] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 00:25:11] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 00:25:11] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 00:25:11] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 00:25:11] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 00:25:11] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 00:25:12] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 00:25:12] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 00:25:12 MST 2013
+[2013-11-15 00:25:12] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 00:25:13] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2YZRRLFQ0ONTCBR9OMF9HGRBJGHRIC
+[2013-11-15 00:25:13] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=20WNLVWJ5OPHHI5O3DPMZB7E1JOU28
+[2013-11-15 00:25:13] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=29BMOFXRDS4OTLO6HSOJIM11MCCWT1
+[2013-11-15 00:25:13] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=28UJK63ZVE3N8KU2MFH9ML5RFPVZA9
+[2013-11-15 00:25:13] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=28185OZIZEHSRUZUSTH5HWPXX7GZB4
+[2013-11-15 00:25:13] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2FQTNKIMZSMB1ZR06TD0SGVFFSGZCB
+[2013-11-15 00:25:13] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 00:25:13] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 00:25:13] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 00:25:13 MST 2013
+[2013-11-15 00:25:13] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 00:25:13] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 00:25:13] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 00:31:21] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 00:31:21] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 00:31:21] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 00:31:21] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 00:31:21] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 00:31:22] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 00:31:22] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 00:31:22 MST 2013
+[2013-11-15 00:31:23] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 00:31:23] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2H1PPSI2KYEV2CZF9PCM9WJ30KBRLQ
+[2013-11-15 00:31:23] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2MCUKQOYGNI2I72GSLR137SVSKLZHK
+[2013-11-15 00:31:23] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=25XXRDS4IC1KFXX5NKD14A2I78YWZH
+[2013-11-15 00:31:23] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2P3Z6R70G5RFPXIR7057ZSSTZ86P9Z
+[2013-11-15 00:31:24] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=20BUHYW2GTPF8UH091D199YS0P1RMS
+[2013-11-15 00:31:24] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2W36VCPWZ9RTUGSWZ6J7VN3D5QOPAE
+[2013-11-15 00:31:24] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 00:31:24] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 00:31:24] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 00:31:24 MST 2013
+[2013-11-15 00:31:24] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 00:31:24] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 00:31:24] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 20:26:37] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 20:26:37] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 20:26:37] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 20:26:37] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 20:26:37] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 20:26:39] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 20:26:39] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 20:26:39 MST 2013
+[2013-11-15 20:26:39] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 20:26:40] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2525UFJ51Y7WV89N2VJ1FSTM0RAC9V
+[2013-11-15 20:26:40] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2F55F3Q0JG5ZF6XK0324CF9S44UHDQ
+[2013-11-15 20:26:40] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2PT727M0IGFQYXBE2KJVI4VI06CEZ6
+[2013-11-15 20:26:40] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2C2CJ011K27A0RJSU1X1BN4669SCAA
+[2013-11-15 20:26:41] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2C8VJ8EBDPGL2Q5KT1Q9UNDWU08F0X
+[2013-11-15 20:26:41] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2E2O2L92HEC2RQ7B2T3CI0CPHWAHG0
+[2013-11-15 20:26:41] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 20:26:41] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 20:26:41] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 20:26:41 MST 2013
+[2013-11-15 20:26:41] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 20:26:41] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 20:26:41] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 20:28:41] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 20:28:41] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 20:28:41] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 20:28:41] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 20:28:41] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 20:28:43] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 20:28:43] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 20:28:43 MST 2013
+[2013-11-15 20:28:43] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 20:28:44] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=27E618N46UXLTXED1H5TQDSN5WVPR9
+[2013-11-15 20:28:44] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=22IXULRGNTBPK6WL1A6PAN62WTOS6U
+[2013-11-15 20:28:44] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=214T6YTWX4H9YMZJ8I09JI6IV3OX2Q
+[2013-11-15 20:28:44] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2S5FSVGULF3FMC6ERLSFV3NYZVON9O
+[2013-11-15 20:28:44] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=27A1CSTMOFXXUCEQG65YGNXJRYEPSX
+[2013-11-15 20:28:44] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2LKJ1LY58B78O6AQKKBHG16YR48S7T
+[2013-11-15 20:28:44] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 20:28:44] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 20:28:44] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 20:28:44 MST 2013
+[2013-11-15 20:28:44] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 20:28:44] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 20:28:44] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 21:54:25] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 21:54:25] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 21:54:25] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 21:54:25] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 21:54:25] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 21:54:27] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 21:54:27] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 21:54:27 MST 2013
+[2013-11-15 21:54:28] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 21:54:28] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=23WGOOGQSCMCZUKAWJ9UXU00021FF5
+[2013-11-15 21:54:28] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2VTDPGFL6VCVDJJZRINIRV1SJ44K5T
+[2013-11-15 21:54:29] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2ZFKO2L92HEIDUG573FCFF0C1H1FG4
+[2013-11-15 21:54:29] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2YQMZ9O9Z6K2LJWI3M8RULFQC04B2Z
+[2013-11-15 21:54:29] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2IFERSQV66RR61S17MMWDVKIIE4B3A
+[2013-11-15 21:54:29] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2NCFBNFSVGURWNJDW1XNJ1FSFZFK69
+[2013-11-15 21:54:29] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 21:54:29] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 21:54:29] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 21:54:29 MST 2013
+[2013-11-15 21:54:29] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 21:54:29] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 21:54:29] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 21:54:51] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 21:54:51] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 21:54:51] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 21:54:51] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 21:54:51] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 21:54:52] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 21:54:52] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 21:54:52 MST 2013
+[2013-11-15 21:54:52] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 21:54:53] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=26E1INMHGYQA0NXIFB2FPFFOAAZK78
+[2013-11-15 21:54:53] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2NAK9RJ85OZOGYRUEFGMROQ5Q867VH
+[2013-11-15 21:54:53] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2E2O2L92HEC2RQ7B2T3CI0CPHWEHG4
+[2013-11-15 21:54:53] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2776AUC26DGCOXB570RFN0COWE0B4V
+[2013-11-15 21:54:53] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2ZZPCGJ2D21UKGF5L5APSSI2WAVB50
+[2013-11-15 21:54:54] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=27G2RCJK63Z1VNRZ4PLIDQ9JXH87WR
+[2013-11-15 21:54:54] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 21:54:54] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 21:54:54] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 21:54:54 MST 2013
+[2013-11-15 21:54:54] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 21:54:54] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 21:54:54] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 21:56:04] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 21:56:04] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 21:56:04] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 21:56:04] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 21:56:04] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 21:56:05] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 21:56:05] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 21:56:05 MST 2013
+[2013-11-15 21:56:05] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 21:56:06] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2JJO3W5XH0JV6CSAO35POSP7HW2DJV
+[2013-11-15 21:56:06] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2808IUB2YU9E0121PGUL3FBJLU5K8V
+[2013-11-15 21:56:06] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2U78PJWKUDDEE6LBU80Z3B6U50NK9K
+[2013-11-15 21:56:06] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2DYKCCVLL3CGKNWPEUH4F9NQ6JE7XK
+[2013-11-15 21:56:06] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=217FE4EGDHDSJPVGMEEZZ6HEBI5KAZ
+[2013-11-15 21:56:07] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2XO7D1X3V0FQHWYS6O51P7PKWL2DKU
+[2013-11-15 21:56:07] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 21:56:07] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 21:56:07] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 21:56:07 MST 2013
+[2013-11-15 21:56:07] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 21:56:07] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 21:56:07] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 21:56:34] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 21:56:34] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 21:56:34] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 21:56:34] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 21:56:34] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 21:56:35] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 21:56:35] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 21:56:35 MST 2013
+[2013-11-15 21:56:35] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 21:56:36] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2X6OGQSCM6IGRM2MMZLU30OQWWRHH3
+[2013-11-15 21:56:36] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2IJK274J79KWDQBGR9XU0FCDGHEFH3
+[2013-11-15 21:56:36] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2162L92HECWGNHD6SH3F3CP5W96HIW
+[2013-11-15 21:56:36] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2MJY7QEOZFYW9LM0XRFF0RDSGUTFIW
+[2013-11-15 21:56:36] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2VG5COW0LGR5KSMZJQ36YNUZ8P87YQ
+[2013-11-15 21:56:36] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=21K74J79KQWCISXCAZOFFD459OVHJ8
+[2013-11-15 21:56:36] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 21:56:36] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 21:56:36] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 21:56:36 MST 2013
+[2013-11-15 21:56:36] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 21:56:36] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 21:56:36] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 21:57:51] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 21:57:51] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 21:57:51] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 21:57:51] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 21:57:51] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 21:57:52] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 21:57:52] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 21:57:52 MST 2013
+[2013-11-15 21:57:52] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 21:57:53] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2D15OPB0YVG5PIW4FC5PCU31EJC7ZH
+[2013-11-15 21:57:53] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=227HIT3HVWA112GAROH2472ZLL7DLX
+[2013-11-15 21:57:53] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2MX3Q0JG5TYS4W66F90FCSSST9IFJ8
+[2013-11-15 21:57:53] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2FPQEOZFYQS7TC3USKORGS4IODVHK7
+[2013-11-15 21:57:54] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2K6H1XERSQVCNBVXLNK3KVWA7WZ80D
+[2013-11-15 21:57:54] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=21E4ZMAZHHRX2Z08SSEVUH1KT0QKBU
+[2013-11-15 21:57:54] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 21:57:54] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 21:57:54] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 21:57:54 MST 2013
+[2013-11-15 21:57:54] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 21:57:54] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 21:57:54] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 21:57:55] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 21:57:55] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-15 21:57:55] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-15 21:57:55] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-15 21:57:55] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 21:57:57] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 21:57:57] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 21:57:57 MST 2013
+[2013-11-15 21:57:57] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 21:57:58] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2K80JG5TYMNIDILCDK0SVSHXDD0HLA
+[2013-11-15 21:57:58] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '27BHPCGJ2D275N6D1MRJSPSI28B4AC' here: 
+[2013-11-15 21:57:58] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=27BHPCGJ2D275N6D1MRJSPSI28B4AC
+
+[2013-11-15 21:57:58] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 21:57:58 MST 2013
+[2013-11-15 21:57:58] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 21:57:58] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-15 21:57:58] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-15 22:05:25] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 22:05:25] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-15 22:05:25] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-15 22:05:25] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-15 22:05:25] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 22:05:26] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 22:05:26] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 22:05:26 MST 2013
+[2013-11-15 22:05:26] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 22:05:27] INFO  (WorkQueue.java: 71) - WARNING: Work queue has been shutdown with 1 pending Mechanical Turk requests
+[2013-11-15 22:05:35] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 22:05:35] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-15 22:05:35] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-15 22:05:35] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-15 22:05:35] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 22:05:36] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 22:05:36] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 22:05:36 MST 2013
+[2013-11-15 22:05:37] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 22:05:37] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2C6K5UFJ51YD7YY7J3HS4CSTY0WB82
+[2013-11-15 22:05:37] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2JS1QP6AUC2CU0GFH6O3Y0FKCO581G
+[2013-11-15 22:05:37] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=23I5BMJTUHY2J03XDW17V5WMDIQHMC
+[2013-11-15 22:05:38] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=25LW5XH0JPPYZMU6IUCSS75KXYNFLA
+[2013-11-15 22:05:38] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2VMEGDHDM25RP2JV31XHHZ6OQG7DNZ
+[2013-11-15 22:05:38] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2LHMAZHHRRLL7KYVR0IH4KHOLQXMD8
+[2013-11-15 22:05:38] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-15 22:05:38] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-15 22:05:38] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 22:05:38 MST 2013
+[2013-11-15 22:05:38] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 22:05:38] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-15 22:05:38] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-15 22:05:39] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-15 22:05:39] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-15 22:05:39] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-15 22:05:39] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-15 22:05:39] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-15 22:05:41] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-15 22:05:41] INFO  (LoadHITs.java: 231) -   Start time: Fri Nov 15 22:05:41 MST 2013
+[2013-11-15 22:05:41] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-15 22:05:42] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=20EKUDD8XMB97NJ74GXUWO6TGQCDOE
+[2013-11-15 22:05:42] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '27BHPCGJ2D275N6D1MRJSPSI28B4AC' here: 
+[2013-11-15 22:05:42] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=27BHPCGJ2D275N6D1MRJSPSI28B4AC
+
+[2013-11-15 22:05:42] INFO  (LoadHITs.java: 239) -   End time: Fri Nov 15 22:05:42 MST 2013
+[2013-11-15 22:05:42] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-15 22:05:42] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-15 22:05:42] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 11:40:11] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 11:40:11] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 11:40:11] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 11:40:11] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 11:40:11] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 11:40:13] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 11:40:13] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 11:40:13 MST 2013
+[2013-11-16 11:40:13] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 11:40:14] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=25C3K4F0OHO18LEQ1PF2O92HQOL12E
+[2013-11-16 11:40:14] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2NJ8N46UXFCJLP7KIYEDVNTKUZRTRT
+[2013-11-16 11:40:14] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2AG24E6AUBXNDCRFJQ09YBZWP39W0N
+[2013-11-16 11:40:14] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2PAV7WGKCCVR2NMI78DHDPQ4OLC3T0
+[2013-11-16 11:40:14] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2KLFDEY5COW620177D3RILC67ZJ3UR
+[2013-11-16 11:40:14] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2LOOQ1SNQQ7WNRAD5VBCQR12520R7F
+[2013-11-16 11:40:14] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-16 11:40:14] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-16 11:40:14] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 11:40:14 MST 2013
+[2013-11-16 11:40:14] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 11:40:14] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 11:40:14] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 11:40:16] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 11:40:16] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 11:40:16] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 11:40:16] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 11:40:16] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 11:40:17] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 11:40:17] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 11:40:17 MST 2013
+[2013-11-16 11:40:17] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 11:40:18] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2NAVQ8H88MQ0N5FWF03I4RXXGM6R82
+[2013-11-16 11:40:18] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '22PSBRI8IUB8FEJGNMJTOB3L03O4GO' here: 
+[2013-11-16 11:40:18] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=22PSBRI8IUB8FEJGNMJTOB3L03O4GO
+
+[2013-11-16 11:40:18] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 11:40:18 MST 2013
+[2013-11-16 11:40:18] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 11:40:18] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 11:40:18] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 11:57:25] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 11:57:25] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 11:57:25] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 11:57:25] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 11:57:25] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 11:57:26] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 11:57:26] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 11:57:26 MST 2013
+[2013-11-16 11:57:26] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 11:57:27] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2G2PFE4EGDHJ3MFTCN0N2W6HQBV9JI
+[2013-11-16 11:57:27] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2JYTP9RA7S523LGH2XFFA0JMTXYXS4
+[2013-11-16 11:57:27] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2A30XULRGNTH0NWUH2WFS7N6EW65RF
+[2013-11-16 11:57:28] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2OM6OQ1SNQQD7QH896HKFNR1E5F6QV
+[2013-11-16 11:57:28] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=22M2J1LY58BDJRW8ML6KKD16ARH6RW
+[2013-11-16 11:57:28] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2AZV8ER9Y8TT12W7WRWKIHS20YP5S3
+[2013-11-16 11:57:28] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-16 11:57:28] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-16 11:57:28] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 11:57:28 MST 2013
+[2013-11-16 11:57:28] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 11:57:28] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 11:57:28] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 11:57:29] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 11:57:29] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 11:57:29] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 11:57:29] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 11:57:29] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 11:57:31] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 11:57:31] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 11:57:31 MST 2013
+[2013-11-16 11:57:31] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 11:57:31] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=26U6SK9RJ85UG29MLR1ASMOO2H35TS
+[2013-11-16 11:57:31] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '22PSBRI8IUB8FEJGNMJTOB3L03O4GO' here: 
+[2013-11-16 11:57:31] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=22PSBRI8IUB8FEJGNMJTOB3L03O4GO
+
+[2013-11-16 11:57:31] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 11:57:31 MST 2013
+[2013-11-16 11:57:31] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 11:57:31] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 11:57:31] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 11:59:55] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 11:59:55] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 11:59:55] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 11:59:55] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 11:59:55] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 11:59:58] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 11:59:58] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 11:59:58 MST 2013
+[2013-11-16 11:59:59] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 12:00:00] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2GFR24SMEZZ832UUREL8S9Y3K5L2JJ
+[2013-11-16 12:00:01] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2YD8ER9Y8TNQZ690QABFKS2OYCE6T9
+[2013-11-16 12:00:01] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2U78PJWKUDDEE6LBU80Z3B6U50V9KH
+[2013-11-16 12:00:01] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=22IXULRGNTBPK6WL1A6PAN62WT06SK
+[2013-11-16 12:00:02] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2GYKPEIB9BA22CW5TVWV0UD3Y5G0XL
+[2013-11-16 12:00:03] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2TOSK9RJ85O5ZJOPQF1PPOOQHQL6U0
+[2013-11-16 12:00:03] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-16 12:00:03] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-16 12:00:03] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 12:00:03 MST 2013
+[2013-11-16 12:00:03] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 12:00:03] INFO  (LoadHITs.java: 241) -   Total load time: 5 seconds.
+[2013-11-16 12:00:03] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 12:00:05] ERROR (LoadHITs.java: 133) - Error loading HITs: ../../turk_stuff/oregon,.input (No such file or directory)
+java.io.FileNotFoundException: ../../turk_stuff/oregon,.input (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:97)
+	at com.amazonaws.mturk.addon.HITDataCSVReader.<init>(HITDataCSVReader.java:46)
+	at com.amazonaws.mturk.addon.HITDataCSVReader.<init>(HITDataCSVReader.java:41)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:183)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+[2013-11-16 12:00:07] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 12:00:07] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 12:00:07] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 12:00:07] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 12:00:07] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 12:00:10] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 12:00:10] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 12:00:10 MST 2013
+[2013-11-16 12:00:10] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 12:00:11] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2FT49F9SSSH3ILTWRXK5K5F8VGCXTT
+[2013-11-16 12:00:11] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '22PSBRI8IUB8FEJGNMJTOB3L03O4GO' here: 
+[2013-11-16 12:00:11] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=22PSBRI8IUB8FEJGNMJTOB3L03O4GO
+
+[2013-11-16 12:00:11] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 12:00:11 MST 2013
+[2013-11-16 12:00:11] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 12:00:11] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 12:00:11] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 12:00:22] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 12:00:22] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 12:00:22] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 12:00:22] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 12:00:22] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 12:00:23] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 12:00:23] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 12:00:23 MST 2013
+[2013-11-16 12:00:23] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 12:00:24] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2ZQIUB2YU98PYC3TF8C0IBJ9U009LK
+[2013-11-16 12:00:24] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2I0NMHGYQ4J94ULEFKDFIOYYU5Q9MM
+[2013-11-16 12:00:24] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2UKAC9KSSZV3EM0C9ZLKTOYGZUL2KI
+[2013-11-16 12:00:24] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2S5FSVGULF3FMC6ERLSFV3NYZV09NM
+[2013-11-16 12:00:25] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2XXL6VCPWZ9X4X6QS0SSASN3P559O1
+[2013-11-16 12:00:25] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=215QY2RCJK69GFOBLWRKXIAQLVA5UJ
+[2013-11-16 12:00:25] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-16 12:00:25] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-16 12:00:25] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 12:00:25 MST 2013
+[2013-11-16 12:00:25] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 12:00:25] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 12:00:25] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 12:00:26] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 12:00:26] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 12:00:26] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 12:00:26] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 12:00:26] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 12:00:28] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 12:00:28] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 12:00:28 MST 2013
+[2013-11-16 12:00:28] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 12:00:29] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2CPWGKCCVLL9TUDBQM1PT4C9Z2J5V8
+[2013-11-16 12:00:29] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '22PSBRI8IUB8FEJGNMJTOB3L03O4GO' here: 
+[2013-11-16 12:00:29] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=22PSBRI8IUB8FEJGNMJTOB3L03O4GO
+
+[2013-11-16 12:00:29] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 12:00:29 MST 2013
+[2013-11-16 12:00:29] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 12:00:29] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 12:00:29] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 12:00:31] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 12:00:31] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 12:00:31] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 12:00:31] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 12:00:31] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 12:00:32] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 12:00:32] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 12:00:32 MST 2013
+[2013-11-16 12:00:32] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 12:00:33] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2Z3KH1Q6SVQEYSIUUZXL8OBVOUQ2LL
+[2013-11-16 12:00:33] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '22PSBRI8IUB8FEJGNMJTOB3L03O4GO' here: 
+[2013-11-16 12:00:33] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=22PSBRI8IUB8FEJGNMJTOB3L03O4GO
+
+[2013-11-16 12:00:33] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 12:00:33 MST 2013
+[2013-11-16 12:00:33] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 12:00:33] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 12:00:33] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 12:38:35] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 12:38:35] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 12:38:35] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 12:38:35] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 12:38:35] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 12:38:38] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 12:38:38] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 12:38:38 MST 2013
+[2013-11-16 12:38:39] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 12:38:40] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=27D66RLPHIT9YF6IZP965NJQEDW8GO
+[2013-11-16 12:38:40] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2YDKCJ011K2DL3HHOVN648N4I6MB9Z
+[2013-11-16 12:38:40] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2IMIXKO2L92NVW6IA2UYRCCFCOEDEI
+[2013-11-16 12:38:40] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=20I11K274J7F1A6E5DE49UXFOPTDF0
+[2013-11-16 12:38:40] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=20Y5TYMNCWYHLTPHWXJH011J0ZHKO6
+[2013-11-16 12:38:40] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2B3F395SW6NMIZ2BR3EJEYF1RBHFTL
+[2013-11-16 12:38:40] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-16 12:38:40] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-16 12:38:40] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 12:38:40 MST 2013
+[2013-11-16 12:38:40] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 12:38:40] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 12:38:40] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 12:38:42] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 12:38:42] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 12:38:42] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 12:38:42] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 12:38:42] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 12:38:43] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 12:38:43] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 12:38:43 MST 2013
+[2013-11-16 12:38:44] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 12:38:44] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=26EZ9RNDWIO1ICH0R84TJU13APOFUC
+[2013-11-16 12:38:44] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '22PSBRI8IUB8FEJGNMJTOB3L03O4GO' here: 
+[2013-11-16 12:38:44] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=22PSBRI8IUB8FEJGNMJTOB3L03O4GO
+
+[2013-11-16 12:38:44] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 12:38:44 MST 2013
+[2013-11-16 12:38:44] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 12:38:44] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 12:38:44] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 12:38:46] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 12:38:46] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 12:38:46] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 12:38:46] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 12:38:46] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 12:38:47] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 12:38:47] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 12:38:47 MST 2013
+[2013-11-16 12:38:48] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 12:38:48] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=25DR14IXKO2RQMRMG11603YOOO4BAE
+[2013-11-16 12:38:48] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '22PSBRI8IUB8FEJGNMJTOB3L03O4GO' here: 
+[2013-11-16 12:38:48] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=22PSBRI8IUB8FEJGNMJTOB3L03O4GO
+
+[2013-11-16 12:38:48] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 12:38:48 MST 2013
+[2013-11-16 12:38:48] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 12:38:48] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 12:38:48] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 15:49:37] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 15:49:37] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 15:49:37] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 15:49:37] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 15:49:37] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 15:49:39] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 15:49:39] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 15:49:39 MST 2013
+[2013-11-16 15:49:39] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 15:49:40] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2ELV0FK0COK80YBUBUBKCLRWI0RPIK
+[2013-11-16 15:49:40] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2CYULF395SWC40BNW8EYQJBYRD7RDC
+[2013-11-16 15:49:40] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2L13NAB6BFMLW886MYSTMFDGQ44HUF
+[2013-11-16 15:49:40] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2X8SCM6IAA2YV242Y5ROTKKAGUAKKP
+[2013-11-16 15:49:40] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2VMEGDHDM25RP2JV31XHHZ6OQGINDK
+[2013-11-16 15:49:40] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=22R2HECWA6X9F8MKJ53P8KXP5UFKLS
+[2013-11-16 15:49:40] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2IJP6AUC26DMNRN918M0IK0CO8F3AQ' here: 
+[2013-11-16 15:49:40] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2IJP6AUC26DMNRN918M0IK0CO8F3AQ
+
+[2013-11-16 15:49:40] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 15:49:40 MST 2013
+[2013-11-16 15:49:40] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 15:49:40] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 15:49:40] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 15:49:42] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 15:49:42] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 15:49:42] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 15:49:42] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 15:49:42] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 15:49:43] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 15:49:43] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 15:49:43 MST 2013
+[2013-11-16 15:49:43] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 15:49:44] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2EZ0JPPSI2K4V9V0TCWKOM6WVFGPJW
+[2013-11-16 15:49:44] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '22PSBRI8IUB8FEJGNMJTOB3L03O4GO' here: 
+[2013-11-16 15:49:44] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=22PSBRI8IUB8FEJGNMJTOB3L03O4GO
+
+[2013-11-16 15:49:44] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 15:49:44 MST 2013
+[2013-11-16 15:49:44] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 15:49:44] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 15:49:44] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 15:49:45] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 15:49:45] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 15:49:45] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 15:49:45] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 15:49:45] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 15:49:46] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 15:49:46] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 15:49:46 MST 2013
+[2013-11-16 15:49:47] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 15:49:47] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2XGQ4J3NAB6HW6PNS3PIW1TJRP8RE5
+[2013-11-16 15:49:47] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '22PSBRI8IUB8FEJGNMJTOB3L03O4GO' here: 
+[2013-11-16 15:49:47] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=22PSBRI8IUB8FEJGNMJTOB3L03O4GO
+
+[2013-11-16 15:49:47] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 15:49:47 MST 2013
+[2013-11-16 15:49:47] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 15:49:47] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 15:49:47] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 15:49:49] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 15:49:49] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 15:49:49] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 15:49:49] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 15:49:49] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 15:49:50] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 15:49:50] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 15:49:50 MST 2013
+[2013-11-16 15:49:50] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 15:49:51] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2G4AZHHRRLFWH8XVZW81NHO9QSJNED
+[2013-11-16 15:49:51] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '22PSBRI8IUB8FEJGNMJTOB3L03O4GO' here: 
+[2013-11-16 15:49:51] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=22PSBRI8IUB8FEJGNMJTOB3L03O4GO
+
+[2013-11-16 15:49:51] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 15:49:51 MST 2013
+[2013-11-16 15:49:51] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 15:49:51] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 15:49:51] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:27:17] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:27:17] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 16:27:17] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 16:27:17] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 16:27:17] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:27:19] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:27:19] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:27:19 MST 2013
+[2013-11-16 16:27:19] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:27:20] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2UKAC9KSSZV3EM0C9ZLKTOYGZUP2KM
+[2013-11-16 16:27:20] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2QAKMT6YTWXAYNRATGVDC9GIIUBV0G
+[2013-11-16 16:27:20] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2PW4BLYHVI4A5CCSPZZDQEZSNMHV1J
+[2013-11-16 16:27:20] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2BGT3DHJHP4HUXUO83ZRVX9XFSVV20
+[2013-11-16 16:27:21] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2FWPLSP75KLSNGTBSF8QHQVJ3GEZTW
+[2013-11-16 16:27:21] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2FK4E6AUBXH291HNPE0VEZWD3XPX1O
+[2013-11-16 16:27:21] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '21A1Q6SVQ8HEP602AQWOEVCI1FA4NW' here: 
+[2013-11-16 16:27:21] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=21A1Q6SVQ8HEP602AQWOEVCI1FA4NW
+
+[2013-11-16 16:27:21] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:27:21 MST 2013
+[2013-11-16 16:27:21] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:27:21] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 16:27:21] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 16:27:22] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:27:22] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 16:27:22] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:27:22] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 16:27:22] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:27:24] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:27:24] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:27:24 MST 2013
+[2013-11-16 16:27:24] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:27:24] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2A79RA7S5WM7NT80SKY0MMHLMULZUN
+[2013-11-16 16:27:24] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '262746OQ1SNW7R0EB5W1TKCNRPF4OB' here: 
+[2013-11-16 16:27:24] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=262746OQ1SNW7R0EB5W1TKCNRPF4OB
+
+[2013-11-16 16:27:24] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:27:24 MST 2013
+[2013-11-16 16:27:24] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:27:24] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:27:24] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:27:26] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:27:26] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 16:27:26] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:27:26] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 16:27:26] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:27:28] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:27:28] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:27:28 MST 2013
+[2013-11-16 16:27:28] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:27:28] INFO  (WorkQueue.java: 71) - WARNING: Work queue has been shutdown with 1 pending Mechanical Turk requests
+[2013-11-16 16:27:32] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:27:32] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 16:27:32] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 16:27:32] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 16:27:32] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:27:33] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:27:33] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:27:33 MST 2013
+[2013-11-16 16:27:33] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:27:34] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2N970G5R98DE0N5MB1JSWNYCSFESC1
+[2013-11-16 16:27:34] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2KXDEY5COW0RXB9BCHIFOC6VZ6RV4W
+[2013-11-16 16:27:34] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2Z3KH1Q6SVQEYSIUUZXL8OBVOUU2LP
+[2013-11-16 16:27:34] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2CUPWZ9RNDWO5FB0BXE3GTGUDFQSD1
+[2013-11-16 16:27:34] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2LRF9SSSHX1708X0XA85I8J401UZVC
+[2013-11-16 16:27:34] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=25XXRDS4IC1KFXX5NKD14A2I7AWZWM
+[2013-11-16 16:27:34] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '21A1Q6SVQ8HEP602AQWOEVCI1FA4NW' here: 
+[2013-11-16 16:27:34] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=21A1Q6SVQ8HEP602AQWOEVCI1FA4NW
+
+[2013-11-16 16:27:34] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:27:34 MST 2013
+[2013-11-16 16:27:34] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:27:34] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 16:27:34] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 16:27:36] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:27:36] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 16:27:36] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:27:36] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 16:27:36] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:27:37] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:27:37] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:27:37 MST 2013
+[2013-11-16 16:27:37] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:27:38] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=26VOBDDP8PJ21ENLC2DB6Q39BC44FI
+[2013-11-16 16:27:38] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '262746OQ1SNW7R0EB5W1TKCNRPF4OB' here: 
+[2013-11-16 16:27:38] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=262746OQ1SNW7R0EB5W1TKCNRPF4OB
+
+[2013-11-16 16:27:38] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:27:38 MST 2013
+[2013-11-16 16:27:38] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:27:38] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:27:38] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:27:39] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:27:39] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 16:27:39] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:27:39] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 16:27:39] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:27:41] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:27:41] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:27:41 MST 2013
+[2013-11-16 16:27:41] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:27:42] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=214T6YTWX4H9YMZJ8I09JI6IV33X25
+[2013-11-16 16:27:42] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '262746OQ1SNW7R0EB5W1TKCNRPF4OB' here: 
+[2013-11-16 16:27:42] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=262746OQ1SNW7R0EB5W1TKCNRPF4OB
+
+[2013-11-16 16:27:42] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:27:42 MST 2013
+[2013-11-16 16:27:42] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:27:42] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:27:42] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:27:43] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:27:43] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 16:27:43] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:27:43] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 16:27:43] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:27:44] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:27:44] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:27:44 MST 2013
+[2013-11-16 16:27:45] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:27:45] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2CPWGKCCVLL9TUDBQM1PT4C9Z2MV51
+[2013-11-16 16:27:45] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '262746OQ1SNW7R0EB5W1TKCNRPF4OB' here: 
+[2013-11-16 16:27:45] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=262746OQ1SNW7R0EB5W1TKCNRPF4OB
+
+[2013-11-16 16:27:45] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:27:45 MST 2013
+[2013-11-16 16:27:45] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:27:45] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:27:45] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:27:47] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:27:47] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 16:27:47] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:27:47] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 16:27:47] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:27:48] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:27:48] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:27:48 MST 2013
+[2013-11-16 16:27:48] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:27:49] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2XCLF395SW6TXLP07SPNMBYFDRRSEU
+[2013-11-16 16:27:49] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '262746OQ1SNW7R0EB5W1TKCNRPF4OB' here: 
+[2013-11-16 16:27:49] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=262746OQ1SNW7R0EB5W1TKCNRPF4OB
+
+[2013-11-16 16:27:49] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:27:49 MST 2013
+[2013-11-16 16:27:49] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:27:49] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:27:49] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:30:08] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:30:08] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 16:30:08] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 16:30:08] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 16:30:08] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:30:09] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:30:09] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:30:09 MST 2013
+[2013-11-16 16:30:09] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:30:10] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=248Y2RCJK635CYDPV5BULAQ9VXXV6H
+[2013-11-16 16:30:10] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2F84J3NAB6BL3ZPW239T4TJFPS6SFC
+[2013-11-16 16:30:10] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2NAK9RJ85OZOGYRUEFGMROQ5Q8HV7G
+[2013-11-16 16:30:10] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2PWR9Y8TNKISGCWDOK8S5OM01SNV83
+[2013-11-16 16:30:11] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=22ESBRI8IUB8FEJGNMJTOB3LCR44GH
+[2013-11-16 16:30:11] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2IDP9746OQ1Y4A0FUBY081QKOZK2MR
+[2013-11-16 16:30:11] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2BWK4F0OHOVXIOS5OTTLC2HECKN23I' here: 
+[2013-11-16 16:30:11] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2BWK4F0OHOVXIOS5OTTLC2HECKN23I
+
+[2013-11-16 16:30:11] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:30:11 MST 2013
+[2013-11-16 16:30:11] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:30:11] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 16:30:11] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 16:30:12] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:30:12] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 16:30:12] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:30:12] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 16:30:12] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:30:13] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:30:13] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:30:13 MST 2013
+[2013-11-16 16:30:13] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:30:14] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2ALDHJHP4BDJ10E6CWJXCX3GFHZX41
+[2013-11-16 16:30:14] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 16:30:14] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 16:30:14] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:30:14 MST 2013
+[2013-11-16 16:30:14] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:30:14] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:30:14] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:30:15] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:30:15] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 16:30:15] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:30:15] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 16:30:15] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:30:17] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:30:17] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:30:17 MST 2013
+[2013-11-16 16:30:17] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:30:18] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2UWY5COW0LGXGNIKVKCC9VNUB85X6M
+[2013-11-16 16:30:18] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 16:30:18] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 16:30:18] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:30:18 MST 2013
+[2013-11-16 16:30:18] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:30:18] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:30:18] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:30:19] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:30:19] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 16:30:19] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:30:19] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 16:30:19] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:30:21] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:30:21] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:30:21 MST 2013
+[2013-11-16 16:30:21] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:30:21] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2QFBNVP3TVOQMEPR96P7TEOZRAJ03P
+[2013-11-16 16:30:21] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 16:30:21] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 16:30:21] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:30:21 MST 2013
+[2013-11-16 16:30:21] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:30:21] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:30:21] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:30:23] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:30:23] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 16:30:23] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:30:23] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 16:30:23] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:30:24] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:30:24] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:30:24 MST 2013
+[2013-11-16 16:30:24] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:30:25] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2HY5R98D8J31VR60WYEYFG3MOW0VFK
+[2013-11-16 16:30:25] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 16:30:25] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 16:30:25] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:30:25 MST 2013
+[2013-11-16 16:30:25] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:30:25] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:30:25] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:40:53] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:40:53] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 16:40:53] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 16:40:53] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 16:40:53] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:40:55] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:40:55] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:40:55 MST 2013
+[2013-11-16 16:40:55] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:40:56] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2W342J1LY58HOMHU4N7FNHD1IA85QI
+[2013-11-16 16:40:56] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2F736XBAT2DB4A8V9KUQ3JG55AF40E
+[2013-11-16 16:40:56] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2P4QU6L5OBVIZL15191IMF7G6D2YFW
+[2013-11-16 16:40:56] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2ETNVP3TVOKBBZTD53YQHOZFA2L41H
+[2013-11-16 16:40:56] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2A30XULRGNTH0NWUH2WFS7N6EWA5RJ
+[2013-11-16 16:40:56] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=24C8LZ6R70GB8TILCOUVH7WS45G7NC
+[2013-11-16 16:40:56] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2BWK4F0OHOVXIOS5OTTLC2HECKN23I' here: 
+[2013-11-16 16:40:56] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2BWK4F0OHOVXIOS5OTTLC2HECKN23I
+
+[2013-11-16 16:40:56] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:40:56 MST 2013
+[2013-11-16 16:40:56] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:40:56] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 16:40:56] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 16:40:58] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:40:58] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 16:40:58] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:40:58] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 16:40:58] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:40:59] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:40:59] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:40:59 MST 2013
+[2013-11-16 16:40:59] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:41:00] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2ADOK5UFJ514OAOW3KPQV1CS5YHA7V
+[2013-11-16 16:41:00] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 16:41:00] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 16:41:00] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:41:00 MST 2013
+[2013-11-16 16:41:00] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:41:00] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:41:00] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:41:01] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:41:01] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 16:41:01] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:41:01] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 16:41:01] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:41:02] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:41:02] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:41:02 MST 2013
+[2013-11-16 16:41:03] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:41:03] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2CZVKCJ011K8OOTFDPHW918NGINA8I
+[2013-11-16 16:41:03] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 16:41:03] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 16:41:03] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:41:03 MST 2013
+[2013-11-16 16:41:03] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:41:03] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:41:03] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:41:05] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:41:05] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 16:41:05] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:41:05] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 16:41:05] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:41:06] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:41:06] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:41:06 MST 2013
+[2013-11-16 16:41:06] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:41:07] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2ETAT2D5NQYTMZDY4O75WYMNO8R481
+[2013-11-16 16:41:07] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 16:41:07] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 16:41:07] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:41:07 MST 2013
+[2013-11-16 16:41:07] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:41:07] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:41:07] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 16:41:08] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 16:41:08] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 16:41:08] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 16:41:08] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 16:41:08] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 16:41:10] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 16:41:10] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 16:41:10 MST 2013
+[2013-11-16 16:41:10] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 16:41:10] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=22GHVI44OS2Q2EILRJQSEAP5NDT5ZC
+[2013-11-16 16:41:10] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 16:41:10] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 16:41:10] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 16:41:10 MST 2013
+[2013-11-16 16:41:10] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 16:41:10] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 16:41:10] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:00:16] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:00:16] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 17:00:16] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 17:00:16] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 17:00:16] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:06:08] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:06:08] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 17:06:08] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 17:06:08] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 17:06:08] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:06:09] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:06:09] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:06:09 MST 2013
+[2013-11-16 17:06:09] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:06:10] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2KD0FK0COK2PVLWFTPB9ORW60B3JQI
+[2013-11-16 17:06:10] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2KBVOK5UFJ57FR0MS46YTS1C45F96G
+[2013-11-16 17:06:10] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2YDWAVKI62NP7MBF6409TH6BWX5JRJ
+[2013-11-16 17:06:10] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=23DHVKCJ011QJRERBEBQZ618ZGZ97F
+[2013-11-16 17:06:10] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=25ZOVR14IXKUJ5JALJ3WD6X3A05982
+[2013-11-16 17:06:10] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2DMZMAZHHRRRWAAWRSMRK1KH0L7LCH
+[2013-11-16 17:06:10] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2BWK4F0OHOVXIOS5OTTLC2HECKN23I' here: 
+[2013-11-16 17:06:10] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2BWK4F0OHOVXIOS5OTTLC2HECKN23I
+
+[2013-11-16 17:06:10] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:06:10 MST 2013
+[2013-11-16 17:06:10] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:06:10] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 17:06:10] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 17:06:12] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:06:12] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 17:06:12] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:06:12] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 17:06:12] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:06:13] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:06:13] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:06:13 MST 2013
+[2013-11-16 17:06:14] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:06:14] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2Y9RLFQ0ONN181BSLT0EJRB7IZOJS7
+[2013-11-16 17:06:14] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 17:06:14] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 17:06:14] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:06:14 MST 2013
+[2013-11-16 17:06:14] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:06:14] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:06:14] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:06:16] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:06:16] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 17:06:16] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:06:16] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 17:06:16] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:06:18] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:06:18] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:06:18 MST 2013
+[2013-11-16 17:06:18] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:06:19] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2LNUUKQOYGNODLX0CT70407S7S3GYE
+[2013-11-16 17:06:19] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 17:06:19] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 17:06:19] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:06:19 MST 2013
+[2013-11-16 17:06:19] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:06:19] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:06:19] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:06:20] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:06:20] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 17:06:20] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:06:20] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 17:06:20] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:06:21] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:06:21] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:06:21 MST 2013
+[2013-11-16 17:06:22] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:06:22] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2GKMIKMN9U8VQIDGX1NXL3SUAUFBSE
+[2013-11-16 17:06:22] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 17:06:22] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 17:06:22] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:06:22 MST 2013
+[2013-11-16 17:06:22] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:06:22] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:06:22] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:06:24] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:06:24] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 17:06:24] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:06:24] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 17:06:24] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:06:25] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:06:25] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:06:25 MST 2013
+[2013-11-16 17:06:26] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:06:27] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2R6O2GMMEGOUXA2KQB9AD2SEU6N99R
+[2013-11-16 17:06:27] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 17:06:27] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 17:06:27] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:06:27 MST 2013
+[2013-11-16 17:06:27] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:06:27] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 17:06:27] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:07:42] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:07:42] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 17:07:42] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 17:07:42] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 17:07:42] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:07:44] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:07:44] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:07:44 MST 2013
+[2013-11-16 17:07:44] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:07:45] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=238U6L5OBVCOIB758F9JI7GUDM7GZ5
+[2013-11-16 17:07:45] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2M5QYN5F3Q0PXP36QS3W1B49RLLEAL
+[2013-11-16 17:07:45] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2CFX2Q45UUKW5IQVM1SNV8OGCDTBT3
+[2013-11-16 17:07:45] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=27QH88MQU6LB5V5KM6IX04AIVR0BUU
+[2013-11-16 17:07:45] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2U425L8I9NZ2N1O7AT54TW7TKI2JTW
+[2013-11-16 17:07:45] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2RVZXR24SME5GMWQORE9X8P9AF1H0D
+[2013-11-16 17:07:45] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2BWK4F0OHOVXIOS5OTTLC2HECKN23I' here: 
+[2013-11-16 17:07:45] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2BWK4F0OHOVXIOS5OTTLC2HECKN23I
+
+[2013-11-16 17:07:45] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:07:45 MST 2013
+[2013-11-16 17:07:45] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:07:45] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 17:07:45] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 17:07:46] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:07:46] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 17:07:46] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:07:46] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 17:07:46] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:07:48] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:07:48] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:07:48 MST 2013
+[2013-11-16 17:07:48] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:07:49] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2MCFJ51Y7QEUGZ8YW63SWMOF936EBG
+[2013-11-16 17:07:49] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 17:07:49] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 17:07:49] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:07:49 MST 2013
+[2013-11-16 17:07:49] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:07:49] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:07:49] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:07:50] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:07:50] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 17:07:50] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:07:50] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 17:07:50] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:07:51] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:07:51] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:07:51 MST 2013
+[2013-11-16 17:07:51] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:07:52] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2QHJMJUNU8L5NBH8KAI9BD8JF77H1G
+[2013-11-16 17:07:52] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 17:07:52] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 17:07:52] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:07:52 MST 2013
+[2013-11-16 17:07:52] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:07:52] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:07:52] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:07:53] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:07:53] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 17:07:53] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:07:53] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 17:07:53] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:07:55] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:07:55] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:07:55 MST 2013
+[2013-11-16 17:07:55] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:07:55] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2C18EBDPGFLCCWZ43EINGWIO7DLH2X
+[2013-11-16 17:07:55] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 17:07:55] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 17:07:55] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:07:55 MST 2013
+[2013-11-16 17:07:55] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:07:55] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:07:55] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:07:57] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:07:57] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 17:07:57] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:07:57] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 17:07:57] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:07:59] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:07:59] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:07:59 MST 2013
+[2013-11-16 17:07:59] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:08:00] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2WQ06UFBNFS1XEVN7EWSZ6NGDRLH38
+[2013-11-16 17:08:00] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2CI3TVOK5UFPML8FUJFZIYQS10574O' here: 
+[2013-11-16 17:08:00] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2CI3TVOK5UFPML8FUJFZIYQS10574O
+
+[2013-11-16 17:08:00] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:08:00 MST 2013
+[2013-11-16 17:08:00] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:08:00] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:08:00] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:09:57] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:09:57] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 17:09:57] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 17:09:57] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 17:09:57] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:09:59] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:09:59] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:09:59 MST 2013
+[2013-11-16 17:09:59] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:09:59] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=227HIT3HVWA112GAROH2472ZLLJLDH
+[2013-11-16 17:09:59] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2LISPW1INMHMFAER7S1B9BFMRRHH4T
+[2013-11-16 17:10:00] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2Y6VR14IXKO82TCPIHNA9X3Y0O59A6
+[2013-11-16 17:10:00] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2IANQQ7Q670BIAUKRWS2WQC19Y9BVJ
+[2013-11-16 17:10:00] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2PFMB3Q39Z0HNE3WAYVEYSTV3W9JUN
+[2013-11-16 17:10:00] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2NPD1X3V0FK6T8UANJSMAPKKLXKLEA
+[2013-11-16 17:10:00] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2BWK4F0OHOVXIOS5OTTLC2HECKN23I' here: 
+[2013-11-16 17:10:00] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2BWK4F0OHOVXIOS5OTTLC2HECKN23I
+
+[2013-11-16 17:10:00] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:10:00 MST 2013
+[2013-11-16 17:10:00] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:10:00] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 17:10:00] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 17:10:01] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:10:01] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 17:10:01] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:10:01] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 17:10:01] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:10:03] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:10:03] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:10:03 MST 2013
+[2013-11-16 17:10:03] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:10:04] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=22G58B727M0OXZUPH6XYISVFG7BBWT
+[2013-11-16 17:10:04] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 17:10:04] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 17:10:04] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:10:04 MST 2013
+[2013-11-16 17:10:04] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:10:04] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:10:04] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:10:05] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:10:05] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 17:10:05] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:10:05] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 17:10:05] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:10:06] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:10:06] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:10:06 MST 2013
+[2013-11-16 17:10:06] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:10:07] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=20ZSTLB3L0FH0TSWFO5JUEVEH3IJVC
+[2013-11-16 17:10:07] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 17:10:07] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 17:10:07] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:10:07 MST 2013
+[2013-11-16 17:10:07] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:10:07] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:10:07] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:10:09] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:10:09] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 17:10:09] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:10:09] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 17:10:09] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:10:10] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:10:10] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:10:10 MST 2013
+[2013-11-16 17:10:10] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:10:11] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2YDKCJ011K2DL3HHOVN648N4I6Q9B1
+[2013-11-16 17:10:11] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 17:10:11] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 17:10:11] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:10:11 MST 2013
+[2013-11-16 17:10:11] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:10:11] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:10:11] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:10:12] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:10:12] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 17:10:12] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:10:12] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 17:10:12] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:10:13] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:10:13] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:10:13 MST 2013
+[2013-11-16 17:10:14] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:10:14] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2QG8TNKIMZSSM4PPW7FM3PGVRFBBYS
+[2013-11-16 17:10:14] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 17:10:14] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 17:10:14] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:10:14 MST 2013
+[2013-11-16 17:10:14] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:10:14] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:10:14] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:11:33] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:11:33] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 17:11:33] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 17:11:33] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 17:11:33] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:11:34] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:11:34] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:11:34 MST 2013
+[2013-11-16 17:11:35] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:11:35] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2QNSW6NG1FS94IXRF361IZSZXEQJXF
+[2013-11-16 17:11:35] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=22R2HECWA6X9F8MKJ53P8KXP5UGLKU
+[2013-11-16 17:11:35] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2HJ1K274J79Q7GG9CSV6XXFCPGYEGX
+[2013-11-16 17:11:35] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=285DWIOV1S7Y4NN1KZS31DZ8ZKKJYL
+[2013-11-16 17:11:36] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2TK6DG67D1X9CKPS4HFK5JE1YJI9GI
+[2013-11-16 17:11:36] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=27ACM6IAA2SKZE4245FQNKA4UULLLX
+[2013-11-16 17:11:36] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2BWK4F0OHOVXIOS5OTTLC2HECKN23I' here: 
+[2013-11-16 17:11:36] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2BWK4F0OHOVXIOS5OTTLC2HECKN23I
+
+[2013-11-16 17:11:36] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:11:36 MST 2013
+[2013-11-16 17:11:36] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:11:36] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 17:11:36] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 17:11:37] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:11:37] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 17:11:37] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:11:37] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 17:11:37] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:11:39] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:11:39] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:11:39 MST 2013
+[2013-11-16 17:11:39] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:11:39] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2CO6RLPHIT3NCGK3ONX2QJQ2DJV9HH
+[2013-11-16 17:11:39] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 17:11:39] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 17:11:39] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:11:39 MST 2013
+[2013-11-16 17:11:39] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:11:39] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:11:39] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:11:41] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:11:41] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 17:11:41] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:11:41] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 17:11:41] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:11:42] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:11:42] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:11:42 MST 2013
+[2013-11-16 17:11:42] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:11:43] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2K9Y0LWSBRIEZELA2Z08MHSTXNWC0Z
+[2013-11-16 17:11:43] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 17:11:43] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 17:11:43] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:11:43 MST 2013
+[2013-11-16 17:11:43] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:11:43] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:11:43] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:11:44] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:11:44] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 17:11:44] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:11:44] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 17:11:44] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:11:46] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:11:46] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:11:46 MST 2013
+[2013-11-16 17:11:46] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:11:47] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2JVIPDOBDDPE636SYI480MB32F2C12
+[2013-11-16 17:11:47] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 17:11:47] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 17:11:47] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:11:47 MST 2013
+[2013-11-16 17:11:47] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:11:47] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:11:47] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 17:11:48] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 17:11:48] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 17:11:48] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 17:11:48] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 17:11:48] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 17:11:49] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 17:11:49] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 17:11:49 MST 2013
+[2013-11-16 17:11:49] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 17:11:50] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2QQD8J3VE7WY9DX6GLUMFK8A5EOJZC
+[2013-11-16 17:11:50] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 17:11:50] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 17:11:50] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 17:11:50 MST 2013
+[2013-11-16 17:11:50] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 17:11:50] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 17:11:50] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:00:02] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:00:02] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 20:00:02] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 20:00:02] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 20:00:02] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:00:04] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:00:04] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:00:04 MST 2013
+[2013-11-16 20:00:04] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:00:05] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2WVEY5COW0LM8JDGGW6LF6VN6BS5WP
+[2013-11-16 20:00:05] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2MAW6NG1FS3TF7TJ2KSF2SZLE9MYK1
+[2013-11-16 20:00:05] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2I3Y58B727M6Z0PSLIS61FSVRGRAVQ
+[2013-11-16 20:00:05] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2UHKPFE4EGDNU6CDPD99QZW6TQV8IN
+[2013-11-16 20:00:05] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2V9ILKH1Q6S17SRGCRHU9L5ON780J4
+[2013-11-16 20:00:06] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=229GNTBJ3MMJEPPXBSX2NHB9YPTAW0
+[2013-11-16 20:00:06] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2BWK4F0OHOVXIOS5OTTLC2HECKN23I' here: 
+[2013-11-16 20:00:06] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2BWK4F0OHOVXIOS5OTTLC2HECKN23I
+
+[2013-11-16 20:00:06] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:00:06 MST 2013
+[2013-11-16 20:00:06] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:00:06] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 20:00:06] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 20:00:07] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:00:07] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 20:00:07] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:00:07] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 20:00:07] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:00:09] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:00:09] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:00:09 MST 2013
+[2013-11-16 20:00:09] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:00:10] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2KVHJHP4BDDQXO8GVXO903G3HJS5YO
+[2013-11-16 20:00:10] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:00:10] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:00:10] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:00:10 MST 2013
+[2013-11-16 20:00:10] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:00:10] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 20:00:10] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:00:11] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:00:11] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 20:00:11] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:00:11] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 20:00:11] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:00:12] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:00:12] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:00:12 MST 2013
+[2013-11-16 20:00:12] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:00:13] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2A3B3L0FBJ9O5VTMNW5VH5RP3EHYM6
+[2013-11-16 20:00:13] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:00:13] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:00:13] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:00:13 MST 2013
+[2013-11-16 20:00:13] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:00:13] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:00:13] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:00:15] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:00:15] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 20:00:15] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:00:15] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 20:00:15] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:00:16] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:00:16] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:00:16 MST 2013
+[2013-11-16 20:00:16] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:00:17] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2ZIOUQIHPCGPJXC9S8N50H0J11O604
+[2013-11-16 20:00:17] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:00:17] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:00:17] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:00:17 MST 2013
+[2013-11-16 20:00:17] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:00:17] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:00:17] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:00:18] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:00:18] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 20:00:18] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:00:18] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 20:00:18] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:00:19] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:00:19] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:00:19 MST 2013
+[2013-11-16 20:00:19] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:00:20] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2AOS8SV7WGKITFVT7H136MHA1200QV
+[2013-11-16 20:00:20] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:00:20] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:00:20] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:00:20 MST 2013
+[2013-11-16 20:00:20] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:00:20] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:00:20] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:02:25] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:02:25] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 20:02:25] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 20:02:25] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 20:02:25] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:02:27] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:02:27] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:02:27 MST 2013
+[2013-11-16 20:02:27] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:02:28] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2OOO33FDEY5I5GATKWQ3BCRFXO20RW
+[2013-11-16 20:02:28] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=26YFL6VCPWZF87N4MTM1V7SNFPP8N3
+[2013-11-16 20:02:28] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=28UJK63ZVE3N8KU2MFH9ML5RFRXAZQ
+[2013-11-16 20:02:28] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2DKDIPDOBDDVP9T4OZ4DBXMBF2ZB0U
+[2013-11-16 20:02:28] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2BQLZ6R70G5XQSNGN8MEAWSS5ZU8OI
+[2013-11-16 20:02:28] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=24DP3TVOK5UL0PB6BV5O2FYQ4D863Z
+[2013-11-16 20:02:28] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2BWK4F0OHOVXIOS5OTTLC2HECKN23I' here: 
+[2013-11-16 20:02:28] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2BWK4F0OHOVXIOS5OTTLC2HECKN23I
+
+[2013-11-16 20:02:28] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:02:28 MST 2013
+[2013-11-16 20:02:28] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:02:28] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 20:02:28] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 20:02:29] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:02:29] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 20:02:29] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:02:29] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 20:02:29] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:02:31] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:02:31] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:02:31 MST 2013
+[2013-11-16 20:02:31] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:02:31] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2T5HMVHVKCJ6ILUAB9A7CKQWID464K
+[2013-11-16 20:02:31] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:02:31] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:02:31] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:02:31 MST 2013
+[2013-11-16 20:02:31] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:02:31] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:02:31] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:02:33] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:02:33] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 20:02:33] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:02:33] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 20:02:33] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:02:34] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:02:34] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:02:34 MST 2013
+[2013-11-16 20:02:34] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:02:35] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2C6X7H57DZKVWYEMKI8DP25LKU5B1X
+[2013-11-16 20:02:35] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:02:35] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:02:35] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:02:35 MST 2013
+[2013-11-16 20:02:35] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:02:35] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:02:35] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:02:36] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:02:36] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 20:02:36] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:02:36] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 20:02:36] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:02:38] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:02:38] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:02:38 MST 2013
+[2013-11-16 20:02:38] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:02:39] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2H6NNVRH1KHUQYQZFCXNY9LK8JSYP2
+[2013-11-16 20:02:39] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:02:39] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:02:39] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:02:39 MST 2013
+[2013-11-16 20:02:39] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:02:39] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:02:39] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:02:40] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:02:40] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 20:02:40] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:02:40] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 20:02:40] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:02:41] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:02:41] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:02:41 MST 2013
+[2013-11-16 20:02:42] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:02:42] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2LX0OHOVR14OE4YAPETHHCWAI9Z65P
+[2013-11-16 20:02:42] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:02:42] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:02:42] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:02:42 MST 2013
+[2013-11-16 20:02:42] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:02:42] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:02:42] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:04:01] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:04:01] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 20:04:01] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 20:04:01] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 20:04:01] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:04:03] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:04:03] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:04:03 MST 2013
+[2013-11-16 20:04:03] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:04:04] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2HZFL42J1LYBPVHABRRIJFKHPD23OL
+[2013-11-16 20:04:04] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2NKNJQ2172ZFQAREFPCCYEBUDFEYQT
+[2013-11-16 20:04:04] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2OKJENLVWJ5U6VA6ZLQ81MWBJQL0SK
+[2013-11-16 20:04:04] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=295TL0XULRGTAVTBQR4X8FP7ZIY3P2
+[2013-11-16 20:04:04] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2KFUYT3DHJHVLVNLOLVYBRSXL9Z0T9
+[2013-11-16 20:04:04] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2FQE4BLYHVIAL82AOQL8GNEZ4N60U0
+[2013-11-16 20:04:04] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2BWK4F0OHOVXIOS5OTTLC2HECKN23I' here: 
+[2013-11-16 20:04:04] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2BWK4F0OHOVXIOS5OTTLC2HECKN23I
+
+[2013-11-16 20:04:04] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:04:04 MST 2013
+[2013-11-16 20:04:04] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:04:04] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 20:04:04] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 20:04:06] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:04:06] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 20:04:06] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:04:06] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 20:04:06] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:04:07] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:04:07] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:04:07 MST 2013
+[2013-11-16 20:04:07] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:04:08] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2FJTHV8ER9YEA7UQQ4JM8KFH4EK3QT
+[2013-11-16 20:04:08] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:04:08] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:04:08] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:04:08 MST 2013
+[2013-11-16 20:04:08] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:04:08] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:04:08] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:04:09] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:04:09] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 20:04:09] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:04:09] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 20:04:09] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:04:10] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:04:10] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:04:10 MST 2013
+[2013-11-16 20:04:10] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:04:11] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=21KJE1M7PKKF2B6ES41C34LZ91GYRU
+[2013-11-16 20:04:11] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:04:11] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:04:11] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:04:11 MST 2013
+[2013-11-16 20:04:11] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:04:11] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:04:11] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:04:13] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:04:13] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 20:04:13] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:04:13] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 20:04:13] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:04:14] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:04:14] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:04:14 MST 2013
+[2013-11-16 20:04:14] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:04:15] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2TJPC6SK9RJEM89Q3J8MDAPM00M3RU
+[2013-11-16 20:04:15] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:04:15] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:04:15] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:04:15 MST 2013
+[2013-11-16 20:04:15] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:04:15] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:04:15] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:04:16] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:04:16] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 20:04:16] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:04:16] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 20:04:16] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:04:17] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:04:17] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:04:17 MST 2013
+[2013-11-16 20:04:18] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:04:18] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=23WZZ2MIKMNFBSZH28ZTZWXIF4Q8PZ
+[2013-11-16 20:04:18] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:04:18] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:04:18] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:04:18 MST 2013
+[2013-11-16 20:04:18] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:04:18] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:04:18] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:07:33] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:07:33] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 20:07:33] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 20:07:33] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 20:07:33] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:07:35] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:07:35] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:07:35 MST 2013
+[2013-11-16 20:07:35] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:07:36] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2J11LY58B72D3KSOJP8D46YF47B8T4
+[2013-11-16 20:07:36] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2ETNVP3TVOKBBZTD53YQHOZFA2O41K
+[2013-11-16 20:07:36] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2RIRYNJ92NJQ3KFJQOKUKYW2S5LB6V
+[2013-11-16 20:07:36] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2ECLRGNTBJ3S3X7DJUYN92KHNLI8UV
+[2013-11-16 20:07:36] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=20DCNHMVHVKI0KB9O7Y4M79K282421
+[2013-11-16 20:07:36] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2AKD5NQYN5F97KTO9YPMQCWYNG5B7U
+[2013-11-16 20:07:36] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2BWK4F0OHOVXIOS5OTTLC2HECKN23I' here: 
+[2013-11-16 20:07:36] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2BWK4F0OHOVXIOS5OTTLC2HECKN23I
+
+[2013-11-16 20:07:36] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:07:36 MST 2013
+[2013-11-16 20:07:36] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:07:36] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 20:07:36] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 20:07:37] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:07:37] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 20:07:37] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:07:37] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 20:07:37] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:07:39] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:07:39] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:07:39 MST 2013
+[2013-11-16 20:07:39] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:07:40] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2C6K5UFJ51YD7YY7J3HS4CSTY0BB8H
+[2013-11-16 20:07:40] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:07:40] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:07:40] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:07:40 MST 2013
+[2013-11-16 20:07:40] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:07:40] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:07:40] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:07:41] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:07:41] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 20:07:41] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:07:41] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 20:07:41] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:07:44] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:07:44] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:07:44 MST 2013
+[2013-11-16 20:07:44] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:07:45] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2NCXFCD45XCKA7N0RYBIQ3TG1GVYWX
+[2013-11-16 20:07:45] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:07:45] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:07:45] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:07:45 MST 2013
+[2013-11-16 20:07:45] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:07:45] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:07:45] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:07:46] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:07:46] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 20:07:46] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:07:46] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 20:07:46] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:07:48] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:07:48] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:07:48 MST 2013
+[2013-11-16 20:07:48] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:07:48] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2Q69Z6KW4ZMGG1RZVQ6Q3ONN73D6F8
+[2013-11-16 20:07:48] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:07:48] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:07:48] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:07:48 MST 2013
+[2013-11-16 20:07:48] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:07:48] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:07:48] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:07:50] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:07:50] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 20:07:50] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:07:50] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 20:07:50] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:07:51] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:07:51] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:07:51 MST 2013
+[2013-11-16 20:07:51] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:07:52] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2YDKCJ011K2DL3HHOVN648N4I6TB96
+[2013-11-16 20:07:52] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5' here: 
+[2013-11-16 20:07:52] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2MLW6NG1FS3TF7TJ2KSF2SZL2L3YK5
+
+[2013-11-16 20:07:52] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:07:52 MST 2013
+[2013-11-16 20:07:52] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:07:52] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:07:52] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:15:12] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:15:12] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 20:15:12] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 20:15:12] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 20:15:12] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:15:14] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:15:14] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:15:14 MST 2013
+[2013-11-16 20:15:14] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:15:14] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2B5U8LZ6R70MMBJGHDA3YE7W44P6MF
+[2013-11-16 20:15:14] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2P1VCNHMVHVQT3A95PT77J79W2S13W
+[2013-11-16 20:15:15] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2ETNVP3TVOKBBZTD53YQHOZFA2O14H
+[2013-11-16 20:15:15] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=26L6XBAT2D5T7IXDJ8H0MG5TAYJ15M
+[2013-11-16 20:15:15] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=26XE4EGDHDM8M5IQDSQW9HEZI0ABL3
+[2013-11-16 20:15:15] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=29UGW40SPW1O46RO2VVJ6NABINBD03
+[2013-11-16 20:15:15] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2YLTLB3L0FBPQ2YJNJARHVE5RD3WK4' here: 
+[2013-11-16 20:15:15] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2YLTLB3L0FBPQ2YJNJARHVE5RD3WK4
+
+[2013-11-16 20:15:15] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:15:15 MST 2013
+[2013-11-16 20:15:15] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:15:15] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 20:15:15] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 20:15:16] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:15:16] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 20:15:16] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:15:16] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 20:15:16] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:15:18] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:15:18] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:15:18 MST 2013
+[2013-11-16 20:15:18] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:15:18] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2I86SVQ8H88S7EGT9T2VFI1R9906PB
+[2013-11-16 20:15:18] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2WTOHOVR14I318CTD78EFWA6XRB769' here: 
+[2013-11-16 20:15:18] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2WTOHOVR14I318CTD78EFWA6XRB769
+
+[2013-11-16 20:15:18] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:15:18 MST 2013
+[2013-11-16 20:15:18] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:15:18] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:15:18] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:15:20] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:15:20] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 20:15:20] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:15:20] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 20:15:20] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:15:21] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:15:21] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:15:21 MST 2013
+[2013-11-16 20:15:21] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:15:22] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=23H9O9Z6KW453U9PLWILIQ0OZZRD4J
+[2013-11-16 20:15:22] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2WTOHOVR14I318CTD78EFWA6XRB769' here: 
+[2013-11-16 20:15:22] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2WTOHOVR14I318CTD78EFWA6XRB769
+
+[2013-11-16 20:15:22] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:15:22 MST 2013
+[2013-11-16 20:15:22] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:15:22] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:15:22] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:15:23] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:15:23] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 20:15:23] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:15:23] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 20:15:23] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:15:25] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:15:25] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:15:25 MST 2013
+[2013-11-16 20:15:25] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:15:26] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2P7JWKUDD8XSSN0BD4RB9UTOI50BM5
+[2013-11-16 20:15:26] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2WTOHOVR14I318CTD78EFWA6XRB769' here: 
+[2013-11-16 20:15:26] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2WTOHOVR14I318CTD78EFWA6XRB769
+
+[2013-11-16 20:15:26] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:15:26 MST 2013
+[2013-11-16 20:15:26] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:15:26] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:15:26] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:15:28] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:15:28] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 20:15:28] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:15:28] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 20:15:28] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:15:29] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:15:29] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:15:29 MST 2013
+[2013-11-16 20:15:29] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 2 threads
+[2013-11-16 20:15:30] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2OM6OQ1SNQQD7QH896HKFNR1E5M6Q2
+[2013-11-16 20:15:30] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2WTOHOVR14I318CTD78EFWA6XRB769' here: 
+[2013-11-16 20:15:30] INFO  (RequesterService.java: 1593) - 
+  https://workersandbox.mturk.com/mturk/preview?groupId=2WTOHOVR14I318CTD78EFWA6XRB769
+
+[2013-11-16 20:15:30] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:15:30 MST 2013
+[2013-11-16 20:15:30] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:15:30] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:15:30] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:19:31] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:19:31] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/basic.input
+[2013-11-16 20:19:31] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/basic.properties
+[2013-11-16 20:19:31] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/basic.question
+[2013-11-16 20:19:31] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:19:33] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:19:33] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:19:33 MST 2013
+[2013-11-16 20:19:33] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-11-16 20:19:34] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2FE2GTP9RA7YMGW9AEPSZF70J95QVN
+[2013-11-16 20:19:34] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2TFKNQY2RCJQNN93I88RBKUIADY3ST
+[2013-11-16 20:19:34] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2TJPC6SK9RJEM89Q3J8MLAPMOBF3R5
+[2013-11-16 20:19:34] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=27PQ67051QKI4BBAXV318MGI0I2FZI
+[2013-11-16 20:19:34] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=2ACHYW2GTP9XRR2D0RS6KYSOFUONSS
+[2013-11-16 20:19:34] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=285DWIOV1S7Y4NN1KZS39DZ8NVFYJD
+[2013-11-16 20:19:34] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '23T5BMJTUHY2J03XDW1735WM16VMH5' here: 
+[2013-11-16 20:19:34] INFO  (RequesterService.java: 1593) - 
+  https://www.mturk.com/mturk/preview?groupId=23T5BMJTUHY2J03XDW1735WM16VMH5
+
+[2013-11-16 20:19:34] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:19:34 MST 2013
+[2013-11-16 20:19:34] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:19:34] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 20:19:34] INFO  (LoadHITs.java: 243) -   Successfully loaded 6 HITs.
+[2013-11-16 20:19:36] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:19:36] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/oregon.input
+[2013-11-16 20:19:36] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:19:36] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/oregon.question
+[2013-11-16 20:19:36] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:19:37] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:19:37] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:19:37 MST 2013
+[2013-11-16 20:19:37] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-11-16 20:19:38] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=27G2RCJK63Z1VNRZ4PLILQ9JLSF7WG
+[2013-11-16 20:19:38] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2QYSW6NG1FS94IXRF361QZSZL2JXJ5' here: 
+[2013-11-16 20:19:38] INFO  (RequesterService.java: 1593) - 
+  https://www.mturk.com/mturk/preview?groupId=2QYSW6NG1FS94IXRF361QZSZL2JXJ5
+
+[2013-11-16 20:19:38] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:19:38 MST 2013
+[2013-11-16 20:19:38] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:19:38] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 20:19:38] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:19:39] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:19:39] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/darfur.input
+[2013-11-16 20:19:39] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:19:39] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/darfur.question
+[2013-11-16 20:19:39] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:19:40] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:19:40] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:19:40 MST 2013
+[2013-11-16 20:19:41] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-11-16 20:19:41] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2PAV7WGKCCVR2NMI78DHLPQ4CWC3TI
+[2013-11-16 20:19:41] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2QYSW6NG1FS94IXRF361QZSZL2JXJ5' here: 
+[2013-11-16 20:19:41] INFO  (RequesterService.java: 1593) - 
+  https://www.mturk.com/mturk/preview?groupId=2QYSW6NG1FS94IXRF361QZSZL2JXJ5
+
+[2013-11-16 20:19:41] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:19:41 MST 2013
+[2013-11-16 20:19:41] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:19:41] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 20:19:41] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:19:43] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:19:43] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/munchers.input
+[2013-11-16 20:19:43] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:19:43] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/munchers.question
+[2013-11-16 20:19:43] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:19:44] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:19:44] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:19:44 MST 2013
+[2013-11-16 20:19:44] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-11-16 20:19:45] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=22DWJ5OPB0Y1XJI6Q127PP9U3OR5XT
+[2013-11-16 20:19:45] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2QYSW6NG1FS94IXRF361QZSZL2JXJ5' here: 
+[2013-11-16 20:19:45] INFO  (RequesterService.java: 1593) - 
+  https://www.mturk.com/mturk/preview?groupId=2QYSW6NG1FS94IXRF361QZSZL2JXJ5
+
+[2013-11-16 20:19:45] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:19:45 MST 2013
+[2013-11-16 20:19:45] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:19:45] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-11-16 20:19:45] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-11-16 20:19:46] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-11-16 20:19:46] INFO  (LoadHITs.java: 194) -  Input: ../../turk_stuff/lightbot.input
+[2013-11-16 20:19:46] INFO  (LoadHITs.java: 195) -  Properties: ../../turk_stuff/complex.properties
+[2013-11-16 20:19:46] INFO  (LoadHITs.java: 196) -  Question File: ../../turk_stuff/lightbot.question
+[2013-11-16 20:19:46] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-11-16 20:19:48] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-11-16 20:19:48] INFO  (LoadHITs.java: 231) -   Start time: Sat Nov 16 20:19:48 MST 2013
+[2013-11-16 20:19:48] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-11-16 20:19:49] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2UNNQYN5F3Q600F12REC7YB492XD9P
+[2013-11-16 20:19:49] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2QYSW6NG1FS94IXRF361QZSZL2JXJ5' here: 
+[2013-11-16 20:19:49] INFO  (RequesterService.java: 1593) - 
+  https://www.mturk.com/mturk/preview?groupId=2QYSW6NG1FS94IXRF361QZSZL2JXJ5
+
+[2013-11-16 20:19:49] INFO  (LoadHITs.java: 239) -   End time: Sat Nov 16 20:19:49 MST 2013
+[2013-11-16 20:19:49] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-11-16 20:19:49] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-11-16 20:19:49] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.

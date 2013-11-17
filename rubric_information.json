@@ -1,7 +1,7 @@
 {
 	"rubricitems": [
 		{
-			"id": 1,
+			"id": "encyclopedia_location",
 			"name": "Location of Game Encyclopedia",
 			"description": "Some educational games include a game encyclopedia as part of the game, either internally or externally as a game manual or wiki. Having such an encyclopedia available within the game greatly increases the chance of players using it for self-directed and self-motivated learning, as part of tangential learning.",
 			"prompt": "Does this game have an encyclopedia of game content? If so, where?",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"id": 2,
+			"id": "encyclopedia_content",
 			"name": "Content of Game Encyclopedia",
 			"description": "Having a game encyclopedia as part of the game encourages self-motivated players to seek out additional help. If the encyclopedia includes more than just game mechanics as part of its content, players may be more encouraged to self-educate themselves about those topics.",
 			"prompt": "If this game contains an encyclopedia of game content, what kind of content does it contain?",
@@ -57,7 +57,7 @@
 			]
 		},
 		{
-			"id": 3,
+			"id": "referential_amount",
 			"name": "Amount of Referential Material",
 			"description": "By having many objects or events in the game that are references to real-life objects or events, players may recognize certain objects or events and self-motivate themselves to learn more about those objects or events. More objects like that in the game means more chances for a player to recognize a real-life object or event.",
 			"prompt": "How many game objects or events reference real-life objects or events?",
@@ -85,7 +85,7 @@
 			]
 		},
 		{
-			"id": 4,
+			"id": "referential_popularity",
 			"name": "Popularity of Referential Material",
 			"description": "Having real-life objects or events in the game means that some players will recognize them and attempt to self-educate themselves about those objects or events. In addition, having a large amount of those references be popular means that more players will recognize the more popular objects/events, and by association, education about the lesser-known objects/events will be the result of self-motivated education about the popular items.",
 			"prompt": "Of the objects/events that are in the game, how recognizable/popular are they?",
@@ -113,7 +113,7 @@
 			]
 		},
 		{
-			"id": 5,
+			"id": "referential_rewards",
 			"name": "Rewards for knowing Referential Material",
 			"description": "If games allow players to use their knowledge of the referential material in a positive manner within the game, it reinforces the desire for the player to tangentially learn about all the referential material in the game. This is in contrast to traditional methods, where the content that the player is trying to be educated about serves as a barrier of entry to the later levels of the game, or the game penalizes players that don't know the content; with this, players can still play the entirety of the game, but are incentivized to do better by learning the referential material.",
 			"prompt": "How much does knowing the real-life objects/events affect the gameplay?",
@@ -141,7 +141,7 @@
 			]
 		},
 		{
-			"id": 6,
+			"id": "adaptive_difficulty",
 			"name": "Adaptive Difficulty",
 			"description": "In order to incorporate flow as much as possible, the game must use a form of Adaptive Difficulty; the game tries to match the difficulty of the obstacles to the skill level of the player. This can be done in a rudimentary way by allowing the player to select the difficulty themselves, but is most effective when it recognizes how well a player is doing on a certain puzzle and adjusting the difficulty automatically. This ensures that the player isn't trivially challenged, but at the same time isn't pushed outside the bounds of their ability.",
 			"prompt": "How many difficulty levels are there in the game, and how is the difficulty changed?",
@@ -169,7 +169,7 @@
 			]
 		},
 		{
-			"id": 7,
+			"id": "contextual_tutorials",
 			"name": "Contextual Tutorials",
 			"description": "In keeping with flow, players need to be challenged at their level of skill within every game. This means that players shouldn't be hindered by challenges that are too easy for them, but likewise shouldn't feel completely lost on difficult challenges. The method of introducing these challenges is equally important; players that are forced to go through numerous, easy introductory levels will quickly become bored, but players that skip through tutorials at later stages or forget about valuable information learned early in the game quickly become frustrated. It's important to give the player only information that they need; similar to the concept of adaptive difficulty, the game gives the player helpful hints or suggestions when they are stuck, or when the player doesn't intuitively grasp a new mechanic the first time. Similarly, there needs to be tutorials for just about every concept in the game, to cater to players that might have learning 'gaps' in their history.",
 			"prompt": "How often are tutorials offered in the game?",
@@ -197,7 +197,7 @@
 			]
 		},
 		{
-			"id": 9,
+			"id": "resource_penalty",
 			"name": "Low game resource penalty for failure",
 			"description": "In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of game resources (e.g. lives, tries, health points) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty.",
 			"prompt": "If the player fails, how many game resources do they lose?",
@@ -225,7 +225,7 @@
 			]
 		},
 		{
-			"id": 10,
+			"id": "reset_penalty",
 			"name": "Low \"reset time\" for failure (time to return to failure point)",
 			"description": "In order for the game to encourage exploration and play, the player needs to feel free to fail. This means that if the player does fail, there is a minimal amount of external resources (e.g. time, frustration) consumed each time the player fails. With this, the player is comfortable trying different solutions to problems within the game without much penalty. ",
 			"prompt": "If the player fails, how long is the wait until they restart play?",
@@ -253,7 +253,7 @@
 			]
 		},
 		{
-			"id": 11,
+			"id": "checkpoint_frequency",
 			"name": "High checkpoint frequency",
 			"description": "It's important to have players feel free to fail within games. Having a high frequency of checkpoints reduces both the amount of time/frustration that it takes for the player to return to the point of a failure, as well as in-game resources.",
 			"prompt": "How often are there in-game checkpoints?",
@@ -281,7 +281,7 @@
 			]
 		},
 		{
-			"id": 12,
+			"id": "exploration_freedom",
 			"name": "Freedom of exploration",
 			"description": "If players are to be encouraged to explore, the nature of the game must be nonlinear and allow for players to progress in varying sections of the game at their own pace. That isn't saying that they shouldn't have a finite goal to work towards, but the methods or paths with which they work towards that goal should be optional and variable.",
 			"prompt": "How much freedom of choice is there in the game, including both game world and choice of lessons?",
@@ -309,7 +309,7 @@
 			]
 		},
 		{
-			"id": 13,
+			"id": "iterative_feedback",
 			"name": "Iterative feedback",
 			"description": "In the case of games with a high degree of free-form exploration, it's easy to see that some players might get lost and become frustrated. In order to maintain flow, these players must receive some kind of feedback that they're on the right track, and not just wandering aimlessly through the game world or puzzles. It's extremely helpful for players to receive feedback at every step they take, even during the completion of puzzles; that way, they can be sure that they're progressing, and easily see the steps ahead of them, enabling flow.",
 			"prompt": "How much and how often is there feedback regarding progress on the game?",
@@ -337,7 +337,7 @@
 			]
 		},
 		{
-			"id": 14,
+			"id": "problem_solving",
 			"name": "Unorthodox problem solving",
 			"description": "Another important element of allowing players to explore and play is to give them the option to solve problems using unorthodox solutions; solutions that the game didn't anticipate, but still validate the puzzle's end condition. Sometimes, the player may be able to figure out how to circumvent certain sections of a puzzle; this should still be considered valid, but it's hoped that the circumvention wasn't because of faulty game logic. This allows players to try unusual solutions to problems, and help them understand the system far better than if they had just been taught the correct solution.",
 			"prompt": "Are problems able to be solved multiple ways, or circumvented entirely?",

@@ -1,0 +1,222 @@
+{
+	"questions": [
+		{
+			"id": 1,
+			"required": 1,
+			"text": "What does this conditional evaluate to? \n (not ((true) and (false))) and (not ((false) or (not false)))",
+			"type": "multiple-choice",
+			"correct": 2,
+			"options": [
+				{
+					"id": 1,
+					"text": "true"
+				},
+				{
+					"id": 2,
+					"text": "false"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"required": 1,
+			"text": "What does this conditional evaluate to? \n ((not false) and (not true)) and ((false) and (not true))",
+			"type": "multiple-choice",
+			"correct": 2,
+			"options": [
+				{
+					"id": 1,
+					"text": "true"
+				},
+				{
+					"id": 2,
+					"text": "false"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"required": 1,
+			"text": "What does this conditional evaluate to? \n not (((not true) and (false)) and ((true) and (false)))",
+			"type": "multiple-choice",
+			"correct": 1,
+			"options": [
+				{
+					"id": 1,
+					"text": "true"
+				},
+				{
+					"id": 2,
+					"text": "false"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"required": 1,
+			"text": "What does this conditional evaluate to? \n ((true) and (true)) or ((false) and (not true))",
+			"type": "multiple-choice",
+			"correct": 1,
+			"options": [
+				{
+					"id": 1,
+					"text": "true"
+				},
+				{
+					"id": 2,
+					"text": "false"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"required": 1,
+			"text": "Examine the following code: \n\n int count = 0; \n while ( count &lt;= 6 ) \n { \n System.out.print( count + \" \" ); \n count = count + 2; \n} \n System.out.println(  ); \n\n What does this code print on the monitor?",
+			"type": "multiple-choice",
+			"correct": 4,
+			"options": [
+				{
+					"id": 1,
+					"text": "1 2 3 4 5 6"
+				},
+				{
+					"id": 2,
+					"text": "0 2 4 6 8"
+				},
+				{
+					"id": 3,
+					"text": "0 2 4"
+				},
+				{
+					"id": 4,
+					"text": "0 2 4 6"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"required": 1,
+			"text": "Examine the following code: \n\n int count = 7; \n while ( count &gt;= 4 ) \n { \n System.out.print( count + \" \" ); \n count = count - 1; \n} \n System.out.println(  ); \n\n What does this code print on the monitor?",
+			"type": "multiple-choice",
+			"correct": 2,
+			"options": [
+				{
+					"id": 1,
+					"text": "1 2 3 4 5 6 7"
+				},
+				{
+					"id": 2,
+					"text": "7 6 5 4"
+				},
+				{
+					"id": 3,
+					"text": "6 5 4 3"
+				},
+				{
+					"id": 4,
+					"text": "7 6 5 4 3"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"required": 1,
+			"text": "Examine the following code: \n\n int count = -2; \n while ( count &lt; 3 ) \n { \n System.out.print( count + \" \" ); \n count = count + 1; \n} \n System.out.println(  ); \n\n What does this code print on the monitor?",
+			"type": "multiple-choice",
+			"correct": 4,
+			"options": [
+				{
+					"id": 1,
+					"text": "-2 -1 1 2 3 4"
+				},
+				{
+					"id": 2,
+					"text": "-2 -1 1 2 3"
+				},
+				{
+					"id": 3,
+					"text": "-3 -4 -5 -6 -7"
+				},
+				{
+					"id": 4,
+					"text": "-2 -1 0 1 2"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"required": 1,
+			"text": "Examine the following code: \n\n int count = 1; \n while ( count &lt; 5 ) \n { \n System.out.print( count + \" \" ); \n} \n System.out.println(  ); \n\n What does this code print on the monitor?",
+			"type": "multiple-choice",
+			"correct": 4,
+			"options": [
+				{
+					"id": 1,
+					"text": "1 2 3 4"
+				},
+				{
+					"id": 2,
+					"text": "1 2 3 4 5"
+				},
+				{
+					"id": 3,
+					"text": "2 3 4"
+				},
+				{
+					"id": 4,
+					"text": "1 1 1 1 1 1 1 1 1 1 1 . . . ."
+				}
+			]
+		},
+		{
+			"id": 9,
+			"required": 1,
+			"text": "Examine the following code: \n\n function foo() { \n bar(); \n print('foo'); \n } \n function bar() { \nprint('bar'); \n } \n\n What does the code \"foo(); bar()\"  print on the monitor?",
+			"type": "multiple-choice",
+			"correct": 2,
+			"options": [
+				{
+					"id": 1,
+					"text": "foobar"
+				},
+				{
+					"id": 2,
+					"text": "barfoobar"
+				},
+				{
+					"id": 3,
+					"text": "foobarfoo"
+				},
+				{
+					"id": 4,
+					"text": "barbarfoo"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"required": 1,
+			"text": "Examine the following code: \n\n function foo() { \n bar(); \n print('foo'); \n } \n function bar() { \nprint('bar'); \n } \n\n What does the code \"bar(); foo()\"  print on the monitor?",
+			"type": "multiple-choice",
+			"correct": 4,
+			"options": [
+				{
+					"id": 1,
+					"text": "foobar"
+				},
+				{
+					"id": 2,
+					"text": "barfoobar"
+				},
+				{
+					"id": 3,
+					"text": "foobarfoo"
+				},
+				{
+					"id": 4,
+					"text": "barbarfoo"
+				}
+			]
+		}
+	]
+}

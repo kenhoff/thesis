@@ -1,0 +1,274 @@
+{
+	"questions": [
+		{
+			"id": 1,
+			"required": 1,
+			"text": "How many miles long was the Oregon Trail?",
+			"type": "multiple-choice",
+			"correct": 3,
+			"options": [
+				{
+					"id": 1,
+					"text": "500 Miles"
+				},
+				{
+					"id": 2,
+					"text": "1000 Miles"
+				},
+				{
+					"id": 3,
+					"text": "2000 Miles"
+				},
+				{
+					"id": 4,
+					"text": "3000 Miles"
+				},
+				{
+					"id": 5,
+					"text": "20000 Miles"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"required": 1,
+			"text": "What is the name of a disease like malaria that the pioneers might catch?",
+			"type": "multiple-choice",
+			"correct": 4,
+			"options": [
+				{
+					"id": 1,
+					"text": "ague"
+				},
+				{
+					"id": 2,
+					"text": "pneumonia"
+				},
+				{
+					"id": 3,
+					"text": "epilepsy"
+				},
+				{
+					"id": 4,
+					"text": "measles"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"required": 1,
+			"text": "What year was the first Oregon Trail wagon train organized?",
+			"type": "multiple-choice",
+			"correct": 5,
+			"options": [
+				{
+					"id": 1,
+					"text": "1847"
+				},
+				{
+					"id": 2,
+					"text": "1843"
+				},
+				{
+					"id": 3,
+					"text": "1899"
+				},
+				{
+					"id": 4,
+					"text": "1876"
+				},
+				{
+					"id": 5,
+					"text": "1836"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"required": 1,
+			"text": "What disease killed more people on the trail than any other?",
+			"type": "multiple-choice",
+			"correct": 3,
+			"options": [
+				{
+					"id": 1,
+					"text": "smallpox"
+				},
+				{
+					"id": 2,
+					"text": "plague"
+				},
+				{
+					"id": 3,
+					"text": "cholera"
+				},
+				{
+					"id": 4,
+					"text": "scarlet fever"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"required": 1,
+			"text": "When was the first transcontinental railroad finished that eventually ended the Oregon Trail?",
+			"type": "multiple-choice",
+			"correct": 3,
+			"options": [
+				{
+					"id": 1,
+					"text": "1867"
+				},
+				{
+					"id": 2,
+					"text": "1870"
+				},
+				{
+					"id": 3,
+					"text": "1899"
+				},
+				{
+					"id": 4,
+					"text": "1869"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"required": 1,
+			"text": "How many modern states did the travelers travel through when crossing the trail?",
+			"type": "multiple-choice",
+			"correct": 1,
+			"options": [
+				{
+					"id": 1,
+					"text": "6"
+				},
+				{
+					"id": 2,
+					"text": "8"
+				},
+				{
+					"id": 3,
+					"text": "3"
+				},
+				{
+					"id": 4,
+					"text": "10"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"required": 1,
+			"text": "How many people died on the Oregon Trail?",
+			"type": "multiple-choice",
+			"correct": 4,
+			"options": [
+				{
+					"id": 1,
+					"text": "50,000-60,000"
+				},
+				{
+					"id": 2,
+					"text": "20,000-30,000"
+				},
+				{
+					"id": 3,
+					"text": "90,000-100,000"
+				},
+				{
+					"id": 4,
+					"text": "10,000-20,000"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"required": 1,
+			"text": "Where did the Oregon Trail begin?",
+			"type": "multiple-choice",
+			"correct": 2,
+			"options": [
+				{
+					"id": 1,
+					"text": "Independence, Mississippi"
+				},
+				{
+					"id": 2,
+					"text": "Independence, Missouri"
+				},
+				{
+					"id": 3,
+					"text": "Independence, Michigan"
+				},
+				{
+					"id": 4,
+					"text": "Independence, Montana"
+				},
+				{
+					"id": 5, 
+					"text": "Independence, Massachusetts"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"required": 1,
+			"text": "Where did the Oregon Trail end?",
+			"type": "multiple-choice",
+			"correct": 5,
+			"options": [
+				{
+					"id": 1,
+					"text": "Vancouver, Washington"
+				},
+				{
+					"id": 2,
+					"text": "The Dalles, Oregon"
+				},
+				{
+					"id": 3,
+					"text": "Portland, Oregon"
+				},
+				{
+					"id": 4,
+					"text": "Stevenson, Washington"
+				},
+				{
+					"id": 5, 
+					"text": "Oregon City, Oregon"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"required": 1,
+			"text": "How many people came west on the Oregon Trail?",
+			"type": "multiple-choice",
+			"correct": 4,
+			"options": [
+				{
+					"id": 1,
+					"text": "around 500"
+				},
+				{
+					"id": 2,
+					"text": "around 5000"
+				},
+				{
+					"id": 3,
+					"text": "around 50000"
+				},
+				{
+					"id": 4,
+					"text": "around 500000"
+				},
+				{
+					"id": 5, 
+					"text": "around 5000000"
+				}
+			]
+		}
+	]
+}

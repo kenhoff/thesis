@@ -43,6 +43,9 @@ loops
 
 using 2 of the following questions for pre and the other 2 for post
 
+      // "text": "Examine the following code: \n int count = 0; \n while ( count <= 6 ) \n { \n\t System.out.print( count + \" \" ); \n\t count = count + 2; \n} \n System.out.println(  );",
+
+
 4. Examine the following code:
     int count = 0;                                  
     while ( count <= 6 )  
