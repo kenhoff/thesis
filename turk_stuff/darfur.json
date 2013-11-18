@@ -61,7 +61,7 @@
 		{
 			"id": 3,
 			"required": 1,
-			"text": "A genocide is defined as killing, causing serious bodily or mental harm and preventing births of ______",
+			"text": "A genocide is defined as killing, causing serious bodily or mental harm and preventing births of ...",
 			"type": "multiple-choice",
 			"correct": 5,
 			"options": [
