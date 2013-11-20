@@ -17,7 +17,7 @@ def main():
 	print_table()
 	gradeAll()
 	# printGrades()
-	# scoreDifferenceMean()
+	scoreDifferenceMean()
 	conn.close()
 
 
