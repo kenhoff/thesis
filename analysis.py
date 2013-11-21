@@ -65,8 +65,10 @@ def print_table():
 		rubric_keys.append(item['id'])
 	exec_string = '''SELECT {} FROM results'''.format(', '.join(['gameid'] + rubric_keys))
 	c.execute(exec_string)
+	count = 0
 	for row in c.fetchall():
-		print "{0}: {1}".format(row[0], ', '.join(row[1:]))
+		count += 1
+		print "{2} {0}: {1}".format(row[0], ', '.join(row[1:]), count)
 	print ', '.join(rubric_keys)
 
 
