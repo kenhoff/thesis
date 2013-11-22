@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  20 NOV 2013 23:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  22 NOV 2013 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -85,7 +85,53 @@ File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(./KenHoffThesis.aux)
+(./KenHoffThesis.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `KenHoffThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -100,8 +146,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
-
-(/usr/local/texlive/2013basic/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2013basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count97
 \scratchdimen=\dimen109
@@ -508,26 +553,119 @@ t('foo'); \OMS/cmsy/m/n/12 g \OT1/cmr/m/n/12 func-tion bar() \OMS/cmsy/m/n/12 f
  \OT1/cmr/m/n/12 print('bar');
  []
 
-[54]) [55]) (./analysis.tex [56]) [57] (./KenHoffThesis.aux) ) 
+[54]) [55]) (./analysis.tex [56]) [57]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 121.
+
+
+(/usr/local/texlive/2013basic/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 121.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+\OT1/cmtt/m/n/12 edu / homepage / faculty / gosling / reprints / MTurkhowto .
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 126--127
+[]\OT1/cmr/m/n/12 ``Genocide in Dar-fur.'' Game. Fun Trivia. Web. 21
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+\OT1/cmr/m/n/12 Nov. 2013. \OML/cmm/m/it/12 <$\OT1/cmtt/m/n/12 http : / / www .
+ funtrivia . com / playquiz /
+ []
+
+[58
+
+]
+Underfull \hbox (badness 1178) in paragraph at lines 129--130
+[]\OT1/cmr/m/n/12 Kjell, Bradley. ``Count-ing Loop Quiz.'' Count-ing Loop
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+[]\OT1/cmr/m/n/12 ``The Mea-sure-ment of Inter-rater Agree-ment.''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\OT1/cmr/m/n/12 Web. \OML/cmm/m/it/12 <$\OT1/cmtt/m/n/12 http : / / hpm . fk . 
+ugm . ac . id / hpmlama / images /
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+Underfull \hbox (badness 5607) in paragraph at lines 133--134
+[]\OT1/cmr/m/n/12 ``Quiz: The Ore-gon Trail.'' Quia. Quia. Web. 21
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 134--135
+[]\OT1/cmr/m/n/12 ``QuizMoz - Ore-gon Trail Quiz.'' Quiz-Moz - Ore-
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 134--135
+\OT1/cmr/m/n/12 gon Trail Quiz. Web. 21 Nov. 2013. \OML/cmm/m/it/12 <$\OT1/cmtt
+/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+\OT1/cmtt/m/n/12 quizmoz . com / quizzes / Interesting-[]Facts-[]Quizzes /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+[]\OT1/cmr/m/n/12 ``What Do You Know about the Dar-fur Geno-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+\OT1/cmr/m/n/12 cide?'' What Do You Know about the Dar-fur
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 135--136
+\OT1/cmr/m/n/12 Geno-cide? Pro-Profs. Web. 21 Nov. 2013. \OML/cmm/m/it/12 <$\OT
+1/cmtt/m/n/12 http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+\OT1/cmtt/m/n/12 / / www . proprofs . com / quiz-[]school / story . php ? title
+ =
+ []
+
+[59] (./KenHoffThesis.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2925 strings out of 494536
- 43689 string characters out of 6167446
- 99813 words of memory out of 5000000
- 6109 multiletter control sequences out of 15000+600000
+ 2943 strings out of 494536
+ 44000 string characters out of 6167446
+ 99856 words of memory out of 5000000
+ 6124 multiletter control sequences out of 15000+600000
  9752 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 38i,6n,32p,19272b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texli
-ve/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/t
-exlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
-ocal/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
->
-Output written on KenHoffThesis.pdf (59 pages, 2166745 bytes).
+ 38i,6n,32p,19272b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb>
+Output written on KenHoffThesis.pdf (61 pages, 2179975 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 252 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
