@@ -18,7 +18,10 @@ def main():
 	gradeAll()
 	# printGrades()
 	scoreDifferenceMean()
+	createQuizGraphs()
 	conn.close()
+
+
 
 
 
@@ -181,7 +184,120 @@ def scoreDifferenceMean():
 	diffs = []
 	for row in c.fetchall():
 		diffs.append(float(row[1]) - float(row[0]))
-	print "Avg change: {}".format(sum(diffs)/len(diffs))
+	# print "Avg change: {}".format(sum(diffs)/len(diffs))
+
+def createQuizGraphs():
+	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0'''
+	c.execute(exec_string)
+	buckets = [0] * 20
+	for row in c.fetchall():
+		diff = float(row[1]) - float(row[0])
+		buckets[int((diff * 20) + 10)] += 1
+	print buckets
+
+	import plottest
+	plottest.quiz_results(buckets, 'general_results.png', "Aggregated score differences for all games")
+
+	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0 AND gameid = "darfur"'''
+	c.execute(exec_string)
+	buckets = [0] * 20
+	for row in c.fetchall():
+		diff = float(row[1]) - float(row[0])
+		buckets[int((diff * 20) + 10)] += 1
+	print buckets	
+
+	plottest.quiz_results(buckets, 'darfur_results.png', "Score differences for Darfur is Dying")
+
+	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0 AND gameid = "oregon"'''
+	c.execute(exec_string)
+	buckets = [0] * 20
+	for row in c.fetchall():
+		diff = float(row[1]) - float(row[0])
+		buckets[int((diff * 20) + 10)] += 1
+	print buckets	
+
+	plottest.quiz_results(buckets, 'oregon_results.png', "Score differences for The Oregon Trail")
+
+	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0 AND gameid = "lightbot"'''
+	c.execute(exec_string)
+	buckets = [0] * 20
+	for row in c.fetchall():
+		diff = float(row[1]) - float(row[0])
+		buckets[int((diff * 20) + 10)] += 1
+	print buckets	
+
+	plottest.quiz_results(buckets, 'lightbot_results.png', "Score differences for Light Bot")
+
+	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0 AND gameid = "munchers"'''
+	c.execute(exec_string)
+	buckets = [0] * 20
+	for row in c.fetchall():
+		diff = float(row[1]) - float(row[0])
+		buckets[int((diff * 20) + 10)] += 1
+	print buckets	
+
+	plottest.quiz_results(buckets, 'munchers_results.png', "Score differences for Number Munchers")
+
+	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0'''
+	c.execute(exec_string)
+	pre_buckets = [0] * 11
+	post_buckets = [0] * 11
+	for row in c.fetchall():
+		# print int(float(row[0]) * 10) 
+		pre_buckets[int(float(row[0]) * 10)] += 1
+		post_buckets[int(float(row[1]) * 10)] += 1
+
+	plottest.quiz_pre_and_post(pre_buckets, "general_pre.png", "Aggregated scores from the pre-quizzes")
+	plottest.quiz_pre_and_post(post_buckets, "general_post.png", "Aggregated scores from the post-quizzes")
+
+	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0 AND gameid = "munchers"'''
+	c.execute(exec_string)
+	pre_buckets = [0] * 11
+	post_buckets = [0] * 11
+	for row in c.fetchall():
+		# print int(float(row[0]) * 10) 
+		pre_buckets[int(float(row[0]) * 10)] += 1
+		post_buckets[int(float(row[1]) * 10)] += 1
+
+	plottest.quiz_pre_and_post(pre_buckets, "munchers_pre.png", "Pre-quiz scores for Number Munchers")
+	plottest.quiz_pre_and_post(post_buckets, "munchers_post.png", "Post-quiz scores for Number Munchers")
+
+	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0 AND gameid = "darfur"'''
+	c.execute(exec_string)
+	pre_buckets = [0] * 11
+	post_buckets = [0] * 11
+	for row in c.fetchall():
+		# print int(float(row[0]) * 10) 
+		pre_buckets[int(float(row[0]) * 10)] += 1
+		post_buckets[int(float(row[1]) * 10)] += 1
+
+	plottest.quiz_pre_and_post(pre_buckets, "darfur_pre.png", "Pre-quiz scores for Darfur is Dying")
+	plottest.quiz_pre_and_post(post_buckets, "darfur_post.png", "Post-quiz scores for Darfur is Dying")
+
+	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0 AND gameid = "lightbot"'''
+	c.execute(exec_string)
+	pre_buckets = [0] * 11
+	post_buckets = [0] * 11
+	for row in c.fetchall():
+		# print int(float(row[0]) * 10) 
+		pre_buckets[int(float(row[0]) * 10)] += 1
+		post_buckets[int(float(row[1]) * 10)] += 1
+
+	plottest.quiz_pre_and_post(pre_buckets, "lightbot_pre.png", "Pre-quiz scores for Light Bot")
+	plottest.quiz_pre_and_post(post_buckets, "lightbot_post.png", "Post-quiz scores for Light Bot")
+
+	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0 AND gameid = "oregon"'''
+	c.execute(exec_string)
+	pre_buckets = [0] * 11
+	post_buckets = [0] * 11
+	for row in c.fetchall():
+		# print int(float(row[0]) * 10) 
+		pre_buckets[int(float(row[0]) * 10)] += 1
+		post_buckets[int(float(row[1]) * 10)] += 1
+
+	plottest.quiz_pre_and_post(pre_buckets, "oregon_pre.png", "Pre-quiz scores for The Oregon Trail")
+	plottest.quiz_pre_and_post(post_buckets, "oregon_post.png", "Post-quiz scores for The Oregon Trail")
+
 
 
 

@@ -1,6 +1,7 @@
 all:
 	python create_latex.py 
 	python generate_surveytex.py
+	python analysis.py
 	pdflatex KenHoffThesis.tex	
 
 final: all

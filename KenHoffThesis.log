@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  23 NOV 2013 23:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  24 NOV 2013 21:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -227,7 +227,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `KenHoffThesis.toc'.
 
- [2] (./KenHoffThesis.lof)
+ [2] (./KenHoffThesis.lof [3
+
+])
 \tf@lof=\write4
 \openout4 = `KenHoffThesis.lof'.
 
@@ -243,9 +245,7 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [3
-
-] [4] [5]
+ [4] [5]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -276,6 +276,7 @@ Overfull \hbox (7.16347pt too wide) in paragraph at lines 66--67
 An easy-to-implement
  []
 
+[7]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -291,7 +292,6 @@ Missing character: There is no ò in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
-[7]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
@@ -301,7 +301,7 @@ Missing character: There is no ò in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
- [8] (./Rubric.tex [9] [10] [11] [12] [13] [14] [15]) [16] [17] [18]
+ [8] (./Rubric.tex [9] [10] [11] [12] [13] [14] [15] [16]) [17] [18]
 (./GameSummaries.tex [19] [20]
 <img/darfur_title.png, id=76, 855.195pt x 604.2575pt>
 File: img/darfur_title.png Graphic file (type png)
@@ -515,9 +515,131 @@ t('foo'); \OMS/cmsy/m/n/12 g \OT1/cmr/m/n/12 func-tion bar() \OMS/cmsy/m/n/12 f
  \OT1/cmr/m/n/12 print('bar');
  []
 
-[59]) [60]) (./analysis.tex [61]) [62]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 147.
+[59]) [60]) (./analysis.tex [61] [62]
+<general_results.png, id=237, 509.5035pt x 411.939pt>
+File: general_results.png Graphic file (type png)
 
+<use general_results.png>
+Package pdftex.def Info: general_results.png used on input line 31.
+(pdftex.def)             Requested size: 223.87125pt x 181.006pt.
+ <general_pre.png, id=238, 497.2176pt x 411.939pt>
+File: general_pre.png Graphic file (type png)
+
+<use general_pre.png>
+Package pdftex.def Info: general_pre.png used on input line 37.
+(pdftex.def)             Requested size: 218.47295pt x 181.006pt.
+ <general_post.png, id=239, 497.2176pt x 411.939pt>
+File: general_post.png Graphic file (type png)
+
+<use general_post.png>
+Package pdftex.def Info: general_post.png used on input line 43.
+(pdftex.def)             Requested size: 218.47295pt x 181.006pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[63
+
+ <./general_results.png> <./general_pre.png>] [64 <./general_post.png>]
+<darfur_results.png, id=249, 508.7808pt x 411.939pt>
+File: darfur_results.png Graphic file (type png)
+ <use darfur_results.png>
+Package pdftex.def Info: darfur_results.png used on input line 53.
+(pdftex.def)             Requested size: 223.55371pt x 181.006pt.
+
+<darfur_pre.png, id=250, 506.6127pt x 411.939pt>
+File: darfur_pre.png Graphic file (type png)
+ <use darfur_pre.png>
+Package pdftex.def Info: darfur_pre.png used on input line 59.
+(pdftex.def)             Requested size: 222.60106pt x 181.006pt.
+
+<darfur_post.png, id=251, 506.6127pt x 411.939pt>
+File: darfur_post.png Graphic file (type png)
+ <use darfur_post.png>
+Package pdftex.def Info: darfur_post.png used on input line 65.
+(pdftex.def)             Requested size: 222.60106pt x 181.006pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[65
+
+ <./darfur_results.png> <./darfur_pre.png>] [66 <./darfur_post.png>]
+<oregon_results.png, id=262, 508.7808pt x 411.939pt>
+File: oregon_results.png Graphic file (type png)
+ <use oregon_results.png>
+Package pdftex.def Info: oregon_results.png used on input line 76.
+(pdftex.def)             Requested size: 223.55371pt x 181.006pt.
+
+<oregon_pre.png, id=263, 506.6127pt x 411.939pt>
+File: oregon_pre.png Graphic file (type png)
+ <use oregon_pre.png>
+Package pdftex.def Info: oregon_pre.png used on input line 82.
+(pdftex.def)             Requested size: 222.60106pt x 181.006pt.
+
+<oregon_post.png, id=264, 518.1759pt x 411.939pt>
+File: oregon_post.png Graphic file (type png)
+ <use oregon_post.png>
+Package pdftex.def Info: oregon_post.png used on input line 88.
+(pdftex.def)             Requested size: 227.68182pt x 181.006pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[67
+
+ <./oregon_results.png> <./oregon_pre.png>] [68 <./oregon_post.png>]
+<munchers_results.png, id=274, 509.5035pt x 411.939pt>
+File: munchers_results.png Graphic file (type png)
+
+<use munchers_results.png>
+Package pdftex.def Info: munchers_results.png used on input line 99.
+(pdftex.def)             Requested size: 223.87125pt x 181.006pt.
+ <munchers_pre.png, id=275, 497.2176pt x 411.939pt>
+File: munchers_pre.png Graphic file (type png)
+
+<use munchers_pre.png>
+Package pdftex.def Info: munchers_pre.png used on input line 105.
+(pdftex.def)             Requested size: 218.47295pt x 181.006pt.
+ <munchers_post.png, id=276, 497.2176pt x 411.939pt>
+File: munchers_post.png Graphic file (type png)
+
+<use munchers_post.png>
+Package pdftex.def Info: munchers_post.png used on input line 111.
+(pdftex.def)             Requested size: 218.47295pt x 181.006pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[69
+
+ <./munchers_results.png> <./munchers_pre.png>] [70 <./munchers_post.png>]
+<lightbot_results.png, id=286, 508.7808pt x 411.939pt>
+File: lightbot_results.png Graphic file (type png)
+
+<use lightbot_results.png>
+Package pdftex.def Info: lightbot_results.png used on input line 122.
+(pdftex.def)             Requested size: 223.55371pt x 181.006pt.
+ <lightbot_pre.png, id=287, 490.7133pt x 411.939pt>
+File: lightbot_pre.png Graphic file (type png)
+
+<use lightbot_pre.png>
+Package pdftex.def Info: lightbot_pre.png used on input line 128.
+(pdftex.def)             Requested size: 215.615pt x 181.006pt.
+ <lightbot_post.png, id=288, 490.7133pt x 411.939pt>
+File: lightbot_post.png Graphic file (type png)
+
+<use lightbot_post.png>
+Package pdftex.def Info: lightbot_post.png used on input line 134.
+(pdftex.def)             Requested size: 215.615pt x 181.006pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [71
+
+ <./lightbot_results.png> <./lightbot_pre.png>] [72 <./lightbot_post.png>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 147.
 
 (/usr/local/texlive/2013basic/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -540,7 +662,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--153
  funtrivia . com / playquiz /
  []
 
-[63
+[73
 
 ]
 Underfull \hbox (badness 1178) in paragraph at lines 155--156
@@ -604,16 +726,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--162
  =
  []
 
-[64] (./KenHoffThesis.aux)
+[74] (./KenHoffThesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2943 strings out of 494536
- 44000 string characters out of 6167446
- 99856 words of memory out of 5000000
- 6124 multiletter control sequences out of 15000+600000
+ 3018 strings out of 494536
+ 45535 string characters out of 6167446
+ 100856 words of memory out of 5000000
+ 6184 multiletter control sequences out of 15000+600000
  9752 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  38i,6n,32p,20585b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -624,10 +746,10 @@ cm/cmr12.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr17.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on KenHoffThesis.pdf (66 pages, 2186062 bytes).
+Output written on KenHoffThesis.pdf (76 pages, 2483017 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
+ 330 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 
