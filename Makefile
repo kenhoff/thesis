@@ -2,7 +2,7 @@ all:
 	python create_latex.py 
 	python generate_surveytex.py
 	python analysis.py
-	pdflatex KenHoffThesis.tex	
+	pdflatex KenHoffThesis.tex > /dev/null
 
 final: all
 	pdflatex KenHoffThesis.tex

@@ -1,4 +1,4 @@
-import os, csv, json, sqlite3, copy
+import os, csv, json, sqlite3, copy, interrater, math
 
 conn = sqlite3.connect(':memory:')
 c = conn.cursor()
@@ -14,14 +14,25 @@ def main():
 				resultreader.next()
 				for row in resultreader:
 					store_row(row, cols) # dump array of responses into SQLite
-	print_table()
+	# print_table()
 	gradeAll()
 	# printGrades()
 	scoreDifferenceMean()
 	createQuizGraphs()
+
+	data = prepInterRaterData()
+	print data
+	interrater_info = {}
+	for k,v in data.iteritems():
+		interrater_info[k] = interrater.main(v, 10, 16, 5)
+
+	for k, v in interrater_info.iteritems():
+		print k, "{0:.2f}".format(v)
+
+
+
+
 	conn.close()
-
-
 
 
 
@@ -182,9 +193,28 @@ def scoreDifferenceMean():
 	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0'''
 	c.execute(exec_string)
 	diffs = []
+	count = 0
 	for row in c.fetchall():
 		diffs.append(float(row[1]) - float(row[0]))
-	# print "Avg change: {}".format(sum(diffs)/len(diffs))
+		count += 1
+
+	mean = sum(diffs)/len(diffs)
+
+	c.execute(exec_string)
+	squared_diffs_from_mean = []
+	count = 0
+	for row in c.fetchall():
+		squared_diffs_from_mean.append( (mean - (float(row[1]) - float(row[0])))**2 )
+		count += 1
+	variance = sum(squared_diffs_from_mean) / count
+	standard_deviation = math.sqrt(variance)
+
+
+
+	print "{} responses".format(count)
+	print "Mean: {}".format(mean)
+	print "Variance: {}".format(variance)
+	print "Standard Deviation: {}".format(standard_deviation)
 
 def createQuizGraphs():
 	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0'''
@@ -192,8 +222,8 @@ def createQuizGraphs():
 	buckets = [0] * 20
 	for row in c.fetchall():
 		diff = float(row[1]) - float(row[0])
-		buckets[int((diff * 20) + 10)] += 1
-	print buckets
+		# print diff
+		buckets[int((diff * 10) + 10)] += 1
 
 	import plottest
 	plottest.quiz_results(buckets, 'general_results.png', "Aggregated score differences for all games")
@@ -203,8 +233,7 @@ def createQuizGraphs():
 	buckets = [0] * 20
 	for row in c.fetchall():
 		diff = float(row[1]) - float(row[0])
-		buckets[int((diff * 20) + 10)] += 1
-	print buckets	
+		buckets[int((diff * 10) + 10)] += 1
 
 	plottest.quiz_results(buckets, 'darfur_results.png', "Score differences for Darfur is Dying")
 
@@ -213,8 +242,7 @@ def createQuizGraphs():
 	buckets = [0] * 20
 	for row in c.fetchall():
 		diff = float(row[1]) - float(row[0])
-		buckets[int((diff * 20) + 10)] += 1
-	print buckets	
+		buckets[int((diff * 10) + 10)] += 1
 
 	plottest.quiz_results(buckets, 'oregon_results.png', "Score differences for The Oregon Trail")
 
@@ -223,8 +251,7 @@ def createQuizGraphs():
 	buckets = [0] * 20
 	for row in c.fetchall():
 		diff = float(row[1]) - float(row[0])
-		buckets[int((diff * 20) + 10)] += 1
-	print buckets	
+		buckets[int((diff * 10) + 10)] += 1
 
 	plottest.quiz_results(buckets, 'lightbot_results.png', "Score differences for Light Bot")
 
@@ -233,8 +260,7 @@ def createQuizGraphs():
 	buckets = [0] * 20
 	for row in c.fetchall():
 		diff = float(row[1]) - float(row[0])
-		buckets[int((diff * 20) + 10)] += 1
-	print buckets	
+		buckets[int((diff * 10) + 10)] += 1
 
 	plottest.quiz_results(buckets, 'munchers_results.png', "Score differences for Number Munchers")
 
@@ -300,6 +326,35 @@ def createQuizGraphs():
 
 
 
+
+def prepInterRaterData():
+	print "********************inter-rater data*************************"
+	data = {}
+	responses = 16
+
+	rubricitems = ["encyclopedia_location", "encyclopedia_content", "referential_amount", "referential_popularity", "referential_rewards", "adaptive_difficulty", "contextual_tutorials", "resource_penalty", "reset_penalty", "checkpoint_frequency", "exploration_freedom", "iterative_feedback", "problem_solving"]
+	games = ['oregon','lightbot','darfur','munchers', 'machine', 'pandemic', 'botlogic', 'baseball', 'notpron', 'lemmings']
+	for rubricitem in rubricitems:
+		# rubricitem = "adaptive_difficulty"
+
+		results = []
+		for i in range(len(games)):
+			results.append([0] * 5)
+
+		for i in range(len(games)):
+			exec_string = '''SELECT {2} FROM results WHERE gameid = "{0}" LIMIT {1}'''.format(games[i], responses, rubricitem)
+			c.execute(exec_string)
+			for row in c.fetchall():
+				# print games[i], row[0]
+				results[i][int(row[0])-1] += 1
+				# print results
+			# print sum(results[i])
+
+		data[rubricitem] = results
+
+	# print data
+
+	return data
 
 
 
