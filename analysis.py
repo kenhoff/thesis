@@ -190,6 +190,9 @@ def printGrades():
 		print str(row[0]), str(row[1])
 
 def scoreDifferenceMean():
+
+	import plottest
+
 	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0'''
 	c.execute(exec_string)
 	diffs = []
@@ -210,11 +213,53 @@ def scoreDifferenceMean():
 	standard_deviation = math.sqrt(variance)
 
 
-
+	print "\nAggregated"
 	print "{} responses".format(count)
 	print "Mean: {}".format(mean)
 	print "Variance: {}".format(variance)
 	print "Standard Deviation: {}".format(standard_deviation)
+
+	import significance
+	sig = {}
+
+	sig = {.9: significance.main(count, mean, standard_deviation, .9), .95: significance.main(count, mean, standard_deviation, .95)}
+	plottest.tdist_graph(sig, "Aggregated t-distribution", "aggregated")
+
+
+
+	quiz_games = ['oregon','lightbot','darfur','munchers']
+	for game in quiz_games:
+		exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0 AND gameid = "{}"'''.format(game)
+		c.execute(exec_string)
+		diffs = []
+		count = 0
+		for row in c.fetchall():
+			diffs.append(float(row[1]) - float(row[0]))
+			count += 1
+
+		mean = sum(diffs)/len(diffs)
+
+		c.execute(exec_string)
+		squared_diffs_from_mean = []
+		count = 0
+		for row in c.fetchall():
+			squared_diffs_from_mean.append( (mean - (float(row[1]) - float(row[0])))**2 )
+			count += 1
+		variance = sum(squared_diffs_from_mean) / count
+		standard_deviation = math.sqrt(variance)
+
+		print "\n" + game
+		# print "{} responses".format(count)
+		# print "Mean: {}".format(mean)
+		# print "Variance: {}".format(variance)
+		# print "Standard Deviation: {}".format(standard_deviation)
+
+		import significance
+		sig = {}
+		sig = {.9: significance.main(count, mean, standard_deviation, .9), .95: significance.main(count, mean, standard_deviation, .95)}
+		# print sig
+		plottest.tdist_graph(sig, "{} t-distribution".format(game), game)
+
 
 def createQuizGraphs():
 	exec_string = '''SELECT preScore, postScore FROM results WHERE preScore >= 0'''
@@ -328,6 +373,7 @@ def createQuizGraphs():
 
 
 def prepInterRaterData():
+	import plottest
 	print "********************inter-rater data*************************"
 	data = {}
 	responses = 16
@@ -352,7 +398,11 @@ def prepInterRaterData():
 
 		data[rubricitem] = results
 
-	# print data
+	for rubricitem in rubricitems:
+		plottest.rubricitem_scores(data[rubricitem], rubricitem)
+		print rubricitem
+		for game in data[rubricitem]:
+			print str(game).strip('[]')
 
 	return data
 

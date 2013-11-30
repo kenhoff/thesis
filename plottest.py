@@ -1,3 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import random
+
 def quiz_results(stats, savefile, title):
 
 	import numpy as np
@@ -38,7 +42,7 @@ def quiz_pre_and_post(stats, game, title):
 	import random
 
 	N = 11 # the number of bars on the graph - between 0.0 and 1.0
-	number = stats # an array of len 10, from 0 to 100%
+	number = stats # an array of len 11, from 0 to 100%
 
 
 	ind = np.arange(N) # the x locations of the groups?
@@ -63,3 +67,83 @@ def quiz_pre_and_post(stats, game, title):
 	ax.set_xlabel("Score")
 
 	plt.savefig(game, bbox_inches = 'tight')
+
+def rubricitem_scores(rubricitem_data, name):
+	N = 10
+
+	# print name, rubricitem_data
+
+	ones = []
+	twos = []
+	threes = []
+	fours = []
+	fives = []
+
+	for game in rubricitem_data:
+		ones.append(game[0])
+		twos.append(game[1])
+		threes.append(game[2])
+		fours.append(game[3])
+		fives.append(game[4])
+
+	ind = np.arange(N)
+	width = 0.15
+
+	fig, ax = plt.subplots()
+
+	rects1 = ax.bar(ind, ones, width, color = (1, 0, 0))
+	rects2 = ax.bar(ind+(width*1), twos, width, color = (.75, 0, .25))
+	rects3 = ax.bar(ind+(width*2), threes, width, color = (.5, 0, .5))
+	rects4 = ax.bar(ind+(width*3), fours, width, color = (.25, 0, .75))
+	rects5 = ax.bar(ind+(width*4), fives, width, color = (0, 0, 1))
+
+	ax.legend((rects1[0], rects2[0], rects3[0], rects4[0], rects5[0]), ("1 - least", 2, 3, 4, "5 - most"), bbox_to_anchor = (1.3, 1))
+
+	ax.set_title(name)
+
+	ax.set_ylabel("Number of responses with a given score")
+	ax.set_xlabel("Games")
+	ax.set_xticks(ind+width)
+	ax.set_xticklabels(['oregon','lightbot','darfur','munchers', 'machine', 'pandemic', 'botlogic', 'baseball', 'notpron', 'lemmings'], rotation=90)
+
+
+	plt.savefig("{}_scores.png".format(name), bbox_inches = 'tight')
+
+def game_scores(all_rubricitem_data):
+
+	# first, rework all rubricitem data into game data
+	
+
+
+def tdist_graph(stats, title, game):
+	import matplotlib.pyplot as plt
+	import numpy as np
+	plt.clf()
+	f, ax = plt.subplots()
+	ax.set_title(title)
+	ax.set_xlabel("The probability that our value of the t distribution is within the confidence limits")
+	ax.set_ylabel("Mean difference in scores, confidence limits")
+
+	point9_stats = stats[.9]
+	point95_stats = stats[.95]
+
+	plt.plot(.9, point9_stats[1], 'bo')
+	lower_err = point9_stats[1] - point9_stats[0]
+	upper_err = point9_stats[2] - point9_stats[1]
+	print lower_err, upper_err
+	plt.errorbar(.9, point9_stats[1], yerr = [[lower_err], [upper_err]], ecolor = 'b')
+	# plt.axis([.88, .97, 0, .08])
+	plt.plot(.95, point95_stats[1], 'bo')
+	lower_err = point95_stats[1] - point95_stats[0]
+	upper_err = point95_stats[2] - point95_stats[1]
+	print lower_err, upper_err
+	plt.errorbar(.95, point95_stats[1], yerr = [[lower_err], [upper_err]], ecolor = 'b')
+
+	plt.xlim(.85, 1)
+
+	plt.axhline()
+
+
+
+	plt.savefig("{}_tdist.png".format(game), bbox_inches = 'tight')
+
