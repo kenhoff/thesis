@@ -1,35 +1,66 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Darfur is Dying's title screen}}{21}
-\contentsline {figure}{\numberline {2}{\ignorespaces A screenshot from Darfur Is Dying's village management section}}{21}
-\contentsline {figure}{\numberline {3}{\ignorespaces Light Bot's main menu}}{23}
-\contentsline {figure}{\numberline {4}{\ignorespaces A screenshot from one of Light Bot's levels}}{23}
-\contentsline {figure}{\numberline {5}{\ignorespaces The title screen of Pandemic 2}}{25}
-\contentsline {figure}{\numberline {6}{\ignorespaces A screenshot from Pandemic 2's evolution view}}{25}
-\contentsline {figure}{\numberline {7}{\ignorespaces A screenshot from the opening sequence of Oregon Trail}}{27}
-\contentsline {figure}{\numberline {8}{\ignorespaces A screenshot from the gameplay of Oregon Trail}}{27}
-\contentsline {figure}{\numberline {9}{\ignorespaces The Number Munchers opening screen}}{29}
-\contentsline {figure}{\numberline {10}{\ignorespaces A screenshot from the gameplay of Number Munchers}}{29}
-\contentsline {figure}{\numberline {11}{\ignorespaces BotLogic's logo}}{31}
-\contentsline {figure}{\numberline {12}{\ignorespaces One of the levels from BotLogic}}{31}
-\contentsline {figure}{\numberline {13}{\ignorespaces Math Baseball's title screen}}{33}
-\contentsline {figure}{\numberline {14}{\ignorespaces A screenshot from the gameplay of Math Baseball}}{33}
-\contentsline {figure}{\numberline {15}{\ignorespaces The Notpron opening screen}}{35}
-\contentsline {figure}{\numberline {16}{\ignorespaces The first level of Notpron}}{35}
-\contentsline {figure}{\numberline {17}{\ignorespaces The Lemmings box art}}{37}
-\contentsline {figure}{\numberline {18}{\ignorespaces One of the levels from Lemmings}}{37}
-\contentsline {figure}{\numberline {19}{\ignorespaces The title screen from The Incredible Machine}}{39}
-\contentsline {figure}{\numberline {20}{\ignorespaces One of the levels from The Incredible Machine}}{39}
-\contentsline {figure}{\numberline {21}{\ignorespaces The aggregate score differences across all games.}}{63}
-\contentsline {figure}{\numberline {22}{\ignorespaces The aggregate pre-quiz scores across all games.}}{63}
-\contentsline {figure}{\numberline {23}{\ignorespaces The aggregate post-quiz scores across all games.}}{63}
-\contentsline {figure}{\numberline {24}{\ignorespaces The score differences for Darfur is Dying.}}{64}
-\contentsline {figure}{\numberline {25}{\ignorespaces The pre-quiz scores for Darfur is Dying.}}{64}
-\contentsline {figure}{\numberline {26}{\ignorespaces The post-quiz scores for Darfur is Dying.}}{65}
-\contentsline {figure}{\numberline {27}{\ignorespaces The score differences for The Oregon Trail.}}{66}
-\contentsline {figure}{\numberline {28}{\ignorespaces The pre-quiz scores for The Oregon Trail.}}{66}
-\contentsline {figure}{\numberline {29}{\ignorespaces The post-quiz scores for The Oregon Trail.}}{67}
-\contentsline {figure}{\numberline {30}{\ignorespaces The score differences for Number Munchers.}}{68}
-\contentsline {figure}{\numberline {31}{\ignorespaces The pre-quiz scores for Number Munchers.}}{68}
-\contentsline {figure}{\numberline {32}{\ignorespaces The post-quiz scores for Number Munchers.}}{69}
-\contentsline {figure}{\numberline {33}{\ignorespaces The score differences for Light Bot.}}{70}
-\contentsline {figure}{\numberline {34}{\ignorespaces The pre-quiz scores for Light Bot.}}{70}
-\contentsline {figure}{\numberline {35}{\ignorespaces The post-quiz scores for Light Bot.}}{71}
+\contentsline {figure}{\numberline {1}{\ignorespaces Darfur is Dying's title screen}}{22}
+\contentsline {figure}{\numberline {2}{\ignorespaces A screenshot from Darfur Is Dying's village management section}}{22}
+\contentsline {figure}{\numberline {3}{\ignorespaces Light Bot's main menu}}{24}
+\contentsline {figure}{\numberline {4}{\ignorespaces A screenshot from one of Light Bot's levels}}{24}
+\contentsline {figure}{\numberline {5}{\ignorespaces The title screen of Pandemic 2}}{26}
+\contentsline {figure}{\numberline {6}{\ignorespaces A screenshot from Pandemic 2's evolution view}}{26}
+\contentsline {figure}{\numberline {7}{\ignorespaces A screenshot from the opening sequence of Oregon Trail}}{28}
+\contentsline {figure}{\numberline {8}{\ignorespaces A screenshot from the gameplay of Oregon Trail}}{28}
+\contentsline {figure}{\numberline {9}{\ignorespaces The Number Munchers opening screen}}{30}
+\contentsline {figure}{\numberline {10}{\ignorespaces A screenshot from the gameplay of Number Munchers}}{30}
+\contentsline {figure}{\numberline {11}{\ignorespaces BotLogic's logo}}{32}
+\contentsline {figure}{\numberline {12}{\ignorespaces One of the levels from BotLogic}}{32}
+\contentsline {figure}{\numberline {13}{\ignorespaces Math Baseball's title screen}}{34}
+\contentsline {figure}{\numberline {14}{\ignorespaces A screenshot from the gameplay of Math Baseball}}{34}
+\contentsline {figure}{\numberline {15}{\ignorespaces The Notpron opening screen}}{36}
+\contentsline {figure}{\numberline {16}{\ignorespaces The first level of Notpron}}{36}
+\contentsline {figure}{\numberline {17}{\ignorespaces The Lemmings box art}}{38}
+\contentsline {figure}{\numberline {18}{\ignorespaces One of the levels from Lemmings}}{38}
+\contentsline {figure}{\numberline {19}{\ignorespaces The title screen from The Incredible Machine}}{40}
+\contentsline {figure}{\numberline {20}{\ignorespaces One of the levels from The Incredible Machine}}{40}
+\contentsline {figure}{\numberline {21}{\ignorespaces The aggregate pre-quiz scores across all games.}}{62}
+\contentsline {figure}{\numberline {22}{\ignorespaces The aggregate post-quiz scores across all games.}}{62}
+\contentsline {figure}{\numberline {23}{\ignorespaces The aggregate score differences across all games.}}{63}
+\contentsline {figure}{\numberline {24}{\ignorespaces The pre-quiz scores for Darfur is Dying.}}{64}
+\contentsline {figure}{\numberline {25}{\ignorespaces The post-quiz scores for Darfur is Dying.}}{64}
+\contentsline {figure}{\numberline {26}{\ignorespaces The score differences for Darfur is Dying.}}{65}
+\contentsline {figure}{\numberline {27}{\ignorespaces The pre-quiz scores for The Oregon Trail.}}{66}
+\contentsline {figure}{\numberline {28}{\ignorespaces The post-quiz scores for The Oregon Trail.}}{66}
+\contentsline {figure}{\numberline {29}{\ignorespaces The score differences for The Oregon Trail.}}{67}
+\contentsline {figure}{\numberline {30}{\ignorespaces The pre-quiz scores for Number Munchers.}}{68}
+\contentsline {figure}{\numberline {31}{\ignorespaces The post-quiz scores for Number Munchers.}}{68}
+\contentsline {figure}{\numberline {32}{\ignorespaces The score differences for Number Munchers.}}{69}
+\contentsline {figure}{\numberline {33}{\ignorespaces The pre-quiz scores for Light Bot.}}{70}
+\contentsline {figure}{\numberline {34}{\ignorespaces The post-quiz scores for Light Bot.}}{70}
+\contentsline {figure}{\numberline {35}{\ignorespaces The score differences for Light Bot.}}{71}
+\contentsline {figure}{\numberline {36}{\ignorespaces Adaptive Difficulty}}{72}
+\contentsline {figure}{\numberline {37}{\ignorespaces Checkpoint Frequency}}{73}
+\contentsline {figure}{\numberline {38}{\ignorespaces Contextual Tutorials}}{73}
+\contentsline {figure}{\numberline {39}{\ignorespaces Encyclopedia Content}}{74}
+\contentsline {figure}{\numberline {40}{\ignorespaces Encyclopedia Location}}{74}
+\contentsline {figure}{\numberline {41}{\ignorespaces Freedom of exploration}}{75}
+\contentsline {figure}{\numberline {42}{\ignorespaces Iterative feedback}}{75}
+\contentsline {figure}{\numberline {43}{\ignorespaces Unorthodox problem-solving}}{76}
+\contentsline {figure}{\numberline {44}{\ignorespaces Amount of referential material}}{76}
+\contentsline {figure}{\numberline {45}{\ignorespaces Popularity of referential material}}{77}
+\contentsline {figure}{\numberline {46}{\ignorespaces Rewards for knowing referential material}}{77}
+\contentsline {figure}{\numberline {47}{\ignorespaces Reset time penalty for failure}}{78}
+\contentsline {figure}{\numberline {48}{\ignorespaces Game resource penalty for failure}}{78}
+\contentsline {figure}{\numberline {49}{\ignorespaces Math Baseball}}{79}
+\contentsline {figure}{\numberline {50}{\ignorespaces Botlogic}}{80}
+\contentsline {figure}{\numberline {51}{\ignorespaces Darfur is Dying}}{80}
+\contentsline {figure}{\numberline {52}{\ignorespaces Lemmings}}{81}
+\contentsline {figure}{\numberline {53}{\ignorespaces Light Bot}}{81}
+\contentsline {figure}{\numberline {54}{\ignorespaces The Incredible Machine}}{82}
+\contentsline {figure}{\numberline {55}{\ignorespaces Number Munchers}}{82}
+\contentsline {figure}{\numberline {56}{\ignorespaces Notpron}}{83}
+\contentsline {figure}{\numberline {57}{\ignorespaces The Oregon Trail}}{83}
+\contentsline {figure}{\numberline {58}{\ignorespaces Pandemic 2}}{84}
+\contentsline {figure}{\numberline {59}{\ignorespaces Aggregated tdist}}{85}
+\contentsline {figure}{\numberline {60}{\ignorespaces Darfur tdist}}{86}
+\contentsline {figure}{\numberline {61}{\ignorespaces Oregon tdist}}{87}
+\contentsline {figure}{\numberline {62}{\ignorespaces Lightbot tdist}}{88}
+\contentsline {figure}{\numberline {63}{\ignorespaces Munchers tdist}}{89}
+\contentsline {figure}{\numberline {64}{\ignorespaces Inter-rater reliability}}{89}
+\contentsline {figure}{\numberline {65}{\ignorespaces Inter-rater reliability with middle 3 options combined}}{90}
+\contentsline {figure}{\numberline {66}{\ignorespaces Inter-rater reliability with outer pairs combined}}{90}

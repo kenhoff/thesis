@@ -1,4 +1,4 @@
-import os, csv, json, sqlite3, copy, interrater, math
+import os, csv, json, sqlite3, copy, interrater, math, plottest
 
 conn = sqlite3.connect(':memory:')
 c = conn.cursor()
@@ -20,21 +20,68 @@ def main():
 	scoreDifferenceMean()
 	createQuizGraphs()
 
-	data = prepInterRaterData()
-	print data
+	m = 16 # number of raters
+
+	data = prepInterRaterData(m)
+	# print data
 	interrater_info = {}
 	for k,v in data.iteritems():
-		interrater_info[k] = interrater.main(v, 10, 16, 5)
+		interrater_info[k] = interrater.main(v, 10, m, 5)
 
+
+	print "Inter-rater kappa vals for [1,2,3,4,5]"
 	for k, v in interrater_info.iteritems():
 		print k, "{0:.2f}".format(v)
+
+	plottest.interrater_plot(interrater_info, "full_five")
+
+	inner_3 = modify_inner_3(data)
+
+	print "Inter-rater kappa vals for [1, [2,3,4], 5]"
+	# print inner_3
+	interrater_info = {}
+	for k,v in inner_3.iteritems():
+		interrater_info[k] = interrater.main(v, 10, m, 3)
+	for k, v in interrater_info.iteritems():
+		print k, "{0:.2f}".format(v)
+	plottest.interrater_plot(interrater_info, "inner_3")
+
+
+
+	outer_3 = modify_outer_3(data)
+
+	print "Inter-rater kappa vals for [[1,2], 3, [4,5]]"
+	interrater_info = {}
+	for k,v in outer_3.iteritems():
+		interrater_info[k] = interrater.main(v, 10, m, 3)
+	for k, v in interrater_info.iteritems():
+		print k, "{0:.2f}".format(v)
+	plottest.interrater_plot(interrater_info, "outer_3")
+
+
+
+	# outer_3
 
 
 
 
 	conn.close()
 
+def modify_inner_3(data):
+	output = {}
+	for k, v in data.iteritems():
+		output[k] = []
+		for game in v:
+			output[k].append([game[0], sum(game[1:4]), game[4]])
+	return output
 
+def modify_outer_3(data):
+	output = {}
+	for k, v in data.iteritems():
+		output[k] = []
+		for game in v:
+			output[k].append([sum(game[0:2]), game[2], sum(game[3:5])])
+	return output
 
 def create_table():
 	cols = ['gameid', 'workerid', 'acceptTime', 'submitTime']
@@ -372,11 +419,11 @@ def createQuizGraphs():
 
 
 
-def prepInterRaterData():
+def prepInterRaterData(m):
 	import plottest
 	print "********************inter-rater data*************************"
 	data = {}
-	responses = 16
+	responses = m
 
 	rubricitems = ["encyclopedia_location", "encyclopedia_content", "referential_amount", "referential_popularity", "referential_rewards", "adaptive_difficulty", "contextual_tutorials", "resource_penalty", "reset_penalty", "checkpoint_frequency", "exploration_freedom", "iterative_feedback", "problem_solving"]
 	games = ['oregon','lightbot','darfur','munchers', 'machine', 'pandemic', 'botlogic', 'baseball', 'notpron', 'lemmings']
@@ -400,10 +447,11 @@ def prepInterRaterData():
 
 	for rubricitem in rubricitems:
 		plottest.rubricitem_scores(data[rubricitem], rubricitem)
-		print rubricitem
-		for game in data[rubricitem]:
-			print str(game).strip('[]')
+		# print rubricitem
+		# for game in data[rubricitem]:
+		# 	print str(game).strip('[]')
 
+	plottest.game_scores(data)
 	return data
 
 

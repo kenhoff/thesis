@@ -2,10 +2,13 @@ all:
 	python create_latex.py 
 	python generate_surveytex.py
 	python analysis.py
-	pdflatex KenHoffThesis.tex > /dev/null
+	pdflatex KenHoffThesis.tex
 
 final: all
 	pdflatex KenHoffThesis.tex
 
 clean:
 	rm *.pyc *.aux *.dvi *.pdf *.log *.toc
+
+simple:
+	pdflatex KenHoffThesis.tex
