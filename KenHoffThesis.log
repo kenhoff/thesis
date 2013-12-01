@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  30 NOV 2013 14:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  1 DEC 2013 02:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,6 +24,37 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+(/usr/local/texlive/2013basic/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2013basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2013basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2013basic/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2013basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
 (/usr/local/texlive/2013basic/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
@@ -31,10 +62,6 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 (/usr/local/texlive/2013basic/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013basic/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
-)
 (/usr/local/texlive/2013basic/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -55,29 +82,29 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2013basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count88
+\Gread@gobject=\count91
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
 )
 (/usr/local/texlive/2013basic/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count89
+\lst@mode=\count92
 \lst@gtempboxa=\box26
-\lst@token=\toks15
-\lst@length=\count90
-\lst@currlwidth=\dimen105
-\lst@column=\count91
-\lst@pos=\count92
-\lst@lostspace=\dimen106
-\lst@width=\dimen107
-\lst@newlines=\count93
-\lst@lineno=\count94
-\lst@maxwidth=\dimen108
+\lst@token=\toks16
+\lst@length=\count93
+\lst@currlwidth=\dimen113
+\lst@column=\count94
+\lst@pos=\count95
+\lst@lostspace=\dimen114
+\lst@width=\dimen115
+\lst@newlines=\count96
+\lst@lineno=\count97
+\lst@maxwidth=\dimen116
 
 (/usr/local/texlive/2013basic/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count95
-\lst@skipnumbers=\count96
+\c@lstnumber=\count98
+\lst@skipnumbers=\count99
 \lst@framebox=\box27
 )
 (/usr/local/texlive/2013basic/texmf-dist/tex/latex/listings/listings.cfg
@@ -146,19 +173,54 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
- (/usr/local/texlive/2013basic/texmf-dist/tex/context/base/supp-pdf.mkii
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2013basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count97
-\scratchdimen=\dimen109
+\scratchcounter=\count100
+\scratchdimen=\dimen117
 \scratchbox=\box28
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count100
-\MPscratchDim=\dimen110
-\MPnumerator=\count101
-\makeMPintoPDFobject=\count102
-\everyMPtoPDFconversion=\toks17
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen118
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks18
 ) (/usr/local/texlive/2013basic/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -166,10 +228,6 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/local/texlive/2013basic/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/local/texlive/2013basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -206,7 +264,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count103
+\c@lstlisting=\count106
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -245,7 +303,7 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [4] [5] [6]
+ [4] [5]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -270,223 +328,144 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
+ [6]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
 
 [7]
-Overfull \hbox (7.16347pt too wide) in paragraph at lines 69--70
-\OT1/cmr/m/n/12 from be-ing placed in the con-text of the ed-u-ca-tional goal. 
-An easy-to-implement
- []
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-[8]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
- [9] (./Rubric.tex [10] [11] [12] [13] [14] [15] [16] [17]) [18] [19]
-(./GameSummaries.tex [20] [21]
-<img/darfur_title.png, id=79, 855.195pt x 604.2575pt>
+ (./Rubric.tex [8] [9] [10] [11] [12] [13]) [14] [15] (./GameSummaries.tex
+<img/darfur_title.png, id=60, 855.195pt x 604.2575pt>
 File: img/darfur_title.png Graphic file (type png)
 
 <use img/darfur_title.png>
 Package pdftex.def Info: img/darfur_title.png used on input line 1.
-(pdftex.def)             Requested size: 256.169pt x 181.006pt.
+(pdftex.def)             Requested size: 368.2095pt x 260.16681pt.
 
-<img/darfur_screen1.jpg, id=80, 639.13782pt x 443.40656pt>
+<img/darfur_screen1.jpg, id=61, 639.13782pt x 443.40656pt>
 File: img/darfur_screen1.jpg Graphic file (type jpg)
 
 <use img/darfur_screen1.jpg>
 Package pdftex.def Info: img/darfur_screen1.jpg used on input line 1.
-(pdftex.def)             Requested size: 260.90717pt x 181.006pt.
- [22 <./img/darfur_title.png> <./img/darfur_screen1.jpg>]
-Overfull \hbox (7.75407pt too wide) in paragraph at lines 1--1
- \OT1/cmr/bx/n/12 Ed-u-ca-tional Con-tent[] \OT1/cmr/m/n/12 Light Bot's ed-u-ca
--tional pur-pose fo-cuses on teach-
- []
-
-[23] <img/lightbot_title.png, id=88, 814.04124pt x 404.51125pt>
+(pdftex.def)             Requested size: 375.03027pt x 260.18001pt.
+ [16] [17 <./img/darfur_title.png> <./img/darfur_screen1.jpg>] <img/lightbot_ti
+tle.png, id=69, 814.04124pt x 404.51125pt>
 File: img/lightbot_title.png Graphic file (type png)
 
 <use img/lightbot_title.png>
 Package pdftex.def Info: img/lightbot_title.png used on input line 1.
-(pdftex.def)             Requested size: 364.26566pt x 181.006pt.
+(pdftex.def)             Requested size: 469.75937pt x 233.4316pt.
 
-<img/lightbot_screen.jpg, id=90, 632.3625pt x 321.2pt>
+<img/lightbot_screen.jpg, id=71, 632.3625pt x 321.2pt>
 File: img/lightbot_screen.jpg Graphic file (type jpg)
 
 <use img/lightbot_screen.jpg>
 Package pdftex.def Info: img/lightbot_screen.jpg used on input line 1.
-(pdftex.def)             Requested size: 356.35918pt x 181.006pt.
- [24 <./img/lightbot_title.png> <./img/lightbot_screen.jpg>] [25] <img/pandemic
-_title.jpg, id=98, 602.25pt x 401.5pt>
-File: img/pandemic_title.jpg Graphic file (type jpg)
-
-<use img/pandemic_title.jpg>
-Package pdftex.def Info: img/pandemic_title.jpg used on input line 1.
-(pdftex.def)             Requested size: 271.51541pt x 181.006pt.
-
-<img/pandemic_screen.jpg, id=99, 592.2125pt x 408.52625pt>
+(pdftex.def)             Requested size: 469.7646pt x 238.61058pt.
+ [18] [19 <./img/lightbot_title.png> <./img/lightbot_screen.jpg>] <img/pandemic
+_screen.jpg, id=79, 592.2125pt x 408.52625pt>
 File: img/pandemic_screen.jpg Graphic file (type jpg)
 
 <use img/pandemic_screen.jpg>
 Package pdftex.def Info: img/pandemic_screen.jpg used on input line 1.
-(pdftex.def)             Requested size: 262.39063pt x 181.006pt.
- [26 <./img/pandemic_title.jpg> <./img/pandemic_screen.jpg>] [27] <img/oregon_t
-itle.jpg, id=106, 602.25pt x 408.52625pt>
+(pdftex.def)             Requested size: 377.16223pt x 260.17802pt.
+
+<img/oregon_title.jpg, id=80, 602.25pt x 408.52625pt>
 File: img/oregon_title.jpg Graphic file (type jpg)
 
 <use img/oregon_title.jpg>
 Package pdftex.def Info: img/oregon_title.jpg used on input line 1.
-(pdftex.def)             Requested size: 266.83792pt x 181.006pt.
+(pdftex.def)             Requested size: 383.55481pt x 260.17802pt.
 
-<img/oregon_screen.jpg, id=107, 198.7425pt x 145.2627pt>
+<img/oregon_screen.jpg, id=81, 198.7425pt x 145.2627pt>
 File: img/oregon_screen.jpg Graphic file (type jpg)
 
 <use img/oregon_screen.jpg>
 Package pdftex.def Info: img/oregon_screen.jpg used on input line 1.
-(pdftex.def)             Requested size: 247.6633pt x 181.006pt.
+(pdftex.def)             Requested size: 355.98035pt x 260.18925pt.
 
-Overfull \hbox (27.08046pt too wide) in paragraph at lines 1--1
+Overfull \hbox (2.90047pt too wide) in paragraph at lines 1--1
  \OT1/cmr/bx/n/12 URL[] $\OT1/cmtt/m/n/12 http : / / wallofgame . com / free-[]
-online-[]games / arcade / 988 / Number _
+online-[]games / arcade / 988 / Number _ Munchers .
  []
 
-[28 <./img/oregon_title.jpg> <./img/oregon_screen.jpg>] [29]
-<img/munchers_title.png, id=115, 481.8pt x 301.125pt>
-File: img/munchers_title.png Graphic file (type png)
-
-<use img/munchers_title.png>
-Package pdftex.def Info: img/munchers_title.png used on input line 1.
-(pdftex.def)             Requested size: 289.6189pt x 181.006pt.
-
-<img/munchers_screen.png, id=116, 642.4pt x 401.5pt>
+[20] [21 <./img/pandemic_screen.jpg> <./img/oregon_title.jpg>]
+<img/munchers_screen.png, id=88, 642.4pt x 401.5pt>
 File: img/munchers_screen.png Graphic file (type png)
 
 <use img/munchers_screen.png>
 Package pdftex.def Info: img/munchers_screen.png used on input line 1.
-(pdftex.def)             Requested size: 289.61646pt x 181.006pt.
- [30 <./img/munchers_title.png> <./img/munchers_screen.png>] [31] <img/botlogic
-_title.jpg, id=125, 923.45pt x 371.3875pt>
-File: img/botlogic_title.jpg Graphic file (type jpg)
-
-<use img/botlogic_title.jpg>
-Package pdftex.def Info: img/botlogic_title.jpg used on input line 1.
-(pdftex.def)             Requested size: 450.07086pt x 181.006pt.
-
-Overfull \hbox (60.07086pt too wide) in paragraph at lines 1--1
- [][] 
- []
-
-<img/botlogic_screen.png, id=126, 545.03625pt x 349.305pt>
+(pdftex.def)             Requested size: 416.29057pt x 260.1816pt.
+ [22] [23 <./img/oregon_screen.jpg> <./img/munchers_screen.png>] <img/botlogic_
+screen.png, id=97, 545.03625pt x 349.305pt>
 File: img/botlogic_screen.png Graphic file (type png)
 
 <use img/botlogic_screen.png>
 Package pdftex.def Info: img/botlogic_screen.png used on input line 1.
-(pdftex.def)             Requested size: 282.43082pt x 181.006pt.
- [32 <./img/botlogic_title.jpg> <./img/botlogic_screen.png>]
-Overfull \hbox (13.39845pt too wide) in paragraph at lines 1--1
- \OT1/cmr/bx/n/12 Ed-u-ca-tional Con-tent[] \OT1/cmr/m/n/12 The ed-u-ca-tion in
- "Math Base-ball" is very straight-
- []
+(pdftex.def)             Requested size: 405.9735pt x 260.1819pt.
 
-[33] <img/baseball_title.jpg, id=133, 564.1075pt x 221.82875pt>
-File: img/baseball_title.jpg Graphic file (type jpg)
-
-<use img/baseball_title.jpg>
-Package pdftex.def Info: img/baseball_title.jpg used on input line 1.
-(pdftex.def)             Requested size: 460.29013pt x 181.006pt.
-
-Overfull \hbox (70.29013pt too wide) in paragraph at lines 1--1
- [][] 
- []
-
-<img/baseball_screen.jpg, id=134, 402.75468pt x 310.91156pt>
+<img/baseball_screen.jpg, id=98, 402.75468pt x 310.91156pt>
 File: img/baseball_screen.jpg Graphic file (type jpg)
 
 <use img/baseball_screen.jpg>
 Package pdftex.def Info: img/baseball_screen.jpg used on input line 1.
-(pdftex.def)             Requested size: 234.47668pt x 181.006pt.
-
-Overfull \hbox (8.83698pt too wide) in paragraph at lines 1--1
- \OT1/cmr/bx/n/12 De-scrip-tion[] \OT1/cmr/m/n/12 Not-pron is an ARG (alternate
--reality game) for the browser.
- []
-
-[34 <./img/baseball_title.jpg> <./img/baseball_screen.jpg>] [35]
-<img/notpron_title.jpeg, id=142, 542.025pt x 370.38374pt>
-File: img/notpron_title.jpeg Graphic file (type jpg)
-
-<use img/notpron_title.jpeg>
-Package pdftex.def Info: img/notpron_title.jpeg used on input line 1.
-(pdftex.def)             Requested size: 264.89156pt x 181.006pt.
-
-<img/notpron_screen.jpg, id=143, 642.4pt x 481.8pt>
+(pdftex.def)             Requested size: 337.02106pt x 260.16765pt.
+ [24] [25 <./img/botlogic_screen.png> <./img/baseball_screen.jpg>] <img/notpron
+_screen.jpg, id=105, 642.4pt x 481.8pt>
 File: img/notpron_screen.jpg Graphic file (type jpg)
 
 <use img/notpron_screen.jpg>
 Package pdftex.def Info: img/notpron_screen.jpg used on input line 1.
-(pdftex.def)             Requested size: 241.3405pt x 181.006pt.
- [36 <./img/notpron_title.jpeg> <./img/notpron_screen.jpg>] [37] <img/lemmings_
-title.jpg, id=150, 360.34625pt x 311.1625pt>
-File: img/lemmings_title.jpg Graphic file (type jpg)
+(pdftex.def)             Requested size: 346.90063pt x 260.17546pt.
 
-<use img/lemmings_title.jpg>
-Package pdftex.def Info: img/lemmings_title.jpg used on input line 1.
-(pdftex.def)             Requested size: 209.61679pt x 181.006pt.
-
-<img/lemmings_screen.jpg, id=151, 642.4pt x 401.5pt>
+<img/lemmings_screen.jpg, id=106, 642.4pt x 401.5pt>
 File: img/lemmings_screen.jpg Graphic file (type jpg)
 
 <use img/lemmings_screen.jpg>
 Package pdftex.def Info: img/lemmings_screen.jpg used on input line 1.
-(pdftex.def)             Requested size: 289.61646pt x 181.006pt.
+(pdftex.def)             Requested size: 416.29057pt x 260.1816pt.
 
-Overfull \hbox (10.72981pt too wide) in paragraph at lines 1--1
- \OT1/cmr/bx/n/12 URL[] $\OT1/cmtt/m/n/12 http : / / www . classicdosgames . co
-m / online / timdemo .
+Overfull \hbox (11.96931pt too wide) in paragraph at lines 1--1
+ \OT1/cmr/bx/n/12 Notes on Im-ple-men-ta-tion[] \OT1/cmr/m/n/12 This im-ple-men
+-ta-tion of Lem-mings is a Javascript
  []
 
-[38 <./img/lemmings_title.jpg> <./img/lemmings_screen.jpg>]
-Overfull \hbox (5.26936pt too wide) in paragraph at lines 1--1
+[26] [27 <./img/notpron_screen.jpg> <./img/lemmings_screen.jpg>]
+Overfull \hbox (7.30655pt too wide) in paragraph at lines 1--1
  \OT1/cmr/bx/n/12 Ed-u-ca-tional Con-tent[] \OT1/cmr/m/n/12 The In-cred-i-ble M
-a-chine teaches play-
+a-chine teaches play-ers about physics
  []
 
-[39] <img/machine_title.png, id=158, 642.4pt x 400.49625pt>
-File: img/machine_title.png Graphic file (type png)
-
-<use img/machine_title.png>
-Package pdftex.def Info: img/machine_title.png used on input line 1.
-(pdftex.def)             Requested size: 290.34181pt x 181.006pt.
-
-<img/machine_screen.png, id=159, 642.4pt x 447.6725pt>
+<img/machine_screen.png, id=113, 642.4pt x 447.6725pt>
 File: img/machine_screen.png Graphic file (type png)
 
 <use img/machine_screen.png>
 Package pdftex.def Info: img/machine_screen.png used on input line 1.
-(pdftex.def)             Requested size: 259.73927pt x 181.006pt.
-) (./survey.tex [40 <./img/machine_title.png> <./img/machine_screen.png>] [41
+(pdftex.def)             Requested size: 373.34703pt x 260.17621pt.
+) (./survey.tex [28] [29 <./img/machine_screen.png>] (./survey2.tex [30
 
-] (./survey2.tex
+]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1.
 
 (/usr/local/texlive/2013basic/texmf-dist/tex/latex/base/omscmr.fd
@@ -494,508 +473,559 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
- [42]
-[43] [44] [45] [46] [47] [48] [49]) (./darfur.tex [50] [51]
-Overfull \hbox (1.44945pt too wide) in paragraph at lines 1--1
-[]\OT1/cmr/bx/n/12 Darfur is a re-gion in the African coun-try of Su-dan. Which
+ [31]
+[32] [33] [34] [35] [36]) (./darfur.tex [37] [38] [39]) (./oregon.tex [40]
+[41]) (./munchers.tex [42] [43]) (./lightbot.tex [44] [45]) [46])
+(./results.tex <survey_likert.png, id=176, 721.9773pt x 620.0766pt>
+File: survey_likert.png Graphic file (type png)
 
- []
-
-[52]) (./oregon.tex [53] [54]) (./munchers.tex [55] [56] [57]) (./lightbot.tex
-[58] [59]
-Overfull \hbox (14.0053pt too wide) in paragraph at lines 46--53
-[]\OT1/cmr/m/n/12 function foo() \OMS/cmsy/m/n/12 f \OT1/cmr/m/n/12 bar(); prin
-t('foo'); \OMS/cmsy/m/n/12 g \OT1/cmr/m/n/12 func-tion bar() \OMS/cmsy/m/n/12 f
- \OT1/cmr/m/n/12 print('bar');
- []
-
-
-Overfull \hbox (14.0053pt too wide) in paragraph at lines 56--63
-[]\OT1/cmr/m/n/12 function foo() \OMS/cmsy/m/n/12 f \OT1/cmr/m/n/12 bar(); prin
-t('foo'); \OMS/cmsy/m/n/12 g \OT1/cmr/m/n/12 func-tion bar() \OMS/cmsy/m/n/12 f
- \OT1/cmr/m/n/12 print('bar');
- []
-
-[60]) [61]) (./results.tex <general_pre.png, id=234, 497.9403pt x 411.939pt>
+<use survey_likert.png>
+Package pdftex.def Info: survey_likert.png used on input line 6.
+(pdftex.def)             Requested size: 469.75502pt x 403.45186pt.
+ <general_pre.png, id=177, 497.9403pt x 411.939pt>
 File: general_pre.png Graphic file (type png)
 
 <use general_pre.png>
-Package pdftex.def Info: general_pre.png used on input line 10.
-(pdftex.def)             Requested size: 218.79048pt x 181.006pt.
-
-Overfull \hbox (43.29167pt too wide) in paragraph at lines 10--11
-[][] 
- []
-
-<general_post.png, id=235, 497.9403pt x 411.939pt>
+Package pdftex.def Info: general_pre.png used on input line 18.
+(pdftex.def)             Requested size: 211.38832pt x 174.87375pt.
+ <general_post.png, id=178, 497.9403pt x 411.939pt>
 File: general_post.png Graphic file (type png)
- <use general_post.png>
-Package pdftex.def Info: general_post.png used on input line 15.
-(pdftex.def)             Requested size: 218.79048pt x 181.006pt.
 
-Overfull \hbox (43.29167pt too wide) in paragraph at lines 15--16
-[][] 
- []
+<use general_post.png>
+Package pdftex.def Info: general_post.png used on input line 23.
+(pdftex.def)             Requested size: 211.38832pt x 174.87375pt.
 
-<general_results.png, id=236, 509.5035pt x 411.939pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<general_results.png, id=179, 509.5035pt x 411.939pt>
 File: general_results.png Graphic file (type png)
 
 <use general_results.png>
-Package pdftex.def Info: general_results.png used on input line 22.
-(pdftex.def)             Requested size: 223.87125pt x 181.006pt.
+Package pdftex.def Info: general_results.png used on input line 30.
+(pdftex.def)             Requested size: 469.75502pt x 379.79932pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[62 <./general_pre.png> <./general_post.png>] [63 <./general_results.png>]
-<darfur_pre.png, id=246, 506.6127pt x 411.939pt>
+[47 <./survey_likert.png>] [48 <./general_pre.png> <./general_post.png> <./gene
+ral_results.png>] <darfur_pre.png, id=192, 506.6127pt x 411.939pt>
 File: darfur_pre.png Graphic file (type png)
- <use darfur_pre.png>
-Package pdftex.def Info: darfur_pre.png used on input line 33.
-(pdftex.def)             Requested size: 222.60106pt x 181.006pt.
 
-Overfull \hbox (47.10225pt too wide) in paragraph at lines 33--34
-[][] 
- []
-
-<darfur_post.png, id=247, 506.6127pt x 411.939pt>
+<use darfur_pre.png>
+Package pdftex.def Info: darfur_pre.png used on input line 41.
+(pdftex.def)             Requested size: 211.38832pt x 171.88176pt.
+ <darfur_post.png, id=193, 506.6127pt x 411.939pt>
 File: darfur_post.png Graphic file (type png)
- <use darfur_post.png>
-Package pdftex.def Info: darfur_post.png used on input line 38.
-(pdftex.def)             Requested size: 222.60106pt x 181.006pt.
 
-Overfull \hbox (47.10225pt too wide) in paragraph at lines 38--39
-[][] 
- []
-
-<darfur_results.png, id=248, 508.7808pt x 411.939pt>
+<use darfur_post.png>
+Package pdftex.def Info: darfur_post.png used on input line 46.
+(pdftex.def)             Requested size: 211.38832pt x 171.88176pt.
+ <darfur_results.png, id=194, 508.7808pt x 411.939pt>
 File: darfur_results.png Graphic file (type png)
- <use darfur_results.png>
-Package pdftex.def Info: darfur_results.png used on input line 45.
-(pdftex.def)             Requested size: 223.55371pt x 181.006pt.
+
+<use darfur_results.png>
+Package pdftex.def Info: darfur_results.png used on input line 53.
+(pdftex.def)             Requested size: 469.75502pt x 380.35873pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[64
+[49
 
- <./darfur_pre.png> <./darfur_post.png>] [65 <./darfur_results.png>]
-<oregon_pre.png, id=259, 506.6127pt x 411.939pt>
+ <./darfur_pre.png> <./darfur_post.png>] [50 <./darfur_results.png>]
+<oregon_pre.png, id=204, 506.6127pt x 411.939pt>
 File: oregon_pre.png Graphic file (type png)
  <use oregon_pre.png>
-Package pdftex.def Info: oregon_pre.png used on input line 59.
-(pdftex.def)             Requested size: 222.60106pt x 181.006pt.
+Package pdftex.def Info: oregon_pre.png used on input line 67.
+(pdftex.def)             Requested size: 211.38832pt x 171.88176pt.
 
-Overfull \hbox (47.10225pt too wide) in paragraph at lines 59--60
-[][] 
- []
-
-<oregon_post.png, id=260, 506.6127pt x 411.939pt>
+<oregon_post.png, id=205, 506.6127pt x 411.939pt>
 File: oregon_post.png Graphic file (type png)
  <use oregon_post.png>
-Package pdftex.def Info: oregon_post.png used on input line 64.
-(pdftex.def)             Requested size: 222.60106pt x 181.006pt.
+Package pdftex.def Info: oregon_post.png used on input line 72.
+(pdftex.def)             Requested size: 211.38832pt x 171.88176pt.
 
-Overfull \hbox (47.10225pt too wide) in paragraph at lines 64--65
-[][] 
- []
-
-<oregon_results.png, id=261, 508.7808pt x 411.939pt>
+<oregon_results.png, id=206, 508.7808pt x 411.939pt>
 File: oregon_results.png Graphic file (type png)
  <use oregon_results.png>
-Package pdftex.def Info: oregon_results.png used on input line 71.
-(pdftex.def)             Requested size: 223.55371pt x 181.006pt.
+Package pdftex.def Info: oregon_results.png used on input line 79.
+(pdftex.def)             Requested size: 469.75502pt x 380.35873pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[66
+[51
 
- <./oregon_pre.png> <./oregon_post.png>] [67 <./oregon_results.png>]
-<munchers_pre.png, id=271, 497.9403pt x 411.939pt>
+ <./oregon_pre.png> <./oregon_post.png>] [52 <./oregon_results.png>]
+<munchers_pre.png, id=216, 497.9403pt x 411.939pt>
 File: munchers_pre.png Graphic file (type png)
  <use munchers_pre.png>
-Package pdftex.def Info: munchers_pre.png used on input line 84.
-(pdftex.def)             Requested size: 218.79048pt x 181.006pt.
+Package pdftex.def Info: munchers_pre.png used on input line 92.
+(pdftex.def)             Requested size: 211.38832pt x 174.87375pt.
 
-Overfull \hbox (43.29167pt too wide) in paragraph at lines 84--85
-[][] 
- []
-
-<munchers_post.png, id=272, 497.2176pt x 411.939pt>
+<munchers_post.png, id=217, 497.2176pt x 411.939pt>
 File: munchers_post.png Graphic file (type png)
  <use munchers_post.png>
-Package pdftex.def Info: munchers_post.png used on input line 89.
-(pdftex.def)             Requested size: 218.47295pt x 181.006pt.
+Package pdftex.def Info: munchers_post.png used on input line 97.
+(pdftex.def)             Requested size: 211.38832pt x 175.13145pt.
 
-Overfull \hbox (42.97414pt too wide) in paragraph at lines 89--90
-[][] 
- []
-
-<munchers_results.png, id=273, 509.5035pt x 411.939pt>
+<munchers_results.png, id=218, 509.5035pt x 411.939pt>
 File: munchers_results.png Graphic file (type png)
 
 <use munchers_results.png>
-Package pdftex.def Info: munchers_results.png used on input line 96.
-(pdftex.def)             Requested size: 223.87125pt x 181.006pt.
+Package pdftex.def Info: munchers_results.png used on input line 104.
+(pdftex.def)             Requested size: 469.75502pt x 379.79932pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[68
+[53
 
- <./munchers_pre.png> <./munchers_post.png>] [69 <./munchers_results.png>]
-<lightbot_pre.png, id=283, 490.7133pt x 411.939pt>
+ <./munchers_pre.png> <./munchers_post.png>] [54 <./munchers_results.png>]
+<lightbot_pre.png, id=229, 490.7133pt x 411.939pt>
 File: lightbot_pre.png Graphic file (type png)
  <use lightbot_pre.png>
-Package pdftex.def Info: lightbot_pre.png used on input line 110.
-(pdftex.def)             Requested size: 215.615pt x 181.006pt.
+Package pdftex.def Info: lightbot_pre.png used on input line 118.
+(pdftex.def)             Requested size: 211.38832pt x 177.45715pt.
 
-Overfull \hbox (40.1162pt too wide) in paragraph at lines 110--111
-[][] 
- []
-
-<lightbot_post.png, id=284, 490.7133pt x 411.939pt>
+<lightbot_post.png, id=230, 490.7133pt x 411.939pt>
 File: lightbot_post.png Graphic file (type png)
  <use lightbot_post.png>
-Package pdftex.def Info: lightbot_post.png used on input line 115.
-(pdftex.def)             Requested size: 215.615pt x 181.006pt.
+Package pdftex.def Info: lightbot_post.png used on input line 123.
+(pdftex.def)             Requested size: 211.38832pt x 177.45715pt.
 
-Overfull \hbox (40.1162pt too wide) in paragraph at lines 115--116
-[][] 
- []
-
-<lightbot_results.png, id=285, 508.7808pt x 411.939pt>
+<lightbot_results.png, id=231, 508.7808pt x 411.939pt>
 File: lightbot_results.png Graphic file (type png)
 
 <use lightbot_results.png>
-Package pdftex.def Info: lightbot_results.png used on input line 122.
-(pdftex.def)             Requested size: 223.55371pt x 181.006pt.
+Package pdftex.def Info: lightbot_results.png used on input line 130.
+(pdftex.def)             Requested size: 469.75502pt x 380.35873pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55
+
+ <./lightbot_pre.png> <./lightbot_post.png>] [56 <./lightbot_results.png>]
+<adaptive_difficulty_scores.png, id=241, 625.1355pt x 456.7464pt>
+File: adaptive_difficulty_scores.png Graphic file (type png)
+
+<use adaptive_difficulty_scores.png>
+Package pdftex.def Info: adaptive_difficulty_scores.png used on input line 149.
+
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+<checkpoint_frequency_scores.png, id=242, 625.1355pt x 456.7464pt>
+File: checkpoint_frequency_scores.png Graphic file (type png)
+
+<use checkpoint_frequency_scores.png>
+Package pdftex.def Info: checkpoint_frequency_scores.png used on input line 155
+.
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<contextual_tutorials_scores.png, id=243, 625.1355pt x 456.7464pt>
+File: contextual_tutorials_scores.png Graphic file (type png)
+
+<use contextual_tutorials_scores.png>
+Package pdftex.def Info: contextual_tutorials_scores.png used on input line 161
+.
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<encyclopedia_content_scores.png, id=244, 625.1355pt x 456.7464pt>
+File: encyclopedia_content_scores.png Graphic file (type png)
+
+<use encyclopedia_content_scores.png>
+Package pdftex.def Info: encyclopedia_content_scores.png used on input line 167
+.
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<encyclopedia_location_scores.png, id=245, 625.1355pt x 456.7464pt>
+File: encyclopedia_location_scores.png Graphic file (type png)
+
+<use encyclopedia_location_scores.png>
+Package pdftex.def Info: encyclopedia_location_scores.png used on input line 17
+3.
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<exploration_freedom_scores.png, id=246, 625.1355pt x 456.7464pt>
+File: exploration_freedom_scores.png Graphic file (type png)
+
+<use exploration_freedom_scores.png>
+Package pdftex.def Info: exploration_freedom_scores.png used on input line 179.
+
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<iterative_feedback_scores.png, id=247, 625.1355pt x 456.7464pt>
+File: iterative_feedback_scores.png Graphic file (type png)
+
+<use iterative_feedback_scores.png>
+Package pdftex.def Info: iterative_feedback_scores.png used on input line 185.
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<problem_solving_scores.png, id=248, 625.1355pt x 456.7464pt>
+File: problem_solving_scores.png Graphic file (type png)
+
+<use problem_solving_scores.png>
+Package pdftex.def Info: problem_solving_scores.png used on input line 191.
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<referential_amount_scores.png, id=249, 625.1355pt x 456.7464pt>
+File: referential_amount_scores.png Graphic file (type png)
+
+<use referential_amount_scores.png>
+Package pdftex.def Info: referential_amount_scores.png used on input line 197.
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<referential_popularity_scores.png, id=250, 625.1355pt x 456.7464pt>
+File: referential_popularity_scores.png Graphic file (type png)
+
+<use referential_popularity_scores.png>
+Package pdftex.def Info: referential_popularity_scores.png used on input line 2
+03.
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<referential_rewards_scores.png, id=251, 625.1355pt x 456.7464pt>
+File: referential_rewards_scores.png Graphic file (type png)
+
+<use referential_rewards_scores.png>
+Package pdftex.def Info: referential_rewards_scores.png used on input line 209.
+
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<reset_penalty_scores.png, id=252, 625.1355pt x 456.7464pt>
+File: reset_penalty_scores.png Graphic file (type png)
+
+<use reset_penalty_scores.png>
+Package pdftex.def Info: reset_penalty_scores.png used on input line 215.
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<resource_penalty_scores.png, id=253, 625.1355pt x 456.7464pt>
+File: resource_penalty_scores.png Graphic file (type png)
+
+<use resource_penalty_scores.png>
+Package pdftex.def Info: resource_penalty_scores.png used on input line 221.
+(pdftex.def)             Requested size: 469.75502pt x 343.22105pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[57
+
+ <./adaptive_difficulty_scores.png>] [58 <./checkpoint_frequency_scores.png>] [
+59 <./contextual_tutorials_scores.png>] [60 <./encyclopedia_content_scores.png>
+] [61 <./encyclopedia_location_scores.png>] [62 <./exploration_freedom_scores.p
+ng>] [63 <./iterative_feedback_scores.png>] [64 <./problem_solving_scores.png>]
+ [65 <./referential_amount_scores.png>] [66 <./referential_popularity_scores.pn
+g>] [67 <./referential_rewards_scores.png>] [68 <./reset_penalty_scores.png>] [
+69 <./resource_penalty_scores.png>]
+<baseball_scores.png, id=308, 625.1355pt x 529.7391pt>
+File: baseball_scores.png Graphic file (type png)
+
+<use baseball_scores.png>
+Package pdftex.def Info: baseball_scores.png used on input line 234.
+(pdftex.def)             Requested size: 469.75502pt x 398.07124pt.
+
+<botlogic_scores.png, id=309, 625.1355pt x 529.7391pt>
+File: botlogic_scores.png Graphic file (type png)
+
+<use botlogic_scores.png>
+Package pdftex.def Info: botlogic_scores.png used on input line 240.
+(pdftex.def)             Requested size: 469.75502pt x 398.07124pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<darfur_scores.png, id=310, 625.1355pt x 529.7391pt>
+File: darfur_scores.png Graphic file (type png)
+ <use darfur_scores.png>
+Package pdftex.def Info: darfur_scores.png used on input line 246.
+(pdftex.def)             Requested size: 469.75502pt x 398.07124pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<lemmings_scores.png, id=311, 625.1355pt x 529.7391pt>
+File: lemmings_scores.png Graphic file (type png)
+
+<use lemmings_scores.png>
+Package pdftex.def Info: lemmings_scores.png used on input line 252.
+(pdftex.def)             Requested size: 469.75502pt x 398.07124pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<lightbot_scores.png, id=312, 625.1355pt x 529.7391pt>
+File: lightbot_scores.png Graphic file (type png)
+
+<use lightbot_scores.png>
+Package pdftex.def Info: lightbot_scores.png used on input line 258.
+(pdftex.def)             Requested size: 469.75502pt x 398.07124pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<machine_scores.png, id=313, 625.1355pt x 529.7391pt>
+File: machine_scores.png Graphic file (type png)
+ <use machine_scores.png>
+Package pdftex.def Info: machine_scores.png used on input line 264.
+(pdftex.def)             Requested size: 469.75502pt x 398.07124pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<munchers_scores.png, id=314, 625.1355pt x 529.7391pt>
+File: munchers_scores.png Graphic file (type png)
+
+<use munchers_scores.png>
+Package pdftex.def Info: munchers_scores.png used on input line 270.
+(pdftex.def)             Requested size: 469.75502pt x 398.07124pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<notpron_scores.png, id=315, 625.1355pt x 529.7391pt>
+File: notpron_scores.png Graphic file (type png)
+ <use notpron_scores.png>
+Package pdftex.def Info: notpron_scores.png used on input line 276.
+(pdftex.def)             Requested size: 469.75502pt x 398.07124pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<oregon_scores.png, id=316, 625.1355pt x 529.7391pt>
+File: oregon_scores.png Graphic file (type png)
+ <use oregon_scores.png>
+Package pdftex.def Info: oregon_scores.png used on input line 282.
+(pdftex.def)             Requested size: 469.75502pt x 398.07124pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<pandemic_scores.png, id=317, 625.1355pt x 529.7391pt>
+File: pandemic_scores.png Graphic file (type png)
+
+<use pandemic_scores.png>
+Package pdftex.def Info: pandemic_scores.png used on input line 288.
+(pdftex.def)             Requested size: 469.75502pt x 398.07124pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [70
 
- <./lightbot_pre.png> <./lightbot_post.png>] [71 <./lightbot_results.png>]
-<adaptive_difficulty_scores.png, id=296, 625.1355pt x 456.7464pt>
-File: adaptive_difficulty_scores.png Graphic file (type png)
+ <./baseball_scores.png>] [71 <./botlogic_scores.png>] [72 <./darfur_scores.png
+>] [73 <./lemmings_scores.png>] [74 <./lightbot_scores.png>] [75 <./machine_sco
+res.png>] [76 <./munchers_scores.png>] [77 <./notpron_scores.png>] [78 <./orego
+n_scores.png>] [79 <./pandemic_scores.png>]
+<baseball_likert.png, id=360, 714.0276pt x 565.1514pt>
+File: baseball_likert.png Graphic file (type png)
 
-<use adaptive_difficulty_scores.png>
-Package pdftex.def Info: adaptive_difficulty_scores.png used on input line 141.
+<use baseball_likert.png>
+Package pdftex.def Info: baseball_likert.png used on input line 298.
+(pdftex.def)             Requested size: 469.75502pt x 371.81964pt.
 
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
+<botlogic_likert.png, id=361, 714.0276pt x 565.1514pt>
+File: botlogic_likert.png Graphic file (type png)
 
-<checkpoint_frequency_scores.png, id=297, 625.1355pt x 456.7464pt>
-File: checkpoint_frequency_scores.png Graphic file (type png)
-
-<use checkpoint_frequency_scores.png>
-Package pdftex.def Info: checkpoint_frequency_scores.png used on input line 147
-.
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<contextual_tutorials_scores.png, id=298, 625.1355pt x 456.7464pt>
-File: contextual_tutorials_scores.png Graphic file (type png)
-
-<use contextual_tutorials_scores.png>
-Package pdftex.def Info: contextual_tutorials_scores.png used on input line 153
-.
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
+<use botlogic_likert.png>
+Package pdftex.def Info: botlogic_likert.png used on input line 304.
+(pdftex.def)             Requested size: 469.75502pt x 371.81964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<encyclopedia_content_scores.png, id=299, 625.1355pt x 456.7464pt>
-File: encyclopedia_content_scores.png Graphic file (type png)
-
-<use encyclopedia_content_scores.png>
-Package pdftex.def Info: encyclopedia_content_scores.png used on input line 159
-.
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
+<darfur_likert.png, id=362, 714.0276pt x 565.1514pt>
+File: darfur_likert.png Graphic file (type png)
+ <use darfur_likert.png>
+Package pdftex.def Info: darfur_likert.png used on input line 310.
+(pdftex.def)             Requested size: 469.75502pt x 371.81964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<encyclopedia_location_scores.png, id=300, 625.1355pt x 456.7464pt>
-File: encyclopedia_location_scores.png Graphic file (type png)
+<lemmings_likert.png, id=363, 714.0276pt x 565.1514pt>
+File: lemmings_likert.png Graphic file (type png)
 
-<use encyclopedia_location_scores.png>
-Package pdftex.def Info: encyclopedia_location_scores.png used on input line 16
-5.
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<exploration_freedom_scores.png, id=301, 625.1355pt x 456.7464pt>
-File: exploration_freedom_scores.png Graphic file (type png)
-
-<use exploration_freedom_scores.png>
-Package pdftex.def Info: exploration_freedom_scores.png used on input line 171.
-
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
+<use lemmings_likert.png>
+Package pdftex.def Info: lemmings_likert.png used on input line 316.
+(pdftex.def)             Requested size: 469.75502pt x 371.81964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<iterative_feedback_scores.png, id=302, 625.1355pt x 456.7464pt>
-File: iterative_feedback_scores.png Graphic file (type png)
+<lightbot_likert.png, id=364, 714.0276pt x 565.1514pt>
+File: lightbot_likert.png Graphic file (type png)
 
-<use iterative_feedback_scores.png>
-Package pdftex.def Info: iterative_feedback_scores.png used on input line 177.
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<problem_solving_scores.png, id=303, 625.1355pt x 456.7464pt>
-File: problem_solving_scores.png Graphic file (type png)
-
-<use problem_solving_scores.png>
-Package pdftex.def Info: problem_solving_scores.png used on input line 183.
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
+<use lightbot_likert.png>
+Package pdftex.def Info: lightbot_likert.png used on input line 322.
+(pdftex.def)             Requested size: 469.75502pt x 371.81964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<referential_amount_scores.png, id=304, 625.1355pt x 456.7464pt>
-File: referential_amount_scores.png Graphic file (type png)
-
-<use referential_amount_scores.png>
-Package pdftex.def Info: referential_amount_scores.png used on input line 189.
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<referential_popularity_scores.png, id=305, 625.1355pt x 456.7464pt>
-File: referential_popularity_scores.png Graphic file (type png)
-
-<use referential_popularity_scores.png>
-Package pdftex.def Info: referential_popularity_scores.png used on input line 1
-95.
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
+<machine_likert.png, id=365, 714.0276pt x 565.1514pt>
+File: machine_likert.png Graphic file (type png)
+ <use machine_likert.png>
+Package pdftex.def Info: machine_likert.png used on input line 328.
+(pdftex.def)             Requested size: 469.75502pt x 371.81964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<referential_rewards_scores.png, id=306, 625.1355pt x 456.7464pt>
-File: referential_rewards_scores.png Graphic file (type png)
+<munchers_likert.png, id=366, 714.0276pt x 565.1514pt>
+File: munchers_likert.png Graphic file (type png)
 
-<use referential_rewards_scores.png>
-Package pdftex.def Info: referential_rewards_scores.png used on input line 201.
-
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<reset_penalty_scores.png, id=307, 625.1355pt x 456.7464pt>
-File: reset_penalty_scores.png Graphic file (type png)
-
-<use reset_penalty_scores.png>
-Package pdftex.def Info: reset_penalty_scores.png used on input line 207.
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
+<use munchers_likert.png>
+Package pdftex.def Info: munchers_likert.png used on input line 334.
+(pdftex.def)             Requested size: 469.75502pt x 371.81964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<resource_penalty_scores.png, id=308, 625.1355pt x 456.7464pt>
-File: resource_penalty_scores.png Graphic file (type png)
-
-<use resource_penalty_scores.png>
-Package pdftex.def Info: resource_penalty_scores.png used on input line 213.
-(pdftex.def)             Requested size: 247.74138pt x 181.006pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[72
-
- <./adaptive_difficulty_scores.png>] [73 <./checkpoint_frequency_scores.png> <.
-/contextual_tutorials_scores.png>] [74 <./encyclopedia_content_scores.png> <./e
-ncyclopedia_location_scores.png>] [75 <./exploration_freedom_scores.png> <./ite
-rative_feedback_scores.png>] [76 <./problem_solving_scores.png> <./referential_
-amount_scores.png>] [77 <./referential_popularity_scores.png> <./referential_re
-wards_scores.png>] [78 <./reset_penalty_scores.png> <./resource_penalty_scores.
-png>] <baseball_scores.png, id=344, 625.1355pt x 529.7391pt>
-File: baseball_scores.png Graphic file (type png)
-
-<use baseball_scores.png>
-Package pdftex.def Info: baseball_scores.png used on input line 226.
-(pdftex.def)             Requested size: 213.60205pt x 181.006pt.
-
-<botlogic_scores.png, id=345, 625.1355pt x 529.7391pt>
-File: botlogic_scores.png Graphic file (type png)
-
-<use botlogic_scores.png>
-Package pdftex.def Info: botlogic_scores.png used on input line 232.
-(pdftex.def)             Requested size: 213.60205pt x 181.006pt.
+<notpron_likert.png, id=367, 714.0276pt x 565.1514pt>
+File: notpron_likert.png Graphic file (type png)
+ <use notpron_likert.png>
+Package pdftex.def Info: notpron_likert.png used on input line 340.
+(pdftex.def)             Requested size: 469.75502pt x 371.81964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<darfur_scores.png, id=346, 625.1355pt x 529.7391pt>
-File: darfur_scores.png Graphic file (type png)
- <use darfur_scores.png>
-Package pdftex.def Info: darfur_scores.png used on input line 238.
-(pdftex.def)             Requested size: 213.60205pt x 181.006pt.
+<oregon_likert.png, id=368, 714.7503pt x 565.1514pt>
+File: oregon_likert.png Graphic file (type png)
+ <use oregon_likert.png>
+Package pdftex.def Info: oregon_likert.png used on input line 346.
+(pdftex.def)             Requested size: 469.75502pt x 371.44884pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<lemmings_scores.png, id=347, 625.1355pt x 529.7391pt>
-File: lemmings_scores.png Graphic file (type png)
+<pandemic_likert.png, id=369, 714.0276pt x 565.1514pt>
+File: pandemic_likert.png Graphic file (type png)
 
-<use lemmings_scores.png>
-Package pdftex.def Info: lemmings_scores.png used on input line 244.
-(pdftex.def)             Requested size: 213.60205pt x 181.006pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<lightbot_scores.png, id=348, 625.1355pt x 529.7391pt>
-File: lightbot_scores.png Graphic file (type png)
-
-<use lightbot_scores.png>
-Package pdftex.def Info: lightbot_scores.png used on input line 250.
-(pdftex.def)             Requested size: 213.60205pt x 181.006pt.
+<use pandemic_likert.png>
+Package pdftex.def Info: pandemic_likert.png used on input line 352.
+(pdftex.def)             Requested size: 469.75502pt x 371.81964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<machine_scores.png, id=349, 625.1355pt x 529.7391pt>
-File: machine_scores.png Graphic file (type png)
- <use machine_scores.png>
-Package pdftex.def Info: machine_scores.png used on input line 256.
-(pdftex.def)             Requested size: 213.60205pt x 181.006pt.
+[80
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<munchers_scores.png, id=350, 625.1355pt x 529.7391pt>
-File: munchers_scores.png Graphic file (type png)
-
-<use munchers_scores.png>
-Package pdftex.def Info: munchers_scores.png used on input line 262.
-(pdftex.def)             Requested size: 213.60205pt x 181.006pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<notpron_scores.png, id=351, 625.1355pt x 529.7391pt>
-File: notpron_scores.png Graphic file (type png)
- <use notpron_scores.png>
-Package pdftex.def Info: notpron_scores.png used on input line 268.
-(pdftex.def)             Requested size: 213.60205pt x 181.006pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<oregon_scores.png, id=352, 625.1355pt x 529.7391pt>
-File: oregon_scores.png Graphic file (type png)
- <use oregon_scores.png>
-Package pdftex.def Info: oregon_scores.png used on input line 276.
-(pdftex.def)             Requested size: 213.60205pt x 181.006pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<pandemic_scores.png, id=353, 625.1355pt x 529.7391pt>
-File: pandemic_scores.png Graphic file (type png)
-
-<use pandemic_scores.png>
-Package pdftex.def Info: pandemic_scores.png used on input line 284.
-(pdftex.def)             Requested size: 213.60205pt x 181.006pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[79
-
- <./baseball_scores.png>] [80 <./botlogic_scores.png> <./darfur_scores.png>] [8
-1 <./lemmings_scores.png> <./lightbot_scores.png>] [82 <./machine_scores.png> <
-./munchers_scores.png>] [83 <./notpron_scores.png> <./oregon_scores.png>]
-[84 <./pandemic_scores.png>]) (./analysis.tex
-<aggregated_tdist.png, id=383, 525.4029pt x 411.939pt>
+ <./baseball_likert.png>] [81 <./botlogic_likert.png>] [82 <./darfur_likert.png
+>] [83 <./lemmings_likert.png>] [84 <./lightbot_likert.png>] [85 <./machine_lik
+ert.png>] [86 <./munchers_likert.png>] [87 <./notpron_likert.png>] [88 <./orego
+n_likert.png>] [89 <./pandemic_likert.png>]) (./analysis.tex
+<aggregated_tdist.png, id=412, 525.4029pt x 411.939pt>
 File: aggregated_tdist.png Graphic file (type png)
 
 <use aggregated_tdist.png>
 Package pdftex.def Info: aggregated_tdist.png used on input line 14.
-(pdftex.def)             Requested size: 230.8573pt x 181.006pt.
- <darfur_tdist.png, id=384, 534.798pt x 411.939pt>
+(pdftex.def)             Requested size: 469.75502pt x 368.32167pt.
+ <darfur_tdist.png, id=413, 534.798pt x 411.939pt>
 File: darfur_tdist.png Graphic file (type png)
 
 <use darfur_tdist.png>
 Package pdftex.def Info: darfur_tdist.png used on input line 19.
-(pdftex.def)             Requested size: 234.98543pt x 181.006pt.
+(pdftex.def)             Requested size: 469.75502pt x 361.84743pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<oregon_tdist.png, id=385, 534.798pt x 411.939pt>
+<oregon_tdist.png, id=414, 534.798pt x 411.939pt>
 File: oregon_tdist.png Graphic file (type png)
  <use oregon_tdist.png>
 Package pdftex.def Info: oregon_tdist.png used on input line 24.
-(pdftex.def)             Requested size: 234.98543pt x 181.006pt.
+(pdftex.def)             Requested size: 469.75502pt x 361.84743pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<lightbot_tdist.png, id=386, 534.798pt x 411.939pt>
+<lightbot_tdist.png, id=415, 535.5207pt x 411.939pt>
 File: lightbot_tdist.png Graphic file (type png)
  <use lightbot_tdist.png>
 Package pdftex.def Info: lightbot_tdist.png used on input line 29.
-(pdftex.def)             Requested size: 234.98543pt x 181.006pt.
+(pdftex.def)             Requested size: 469.75502pt x 361.35715pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<munchers_tdist.png, id=387, 534.798pt x 411.939pt>
+<munchers_tdist.png, id=416, 534.798pt x 411.939pt>
 File: munchers_tdist.png Graphic file (type png)
  <use munchers_tdist.png>
 Package pdftex.def Info: munchers_tdist.png used on input line 34.
-(pdftex.def)             Requested size: 234.98543pt x 181.006pt.
+(pdftex.def)             Requested size: 469.75502pt x 361.84743pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<full_five_stats.png, id=388, 518.8986pt x 512.3943pt>
+<full_five_stats.png, id=417, 518.8986pt x 512.3943pt>
 File: full_five_stats.png Graphic file (type png)
 
 <use full_five_stats.png>
 Package pdftex.def Info: full_five_stats.png used on input line 41.
-(pdftex.def)             Requested size: 183.3037pt x 181.006pt.
+(pdftex.def)             Requested size: 469.75502pt x 463.87927pt.
+ [90
 
+ <./aggregated_tdist.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<inner_3_stats.png, id=389, 518.8986pt x 512.3943pt>
+<inner_3_stats.png, id=422, 518.8986pt x 512.3943pt>
 File: inner_3_stats.png Graphic file (type png)
  <use inner_3_stats.png>
 Package pdftex.def Info: inner_3_stats.png used on input line 46.
-(pdftex.def)             Requested size: 183.3037pt x 181.006pt.
+(pdftex.def)             Requested size: 469.75502pt x 463.87927pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<outer_3_stats.png, id=390, 518.8986pt x 511.6716pt>
+<outer_3_stats.png, id=423, 518.8986pt x 511.6716pt>
 File: outer_3_stats.png Graphic file (type png)
  <use outer_3_stats.png>
 Package pdftex.def Info: outer_3_stats.png used on input line 51.
-(pdftex.def)             Requested size: 183.56499pt x 181.006pt.
+(pdftex.def)             Requested size: 469.75502pt x 463.22499pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[85
-
- <./aggregated_tdist.png>] [86 <./darfur_tdist.png>]) [87 <./oregon_tdist.png>]
- [88 <./lightbot_tdist.png>] [89 <./munchers_tdist.png> <./full_five_stats.png>
-] [90 <./inner_3_stats.png> <./outer_3_stats.png>]
+[91 <./darfur_tdist.png>] [92 <./oregon_tdist.png>]) [93 <./lightbot_tdist.png>
+] [94 <./munchers_tdist.png>] [95 <./full_five_stats.png>] [96 <./inner_3_stats
+.png>] [97 <./outer_3_stats.png>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 152.
 
 
@@ -1005,98 +1035,63 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 152.
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
-\OT1/cmtt/m/n/12 edu / homepage / faculty / gosling / reprints / MTurkhowto .
+Underfull \hbox (badness 2221) in paragraph at lines 152--153
+\OT1/cmr/m/n/12 en-tists.'' Web. \OML/cmm/m/it/12 <$\OT1/cmtt/m/n/12 http : / /
+ homepage . psy . utexas . edu / homepage / faculty /
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 157--158
-[]\OT1/cmr/m/n/12 ``Genocide in Dar-fur.'' Game. Fun Trivia. Web. 21
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 1783) in paragraph at lines 160--161
 \OT1/cmr/m/n/12 Nov. 2013. \OML/cmm/m/it/12 <$\OT1/cmtt/m/n/12 http : / / www .
- funtrivia . com / playquiz /
- []
-
-[91
-
-]
-Underfull \hbox (badness 1178) in paragraph at lines 160--161
-[]\OT1/cmr/m/n/12 Kjell, Bradley. ``Count-ing Loop Quiz.'' Count-ing Loop
+ cs . iastate . edu / []honavar / JavaNotes / Notes /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 161--162
-[]\OT1/cmr/m/n/12 ``The Mea-sure-ment of Inter-rater Agree-ment.''
+[]\OT1/cmr/m/n/12 ``The Mea-sure-ment of Inter-rater Agree-ment.'' Web. \OML/cm
+m/m/it/12 <$\OT1/cmtt/m/n/12 http :
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 161--162
-\OT1/cmr/m/n/12 Web. \OML/cmm/m/it/12 <$\OT1/cmtt/m/n/12 http : / / hpm . fk . 
-ugm . ac . id / hpmlama / images /
+\OT1/cmtt/m/n/12 / / hpm . fk . ugm . ac . id / hpmlama / images / Biostatistik
+ / Tutorial \ _4 \
  []
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
+[98
 
-Underfull \hbox (badness 5607) in paragraph at lines 164--165
-[]\OT1/cmr/m/n/12 ``Quiz: The Ore-gon Trail.'' Quia. Quia. Web. 21
+]
+Underfull \hbox (badness 3108) in paragraph at lines 166--167
+[]\OT1/cmr/m/n/12 ``What Do You Know about the Dar-fur Geno-cide?'' What Do
  []
 
 
-Underfull \hbox (badness 6842) in paragraph at lines 165--166
-[]\OT1/cmr/m/n/12 ``QuizMoz - Ore-gon Trail Quiz.'' Quiz-Moz - Ore-
- []
-
-
-Underfull \hbox (badness 4805) in paragraph at lines 165--166
-\OT1/cmr/m/n/12 gon Trail Quiz. Web. 21 Nov. 2013. \OML/cmm/m/it/12 <$\OT1/cmtt
-/m/n/12 http : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
-\OT1/cmtt/m/n/12 quizmoz . com / quizzes / Interesting-[]Facts-[]Quizzes /
+Underfull \hbox (badness 2512) in paragraph at lines 166--167
+\OT1/cmr/m/n/12 You Know about the Dar-fur Geno-cide? Pro-Profs. Web. 21 Nov.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 166--167
-[]\OT1/cmr/m/n/12 ``What Do You Know about the Dar-fur Geno-
+\OT1/cmr/m/n/12 2013. \OML/cmm/m/it/12 <$\OT1/cmtt/m/n/12 http : / / www . prop
+rofs . com / quiz-[]school / story . php ? title =
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-\OT1/cmr/m/n/12 cide?'' What Do You Know about the Dar-fur
- []
-
-
-Underfull \hbox (badness 5161) in paragraph at lines 166--167
-\OT1/cmr/m/n/12 Geno-cide? Pro-Profs. Web. 21 Nov. 2013. \OML/cmm/m/it/12 <$\OT
-1/cmtt/m/n/12 http :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-\OT1/cmtt/m/n/12 / / www . proprofs . com / quiz-[]school / story . php ? title
- =
- []
-
-[92] (./KenHoffThesis.aux)
+[99] (./KenHoffThesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3176 strings out of 494536
- 49695 string characters out of 6167446
- 102856 words of memory out of 5000000
- 6308 multiletter control sequences out of 15000+600000
+ 3673 strings out of 494536
+ 57132 string characters out of 6167446
+ 116719 words of memory out of 5000000
+ 6792 multiletter control sequences out of 15000+600000
  9752 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 38i,7n,32p,20585b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,32p,19985b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mmi12.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/
@@ -1104,10 +1099,10 @@ cm/cmr12.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr17.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on KenHoffThesis.pdf (94 pages, 3598616 bytes).
+Output written on KenHoffThesis.pdf (101 pages, 3599483 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
+ 485 PDF objects out of 1000 (max. 8388607)
+ 243 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 331 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 

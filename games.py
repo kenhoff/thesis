@@ -32,8 +32,8 @@ class Game:
 
 	def latex_output(self, nestlevel = "section"):
 		# print self.name
-		content = "\{}".format(nestlevel) + "{{{}}}".format(self.name) + "\subparagraph{URL}" + "\url{{{}}}".format(self.url) + "\subparagraph{Description}" + "{}".format(self.description) + "\subparagraph{Educational Content}" + "{}".format(self.education) + "\subparagraph{Notes on Implementation}" + "{}".format(self.implementation) + "\\newpage"
+		content = "\{}".format(nestlevel) + "{{{}}}".format(self.name) + "\subparagraph{URL}" + "\url{{{}}}".format(self.url) + "\subparagraph{Description}" + "{}".format(self.description) + "\subparagraph{Educational Content}" + "{}".format(self.education) + "\subparagraph{Notes on Implementation}" + "{}".format(self.implementation) 
 		for image in self.images:
-			content += "\\begin{figure}[h!]" + "\centering \includegraphics[height=0.33\\textheight]{{{0}}}".format('img/' + image['path']) + "\caption{{{0}}}".format(image['caption']) + "\end{figure}"
+			content += "\\begin{figure}[p]" + "\centering \includegraphics[height=.4\\textheight, width=\\textwidth, keepaspectratio=true]{{{0}}}".format('img/' + image['path']) + "\caption{{{0}}}".format(image['caption']) + "\end{figure}"
 		# print self.id
 		return content

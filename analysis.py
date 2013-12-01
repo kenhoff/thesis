@@ -14,12 +14,15 @@ def main():
 				resultreader.next()
 				for row in resultreader:
 					store_row(row, cols) # dump array of responses into SQLite
-	# print_table()
+	print_table()
 	gradeAll()
 	# printGrades()
 	scoreDifferenceMean()
 	createQuizGraphs()
-
+	survey_likert()
+	game_likert()
+	gamelists_and_comments()
+	whatilearned_and_gamecomments()
 	m = 16 # number of raters
 
 	data = prepInterRaterData(m)
@@ -29,33 +32,33 @@ def main():
 		interrater_info[k] = interrater.main(v, 10, m, 5)
 
 
-	print "Inter-rater kappa vals for [1,2,3,4,5]"
-	for k, v in interrater_info.iteritems():
-		print k, "{0:.2f}".format(v)
+	# print "Inter-rater kappa vals for [1,2,3,4,5]"
+	# for k, v in interrater_info.iteritems():
+	# 	print k, "{0:.2f}".format(v)
 
 	plottest.interrater_plot(interrater_info, "full_five")
 
 	inner_3 = modify_inner_3(data)
 
-	print "Inter-rater kappa vals for [1, [2,3,4], 5]"
+	# print "Inter-rater kappa vals for [1, [2,3,4], 5]"
 	# print inner_3
 	interrater_info = {}
 	for k,v in inner_3.iteritems():
 		interrater_info[k] = interrater.main(v, 10, m, 3)
-	for k, v in interrater_info.iteritems():
-		print k, "{0:.2f}".format(v)
+	# for k, v in interrater_info.iteritems():
+	# 	print k, "{0:.2f}".format(v)
 	plottest.interrater_plot(interrater_info, "inner_3")
 
 
 
 	outer_3 = modify_outer_3(data)
 
-	print "Inter-rater kappa vals for [[1,2], 3, [4,5]]"
+	# print "Inter-rater kappa vals for [[1,2], 3, [4,5]]"
 	interrater_info = {}
 	for k,v in outer_3.iteritems():
 		interrater_info[k] = interrater.main(v, 10, m, 3)
-	for k, v in interrater_info.iteritems():
-		print k, "{0:.2f}".format(v)
+	# for k, v in interrater_info.iteritems():
+	# 	print k, "{0:.2f}".format(v)
 	plottest.interrater_plot(interrater_info, "outer_3")
 
 
@@ -124,13 +127,17 @@ def print_table():
 	rubric_keys = []
 	for item in rubric['rubricitems']:
 		rubric_keys.append(item['id'])
-	exec_string = '''SELECT {} FROM results'''.format(', '.join(['gameid'] + rubric_keys))
+	# exec_string = '''SELECT {} FROM results'''.format(', '.join(['gameid'] + rubric_keys))
+	exec_string = '''SELECT * FROM results'''
 	c.execute(exec_string)
-	count = 0
 	for row in c.fetchall():
-		count += 1
-		print "{2} {0}: {1}".format(row[0], ', '.join(row[1:]), count)
-	print ', '.join(rubric_keys)
+		# print row
+		pass
+	# count = 0
+	# for row in c.fetchall():
+	# 	count += 1
+	# 	print "{2} {0}: {1}".format(row[0], ', '.join(row[1:]), count)
+	# print ', '.join(rubric_keys)
 
 
 
@@ -147,6 +154,12 @@ def store_row(row, cols):
 		item = item.replace("'", "''")
 		item = item.replace('\n', ' ')
 		item = item.replace('\r', ' ')
+		# print item
+		# item = item.decode("utf-8")
+		try:
+			item = item.encode("ascii", "ignore")
+		except:
+			item = 'error'
 		newrow .append("'{}'".format(item))
 		# print(item)
 
@@ -161,6 +174,7 @@ def store_row(row, cols):
 		# print(vals)
 		vals.pop()
 		# print (len(cols), len(vals))
+		# print cols
 		exec_string = '''INSERT INTO results ({0}) VALUES ({1})'''.format(', '.join(cols), ', '.join(vals))
 
 	# if result is for a non-quiz game, insert the full record minus the first 18 cols and the last 10
@@ -260,11 +274,11 @@ def scoreDifferenceMean():
 	standard_deviation = math.sqrt(variance)
 
 
-	print "\nAggregated"
-	print "{} responses".format(count)
-	print "Mean: {}".format(mean)
-	print "Variance: {}".format(variance)
-	print "Standard Deviation: {}".format(standard_deviation)
+	# print "\nAggregated"
+	# print "{} responses".format(count)
+	# print "Mean: {}".format(mean)
+	# print "Variance: {}".format(variance)
+	# print "Standard Deviation: {}".format(standard_deviation)
 
 	import significance
 	sig = {}
@@ -295,7 +309,7 @@ def scoreDifferenceMean():
 		variance = sum(squared_diffs_from_mean) / count
 		standard_deviation = math.sqrt(variance)
 
-		print "\n" + game
+		# print "\n" + game
 		# print "{} responses".format(count)
 		# print "Mean: {}".format(mean)
 		# print "Variance: {}".format(variance)
@@ -421,7 +435,7 @@ def createQuizGraphs():
 
 def prepInterRaterData(m):
 	import plottest
-	print "********************inter-rater data*************************"
+	# print "********************inter-rater data*************************"
 	data = {}
 	responses = m
 
@@ -454,9 +468,154 @@ def prepInterRaterData(m):
 	plottest.game_scores(data)
 	return data
 
+def survey_likert():
+	# print "***********survey likert data***********"
+	fields = ['fun_can_be_educational', 'most_fun_are_educational', 'educational_can_be_fun', 'most_educational_are_fun', 'more_fun_when_competitive', 'more_fun_by_yourself', 'more_fun_online', 'more_educational_when_cooperative', 'more_educational_by_yourself', 'more_educational_online']
+	data = []
+	for i in range(len(fields)):
+		data.append([0] * 4)
+	exec_string = '''SELECT {} from results'''.format(', '.join(fields))
+	c.execute(exec_string)
+	for row in c.fetchall():
+		for i in range(len(fields)):
+			if (row[i] == "Stronglydisagree"):
+				data[i][0] += 1
+			if (row[i] == "Disagree"):
+				data[i][1] += 1
+			if (row[i] == "Agree"):
+				data[i][2] += 1
+			if (row[i] == "StronglyAgree"):
+				data[i][3] += 1
+		# print row
+	# print data
+
+	import numpy as np
+	import matplotlib.pyplot as plt
+
+	stronglydisagree = []
+	disagree = []
+	agree = []
+	stronglyagree = []
+	for field in data:
+		stronglydisagree.append(field[0])
+		disagree.append(field[1])
+		agree.append(field[2])
+		stronglyagree.append(field[3])
+
+	# print "Strongly disagrees: {}".format(str(stronglydisagree))
+
+	N = len(fields)
+	ind = np.arange(N)
+	width = .15
+	fig, ax = plt.subplots()
+	rects1 = ax.bar(ind, stronglydisagree, width, color = (1, 0, 0))
+	rects2 = ax.bar(ind + (width * 1), disagree, width, color = (.66, 0, .33))
+	rects3 = ax.bar(ind + (width * 2), agree, width, color = (.33, 0, .66))
+	rects4 = ax.bar(ind + (width * 3), stronglyagree, width, color = (0, 0, 1))
+
+	ax.set_title("Likert scale responses for survey")
+	ax.set_ylabel("Number of responses")
+	ax.set_xlabel("Question")
+	ax.set_xticks(ind + width)
+	ax.set_xticklabels(fields, rotation = 90)
+
+	ax.legend((rects1[0], rects2[0], rects3[0], rects4[0]), ("Strongly Disagree", "Disagree", "Agree", "Strongly Agree"), bbox_to_anchor = (1.5, 1))
+
+	plt.savefig("survey_likert.png", bbox_inches = 'tight')
+
+def game_likert():
+	games = ['oregon','lightbot','darfur','munchers', 'machine', 'pandemic', 'botlogic', 'baseball', 'notpron', 'lemmings']
+	for game in games:
+		# print "***********{} likert data***********".format(game)
+		fields = ['this_game_was_fun', 'i_had_fun', 'this_game_was_educational', 'i_learned_something']
+		data = []
+		for i in range(len(fields)):
+			data.append([0] * 4)
+		exec_string = '''SELECT {} from results WHERE gameid = "{}"'''.format(', '.join(fields), game)
+		c.execute(exec_string)
+		for row in c.fetchall():
+			for i in range(len(fields)):
+				if (row[i] == "Stronglydisagree"):
+					data[i][0] += 1
+				if (row[i] == "Disagree"):
+					data[i][1] += 1
+				if (row[i] == "Agree"):
+					data[i][2] += 1
+				if (row[i] == "StronglyAgree"):
+					data[i][3] += 1
+			# print row
+		# print data
+
+		import numpy as np
+		import matplotlib.pyplot as plt
+
+		stronglydisagree = []
+		disagree = []
+		agree = []
+		stronglyagree = []
+		for field in data:
+			stronglydisagree.append(field[0])
+			disagree.append(field[1])
+			agree.append(field[2])
+			stronglyagree.append(field[3])
+
+		# print "Strongly disagrees: {}".format(str(stronglydisagree))
+
+		N = len(fields)
+		ind = np.arange(N)
+		width = .15
+		fig, ax = plt.subplots()
+		rects1 = ax.bar(ind, stronglydisagree, width, color = (1, 0, 0))
+		rects2 = ax.bar(ind + (width * 1), disagree, width, color = (.66, 0, .33))
+		rects3 = ax.bar(ind + (width * 2), agree, width, color = (.33, 0, .66))
+		rects4 = ax.bar(ind + (width * 3), stronglyagree, width, color = (0, 0, 1))
+
+		ax.set_title("Likert scale responses for {}".format(game))
+		ax.set_ylabel("Number of responses")
+		ax.set_xlabel("Question")
+		ax.set_xticks(ind + width)
+		ax.set_xticklabels(fields, rotation = 90)
+
+		ax.legend((rects1[0], rects2[0], rects3[0], rects4[0]), ("Strongly Disagree", "Disagree", "Agree", "Strongly Agree"), bbox_to_anchor = (1.5, 1))
+
+		plt.savefig("{}_likert.png".format(game), bbox_inches = 'tight')
 
 
+def gamelists_and_comments():
 
+	fields = ['fun_game_list', 'educational_game_list', 'comments_on_survey']
+	exec_string = '''SELECT {} from results'''.format(', '.join(fields))
+	c.execute(exec_string)
+	fungames = []
+	edugames = []
+	comments_on_survey = []
+	for row in c.fetchall():
+		fungames.append(row[0])
+		edugames.append(row[1])
+		comments_on_survey.append(row[2])
+
+	open('fungames.txt', 'w+').write(scrub_latex('\n'.join(fungames)))
+	open('edugames.txt', 'w+').write(scrub_latex('\n'.join(edugames)))
+	open('comments_on_survey.txt', 'w+').write(scrub_latex('\n'.join(comments_on_survey)))
+
+def whatilearned_and_gamecomments():
+	for game in ['oregon','lightbot','darfur','munchers', 'machine', 'pandemic', 'botlogic', 'baseball', 'notpron', 'lemmings']:
+		fields = ['what_did_you_learn', 'comments_on_game']
+		exec_string = '''SELECT {} from results WHERE gameid = "{}"'''.format(', '.join(fields), game)
+		c.execute(exec_string)
+		whatilearned = []
+		comments_on_game = []
+		for row in c.fetchall():
+			whatilearned.append(row[0])
+			comments_on_game.append(row[1])
+
+		open('{}_whatilearned.txt'.format(game), 'w+').write(scrub_latex('\n'.join(whatilearned)))
+		open('{}_comments_on_game.txt'.format(game), 'w+').write(scrub_latex('\n'.join(comments_on_game)))
+
+
+def scrub_latex(text):
+
+	return text.replace('&', '\&').replace('%', '\%').replace('$', '\$')
 
 # code for opening survey json
 # f = open('./turk_stuff/basic.json', 'r')

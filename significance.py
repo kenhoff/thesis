@@ -6,7 +6,7 @@ def main(N, md, sd, p):
 
 
 	ta = t.interval(p, N - 1) # confidence limits
-	print ta
+	# print ta
 
 
 

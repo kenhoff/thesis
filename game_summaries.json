@@ -45,10 +45,6 @@
 			"implementation": "Pandemic 2 was built in Flash by Dark Realm Studios.",
 			"images": [
 				{
-					"path": "pandemic_title.jpg",
-					"caption": "The title screen of Pandemic 2"
-				},
-				{
 					"path": "pandemic_screen.jpg",
 					"caption": "A screenshot from Pandemic 2's evolution view"
 				}
@@ -81,10 +77,6 @@
 			"implementation": "This is not an official version of Number Munchers. It's a Flash-based, Number Munchers-inspired game created by user Authorblues. It's functionally equivalent to the original edition of Number Munchers.",
 			"images": [
 				{
-					"path": "munchers_title.png",
-					"caption": "The Number Munchers opening screen"
-				},
-				{
 					"path": "munchers_screen.png",
 					"caption": "A screenshot from the gameplay of Number Munchers"
 				}
@@ -98,10 +90,7 @@
 			"education": "Botlogic teaches players about simple programming concepts, namely passing a sequence of instructions to a robot and watching them run. However, the game doesn't include any functional or object-oriented programming concepts, and is only slightly abstracted away from the player having direct directional control of the robot.",
 			"implementation": "BotLogic is built in HTML5/Javascript and developed by Dolphin Micro, a web development consulting firm located in Colorado.",
 			"images": [
-				{
-					"path": "botlogic_title.jpg",
-					"caption": "BotLogic's logo"
-				},
+
 				{
 					"path": "botlogic_screen.png",
 					"caption": "One of the levels from BotLogic"
@@ -116,10 +105,7 @@
 			"education": "The education in \"Math Baseball\" is very straightforward. Players can learn addition, subtraction, multiplication, and division, with the player's knowledge of the topic reflected in their higher score of the game.",
 			"implementation": "Math Baseball is written in HTML and an unspecified server framework.",
 			"images": [
-				{
-					"path": "baseball_title.jpg",
-					"caption": "Math Baseball's title screen"
-				},
+
 				{
 					"path": "baseball_screen.jpg",
 					"caption": "A screenshot from the gameplay of Math Baseball"
@@ -134,10 +120,7 @@
 			"education": "From the Notpron site: \\quotation{\"[Players who finish the game] have persisted with a broad range of complex ways of thinking, while maintaining focus and dedication over a long period. [Their] detective skills have been tested to the limits, yet the smallest hint proved sufficient to solve the most complicated tasks. Furthermore, competence in the following areas have been displayed: Sound editing, Graphic editing, Musical understanding, Insight into HTML programming, Rapid learning of new programs, Efficient online research techniques, [and] Insight into the complex workings of a computer.\"}",
 			"implementation": "Notpron is written in HTML and an unspecified server framework.",
 			"images": [
-				{
-					"path": "notpron_title.jpeg",
-					"caption": "The Notpron opening screen"
-				},
+
 				{
 					"path": "notpron_screen.jpg",
 					"caption": "The first level of Notpron"
@@ -152,10 +135,7 @@
 			"education": "Lemmings teaches players problem-solving, multitasking, and resource management. Because a fixed number of lemmings are required to finish the level, players must learn the proper methods for getting around obstacles by using the minimum number of lemmings possible.",
 			"implementation": "This implementation of Lemmings is a Javascript port of the original version of the game.",
 			"images": [
-				{
-					"path": "lemmings_title.jpg",
-					"caption": "The Lemmings box art"
-				},
+
 				{
 					"path": "lemmings_screen.jpg",
 					"caption": "One of the levels from Lemmings"
@@ -170,10 +150,7 @@
 			"education": "The Incredible Machine teaches players about physics and problem solving. Players learn about the physical properties of various objects (for example, the tennis ball might not knock down the board, but the bowling ball might), and learn how to use limited combinations of those objects together to solve the puzzles. ",
 			"implementation": "This is the original edition of The Incredible Machine, run inside a Java container in the browser.",
 			"images": [
-				{
-					"path": "machine_title.png",
-					"caption": "The title screen from The Incredible Machine"
-				},
+
 				{
 					"path": "machine_screen.png",
 					"caption": "One of the levels from The Incredible Machine"

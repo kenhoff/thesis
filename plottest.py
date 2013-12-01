@@ -123,12 +123,12 @@ def game_scores(all_rubricitem_data):
 
 	for i in range(len(games)):
 		for k, v in all_rubricitem_data.iteritems():
-			print k, v[i]
+			# print k, v[i]
 			# print all_rubricitem_data[rubricitems[]]
 			game_data[games[i]].append(v[i])
 
-	print all_rubricitem_data
-	print game_data
+	# print all_rubricitem_data
+	# print game_data
 
 
 	for k, v in game_data.iteritems():
@@ -195,13 +195,13 @@ def tdist_graph(stats, title, game):
 	plt.plot(.9, point9_stats[1], 'bo')
 	lower_err = point9_stats[1] - point9_stats[0]
 	upper_err = point9_stats[2] - point9_stats[1]
-	print lower_err, upper_err
+	# print lower_err, upper_err
 	plt.errorbar(.9, point9_stats[1], yerr = [[lower_err], [upper_err]], ecolor = 'b')
 	# plt.axis([.88, .97, 0, .08])
 	plt.plot(.95, point95_stats[1], 'bo')
 	lower_err = point95_stats[1] - point95_stats[0]
 	upper_err = point95_stats[2] - point95_stats[1]
-	print lower_err, upper_err
+	# print lower_err, upper_err
 	plt.errorbar(.95, point95_stats[1], yerr = [[lower_err], [upper_err]], ecolor = 'b')
 
 	plt.xlim(.85, 1)
