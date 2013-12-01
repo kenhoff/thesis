@@ -12,3 +12,8 @@ clean:
 
 simple:
 	pdflatex KenHoffThesis.tex
+
+data:
+	python create_latex.py 
+	python generate_surveytex.py
+	python analysis.py

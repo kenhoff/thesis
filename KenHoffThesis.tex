@@ -3,7 +3,7 @@
 \usepackage[margin=1in]{geometry}
 
 \usepackage{url}
-\usepackage{graphicx}
+\usepackage[]{graphicx}
 \usepackage{listings}
 
 \author{Ken Hoff \\ University of Colorado at Boulder \\ \texttt{kendall.hoff@colorado.edu} 
@@ -30,35 +30,41 @@ Existing educational games lack the combination of education and engagement. The
 \tableofcontents
 \listoffigures
 
-\section{Problem}
-	Educational games lack the combination of education and engagement. The standard is “cheesy” games, where the content being taught is either uninteresting or unrelated to the type of play. A good example is Math Blaster; players answer simple arithmetic questions to fill up their energy, which they then use to shoot space debris. These “games” are usually just homework problems, either included as an unrelated component inside the game, or interspersed between gameplay segments in a quiz format.
+\chapter{Introduction}
+	Educational games lack the combination of education and engagement. In ineffective games the content being taught is either uninteresting or unrelated to the type of play. A good example is Math Blaster; players answer simple arithmetic questions to fill up their energy, which they then use to shoot space debris. These “games” are usually just homework problems, either included as an unrelated component inside the game, or interspersed between gameplay segments in a quiz format.
+% change the "cheesy" word
+	People don't know how to design good educational games - don't know what attributes make for a good game
 
-\section{Thesis Statement/Solution}
-	I'm going to synthesize an education game design method by creating a list of attributes that educational games should have a high degree of in order to be effective and engaging. The list is not a set of standards, but a set of guidelines; it is possible (though unlikely) for a game to contain all of the attributes and still be ineffective, or for a game to have none of the attributes and be very effective. It is simply meant to infer that game designs that contain these elements are more likely to be effective and engaging educational games.
+	\section{Thesis Statement/Solution}
+		I'm going to synthesize an education game design method by creating a list of attributes that educational games should have a high degree of in order to be effective and engaging. The list is not a set of standards, but a set of guidelines; it is possible (though unlikely) for a game to contain all of the attributes and still be ineffective, or for a game to have none of the attributes and be very effective. It is simply meant to infer that game designs that contain these elements are more likely to be effective and engaging educational games.
 
-\section{Approach} 
-	I'll begin by examining current educational game design methods, through research of published literature. I'll then synthesize my own educational game design method, a list of attributes found in effective and engaging educational games, influenced heavily by my research and findings. Afterwards, I'll attempt to apply my method to existing educational and semi-educational games, and see if the most effective educational games correlate to my design method. In contrast, ineffective educational games won't correlate at all to my design method.
+		the question to be answered in this thesis research is the following: are there attributes that an educational game should have in order to be effective and engaging? in this work, i will attempt to develop a rubric and investigate whether existing educational games incorporate these attributes
 
-\section{Research}
-	\subsection{Edutainment vs Educational Games}
-		\subsubsection{Bloom's Taxonomy}
+	\section{Approach} 
+		I'll begin by examining current educational game design methods, through research of published literature. I'll then synthesize my own educational game design method, a list of attributes found in effective and engaging educational games, influenced heavily by my research and findings. Afterwards, I'll attempt to apply my method to existing educational and semi-educational games, and see if the most effective educational games correlate to my design method. In contrast, ineffective educational games won't correlate at all to my design method.
 
-			Bloom's Taxonomy is one of the most widely cited classifications of learning. It provides milestones for three different domains of learning: Psychomotor, Affective, and Cognitive.
+	\section{Organization}
+		The rest of this thesis is organized as follows:
 
-			The first domain, Psychomotor, deals with the ability to perform intricate physical tasks, like hammering a nail or operating a complex machine or instrument. Games are currently very good at teaching concepts within the Psychomotor domain. The best examples are ones where the game provides a near-simulation to the task being performed in real life. Music games like Guitar Hero and Rock Band improve coordination and motor control while playing an instrument. Simulation driving games like Forza and Gran Turismo provide players with continuous feedback to help them learn the correct response to stimulus given the car they are driving, to help them improve their driving skills. Other examples include any game that improves motor control; Kinect's Dance Central improves player's bodily movements, and even first person shooter games like Halo or Call Of Duty improve player's hand-eye coordination.
+\chapter{Research}
+	\section{Edutainment vs Educational Games}
 
-			The Affective domain is one that is far harder for games to address. It deals with learning empathy, emotion, and includes things that are commonly learned through interaction with people and not necessarily through formal education. Games commonly expose players to this in two ways. The first is through game narrative, where players are exposed to characters, situations, and choices where they observe and learn about the human condition. Games with extreme character development (Mass Effect, The Walking Dead) typically explore human choices in great detail. There are also extremely minimalistic games that communicate powerful empathic ideas without a large amount of gameplay or graphics, or conversation (Thomas was alone, Journey), as well as completely narrative-based, choose-your-own-adventure Twine games that address extremely empathic concepts (Howling dogs). The second is through putting players in situations with other players where they will need empathy and skills from the Affective domain in order to solve their problems. All multiplayer games facilitate this to some degree, but puzzle games (Portal, LittleBigPlanet), and MMO's (WoW, EVE Online) generally encourage players to communicate, negotiate, and work together to achieve a common goal.
-
-			When we think of educational games, we commonly think of the Cognitive domain. The Cognitive domain deals with knowledge of facts, associations, and mechanics, and typically consists of the material that educators attempt to teach in schools. This is also the domain that games attempt to address the most; being able to communicate these concepts effectively would reduce the amount of material educators would need to teach, allowing them to focus on more complex concepts. Because games in the Psychomotor domain are well traversed, and games in the Affective domain are far more nebulous as to measuring their educational value, we will be focusing exclusively on the Cognitive domain.
+		It's also important for us to differentiate between edutainment and educational games. For this paper, we're going to define edutainment as the simple gamification of a task. The purpose of edutainment is to increase the player's skill at something by getting them to play a game; the player mimics or actually does the skills within the game, and the game rewards them and keeps them engaged in order to continue increasing their skill. These kinds of games, while effective, are ineffective at teaching complex concepts and systems. For that purpose, we use educational games; they have the more rewarding task of teaching complicated content, but it is far more difficult to do so, as they can't utilize the “skill and drill” method of education. We're going to focus primarily on educational games in this paper.
 
 
+	\section{Bloom's Taxonomy}
 
-			\textbf{image}
+		Bloom's Taxonomy is one of the most widely cited classifications of learning. It provides milestones for three different domains of learning: Psychomotor, Affective, and Cognitive.
 
-			\subsubsection{Educational Games, Not Edutainment}
-				It's also important for us to differentiate between edutainment and educational games. For this paper, we're going to define edutainment as the simple gamification of a task. The purpose of edutainment is to increase the player's skill at something by getting them to play a game; the player mimics or actually does the skills within the game, and the game rewards them and keeps them engaged in order to continue increasing their skill. These kinds of games, while effective, are ineffective at teaching complex concepts and systems. For that purpose, we use educational games; they have the more rewarding task of teaching complicated content, but it is far more difficult to do so, as they can't utilize the “skill and drill” method of education. We're going to focus primarily on educational games in this paper.
+		The first domain, Psychomotor, deals with the ability to perform intricate physical tasks, like hammering a nail or operating a complex machine or instrument. Games are currently very good at teaching concepts within the Psychomotor domain. The best examples are ones where the game provides a near-simulation to the task being performed in real life. Music games like Guitar Hero and Rock Band improve coordination and motor control while playing an instrument. Simulation driving games like Forza and Gran Turismo provide players with continuous feedback to help them learn the correct response to stimulus given the car they are driving, to help them improve their driving skills. Other examples include any game that improves motor control; Kinect's Dance Central improves player's bodily movements, and even first person shooter games like Halo or Call Of Duty improve player's hand-eye coordination.
 
-	\subsection{Tangential Learning}
+		The Affective domain is one that is far harder for games to address. It deals with learning empathy, emotion, and includes things that are commonly learned through interaction with people and not necessarily through formal education. Games commonly expose players to this in two ways. The first is through game narrative, where players are exposed to characters, situations, and choices where they observe and learn about the human condition. Games with extreme character development (Mass Effect, The Walking Dead) typically explore human choices in great detail. There are also extremely minimalistic games that communicate powerful empathic ideas without a large amount of gameplay or graphics, or conversation (Thomas was alone, Journey), as well as completely narrative-based, choose-your-own-adventure Twine games that address extremely empathic concepts (Howling dogs). The second is through putting players in situations with other players where they will need empathy and skills from the Affective domain in order to solve their problems. All multiplayer games facilitate this to some degree, but puzzle games (Portal, LittleBigPlanet), and MMO's (WoW, EVE Online) generally encourage players to communicate, negotiate, and work together to achieve a common goal.
+
+		When we think of educational games, we commonly think of the Cognitive domain. The Cognitive domain deals with knowledge of facts, associations, and mechanics, and typically consists of the material that educators attempt to teach in schools. This is also the domain that games attempt to address the most; being able to communicate these concepts effectively would reduce the amount of material educators would need to teach, allowing them to focus on more complex concepts. Because games in the Psychomotor domain are well traversed, and games in the Affective domain are far more nebulous as to measuring their educational value, we will be focusing exclusively on the Cognitive domain.
+
+			
+
+	\section{Tangential Learning}
 
 		In their paper on “Serious Games and Learning,” Breuer and Bente (2010) outline a method called “Tangential Learning.” Originally presented as part of the “Extra Credits” video series online (Floyd and Portnow, 2008), the presenter gives us a method for which we can encourage significant learning using games. The theory is that, given the proper incentive, players will engage in a form of self-education separate from the game environment.
 		
@@ -70,7 +76,7 @@ Existing educational games lack the combination of education and engagement. The
 		
 		Another excellent way to integrate tangential learning into games is by including an in-game encyclopedia, where players don't even have to leave the game to explore more about the topic they're interested in. Usually, these encyclopedias include information related to playing the game; the stats of an object, or the rules of the game. However, some include information that isn't related to playing the game, like the history or origin of an object or character. A notable example of this is the game Civilization, which includes the Civilopedia, a reference to every unit, building, and wonder in the game, as well as other information related to it. An easy way for games to integrate this would be just including Wikipedia links to every object in the game that has real world roots.
 	
-	\subsection{Flow}
+	\section{Flow}
 
 		Dondlinger (2007) explains why it's extremely important to give players the perception of free will. In educational games, we don't want to give the players no direction as to where to go within the game; we risk players missing the educational goals, and worse, becoming frustrated with the lack of progress. Conversely, we don't want to overly guide the players; too much hand-holding results in the game stifling creativity, as well as not allowing players to really “learn by doing.” It's important for us to give them the illusion of having an open world, where almost any actions are possible, in order to allow players to experiment and learn by doing.
 
@@ -78,7 +84,7 @@ Existing educational games lack the combination of education and engagement. The
 
 		Following the concept of ‘flow,' we can extrapolate the concept of ‘adaptive difficulty.' It's logical to assume that games that continually adapt their difficulty level to the players will be more effective in retaining the player's interest and educating the player than games that have a fixed difficulty curve. However, not every game can implement adaptive difficulty effectively; games need the players to continuously attempt problems and give feedback on how well they're doing to ascertain how well the difficulty matches up to the player.
 
-	\subsection{Play}
+	\section{Play}
 
 		Similar to the illusion that players have a seemingly limitless game world to interact with is the concept of ‘play.' Paras (2005) defines a world where play can happen simply as a world with a series of constraining rules. We don't want the rules to be too constraining, because then we inhibit creativity and discourage alternative solutions to problems, but at the same time, we want the rules to be constraining enough to guide the player towards the solution and mimic the rules of the real world.
 		
@@ -86,16 +92,16 @@ Existing educational games lack the combination of education and engagement. The
 	
 		The game also shouldn't penalize the player for exploring the boundaries of the game world, as it would discourage them from trying new things and discovering additional boundaries. However, we still need to encourage players to solve problems within the game world without breaking any boundaries, just to ensure that they understand the world that they're playing in; that's why rewarding the players for not breaking any rules works much better than penalizing the player for breaking rules.
 
-\section{Rubric}
+\chapter{Rubric}
 	What follows is a list of properties that make up the educational game design, created by researching and synthesizing properties of existing educational games. Games are not required to have all or any of these properties, but the theory is that games with more of these properties will be considered more effective and engaging educational games.
 
 \input Rubric
 
-\section{Games}
-	\subsection{Game Selection}
+\chapter{Games}
+	\section{Game Selection}
 		In order to test our rubric, we have to have testers play some educational games. We looked for games marketed as educational games, as well as games that could have been considered educational by including tangential learning. We selected the games from existing knowledge, as well as from references in existing literature.
 
-		\subsubsection{Web games}
+		\subsection{Web games}
 			Due to the EULA of Mechanical Turk, we could not ask Workers to install any software on their machines as part of our task. This meant that we couldn't select some popular educational games, like Typing of the Dead, because users would have to install the game on their machine.
 
 			An option that was considered was having Workers find a YouTube or other video of the game being played, and try to evaluate the game's properties based on the gameplay footage. However, we decided that Workers wouldn't be able to evaluate some of the game's properties (e.g. penalties for failure, or contextual tutorials) based on a gameplay video. 
@@ -104,20 +110,21 @@ Existing educational games lack the combination of education and engagement. The
 
 			It's important to note that we were allowed (or at least, didn't run into any problems) to ask users to install web browser plugins in order to play games. Some of these plugins were commonplace (like the Java runtime), but others were obscure (like the Apple II emulator). This allowed us to find some popular educational games usually only available as a desktop applications, like The Oregon Trail or The Incredible Machine, even if they were very old versions of the games.
 
-		\subsubsection{Math Blaster}
+		\subsection{Math Blaster}
 			One of the most prominent games that we were unable to include in our survey was the Math Blaster series. Math Blaster's The Search For Spot, released in 1994, was the earliest version of the game, and the franchise continues strong to this day. More editions and expansions were released, all as installable desktop applications.
 
 			Recently, the Math Blaster franchise has transitioned into a web-based format, where players can play various Math Blaster games online. This would have been perfect for our study, but the games exist behind a `login wall,' where players must create accounts and verify their email addresses before they are allowed to play the games. We assume this violates the EULA of Mechanical Turk, but the login wall presents such an accessibility obstacle for Workers that we decided to omit Math Blaster altogether. 
 
-		\subsubsection{Where in the World is Carmen Sandiego?}
+		\subsection{Where in the World is Carmen Sandiego?}
 			Another extremely popular and highly-acclaimed educational game series, Where in the World is Carmen Sandiego, started releasing desktop games in 1985, but has since ceased producing sequels. Online, we found numerous emulators for the original game, but the performance and framerate for each of them was very poor. We decided that the average Worker would find it unplayable, and decided to omit it from the study.
 
-		\subsubsection{Old Games}
+		\subsection{Old Games}
 			It's important to note that when we think of good, educational games, we commonly think of classic games; games that were created early in the lifecycle of educational games, and were highly acclaimed for their educational content. Recently, there haven't been many games that have been popularized for their educational content.
 
 			Why is that? There's a couple ways that we could explain the lack of popular educational games. It's possible that there exist as many or a greater number of excellent educational games presently, but due to saturation of the gaming industry (both as entertainment and educational games), educational games don't get as much visibility as they do before. For example, the most popular recent game included in our survey, Darfur is Dying, had over 800,000 plays in 6 months and was covered in the media, but received no `educational game' awards.
 
 			Another option is that the nature of education in gaming is changing. Instead of players seeking deliberately edcuational games, where education is the primary goal of the game, players may be more interested in games where education is the secondary goal. Games with education as the secondary goal most likely use tangential learning in order to teach players without deliberately lecturing or quizzing them. Light-bot, one of the games in our survey, is a great example of this.
+	\section{Game Listings}
 
 \input GameSummaries
 
@@ -129,7 +136,7 @@ Existing educational games lack the combination of education and engagement. The
 	
 
 
-\section{Conclusion}
+\chapter{Conclusion}
 	At present, educational games do not actually increase the content knowledge of their players. Across 80 surveys, the average score of a pre- and post-quiz increased 3\%; not a statistically significant amount. Further measures can be taken to increase the quality of the survey and quiz, the effectiveness of using Mechanical Turk as a platform for research, and focusing the research on one specific game with more responses.
 
 

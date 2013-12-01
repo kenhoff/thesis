@@ -8,7 +8,7 @@ class Rubric:
 		rubricItems = content['rubricitems']
 
 		for item in rubricItems:
-			self.items.append(RubricItem(item['id'], item['name'], item['description'], item['scale'], item['prompt']))
+			self.items.append(RubricItem(item['id'], item['name'], item['description'], item['scale'], item['prompt'], item['examples']))
 		f.close()
 
 	def latex_output(self, nestlevel = "section"):
@@ -25,12 +25,13 @@ class Rubric:
 
 
 class RubricItem:
-	def __init__(self, id, name, description, scale, prompt):
+	def __init__(self, id, name, description, scale, prompt, examples):
 		self.id = id
 		self.name = name
 		self.description = description
 		self.scale = scale
 		self.prompt = prompt
+		self.examples = examples
 
 
 	def latex_survey_output(self, nestlevel):
@@ -51,6 +52,8 @@ class RubricItem:
 		content += "{{{0.name}}}".format(self)
 
 		content += "{{{0.description}}}".format(self) + self.latex_scale_output()
+		content += "\paragraph{Examples}" + "{}".format(self.examples)
+
 
 		return content
 

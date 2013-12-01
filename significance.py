@@ -12,11 +12,11 @@ def main(N, md, sd, p):
 
 	c = (ta[1] * sd) / sqrt(N)
 
-	# print c
+	print "c: {}".format(c)
 
 	# print md-c, md+c
 
-	return (md-c, c, md+c) # as long as md-c > 0, then we don't have the null hypothesis!
+	return (md-c, md, md+c) # as long as md-c > 0, then we don't have the null hypothesis!
 
 
 
@@ -28,6 +28,6 @@ if __name__ == "__main__":
 	N = 116 # number of responses
 	md = 0.028448276 # mean of the differences
 	sd = 0.122337883 # std dev of the differences
-	p = 0.90
+	p = 0.95
 
-	main(N, md, sd, p)
+	print main(N, md, sd, p)

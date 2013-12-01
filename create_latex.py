@@ -12,7 +12,7 @@ from rubric import Rubric, RubricItem
 
 content = ""
 
-content += Rubric('rubric_information.json').latex_output("subsection")
+content += Rubric('rubric_information.json').latex_output("section")
 
 f = open('Rubric.tex', 'w')
 f.write(content)

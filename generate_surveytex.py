@@ -32,7 +32,14 @@ def rubric():
 	return content
 
 def quizgen(gameid):
-	content = "\subsection{" + gameid + " Quiz}"
+	title = ""
+	if (gameid == "darfur"):
+		title = "Darfur is Dying"
+	elif (gameid == "oregon"):
+		title = "The Oregon Trail"
+	elif (gameid == "munchers"):
+		title = "Number Munchers"
+	content = "\subsection{" + title + " Quiz}"
 	quiz = json.loads(open('./turk_stuff/{}.json'.format(gameid), 'r').read())
 	for question in quiz['questions']:
 		scrub = question['text'].replace('{', '\{').replace('}', '\}').replace('"', '\\"').replace('&', '\&').replace('\n', ' ')
