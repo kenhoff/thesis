@@ -56,7 +56,7 @@
 					"description": "Encyclopedia contains content related to game mechanics and historical/factual information and outside links or references"
 				}
 			],
-			"examples": "Examples of "
+			"examples": "Examples of games with an encyclopedia that contains both mechanics and historical/factual information include Civilization and the Total War series, as well as most historical simulation games."
 		},
 		{
 			"id": "referential_amount",
@@ -85,7 +85,7 @@
 					"description": "Numerous groups of objects or events are references to real-life objects or events"
 				}
 			],
-			"examples": "Examples of "
+			"examples": ""
 		},
 		{
 			"id": "referential_popularity",
@@ -114,7 +114,7 @@
 					"description": "Most or all of the references are popular"
 				}
 			],
-			"examples": "Examples of "
+			"examples": ""
 		},
 		{
 			"id": "referential_rewards",
@@ -143,7 +143,7 @@
 					"description": "Knowing the referential material always significantly affects gameplay"
 				}
 			],
-			"examples": "Examples of "
+			"examples": ""
 		},
 		{
 			"id": "adaptive_difficulty",
@@ -172,7 +172,7 @@
 					"description": "Game has several difficulties, and automatically adjusts the difficulty of the game as needed"
 				}
 			],
-			"examples": "Examples of "
+			"examples": ""
 		},
 		{
 			"id": "contextual_tutorials",
@@ -201,7 +201,7 @@
 					"description": "Tutorials are offered continuously"
 				}
 			],
-			"examples": "Examples of "
+			"examples": ""
 		},
 		{
 			"id": "resource_penalty",
@@ -230,7 +230,7 @@
 					"description": "Game resource penalty is nonexistent (e.g. unlimited lives)"
 				}
 			],
-			"examples": "Examples of "
+			"examples": ""
 		},
 		{
 			"id": "reset_penalty",
@@ -259,7 +259,7 @@
 					"description": "Reset time is very short (e.g. near instant)"
 				}
 			],
-			"examples": "Examples of "
+			"examples": ""
 		},
 		{
 			"id": "checkpoint_frequency",
@@ -288,7 +288,7 @@
 					"description": "Checkpoints are frequent (e.g. players can restart part of the way through puzzles)"
 				}
 			],
-			"examples": "Examples of "
+			"examples": ""
 		},
 		{
 			"id": "exploration_freedom",
@@ -317,7 +317,7 @@
 					"description": "Players are free to choose the direction they want, both educationally and within the game world; allowed to jump between parallel lessons"
 				}
 			],
-			"examples": "Examples of "
+			"examples": ""
 		},
 		{
 			"id": "iterative_feedback",
@@ -346,7 +346,7 @@
 					"description": "Game constantly gives feedback (e.g. during a puzzle)"
 				}
 			],
-			"examples": "Examples of "
+			"examples": ""
 		},
 		{
 			"id": "problem_solving",
@@ -375,7 +375,7 @@
 					"description": "Players can solve a problem any way they like, or even circumvent the problem, and be given full (or bonus) points"
 				}
 			],
-			"examples": "Examples of "
+			"examples": ""
 		}
 	]
 }
