@@ -1,76 +1,148 @@
 \chapter{Analysis}
 
-
-
 	\section{Quiz Scores}
-		There are 4 games with quizzes, each with 20 responses each, 80 responses total. I graded each pre- and post-quiz, and ended up with the percent change for each response. After averaging these changes, I found that, after playing an educational game for a short period of time, the average player's score went up by 3\%.
-
-		For the number of responses I've received, this is not a statistically signficant number. I could allocate more surveys, get hundreds or thousands more responses in order to try to make it significant, but my efforts are better spent trying to make a more accurate survey.
+		There are 4 games with quizzes, each with 30 responses each, 120 responses total. The mean quiz differences were analyzed for statistical significance using a two-tailed t-distribution.
 
 		\subsection{How analysis using a t-distribution works}
 
+			When evaluating statistical significance for paired samples, we have to use a test called a two-tailed t-distribution. More information can be found here and here (citation)
+
+			First, we take our paired samples. For us, these are our pairs of pre-quiz and post-quiz scores for each worker. We find the difference for each pair, which gives us a \% change for each worker.
+
+			Then, we calculate the mean and standard deviation of these quiz differences. Using either a 90\% or 95\% probability rating, we plug our number of raters, median, and standard deviation into a two-tailed t-distribution. Typically your degrees of freedom shoud be as high as possible; I used the number of raters minus one as our degrees of freedom.
+
+			The error bars displayed are our confidence limits - we are 90\% or 95\% sure that the true mean lies within these limits. 
+
+			The null hypothesis, that our mean = 0, means that it's possible that our quiz had absolutely no affect. In order to invalidate that hypothesis, and prove that our quiz had a measurable effect, we want the error bars to not be touching zero; that way, the possible true mean cannot equal zero.
+
 		\subsection{Analysis of Quiz Scores using t-distributions}
 
+			\subsubsection{Aggregated}
 
-			\begin{figure}[] 
-				\centering 
-				\includegraphics[width=\textwidth]{aggregated_tdist.png} 
-				\caption{Aggregated tdist}
-			\end{figure}
-			\begin{figure}[] 
-				\centering 
-				\includegraphics[width=\textwidth]{darfur_tdist.png} 
-				\caption{Darfur tdist}
-			\end{figure}
-			\begin{figure}[] 
-				\centering 
-				\includegraphics[width=\textwidth]{oregon_tdist.png} 
-				\caption{Oregon tdist}
-			\end{figure}
-			\begin{figure}[] 
-				\centering 
-				\includegraphics[width=\textwidth]{lightbot_tdist.png} 
-				\caption{Lightbot tdist}
-			\end{figure}
-			\begin{figure}[] 
-				\centering 
-				\includegraphics[width=\textwidth]{munchers_tdist.png} 
-				\caption{Munchers tdist}
-			\end{figure}
+				\begin{figure}[] 
+					\centering 
+					\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{aggregated_tdist.png} 
+					\caption{Aggregated tdist}
+				\end{figure}
+
+				If we aggregate the score differences across all quizzes, our results show that the true mean cannot equal zero, and thus say that our results are statistically significant. However, there are significant differences across each quiz, so we can't use the data aggregated across quizzes.
+
+			\subsubsection{Darfur is Dying}
+
+				\begin{figure}[] 
+					\centering 
+					\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{darfur_tdist.png} 
+					\caption{Darfur tdist}
+				\end{figure}
+
+				We cannot eliminate the null hypothesis for our Darfur is Dying quiz, even if we reduce the probability to 0.9. This means that our quiz results for Darfur is Dying are not statistically significant.
+
+			\subsubsection{The Oregon Trail}
+
+				\begin{figure}[] 
+					\centering 
+					\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{oregon_tdist.png} 
+					\caption{Oregon tdist}
+				\end{figure}
+
+				If we use p = 0.95, we cannot eliminate the null hypothesis for The Oregon Trail. However, if we reduce p to 0.9, we can eliminate the null hypothesis, and say that our quiz results for The Oregon Trail are statistically significant.
+
+				It's important to note that even if our results are statistically significant, the amount by which they are significant is extremely small; somewhere between a 2\% to 10\% increase in score.
+
+			\subsubsection{Light Bot}
+
+				\begin{figure}[] 
+					\centering 
+					\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{lightbot_tdist.png} 
+					\caption{Lightbot tdist}
+				\end{figure}
+
+				We cannot eliminate the null hypothesis for Light Bot, even by reducing p. Our quiz results for Light Bot are not statistically significant.
+
+			\subsubsection{Number Munchers}
+
+				\begin{figure}[] 
+					\centering 
+					\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{munchers_tdist.png} 
+					\caption{Munchers tdist}
+				\end{figure}
+
+				If we reduce p to 0.9, we can eliminate the null hypothesis from our Number Munchers results. However, it's very small, and it's actually in the negative direction; somewhere between a 0\% and 2.5\% decrease in score.
 
 		\section{Rubric Inter-rater Reliability}
-			\begin{figure}[] 
-				\centering 
-				\includegraphics[width=\textwidth]{full_five_stats.png} 
-				\caption{Inter-rater reliability}
-			\end{figure}
-			\begin{figure}[] 
-				\centering 
-				\includegraphics[width=\textwidth]{inner_3_stats.png} 
-				\caption{Inter-rater reliability with middle 3 options combined}
-			\end{figure}
-			\begin{figure}[] 
-				\centering 
-				\includegraphics[width=\textwidth]{outer_3_stats.png} 
-				\caption{Inter-rater reliability with outer pairs combined}
-			\end{figure}
+			\subsection{How analysis using inter-rater reliability works}
 
-		\subsection{Quiz Postmortem}
-			There are a number of reasons why the results may have fallen so flat.
+				In order to ensure that the rubric I've built is consistent, we need to measure the responses we recieve using inter-rater reliability. More info can be found here and here.
 
-			The quiz itself may have been faulty; perhaps the questions were too hard, too easy, or covered content that was not taught as part of the game. To combat this, the quizzes were designed to cover material that players were supposed to learn in the game, but it's possible that the multiple-choice format wasn't the best way to do that.
+				Inter-rater reliability gives us a value (kappa) to indicate how consistent a given set of questions are. This is done by getting the results from several workers answering the questions, then analyzing how much they agreed on their responses.
 
-			It's also possible that the games weren't actually effective in teaching the players anything at all. Because of how the games were designed, players didn't retain any relevant information about what the game was trying to educate them on.
+				For example, let's say I had a quiz with 50 True/False questions. If I had 2 people take the quiz, and they each got every single question correct (e.g. they agreed on every single question), the quiz would have a kappa value of 1, perfect agreement. If only one person got every single question correct, and the other got 0 questions correct (e.g. they disagreed on every single question), then the quiz would have a kappa value of -1, perfect disagreement. The values in between 1 and -1 indicate various levels of agreement, with 0 being complete randomness.
 
-			Another option is that the platform on which the surveys were administered has faults. There are spammers on Mechanical Turk, and while it is possible to review and reject responses deemed unusable, it's impractical to filter out every single one. However, if a spammer is selecting random responses, it's highly unlikely that they'll end up with a higher or lower score than when they started. 
+				From Landis and Koch (citation), here are the typical benchmarks for inter-rater reliability.
 
-			It's also possible to filter out poorly rated workers with an ``acceptance rate" criteria, where Workers that accept the task are required to have at least a 90\% acceptance rate across all of their HITs, but that increases response times and payout amounts.
+				\paragraph{-1.0} Perfect Disagreement
 
-			Finally, it's possible that some workers lost interest in the HIT once they had finished the first sections, resulting in shoddy work on the second. This would mean that some workers would guess at the questions in the post-quiz, resulting in worse performance across the board.
+				\paragraph{-1.0 to -0.8} Almost Perfect Disagreement
 
-			For a future quiz/survey on the Mechanical Turk platform, I'd recommend both an ``acceptance rate" criteria, as well as some form of automated validation that the worker is actually completing the survey. This may include a ``dummy question," where the reviewer only has to click the right button, or some other kind of verification where they submit a screenshot of their highest score within the game. This will increase response times and require higher payout amounts, but if it's focused only on one game it won't be much.
+				\paragraph{-0.8 to -0.6} Substantial Disagreement
 
-			Another route worth exploring is paying out ``bonuses" to workers who show exemplary work in the quiz and survey. However, you'd have to make sure to incentivize honesty and not greed; my hunch is that asking workers to not use the internet to find solutions may not work when there's extra payouts involved.
+				\paragraph{-0.6 to -0.4} Moderate Disagreement
+
+				\paragraph{-0.4 to -0.2} Fair Disagreement
+
+				\paragraph{-0.2 to 0.0} Slight Disagreement
+
+				\paragraph{0.0} Completely random
+
+				\paragraph{0.0 to 0.2} Slight Agreement
+
+				\paragraph{0.2 to 0.4} Fair Agreement
+
+				\paragraph{0.4 to 0.6} Moderate Agreement
+
+				\paragraph{0.6 to 0.8} Substantial Agreement
+
+				\paragraph{0.8 to 1.0} Almost Perfect Agreement
+
+				\paragraph{1.0} Perfect Agreement
+
+				\paragraph{}We want to use inter-rater agreement to evaluate the consistency of our design rubric. We'll use the method to evaluate multiple subjects with multiple raters and multiple-choice questions. Instead of looking at the design rubric as a whole document, we can actually examine each rubric item individually, and look at the responses it received across all games.
+
+				Think of it as if we are evaluating 13 different quizzes, one for each design rubric item. On each quiz, there are 10 questions, one for each game to be evaluated. Each question has 5 single-selection options, where each option corresponds to a level on the scale of the rubric item.
+
+				For each graph, each bar indicates a rubric item, with it's height above or below the x-axis indicating its kappa value (up to +1.0 for agreement, up to -1.0 for disagreement).
+
+			\subsection{Analysis for Rubric items using inter-rater reliability}
+				\begin{figure}[] 
+					\centering 
+					\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{full_five_stats.png} 
+					\caption{Inter-rater reliability}
+				\end{figure}
+
+				The kappa values for each rubric item were very small. 11 fell in the ``Slight Agreement'' category, with Adaptive Difficulty barely in ``Fair Agreement'' and Checkpoint Frequency in ``Slight Disagreement.'' 
+
+				This was unexpected and disappointing. After some further consideration, I decided to process the data slightly differently, to see if it would give me a different result.
+
+				Inter-rater reliability metrics commonly depend on a low number of available options (2 to 3) for workers to choose when taking a quiz. In our above example, our 50 question True/False quiz only contained 2 options for workers to choose from on each question; the rubric that we gave our workers contained 5 options for each question.
+
+				In order to achieve a different result, I ran two additonal inter-rater reliability calculations. With one, I summed the outside pairs together (e.g. [1, 2, 3, 4, 5] became [sum(1, 2), 3, sum(4, 5)]) to give us a result with only 3 choices that workers chose from. For the other calculation, I summed the inner 3 choices(e.g. [1, 2, 3, 4, 5] became [1, sum(2, 3, 4), 5]), to again give a result with only 3 choices.
+
+				\begin{figure}[] 
+					\centering 
+					\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{outer_3_stats.png} 
+					\caption{Inter-rater reliability with outer pairs combined}
+				\end{figure}
+				\begin{figure}[] 
+					\centering 
+					\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{inner_3_stats.png} 
+					\caption{Inter-rater reliability with middle 3 options combined}
+				\end{figure}
+
+				Summing the outer pairs of options doesn't change our scores significantly, but summing the inner scores does. By considering the middle 3 options as a single option, Adaptive Difficulty, Contextual Tutorials, Unorthodox Problem-solving, and Game Resource Penalty all fall in the ``Slight Agreement'' category.
+				
+			
+
+
 
 
 

@@ -6,8 +6,18 @@
 		\includegraphics[width=\textwidth]{survey_likert.png} 
 		\caption{Likert scale responses for several questions on fun and educational games.}
 		\end{figure}
+	These are the aggregated responses to the opinion likert scale questions introduced in the very first part of the survey. While they don't have any influence on our results or analysis, it's interesting to note what kind of opinions or mindset workers when they begin taking the survey.
+
+	These questions include opinions about whether educational games can be fun (or vice versa), and if most of them are. There were also some questions about fun/educational games being competitive/cooperative, and more fun/educational if playing online/offline, solo or with friends.
+
+	The most interesting sections of this chart are the ``Fun/educational games can be educational/fun'' sections; almost unanimous agreement there. However, ``most fun games are educational'' met with a substantial amount of disagreement. This is expected; games that are commonly considered fun include shooters, adventure and action games. In addition, the ``most educational games are fun'' section was far more evenly distributed, implying that a substantial amount of people think educational games aren't fun.
+
+	\clearpage
 
 	\section{Quiz Results}
+		This section contains results of all of the quiz responses, rolled up into 3 graphs. The pre-quiz and post-quiz graphs indicate how many responses were received with a specific grade, from 0\% to 100\%. The score differences graphs indicate how many responses improved from the pre-quiz to the post-quiz, and by how much.
+
+		For each graph, I'll include some non-statistical observations and insights. For detailed statistical analysis, see the Analysis chapter.
 
 		\subsection{Aggregate Quiz Scores}
 
@@ -29,6 +39,10 @@
 			\includegraphics[width=\textwidth]{general_results.png} 
 			\caption{The aggregate score differences across all games.}
 			\end{figure}
+
+			Aggregating the responses across all of our quizzes isn't statistically useful to us. However, the complete lack of a bell curve on our pre-quiz and post-quiz aggregates means that our quizzes may not be as evenly distributed as we'd like.
+
+			In addition, the massive peak in the score differences chart shows how little of a change there was in the majority of the responses. This means that most quizzes had zero improvement or change in score. This was unexpected, because the pre-quiz and post-quiz for each worker was identical; no variation in question or multiple-choice answer order.
 
 			\clearpage
 
@@ -53,6 +67,8 @@
 			\caption{The score differences for Darfur is Dying.}
 			\end{figure}
 
+			The pre-quiz and post-quiz graphs show a roughly standard distribution, but there's nothing exceptional. The score differences graph shows the massive peak as before, with some improvements.
+
 			\clearpage
 
 		\subsection{The Oregon Trail Quiz Scores}		
@@ -75,6 +91,8 @@
 			\includegraphics[width=\textwidth]{oregon_results.png} 
 			\caption{The score differences for The Oregon Trail.}
 			\end{figure}
+
+			The pre-quiz and post-quiz graphs show a considerable improvement in the distribution of scores. Almost no change in score for the majority of the quizzes.
 
 			\clearpage
 
@@ -122,6 +140,10 @@
 			\caption{The score differences for Light Bot.}
 			\end{figure}
 
+			The pre-quiz and post-quiz obviously ended up skewed towards 100\%. This is likely caused by the simplicity of the quiz; simple arithmetic is easy for Mechanical Turk workers aged 18+ to do, and some are likely assisted by a calculator (even though we expressly asked them not to use one).
+
+			The score differences graph actually shows zero positive improvements to quiz scores, with only 3 or 4 being negative.
+
 			\clearpage
 
 		\section{Rubric Scores}
@@ -129,83 +151,125 @@
 
 			An alternate visualization of this data, where each game has a bar graph for all of the rubric items, can be found in the next section.
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{adaptive_difficulty_scores.png} 
-			\caption{Adaptive Difficulty}
-			\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{checkpoint_frequency_scores.png} 
-			\caption{Checkpoint Frequency}
-			\end{figure}
+			\subsection{Adaptive Difficulty}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{adaptive_difficulty_scores.png} 
+				\caption{Adaptive Difficulty}
+				\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{contextual_tutorials_scores.png} 
-			\caption{Contextual Tutorials}
-			\end{figure}
+				The most striking part of this graph is the obvious lack of adaptive difficulty present in Notpron, and to some degree, Darfur is Dying. This seems straightforward, as both Notpron and Darfur is Dying have no difficulty setting options. There are no games with large positive degrees of adaptive difficulty.
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{encyclopedia_content_scores.png} 
-			\caption{Encyclopedia Content}
-			\end{figure}
+			\subsection{Checkpoint Frequency}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{checkpoint_frequency_scores.png} 
+				\caption{Checkpoint Frequency}
+				\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{encyclopedia_location_scores.png} 
-			\caption{Encyclopedia Location}
-			\end{figure}
+				For checkpoint frequency, response was universally negative. This is concerning, because I was confident that some games (Notpron, The Incredible Machine, Light Bot) had frequent checkpoints. This may imply that the prompt or selections were misleading.
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{exploration_freedom_scores.png} 
-			\caption{Freedom of exploration}
-			\end{figure}
+			\subsection{Contextual Tutorials}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{contextual_tutorials_scores.png} 
+				\caption{Contextual Tutorials}
+				\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{iterative_feedback_scores.png} 
-			\caption{Iterative feedback}
-			\end{figure}
+				Response for contextual tutorials within the game was universally negative, with the most notable instance being Math Baseball. This is expected; Math Baseball is a simple arithmetic game that provides no tutorials at all.
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{problem_solving_scores.png} 
-			\caption{Unorthodox problem-solving}
-			\end{figure}
+			\subsection{Encyclopedia Content}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{encyclopedia_content_scores.png} 
+				\caption{Encyclopedia Content}
+				\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{referential_amount_scores.png} 
-			\caption{Amount of referential material}
-			\end{figure}
+				For the content of the game's encyclopedia, both The Oregon Trail and Darfur is Dying scored relatively highly. It's expected that both of these games (focused around historical/current events) seem to directly benefit from tangential learning.
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{referential_popularity_scores.png} 
-			\caption{Popularity of referential material}
-			\end{figure}
+			\subsection{Encyclopedia Location}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{encyclopedia_location_scores.png} 
+				\caption{Encyclopedia Location}
+				\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{referential_rewards_scores.png} 
-			\caption{Rewards for knowing referential material}
-			\end{figure}
+				The only game that scored moderately well on the location of the game encyclopedia was The Oregon Trail. This is expected; the introduction sequence of the game provides a lot of useful and historical information.
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{reset_penalty_scores.png} 
-			\caption{Reset time penalty for failure}
-			\end{figure}
+			\subsection{Freedom of exploration}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{exploration_freedom_scores.png} 
+				\caption{Freedom of exploration}
+				\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{resource_penalty_scores.png} 
-			\caption{Game resource penalty for failure}
-			\end{figure}
+				The only game that scored relatively well on freedom of exploration was Pandemic. Players likely considered the `open world' format of the game as part of this rubric item.
+
+			\subsection{Iterative Feedback}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{iterative_feedback_scores.png} 
+				\caption{Iterative feedback}
+				\end{figure}
+
+				Scores for games on iterative feedback were mixed at best. For The Oregon Trail, players may have considered their frequent check-ins while along the trail useful, where they could ask for advice and make decisions.
+
+			\subsection{Unorthodox problem-solving}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{problem_solving_scores.png} 
+				\caption{Unorthodox problem-solving}
+				\end{figure}
+
+				Scores for unorthodox problem-solving were mixed; no significant exceptions to note.
+
+			\subsection{Amount of referential material}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{referential_amount_scores.png} 
+				\caption{Amount of referential material}
+				\end{figure}
+
+				Several games scored well on the amount of referential material in them. The Oregon Trail and Darfur is Dying were both expected, as well as Pandemic to a degree. Notpron was expected to do well, given the knowledge (web technology) that players are expected to know to be able to complete the game. However, Notpron only scored in the middle of the range.
+
+			\subsection{Popularity of referential material}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{referential_popularity_scores.png} 
+				\caption{Popularity of referential material}
+				\end{figure}
+
+				Math Baseball's popular referential material is considered basic arithmetic, something that is ubiquitous outside the game. It scored very highly. However, Number Munchers, which covers extremely similar material, scored very poorly on this rubric item. This leads us to think that the rubric may be inconsistent, or additional research may need to be done.
+
+			\subsection{Rewards for knowing referential material}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{referential_rewards_scores.png} 
+				\caption{Rewards for knowing referential material}
+				\end{figure}
+
+				Darfur is Dying was the only game with a significant positive score for referential rewards. This is expected, as the game contains situations where awareness of the conflict in Darfur directly affects gameplay (e.g. children should fetch the water instead of adults).
+
+			\subsection{Reset time penalty for failure}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{reset_penalty_scores.png} 
+				\caption{Reset time penalty for failure}
+				\end{figure}
+
+				In contrast to most of the other rubric items, the reset time penalty for failure recieved universally postitive scores for all games. This means that all the games were very effective about using the player's failure time wisely, or that the prompt or choices biased players towards positive responses.
+
+			\subsection{Game resource penalty for failure}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{resource_penalty_scores.png} 
+				\caption{Game resource penalty for failure}
+				\end{figure}
+
+				The resource penalty for failure received some strong positive and negative ratings for games. The Oregon Trail, Number Munchers, and Pandemic received negative ratings, which is somewhat expected; in the games, if the player fails, they usually have to restart the game. However, for Light Bot, Botlogic, and Notpron, players can restart a failed level or puzzle immediately, usually with no penalty.
+
+				It's important to note that raters may have confused game resource penalty with reset time penalty. It warrants further investigation, either into the survey prompts and choices, or into the games themselves.
 
 			\clearpage
 
@@ -214,129 +278,195 @@
 
 			An alternate visualization of this data, where each rubric item has a bar graph for all of the game, can be found in the previous section.
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{baseball_scores.png} 
-			\caption{Math Baseball}
-			\end{figure}
+			********************These are broken; the graphs from the previous section don't line up with these at all. I'm working on fixing these, then I'll provide insights on each.**********************
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{botlogic_scores.png} 
-			\caption{Botlogic}
-			\end{figure}
+			\subsection{Math Baseball}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{darfur_scores.png} 
-			\caption{Darfur is Dying}
-			\end{figure}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{baseball_scores.png} 
+				\caption{Math Baseball}
+				\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{lemmings_scores.png} 
-			\caption{Lemmings}
-			\end{figure}
+			\subsection{BotLogic}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{lightbot_scores.png} 
-			\caption{Light Bot}
-			\end{figure}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{botlogic_scores.png} 
+				\caption{Botlogic}
+				\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{machine_scores.png} 
-			\caption{The Incredible Machine}
-			\end{figure}
+			\subsection{Darfur is Dying}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{munchers_scores.png} 
-			\caption{Number Munchers}
-			\end{figure}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{darfur_scores.png} 
+				\caption{Darfur is Dying}
+				\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{notpron_scores.png} 
-			\caption{Notpron}
-			\end{figure}
+			\subsection{Lemmings}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{oregon_scores.png} 
-			\caption{The Oregon Trail}
-			\end{figure}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{lemmings_scores.png} 
+				\caption{Lemmings}
+				\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{pandemic_scores.png} 
-			\caption{Pandemic 2}
-			\end{figure}
+			\subsection{Light Bot}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{lightbot_scores.png} 
+				\caption{Light Bot}
+				\end{figure}
+
+			\subsection{The Incredible Machine}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{machine_scores.png} 
+				\caption{The Incredible Machine}
+				\end{figure}
+
+			\subsection{Number Munchers}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{munchers_scores.png} 
+				\caption{Number Munchers}
+				\end{figure}
+
+			\subsection{Notpron}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{notpron_scores.png} 
+				\caption{Notpron}
+				\end{figure}
+
+			\subsection{The Oregon Trail}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{oregon_scores.png} 
+				\caption{The Oregon Trail}
+				\end{figure}
+
+			\subsection{Pandemic 2}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{pandemic_scores.png} 
+				\caption{Pandemic 2}
+				\end{figure}
 
 			\clearpage
 
 		\section{Opinions on the fun and educational value of each game}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{baseball_likert.png} 
-			\caption{Math Baseball}
-			\end{figure}
+			At the end of the rubric section of the survey, players are asked four opinion questions; if the game was fun, if it was educational, if they had fun playing it, and if they learned anything while playing it. The responses were in likert scale format.
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{botlogic_likert.png} 
-			\caption{Botlogic}
-			\end{figure}
+			*************These graphs may be inaccurate. I'm investigating, and I'll update the observations as soon as I find out more.***************
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{darfur_likert.png} 
-			\caption{Darfur is Dying}
-			\end{figure}
+			\subsection{Math Baseball}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{lemmings_likert.png} 
-			\caption{Lemmings}
-			\end{figure}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{baseball_likert.png} 
+				\caption{Math Baseball}
+				\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{lightbot_likert.png} 
-			\caption{Light Bot}
-			\end{figure}
+				Players disagreed on whether or not Math Baseball was fun, but agreed that it was definitely considered an educational game. However, most players didn't learn anything from this game, presumably due to the low grade level. It's also important to consider that the game doesn't teach anything new; it is designed to test students on material they are already familiar with.
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{machine_likert.png} 
-			\caption{The Incredible Machine}
-			\end{figure}
+			\subsection{Botlogic}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{munchers_likert.png} 
-			\caption{Number Munchers}
-			\end{figure}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{botlogic_likert.png} 
+				\caption{Botlogic}
+				\end{figure}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{notpron_likert.png} 
-			\caption{Notpron}
-			\end{figure}
+				Players were largely ambivalent about the fun or educational content of Botlogic, but did not learn much from the game. This could be due to the low grade level the game aims to teach content at. 
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{oregon_likert.png} 
-			\caption{The Oregon Trail}
-			\end{figure}
+			\subsection{Darfur is Dying}
 
-			\begin{figure}[] 
-			\centering 
-			\includegraphics[width=\textwidth]{pandemic_likert.png} 
-			\caption{Pandemic 2}
-			\end{figure}
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{darfur_likert.png} 
+				\caption{Darfur is Dying}
+				\end{figure}
+
+				Players agreed that Darfur is Dying was not a fun game, but it was an educational one, and one that they learned something from. It was effective at being educational, but likely not something players would willingly play.
+
+			\subsection{Lemmings}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{lemmings_likert.png} 
+				\caption{Lemmings}
+				\end{figure}
+
+				Players agreed that Lemmings was fun, but had less agreement on the educational content of the game. As a primarily non-educational game, this is expected.
+
+			\subsection{Light Bot}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{lightbot_likert.png} 
+				\caption{Light Bot}
+				\end{figure}
+
+				Players agreed that Light Bot was fun, and that they had fun playing it, but were very conflicted on whether or not it was an educational game. 
+
+				This is unusual, because Light Bot was considered one of the more educational games selected. It's possible that most players didn't reach the `educational' part of Light Bot (e.g. the functions and loops sections) due to their short play time.
+
+			\subsection{The Incredible Machine}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{machine_likert.png} 
+				\caption{The Incredible Machine}
+				\end{figure}
+
+				Players were ambivalent about The Incredible Machine being fun, as well as whether they had fun or learned anything while playing it. However, they did largely agree that it is an educational game.
+
+			\subsection{Number Munchers}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{munchers_likert.png} 
+				\caption{Number Munchers}
+				\end{figure}
+
+				Players didn't have fun and didn't learn anything in Number Munchers, but they agreed that it is an educational game. Number Munchers teaches grade level math, so low scores on learning is expected.
+
+			\subsection{Notpron}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{notpron_likert.png} 
+				\caption{Notpron}
+				\end{figure}
+
+				Players didn't have fun or learn anything in Notpron, and didn't consider it a fun game. However, they were somewhat conflicted as to whether or not it was educational.
+
+			\subsection{The Oregon Trail}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{oregon_likert.png} 
+				\caption{The Oregon Trail}
+				\end{figure}
+
+				Players generally liked The Oregon Trail; they had fun playing it, and learned something while doing so.
+
+			\subsection{Pandemic 2}
+
+				\begin{figure}[] 
+				\centering 
+				\includegraphics[width=\textwidth, height=.4\textheight, keepaspectratio=true]{pandemic_likert.png} 
+				\caption{Pandemic 2}
+				\end{figure}
 
 			\clearpage
 

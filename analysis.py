@@ -23,7 +23,7 @@ def main():
 	game_likert()
 	gamelists_and_comments()
 	whatilearned_and_gamecomments()
-	m = 16 # number of raters
+	m = 22 # number of raters
 
 	data = prepInterRaterData(m)
 	# print data
@@ -284,7 +284,7 @@ def scoreDifferenceMean():
 	sig = {}
 
 	sig = {.9: significance.main(count, mean, standard_deviation, .9), .95: significance.main(count, mean, standard_deviation, .95)}
-	plottest.tdist_graph(sig, "Aggregated t-distribution", "aggregated")
+	plottest.tdist_graph(sig, "Aggregated t-distribution", "aggregated", count)
 
 
 
@@ -319,7 +319,7 @@ def scoreDifferenceMean():
 		sig = {}
 		sig = {.9: significance.main(count, mean, standard_deviation, .9), .95: significance.main(count, mean, standard_deviation, .95)}
 		# print sig
-		plottest.tdist_graph(sig, "{} t-distribution".format(game), game)
+		plottest.tdist_graph(sig, "{} t-distribution".format(game), game, count)
 
 
 def createQuizGraphs():
@@ -476,6 +476,7 @@ def survey_likert():
 		data.append([0] * 4)
 	exec_string = '''SELECT {} from results'''.format(', '.join(fields))
 	c.execute(exec_string)
+	count = 0
 	for row in c.fetchall():
 		for i in range(len(fields)):
 			if (row[i] == "Stronglydisagree"):
@@ -486,6 +487,7 @@ def survey_likert():
 				data[i][2] += 1
 			if (row[i] == "StronglyAgree"):
 				data[i][3] += 1
+		count += 1
 		# print row
 	# print data
 
@@ -513,7 +515,7 @@ def survey_likert():
 	rects3 = ax.bar(ind + (width * 2), agree, width, color = (.33, 0, .66))
 	rects4 = ax.bar(ind + (width * 3), stronglyagree, width, color = (0, 0, 1))
 
-	ax.set_title("Likert scale responses for survey")
+	ax.set_title("Likert scale responses for survey (N = {})".format(count))
 	ax.set_ylabel("Number of responses")
 	ax.set_xlabel("Question")
 	ax.set_xticks(ind + width)
@@ -533,7 +535,9 @@ def game_likert():
 			data.append([0] * 4)
 		exec_string = '''SELECT {} from results WHERE gameid = "{}"'''.format(', '.join(fields), game)
 		c.execute(exec_string)
+		count = 0
 		for row in c.fetchall():
+			count += 1 
 			for i in range(len(fields)):
 				if (row[i] == "Stronglydisagree"):
 					data[i][0] += 1
@@ -570,7 +574,7 @@ def game_likert():
 		rects3 = ax.bar(ind + (width * 2), agree, width, color = (.33, 0, .66))
 		rects4 = ax.bar(ind + (width * 3), stronglyagree, width, color = (0, 0, 1))
 
-		ax.set_title("Likert scale responses for {}".format(game))
+		ax.set_title("Likert scale responses for {} (N = {})".format(game, count))
 		ax.set_ylabel("Number of responses")
 		ax.set_xlabel("Question")
 		ax.set_xticks(ind + width)

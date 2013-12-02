@@ -29,7 +29,7 @@ def quiz_results(stats, savefile, title):
 
 	ax.set_xticks(range(21)) # 0 is -1.0, 19 is +1.0
 	ax.set_xticklabels([-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"])
-	ax.set_title(title)
+	ax.set_title(title + " (N = {})".format(sum(number)))
 	ax.set_ylabel("Number of quizzes")
 	ax.set_xlabel("Individual change in pre-quiz and post-quiz scores")
 
@@ -62,7 +62,7 @@ def quiz_pre_and_post(stats, game, title):
 	ax.set_xticks(range(11)) # 0 is -1.0, 19 is +1.0
 	ax.set_xticklabels(["0%", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"])
 
-	ax.set_title(title)
+	ax.set_title(title + " (N = {})".format(sum(number)))
 	ax.set_ylabel("Number of quizzes")
 	ax.set_xlabel("Score")
 
@@ -180,12 +180,13 @@ def game_scores(all_rubricitem_data):
 
 
 
-def tdist_graph(stats, title, game):
+def tdist_graph(stats, title, game, N):
 	import matplotlib.pyplot as plt
 	import numpy as np
 	plt.clf()
+
 	f, ax = plt.subplots()
-	ax.set_title(title)
+	ax.set_title("{} (N = {})".format(title, N))
 	ax.set_xlabel("The probability that our value of the t distribution is within the confidence limits")
 	ax.set_ylabel("Mean difference in scores, confidence limits")
 
@@ -207,6 +208,7 @@ def tdist_graph(stats, title, game):
 	plt.xlim(.85, 1)
 
 	plt.axhline()
+
 
 
 
@@ -234,7 +236,7 @@ def interrater_plot(data, title):
 	ax.set_xticks(ind+width)
 	ax.set_xticklabels(ticklabels, rotation=90)
 
-	plt.ylim(-.1, .25)
+	plt.ylim(-.1, .3)
 	plt.axhline()
 
 
