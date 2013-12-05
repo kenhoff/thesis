@@ -172,7 +172,7 @@
 					"description": "Game has several difficulties, and automatically adjusts the difficulty of the game as needed"
 				}
 			],
-			"examples": "In The Logical Journey of the Zoombinis, players must complete challenges with 16 zoombinis. If the player passes the level, they continue with all their Zoombinis. If the player does poorly on the level, they can still pass the level; they just lose Zoombinis depending on how poorly they did. A lost zoombini returns to the previous checkpoint (spaced every 3 levels), and players can only embark from a checkpoint with 16 Zoombinis. If the player has a 100% success rate on the level, the level's difficulty increases, so that the next time the player plays the level they must either have a 100% success rate or lose a Zoombini, so that they must complete the level at the same difficulty again later."
+			"examples": "In The Logical Journey of the Zoombinis, players must complete challenges with 16 zoombinis. If the player passes the level, they continue with all their Zoombinis. If the player does poorly on the level, they can still pass the level; they just lose Zoombinis depending on how poorly they did. A lost zoombini returns to the previous checkpoint (spaced every 3 levels), and players can only embark from a checkpoint with 16 Zoombinis. If the player has a 100\\% success rate on the level, the level's difficulty increases, so that the next time the player plays the level they must either have a 100\\% success rate or lose a Zoombini, so that they must complete the level at the same difficulty again later."
 		},
 		{
 			"id": "contextual_tutorials",
