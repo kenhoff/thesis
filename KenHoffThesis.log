@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  5 DEC 2013 11:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.22)  5 DEC 2013 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -113,30 +113,6 @@ File: listings.cfg 2007/02/22 1.4 listings configuration
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
 (./KenHoffThesis.aux
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -278,17 +254,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
  [1
 
-] [2] [3])
+] [2])
 \tf@toc=\write3
 \openout3 = `KenHoffThesis.toc'.
 
- [4] (./KenHoffThesis.lof [5
+ [3] (./KenHoffThesis.lof [4
 
 ])
 \tf@lof=\write4
 \openout4 = `KenHoffThesis.lof'.
 
- [6]
+ [5]
 Chapter 1.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
@@ -296,11 +272,11 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[7
+[6
 
-] [8]
+] [7]
 Chapter 2.
-[9
+[8
 
 ]
 Missing character: There is no ‚ in font cmr12!
@@ -321,65 +297,65 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [10]
+ [9]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [11] [12]
+ [10] [11]
 Chapter 3.
-(./Rubric.tex [13
+(./Rubric.tex [12
 
-] [14] [15]) [16] [17]
+] [13] [14]) [15] [16]
 Chapter 4.
-[18
+[17
 
-] (./GameSummaries.tex [19]
-<img/darfur_title.png, id=75, 855.195pt x 604.2575pt>
+] (./GameSummaries.tex [18]
+<img/darfur_title.png, id=72, 855.195pt x 604.2575pt>
 File: img/darfur_title.png Graphic file (type png)
 
 <use img/darfur_title.png>
 Package pdftex.def Info: img/darfur_title.png used on input line 1.
 (pdftex.def)             Requested size: 368.2095pt x 260.16681pt.
 
-<img/darfur_screen1.jpg, id=76, 639.13782pt x 443.40656pt>
+<img/darfur_screen1.jpg, id=73, 639.13782pt x 443.40656pt>
 File: img/darfur_screen1.jpg Graphic file (type jpg)
 
 <use img/darfur_screen1.jpg>
 Package pdftex.def Info: img/darfur_screen1.jpg used on input line 1.
 (pdftex.def)             Requested size: 375.03027pt x 260.18001pt.
- [20] [21 <./img/darfur_title.png> <./img/darfur_screen1.jpg>] <img/lightbot_ti
-tle.png, id=83, 814.04124pt x 404.51125pt>
+ [19] [20 <./img/darfur_title.png> <./img/darfur_screen1.jpg>] <img/lightbot_ti
+tle.png, id=80, 814.04124pt x 404.51125pt>
 File: img/lightbot_title.png Graphic file (type png)
 
 <use img/lightbot_title.png>
 Package pdftex.def Info: img/lightbot_title.png used on input line 1.
 (pdftex.def)             Requested size: 469.75937pt x 233.4316pt.
 
-<img/lightbot_screen.jpg, id=85, 632.3625pt x 321.2pt>
+<img/lightbot_screen.jpg, id=82, 632.3625pt x 321.2pt>
 File: img/lightbot_screen.jpg Graphic file (type jpg)
 
 <use img/lightbot_screen.jpg>
 Package pdftex.def Info: img/lightbot_screen.jpg used on input line 1.
 (pdftex.def)             Requested size: 469.7646pt x 238.61058pt.
- [22] [23 <./img/lightbot_title.png> <./img/lightbot_screen.jpg>] <img/pandemic
-_screen.jpg, id=94, 592.2125pt x 408.52625pt>
+ [21] [22 <./img/lightbot_title.png> <./img/lightbot_screen.jpg>] <img/pandemic
+_screen.jpg, id=90, 592.2125pt x 408.52625pt>
 File: img/pandemic_screen.jpg Graphic file (type jpg)
 
 <use img/pandemic_screen.jpg>
 Package pdftex.def Info: img/pandemic_screen.jpg used on input line 1.
 (pdftex.def)             Requested size: 377.16223pt x 260.17802pt.
 
-<img/oregon_title.jpg, id=95, 602.25pt x 408.52625pt>
+<img/oregon_title.jpg, id=91, 602.25pt x 408.52625pt>
 File: img/oregon_title.jpg Graphic file (type jpg)
 
 <use img/oregon_title.jpg>
 Package pdftex.def Info: img/oregon_title.jpg used on input line 1.
 (pdftex.def)             Requested size: 383.55481pt x 260.17802pt.
 
-<img/oregon_screen.jpg, id=96, 198.7425pt x 145.2627pt>
+<img/oregon_screen.jpg, id=92, 198.7425pt x 145.2627pt>
 File: img/oregon_screen.jpg Graphic file (type jpg)
 
 <use img/oregon_screen.jpg>
@@ -391,36 +367,36 @@ Overfull \hbox (2.90047pt too wide) in paragraph at lines 1--1
 online-[]games / arcade / 988 / Number _ Munchers .
  []
 
-[24] [25 <./img/pandemic_screen.jpg> <./img/oregon_title.jpg>]
-<img/munchers_screen.png, id=103, 642.4pt x 401.5pt>
+[23] [24 <./img/pandemic_screen.jpg> <./img/oregon_title.jpg>]
+<img/munchers_screen.png, id=100, 642.4pt x 401.5pt>
 File: img/munchers_screen.png Graphic file (type png)
 
 <use img/munchers_screen.png>
 Package pdftex.def Info: img/munchers_screen.png used on input line 1.
 (pdftex.def)             Requested size: 416.29057pt x 260.1816pt.
 
-<img/botlogic_screen.png, id=104, 545.03625pt x 349.305pt>
+<img/botlogic_screen.png, id=101, 545.03625pt x 349.305pt>
 File: img/botlogic_screen.png Graphic file (type png)
 
 <use img/botlogic_screen.png>
 Package pdftex.def Info: img/botlogic_screen.png used on input line 1.
 (pdftex.def)             Requested size: 405.9735pt x 260.1819pt.
- [26] [27 <./img/oregon_screen.jpg> <./img/munchers_screen.png>] <img/baseball_
-screen.jpg, id=112, 402.75468pt x 310.91156pt>
+ [25] [26 <./img/oregon_screen.jpg> <./img/munchers_screen.png>] <img/baseball_
+screen.jpg, id=109, 402.75468pt x 310.91156pt>
 File: img/baseball_screen.jpg Graphic file (type jpg)
 
 <use img/baseball_screen.jpg>
 Package pdftex.def Info: img/baseball_screen.jpg used on input line 1.
 (pdftex.def)             Requested size: 337.02106pt x 260.16765pt.
- [28] [29 <./img/botlogic_screen.png> <./img/baseball_screen.jpg>] <img/notpron
-_screen.jpg, id=120, 642.4pt x 481.8pt>
+ [27] [28 <./img/botlogic_screen.png> <./img/baseball_screen.jpg>] <img/notpron
+_screen.jpg, id=116, 642.4pt x 481.8pt>
 File: img/notpron_screen.jpg Graphic file (type jpg)
 
 <use img/notpron_screen.jpg>
 Package pdftex.def Info: img/notpron_screen.jpg used on input line 1.
 (pdftex.def)             Requested size: 346.90063pt x 260.17546pt.
 
-<img/lemmings_screen.jpg, id=121, 642.4pt x 401.5pt>
+<img/lemmings_screen.jpg, id=117, 642.4pt x 401.5pt>
 File: img/lemmings_screen.jpg Graphic file (type jpg)
 
 <use img/lemmings_screen.jpg>
@@ -438,18 +414,18 @@ Overfull \hbox (7.30655pt too wide) in paragraph at lines 1--1
 a-chine teaches play-ers about physics
  []
 
-[30] [31 <./img/notpron_screen.jpg> <./img/lemmings_screen.jpg>]
-<img/machine_screen.png, id=128, 642.4pt x 447.6725pt>
+[29] [30 <./img/notpron_screen.jpg> <./img/lemmings_screen.jpg>]
+<img/machine_screen.png, id=125, 642.4pt x 447.6725pt>
 File: img/machine_screen.png Graphic file (type png)
 
 <use img/machine_screen.png>
 Package pdftex.def Info: img/machine_screen.png used on input line 1.
 (pdftex.def)             Requested size: 373.34703pt x 260.17621pt.
-) (./survey.tex [32] [33 <./img/machine_screen.png>]
+) (./survey.tex [31] [32 <./img/machine_screen.png>]
 Chapter 5.
-[34
+[33
 
-] [35] (./survey2.tex
+] [34] (./survey2.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1.
 
 (/usr/local/texlive/2013basic/texmf-dist/tex/latex/base/omscmr.fd
@@ -457,35 +433,35 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
- [36]
-[37] [38] [39] [40] [41]) [42] (./darfur.tex [43] [44]) (./oregon.tex [45]
-[46]) (./munchers.tex [47] [48]) (./lightbot.tex [49] [50]) [51])
+ [35]
+[36] [37] [38] [39] [40]) [41] (./darfur.tex [42] [43]) (./oregon.tex [44]
+[45]) (./munchers.tex [46] [47]) (./lightbot.tex [48] [49]) [50])
 (./results.tex
 Chapter 6.
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 4.
 
-<survey_likert.png, id=195, 721.9773pt x 620.0766pt>
+<survey_likert.png, id=192, 721.9773pt x 620.0766pt>
 File: survey_likert.png Graphic file (type png)
  <use survey_likert.png>
 Package pdftex.def Info: survey_likert.png used on input line 6.
 (pdftex.def)             Requested size: 469.75502pt x 403.45186pt.
 
-[52
+[51
 
-] [53 <./survey_likert.png>]
+] [52 <./survey_likert.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 24.
 
-<general_pre.png, id=204, 497.9403pt x 411.939pt>
+<general_pre.png, id=200, 497.9403pt x 411.939pt>
 File: general_pre.png Graphic file (type png)
  <use general_pre.png>
 Package pdftex.def Info: general_pre.png used on input line 27.
 (pdftex.def)             Requested size: 211.38832pt x 174.87375pt.
 
-<general_post.png, id=205, 497.9403pt x 411.939pt>
+<general_post.png, id=201, 497.9403pt x 411.939pt>
 File: general_post.png Graphic file (type png)
  <use general_post.png>
 Package pdftex.def Info: general_post.png used on input line 32.
@@ -499,27 +475,27 @@ Underfull \hbox (badness 2035) in paragraph at lines 33--33
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 37.
 
-<general_results.png, id=206, 509.5035pt x 411.939pt>
+<general_results.png, id=202, 509.5035pt x 411.939pt>
 File: general_results.png Graphic file (type png)
 
 <use general_results.png>
 Package pdftex.def Info: general_results.png used on input line 39.
 (pdftex.def)             Requested size: 469.75502pt x 379.79932pt.
- [54
+ [53
 
  <./general_pre.png> <./general_post.png>]
-[55 <./general_results.png>]
+[54 <./general_results.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 53.
 
-<darfur_pre.png, id=216, 506.6127pt x 411.939pt>
+<darfur_pre.png, id=213, 506.6127pt x 411.939pt>
 File: darfur_pre.png Graphic file (type png)
  <use darfur_pre.png>
 Package pdftex.def Info: darfur_pre.png used on input line 56.
 (pdftex.def)             Requested size: 211.38832pt x 171.88176pt.
 
-<darfur_post.png, id=217, 506.6127pt x 411.939pt>
+<darfur_post.png, id=214, 506.6127pt x 411.939pt>
 File: darfur_post.png Graphic file (type png)
  <use darfur_post.png>
 Package pdftex.def Info: darfur_post.png used on input line 61.
@@ -529,26 +505,26 @@ Package pdftex.def Info: darfur_post.png used on input line 61.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 66.
 
-<darfur_results.png, id=218, 508.7808pt x 411.939pt>
+<darfur_results.png, id=215, 508.7808pt x 411.939pt>
 File: darfur_results.png Graphic file (type png)
  <use darfur_results.png>
 Package pdftex.def Info: darfur_results.png used on input line 68.
 (pdftex.def)             Requested size: 469.75502pt x 380.35873pt.
 
-[56
+[55
 
- <./darfur_pre.png> <./darfur_post.png>] [57 <./darfur_results.png>]
+ <./darfur_pre.png> <./darfur_post.png>] [56 <./darfur_results.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 78.
 
-<oregon_pre.png, id=228, 506.6127pt x 411.939pt>
+<oregon_pre.png, id=225, 506.6127pt x 411.939pt>
 File: oregon_pre.png Graphic file (type png)
  <use oregon_pre.png>
 Package pdftex.def Info: oregon_pre.png used on input line 81.
 (pdftex.def)             Requested size: 211.38832pt x 171.88176pt.
 
-<oregon_post.png, id=229, 506.6127pt x 411.939pt>
+<oregon_post.png, id=226, 506.6127pt x 411.939pt>
 File: oregon_post.png Graphic file (type png)
  <use oregon_post.png>
 Package pdftex.def Info: oregon_post.png used on input line 86.
@@ -558,26 +534,26 @@ Package pdftex.def Info: oregon_post.png used on input line 86.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 91.
 
-<oregon_results.png, id=230, 508.7808pt x 411.939pt>
+<oregon_results.png, id=227, 508.7808pt x 411.939pt>
 File: oregon_results.png Graphic file (type png)
  <use oregon_results.png>
 Package pdftex.def Info: oregon_results.png used on input line 93.
 (pdftex.def)             Requested size: 469.75502pt x 380.35873pt.
 
-[58
+[57
 
- <./oregon_pre.png> <./oregon_post.png>] [59 <./oregon_results.png>]
+ <./oregon_pre.png> <./oregon_post.png>] [58 <./oregon_results.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 103.
 
-<munchers_pre.png, id=241, 497.9403pt x 411.939pt>
+<munchers_pre.png, id=237, 497.9403pt x 411.939pt>
 File: munchers_pre.png Graphic file (type png)
  <use munchers_pre.png>
 Package pdftex.def Info: munchers_pre.png used on input line 106.
 (pdftex.def)             Requested size: 211.38832pt x 174.87375pt.
 
-<munchers_post.png, id=242, 497.2176pt x 411.939pt>
+<munchers_post.png, id=238, 497.2176pt x 411.939pt>
 File: munchers_post.png Graphic file (type png)
  <use munchers_post.png>
 Package pdftex.def Info: munchers_post.png used on input line 111.
@@ -587,27 +563,27 @@ Package pdftex.def Info: munchers_post.png used on input line 111.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 116.
 
-<munchers_results.png, id=243, 509.5035pt x 411.939pt>
+<munchers_results.png, id=239, 509.5035pt x 411.939pt>
 File: munchers_results.png Graphic file (type png)
 
 <use munchers_results.png>
 Package pdftex.def Info: munchers_results.png used on input line 118.
 (pdftex.def)             Requested size: 469.75502pt x 379.79932pt.
- [60
+ [59
 
  <./munchers_pre.png> <./munchers_post.png>]
-[61 <./munchers_results.png>]
+[60 <./munchers_results.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 132.
 
-<lightbot_pre.png, id=253, 490.7133pt x 411.939pt>
+<lightbot_pre.png, id=250, 490.7133pt x 411.939pt>
 File: lightbot_pre.png Graphic file (type png)
  <use lightbot_pre.png>
 Package pdftex.def Info: lightbot_pre.png used on input line 135.
 (pdftex.def)             Requested size: 211.38832pt x 177.45715pt.
 
-<lightbot_post.png, id=254, 490.7133pt x 411.939pt>
+<lightbot_post.png, id=251, 490.7133pt x 411.939pt>
 File: lightbot_post.png Graphic file (type png)
  <use lightbot_post.png>
 Package pdftex.def Info: lightbot_post.png used on input line 140.
@@ -617,21 +593,21 @@ Package pdftex.def Info: lightbot_post.png used on input line 140.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 145.
 
-<lightbot_results.png, id=255, 508.7808pt x 411.939pt>
+<lightbot_results.png, id=252, 508.7808pt x 411.939pt>
 File: lightbot_results.png Graphic file (type png)
 
 <use lightbot_results.png>
 Package pdftex.def Info: lightbot_results.png used on input line 147.
 (pdftex.def)             Requested size: 469.75502pt x 380.35873pt.
- [62
+ [61
 
  <./lightbot_pre.png> <./lightbot_post.png>]
-[63 <./lightbot_results.png>]
+[62 <./lightbot_results.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 162.
 
-<adaptive_difficulty_scores.png, id=265, 625.1355pt x 456.7464pt>
+<adaptive_difficulty_scores.png, id=262, 625.1355pt x 456.7464pt>
 File: adaptive_difficulty_scores.png Graphic file (type png)
 
 <use adaptive_difficulty_scores.png>
@@ -643,7 +619,7 @@ Package pdftex.def Info: adaptive_difficulty_scores.png used on input line 164.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 171.
 
-<checkpoint_frequency_scores.png, id=266, 625.1355pt x 456.7464pt>
+<checkpoint_frequency_scores.png, id=263, 625.1355pt x 456.7464pt>
 File: checkpoint_frequency_scores.png Graphic file (type png)
 
 <use checkpoint_frequency_scores.png>
@@ -655,21 +631,21 @@ Package pdftex.def Info: checkpoint_frequency_scores.png used on input line 173
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 180.
 
-<contextual_tutorials_scores.png, id=267, 625.1355pt x 456.7464pt>
+<contextual_tutorials_scores.png, id=264, 625.1355pt x 456.7464pt>
 File: contextual_tutorials_scores.png Graphic file (type png)
 
 <use contextual_tutorials_scores.png>
 Package pdftex.def Info: contextual_tutorials_scores.png used on input line 182
 .
 (pdftex.def)             Requested size: 356.10199pt x 260.18088pt.
- [64
+ [63
 
  <./adaptive_difficulty_scores.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 189.
 
-<encyclopedia_content_scores.png, id=272, 625.1355pt x 456.7464pt>
+<encyclopedia_content_scores.png, id=269, 625.1355pt x 456.7464pt>
 File: encyclopedia_content_scores.png Graphic file (type png)
 
 <use encyclopedia_content_scores.png>
@@ -681,7 +657,7 @@ Package pdftex.def Info: encyclopedia_content_scores.png used on input line 191
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 198.
 
-<encyclopedia_location_scores.png, id=273, 625.1355pt x 456.7464pt>
+<encyclopedia_location_scores.png, id=270, 625.1355pt x 456.7464pt>
 File: encyclopedia_location_scores.png Graphic file (type png)
 
 <use encyclopedia_location_scores.png>
@@ -693,7 +669,7 @@ Package pdftex.def Info: encyclopedia_location_scores.png used on input line 20
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 207.
 
-<exploration_freedom_scores.png, id=274, 625.1355pt x 456.7464pt>
+<exploration_freedom_scores.png, id=271, 625.1355pt x 456.7464pt>
 File: exploration_freedom_scores.png Graphic file (type png)
 
 <use exploration_freedom_scores.png>
@@ -705,20 +681,20 @@ Package pdftex.def Info: exploration_freedom_scores.png used on input line 209.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 216.
 
-<iterative_feedback_scores.png, id=275, 625.1355pt x 456.7464pt>
+<iterative_feedback_scores.png, id=272, 625.1355pt x 456.7464pt>
 File: iterative_feedback_scores.png Graphic file (type png)
 
 <use iterative_feedback_scores.png>
 Package pdftex.def Info: iterative_feedback_scores.png used on input line 218.
 (pdftex.def)             Requested size: 356.10199pt x 260.18088pt.
- [65 <./checkpoint_frequency_scores.png>]
-[66 <./contextual_tutorials_scores.png> <./encyclopedia_content_scores.png>]
-[67 <./encyclopedia_location_scores.png> <./exploration_freedom_scores.png>]
+ [64 <./checkpoint_frequency_scores.png>]
+[65 <./contextual_tutorials_scores.png> <./encyclopedia_content_scores.png>]
+[66 <./encyclopedia_location_scores.png> <./exploration_freedom_scores.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 225.
 
-<problem_solving_scores.png, id=291, 625.1355pt x 456.7464pt>
+<problem_solving_scores.png, id=288, 625.1355pt x 456.7464pt>
 File: problem_solving_scores.png Graphic file (type png)
 
 <use problem_solving_scores.png>
@@ -729,7 +705,7 @@ Package pdftex.def Info: problem_solving_scores.png used on input line 227.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 234.
 
-<referential_amount_scores.png, id=292, 625.1355pt x 456.7464pt>
+<referential_amount_scores.png, id=289, 625.1355pt x 456.7464pt>
 File: referential_amount_scores.png Graphic file (type png)
 
 <use referential_amount_scores.png>
@@ -740,20 +716,20 @@ Package pdftex.def Info: referential_amount_scores.png used on input line 236.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 243.
 
-<referential_popularity_scores.png, id=293, 625.1355pt x 456.7464pt>
+<referential_popularity_scores.png, id=290, 625.1355pt x 456.7464pt>
 File: referential_popularity_scores.png Graphic file (type png)
 
 <use referential_popularity_scores.png>
 Package pdftex.def Info: referential_popularity_scores.png used on input line 2
 45.
 (pdftex.def)             Requested size: 356.10199pt x 260.18088pt.
- [68 <./iterative_feedback_scores.png>]
-[69 <./problem_solving_scores.png> <./referential_amount_scores.png>]
+ [67 <./iterative_feedback_scores.png>]
+[68 <./problem_solving_scores.png> <./referential_amount_scores.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 252.
 
-<referential_rewards_scores.png, id=303, 625.1355pt x 456.7464pt>
+<referential_rewards_scores.png, id=300, 625.1355pt x 456.7464pt>
 File: referential_rewards_scores.png Graphic file (type png)
 
 <use referential_rewards_scores.png>
@@ -765,7 +741,7 @@ Package pdftex.def Info: referential_rewards_scores.png used on input line 254.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 261.
 
-<reset_penalty_scores.png, id=304, 625.1355pt x 456.7464pt>
+<reset_penalty_scores.png, id=301, 625.1355pt x 456.7464pt>
 File: reset_penalty_scores.png Graphic file (type png)
 
 <use reset_penalty_scores.png>
@@ -776,20 +752,20 @@ Package pdftex.def Info: reset_penalty_scores.png used on input line 263.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 270.
 
-<resource_penalty_scores.png, id=305, 625.1355pt x 456.7464pt>
+<resource_penalty_scores.png, id=302, 625.1355pt x 456.7464pt>
 File: resource_penalty_scores.png Graphic file (type png)
 
 <use resource_penalty_scores.png>
 Package pdftex.def Info: resource_penalty_scores.png used on input line 272.
 (pdftex.def)             Requested size: 356.10199pt x 260.18088pt.
- [70 <./referential_popularity_scores.png>]
-[71 <./referential_rewards_scores.png> <./reset_penalty_scores.png>] [72 <./res
+ [69 <./referential_popularity_scores.png>]
+[70 <./referential_rewards_scores.png> <./reset_penalty_scores.png>] [71 <./res
 ource_penalty_scores.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 289.
 
-<baseball_scores.png, id=320, 625.1355pt x 529.7391pt>
+<baseball_scores.png, id=317, 625.1355pt x 529.7391pt>
 File: baseball_scores.png Graphic file (type png)
 
 <use baseball_scores.png>
@@ -800,7 +776,7 @@ Package pdftex.def Info: baseball_scores.png used on input line 291.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 299.
 
-<botlogic_scores.png, id=321, 625.1355pt x 529.7391pt>
+<botlogic_scores.png, id=318, 625.1355pt x 529.7391pt>
 File: botlogic_scores.png Graphic file (type png)
 
 <use botlogic_scores.png>
@@ -811,36 +787,36 @@ Package pdftex.def Info: botlogic_scores.png used on input line 301.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 309.
 
-<darfur_scores.png, id=322, 625.1355pt x 529.7391pt>
+<darfur_scores.png, id=319, 625.1355pt x 529.7391pt>
 File: darfur_scores.png Graphic file (type png)
  <use darfur_scores.png>
 Package pdftex.def Info: darfur_scores.png used on input line 311.
 (pdftex.def)             Requested size: 307.02493pt x 260.17258pt.
 
-[73
+[72
 
  <./baseball_scores.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 319.
 
-<lemmings_scores.png, id=327, 625.1355pt x 529.7391pt>
+<lemmings_scores.png, id=324, 625.1355pt x 529.7391pt>
 File: lemmings_scores.png Graphic file (type png)
 
 <use lemmings_scores.png>
 Package pdftex.def Info: lemmings_scores.png used on input line 321.
 (pdftex.def)             Requested size: 307.02493pt x 260.17258pt.
 
-Overfull \hbox (1.39151pt too wide) in paragraph at lines 325--326
-\OT1/cmr/m/n/12 Lemmings didn't score well in any items ex-cept marginally in G
-ame Re-set Penalty.
+Overfull \hbox (1.69672pt too wide) in paragraph at lines 325--326
+\OT1/cmr/m/it/12 Lemmings \OT1/cmr/m/n/12 didn't score well in any items ex-cep
+t marginally in Game Re-set Penalty.
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 329.
 
-<lightbot_scores.png, id=328, 625.1355pt x 529.7391pt>
+<lightbot_scores.png, id=325, 625.1355pt x 529.7391pt>
 File: lightbot_scores.png Graphic file (type png)
 
 <use lightbot_scores.png>
@@ -851,7 +827,7 @@ Package pdftex.def Info: lightbot_scores.png used on input line 331.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 339.
 
-<machine_scores.png, id=329, 625.1355pt x 529.7391pt>
+<machine_scores.png, id=326, 625.1355pt x 529.7391pt>
 File: machine_scores.png Graphic file (type png)
  <use machine_scores.png>
 Package pdftex.def Info: machine_scores.png used on input line 341.
@@ -861,19 +837,19 @@ Package pdftex.def Info: machine_scores.png used on input line 341.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 349.
 
-<munchers_scores.png, id=330, 625.1355pt x 529.7391pt>
+<munchers_scores.png, id=327, 625.1355pt x 529.7391pt>
 File: munchers_scores.png Graphic file (type png)
 
 <use munchers_scores.png>
 Package pdftex.def Info: munchers_scores.png used on input line 351.
 (pdftex.def)             Requested size: 307.02493pt x 260.17258pt.
- [74 <./botlogic_scores.png>] [75 <./darfur_scores.png> <./lemmings_scores.png>
-] [76 <./lightbot_scores.png> <./machine_scores.png>]
+ [73 <./botlogic_scores.png>] [74 <./darfur_scores.png> <./lemmings_scores.png>
+] [75 <./lightbot_scores.png> <./machine_scores.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 359.
 
-<notpron_scores.png, id=345, 625.1355pt x 529.7391pt>
+<notpron_scores.png, id=342, 625.1355pt x 529.7391pt>
 File: notpron_scores.png Graphic file (type png)
  <use notpron_scores.png>
 Package pdftex.def Info: notpron_scores.png used on input line 361.
@@ -883,7 +859,7 @@ Package pdftex.def Info: notpron_scores.png used on input line 361.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 369.
 
-<oregon_scores.png, id=346, 625.1355pt x 529.7391pt>
+<oregon_scores.png, id=343, 625.1355pt x 529.7391pt>
 File: oregon_scores.png Graphic file (type png)
  <use oregon_scores.png>
 Package pdftex.def Info: oregon_scores.png used on input line 371.
@@ -893,19 +869,19 @@ Package pdftex.def Info: oregon_scores.png used on input line 371.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 379.
 
-<pandemic_scores.png, id=347, 625.1355pt x 529.7391pt>
+<pandemic_scores.png, id=344, 625.1355pt x 529.7391pt>
 File: pandemic_scores.png Graphic file (type png)
 
 <use pandemic_scores.png>
 Package pdftex.def Info: pandemic_scores.png used on input line 381.
 (pdftex.def)             Requested size: 307.02493pt x 260.17258pt.
- [77 <./munchers_scores.png>] [78 <./notpron_scores.png> <./oregon_scores.png>]
- [79 <./pandemic_scores.png>]
+ [76 <./munchers_scores.png>] [77 <./notpron_scores.png> <./oregon_scores.png>]
+ [78 <./pandemic_scores.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 395.
 
-<baseball_likert.png, id=362, 714.0276pt x 565.1514pt>
+<baseball_likert.png, id=359, 714.0276pt x 565.1514pt>
 File: baseball_likert.png Graphic file (type png)
 
 <use baseball_likert.png>
@@ -916,7 +892,7 @@ Package pdftex.def Info: baseball_likert.png used on input line 397.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 405.
 
-<botlogic_likert.png, id=363, 714.0276pt x 565.1514pt>
+<botlogic_likert.png, id=360, 714.0276pt x 565.1514pt>
 File: botlogic_likert.png Graphic file (type png)
 
 <use botlogic_likert.png>
@@ -927,20 +903,20 @@ Package pdftex.def Info: botlogic_likert.png used on input line 407.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 415.
 
-<darfur_likert.png, id=364, 714.0276pt x 565.1514pt>
+<darfur_likert.png, id=361, 714.0276pt x 565.1514pt>
 File: darfur_likert.png Graphic file (type png)
  <use darfur_likert.png>
 Package pdftex.def Info: darfur_likert.png used on input line 417.
 (pdftex.def)             Requested size: 328.70728pt x 260.17113pt.
 
-[80
+[79
 
  <./baseball_likert.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 425.
 
-<lemmings_likert.png, id=369, 714.0276pt x 565.1514pt>
+<lemmings_likert.png, id=366, 714.0276pt x 565.1514pt>
 File: lemmings_likert.png Graphic file (type png)
 
 <use lemmings_likert.png>
@@ -951,7 +927,7 @@ Package pdftex.def Info: lemmings_likert.png used on input line 427.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 435.
 
-<lightbot_likert.png, id=370, 714.0276pt x 565.1514pt>
+<lightbot_likert.png, id=367, 714.0276pt x 565.1514pt>
 File: lightbot_likert.png Graphic file (type png)
 
 <use lightbot_likert.png>
@@ -962,7 +938,7 @@ Package pdftex.def Info: lightbot_likert.png used on input line 437.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 447.
 
-<machine_likert.png, id=371, 714.0276pt x 565.1514pt>
+<machine_likert.png, id=368, 714.0276pt x 565.1514pt>
 File: machine_likert.png Graphic file (type png)
  <use machine_likert.png>
 Package pdftex.def Info: machine_likert.png used on input line 449.
@@ -972,19 +948,19 @@ Package pdftex.def Info: machine_likert.png used on input line 449.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 457.
 
-<munchers_likert.png, id=372, 714.0276pt x 565.1514pt>
+<munchers_likert.png, id=369, 714.0276pt x 565.1514pt>
 File: munchers_likert.png Graphic file (type png)
 
 <use munchers_likert.png>
 Package pdftex.def Info: munchers_likert.png used on input line 459.
 (pdftex.def)             Requested size: 328.70728pt x 260.17113pt.
- [81 <./botlogic_likert.png>] [82 <./darfur_likert.png> <./lemmings_likert.png>
-] [83 <./lightbot_likert.png> <./machine_likert.png>]
+ [80 <./botlogic_likert.png>] [81 <./darfur_likert.png> <./lemmings_likert.png>
+] [82 <./lightbot_likert.png> <./machine_likert.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 467.
 
-<notpron_likert.png, id=388, 714.0276pt x 565.1514pt>
+<notpron_likert.png, id=384, 714.0276pt x 565.1514pt>
 File: notpron_likert.png Graphic file (type png)
  <use notpron_likert.png>
 Package pdftex.def Info: notpron_likert.png used on input line 469.
@@ -994,7 +970,7 @@ Package pdftex.def Info: notpron_likert.png used on input line 469.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 477.
 
-<oregon_likert.png, id=389, 714.7503pt x 565.1514pt>
+<oregon_likert.png, id=385, 714.7503pt x 565.1514pt>
 File: oregon_likert.png Graphic file (type png)
  <use oregon_likert.png>
 Package pdftex.def Info: oregon_likert.png used on input line 479.
@@ -1004,26 +980,26 @@ Package pdftex.def Info: oregon_likert.png used on input line 479.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 487.
 
-<pandemic_likert.png, id=390, 714.0276pt x 565.1514pt>
+<pandemic_likert.png, id=386, 714.0276pt x 565.1514pt>
 File: pandemic_likert.png Graphic file (type png)
 
 <use pandemic_likert.png>
 Package pdftex.def Info: pandemic_likert.png used on input line 489.
 (pdftex.def)             Requested size: 328.70728pt x 260.17113pt.
- [84 <./munchers_likert.png>] [85 <./notpron_likert.png> <./oregon_likert.png>]
- [86 <./pandemic_likert.png>]) (./analysis.tex
+ [83 <./munchers_likert.png>] [84 <./notpron_likert.png> <./oregon_likert.png>]
+ [85 <./pandemic_likert.png>]) (./analysis.tex
 Chapter 7.
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 22.
 
-<aggregated_tdist.png, id=404, 525.4029pt x 411.939pt>
+<aggregated_tdist.png, id=401, 525.4029pt x 411.939pt>
 File: aggregated_tdist.png Graphic file (type png)
 
 <use aggregated_tdist.png>
 Package pdftex.def Info: aggregated_tdist.png used on input line 24.
 (pdftex.def)             Requested size: 331.8233pt x 260.16406pt.
- [87
+ [86
 
 
 ]
@@ -1031,7 +1007,7 @@ Package pdftex.def Info: aggregated_tdist.png used on input line 24.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 32.
 
-<darfur_tdist.png, id=408, 534.798pt x 411.939pt>
+<darfur_tdist.png, id=405, 534.798pt x 411.939pt>
 File: darfur_tdist.png Graphic file (type png)
  <use darfur_tdist.png>
 Package pdftex.def Info: darfur_tdist.png used on input line 34.
@@ -1041,7 +1017,7 @@ Package pdftex.def Info: darfur_tdist.png used on input line 34.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 42.
 
-<oregon_tdist.png, id=409, 534.798pt x 411.939pt>
+<oregon_tdist.png, id=406, 534.798pt x 411.939pt>
 File: oregon_tdist.png Graphic file (type png)
  <use oregon_tdist.png>
 Package pdftex.def Info: oregon_tdist.png used on input line 44.
@@ -1051,7 +1027,7 @@ Package pdftex.def Info: oregon_tdist.png used on input line 44.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 54.
 
-<lightbot_tdist.png, id=410, 535.5207pt x 411.939pt>
+<lightbot_tdist.png, id=407, 535.5207pt x 411.939pt>
 File: lightbot_tdist.png Graphic file (type png)
  <use lightbot_tdist.png>
 Package pdftex.def Info: lightbot_tdist.png used on input line 56.
@@ -1061,30 +1037,30 @@ Package pdftex.def Info: lightbot_tdist.png used on input line 56.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 64.
 
-<munchers_tdist.png, id=411, 542.7477pt x 411.939pt>
+<munchers_tdist.png, id=408, 542.7477pt x 411.939pt>
 File: munchers_tdist.png Graphic file (type png)
  <use munchers_tdist.png>
 Package pdftex.def Info: munchers_tdist.png used on input line 66.
 (pdftex.def)             Requested size: 342.77759pt x 260.16406pt.
 
-[88 <./aggregated_tdist.png>] [89 <./darfur_tdist.png> <./oregon_tdist.png>]
-[90 <./lightbot_tdist.png>] [91 <./munchers_tdist.png>]
+[87 <./aggregated_tdist.png>] [88 <./darfur_tdist.png> <./oregon_tdist.png>]
+[89 <./lightbot_tdist.png>] [90 <./munchers_tdist.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 116.
 
-<full_five_stats.png, id=430, 518.8986pt x 512.3943pt>
+<full_five_stats.png, id=427, 518.8986pt x 512.3943pt>
 File: full_five_stats.png Graphic file (type png)
 
 <use full_five_stats.png>
 Package pdftex.def Info: full_five_stats.png used on input line 118.
 (pdftex.def)             Requested size: 263.47879pt x 260.17613pt.
- [92 <./full_five_stats.png>]
+ [91 <./full_five_stats.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 130.
 
-<outer_3_stats.png, id=435, 518.8986pt x 511.6716pt>
+<outer_3_stats.png, id=432, 518.8986pt x 511.6716pt>
 File: outer_3_stats.png Graphic file (type png)
  <use outer_3_stats.png>
 Package pdftex.def Info: outer_3_stats.png used on input line 132.
@@ -1094,50 +1070,50 @@ Package pdftex.def Info: outer_3_stats.png used on input line 132.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 135.
 
-<inner_3_stats.png, id=436, 518.8986pt x 512.3943pt>
+<inner_3_stats.png, id=433, 518.8986pt x 512.3943pt>
 File: inner_3_stats.png Graphic file (type png)
  <use inner_3_stats.png>
 Package pdftex.def Info: inner_3_stats.png used on input line 137.
 (pdftex.def)             Requested size: 263.47879pt x 260.17613pt.
 
-[93 <./outer_3_stats.png>]) [94 <./inner_3_stats.png>]
+[92 <./outer_3_stats.png>]) [93 <./inner_3_stats.png>]
 Chapter 8.
-[95
+[94
 
-] [96] [97] [98]
-Overfull \hbox (11.36224pt too wide) in paragraph at lines 247--247
+] [95] [96] [97]
+Overfull \hbox (11.36224pt too wide) in paragraph at lines 245--245
 []\OT1/cmr/bx/n/14.4 Iterative scal-able de-sign test-ing for ed-u-ca-tional ga
 mes 
  []
 
-[99]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 257.
+[98]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 256.
 
  (/usr/local/texlive/2013basic/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 257.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 256.
 
-Underfull \hbox (badness 2221) in paragraph at lines 257--259
+Underfull \hbox (badness 2221) in paragraph at lines 256--257
 \OT1/cmr/m/n/12 en-tists.'' Web. \OML/cmm/m/it/12 <$\OT1/cmtt/m/n/12 http : / /
  homepage . psy . utexas . edu / homepage / faculty /
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 265--266
+Underfull \hbox (badness 1783) in paragraph at lines 264--265
 \OT1/cmr/m/n/12 Nov. 2013. \OML/cmm/m/it/12 <$\OT1/cmtt/m/n/12 http : / / www .
  cs . iastate . edu / []honavar / JavaNotes / Notes /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
 []\OT1/cmr/m/n/12 ``The Mea-sure-ment of Inter-rater Agree-ment.'' Web. \OML/cm
 m/m/it/12 <$\OT1/cmtt/m/n/12 http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
 \OT1/cmtt/m/n/12 / / hpm . fk . ugm . ac . id / hpmlama / images / Biostatistik
  / Tutorial \ _4 \
  []
@@ -1145,34 +1121,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--267
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
-[100
+[99
 
 ]
-Underfull \hbox (badness 3108) in paragraph at lines 271--272
+Underfull \hbox (badness 3108) in paragraph at lines 270--271
 []\OT1/cmr/m/n/12 ``What Do You Know about the Dar-fur Geno-cide?'' What Do
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 271--272
+Underfull \hbox (badness 2512) in paragraph at lines 270--271
 \OT1/cmr/m/n/12 You Know about the Dar-fur Geno-cide? Pro-Profs. Web. 21 Nov.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 \OT1/cmr/m/n/12 2013. \OML/cmm/m/it/12 <$\OT1/cmtt/m/n/12 http : / / www . prop
 rofs . com / quiz-[]school / story . php ? title =
  []
 
-[101] (./KenHoffThesis.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+\OT1/cmr/m/n/12 2013. \OML/cmm/m/it/12 <$\OT1/cmtt/m/n/12 http : / / onlinestat
+book . com / 2 / estimation / t _ distribution .
+ []
+
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no É in font cmr12!
+[100] (./KenHoffThesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3678 strings out of 494536
- 57180 string characters out of 6167446
- 116719 words of memory out of 5000000
- 6795 multiletter control sequences out of 15000+600000
+ 3691 strings out of 494536
+ 57312 string characters out of 6167446
+ 116764 words of memory out of 5000000
+ 6808 multiletter control sequences out of 15000+600000
  10407 words of font info for 37 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  38i,7n,32p,19997b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1186,10 +1171,10 @@ sfonts/cm/cmr17.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public
 ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb>
-Output written on KenHoffThesis.pdf (103 pages, 3707234 bytes).
+Output written on KenHoffThesis.pdf (102 pages, 3711404 bytes).
 PDF statistics:
- 504 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
+ 500 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
