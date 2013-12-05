@@ -1,4 +1,5 @@
 \chapter{Procedure}
+
 	\section{Survey Design}
 		In order to test the effectiveness of the rubric on determining good educational game design elements, it must be used by real players on real educational games. To get the best results possible, it would need to be evaluated by a large number of players across a variety of games.
 
@@ -14,6 +15,21 @@
 		For 6 HITs, the HIT was composed of the ``Basic" survey included below. It contained some simple demographic questions, some Likert-scale questions about their opinions on fun and educational games, and some freeform text response areas where they could leave feedback about the games and survey. It also included a link to one of 6 games (The Incredible Machine, Lemmings, Notpron, Math Baseball, BotLogic, or Pandemic 2), as well as a section with all of the rubric items, where players were asked to rate each game on all of the rubric items.
 
 		The other 4 HITs included a pre- and post-quiz in addition to the basic survey. The 4 games (Darfur is Dying, The Oregon Trail, Number Munchers, and LightBot) each had their own quiz, designed to test the knowledge that the games were intended to teach. The quizzes were 10 questions each, with either 4 or 5 multiple choice answers, or True/False answers. It's important to note that the pre- and post-quizzes were the exact same; the exact same questions and answers appeared before and after the players played and rated the game. The players were not given feedback on how well they did on either of the quizzes. Each quiz is included below.  
+
+	\section{Implementation}
+		First, the information for the quizzes, surveys, rubric, and games were created in a Javascript Object Notation (JSON) format. From this format, the final surveys and quizzes specific to each game can be created, while also generating some \LaTeX documents with the exact same format.
+
+		Then, the surveys are deployed to the Mechanical Turk platform. This involves authentication with my personal account, and setting up tasks with parameter specific to my research.
+
+		After the surveys are completed, they are retrieved and placed in a data directory. Then, the analysis script is run.
+
+		The analysis script first reads all of the files present in the data directory into a SQLite database stored in memory. It then grades all the quizzes, and uses PyPlot to generate the visualization graphs. It performs a similar task to generate the rubric and game score visualizations. Then, it calculates the t-distribution significance and inter-rater reliability scores, and graphs them. Finally, it writes the graphs to files.
+
+		Then, the \LaTeX compilation script is run, and all of the generated tex files, graphs, and other information is processed and placed into the final thesis document.
+
+		All of these instructions are placed in the Makefile, so that if more data is received, we only need to run make in order to generate new graphs and include them in the thesis document.
+
+		A total of about 2000 lines of code was written. All of the source code for the thesis can be found at \texttt{https://github.com/kenhoff/thesis}. 
 
 	\section{Survey}
 		This is the survey that was given to the Mechanical Turk workers. It includes some demographic questions, followed by some questions on the worker's opinions on fun and educational games. Then, the worker is given the URL to one of the ten games. Then, the worker is asked to rate the game on the 13 rubric items, selecting one of the 5 options from each. After that, the worker provides more opinions on the game they just played.

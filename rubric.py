@@ -51,7 +51,7 @@ class RubricItem:
 		content = "\{0}".format(nestlevel)
 		content += "{{{0.name}}}".format(self)
 
-		content += "{{{0.description}}}".format(self) + self.latex_scale_output()
+		content += "{{{0.description}}}".format(self) + "\paragraph{}The rubric to measure the quality of how a game satisfies this attribute is as follows." + self.latex_scale_output()
 		content += "\paragraph{Examples}" + "{}".format(self.examples)
 
 

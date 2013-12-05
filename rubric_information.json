@@ -27,7 +27,7 @@
 					"description": "Game has an in-game encyclopedia of game content"
 				}
 			],
-			"examples": "Examples of games with an encyclopedia with a good location include the Civilization series (for their Civilopedia) and the Total War series."
+			"examples": "Examples of games with an encyclopedia with a good location include the Civilization series (for their Civilopedia) and the Total War series. Both of these games contain an in-game encyclopedia that players can access with one click. "
 		},
 		{
 			"id": "encyclopedia_content",
@@ -56,7 +56,7 @@
 					"description": "Encyclopedia contains content related to game mechanics and historical/factual information and outside links or references"
 				}
 			],
-			"examples": "Examples of games with an encyclopedia that contains both mechanics and historical/factual information include Civilization and the Total War series, as well as most historical simulation games."
+			"examples": "Examples of games with an encyclopedia that contains both mechanics and historical/factual information include Civilization and the Total War series, as well as most historical simulation games. All of these games' encyclopedias contain copious amounts of game mechanics information, as well as historical and factual information about each item in the game."
 		},
 		{
 			"id": "referential_amount",
@@ -85,7 +85,7 @@
 					"description": "Numerous groups of objects or events are references to real-life objects or events"
 				}
 			],
-			"examples": ""
+			"examples": "The Oregon Trail is a game with huge amounts of referential material; just about every item and event in the game is historically accurate."
 		},
 		{
 			"id": "referential_popularity",
@@ -114,7 +114,7 @@
 					"description": "Most or all of the references are popular"
 				}
 			],
-			"examples": ""
+			"examples": "Where in the World is Carmen Sandiego is a game with many popular references. In contrast to The Oregon Trail, where all of the content is specific to that time period and may be totally unfamiliar to players, Carmen Sandiego's wide range of concepts (geography, landmarks, cultures, religions, etc) is likely to be recognized by many different players."
 		},
 		{
 			"id": "referential_rewards",
@@ -143,7 +143,7 @@
 					"description": "Knowing the referential material always significantly affects gameplay"
 				}
 			],
-			"examples": ""
+			"examples": "In Kerbal Space Program, players aren't taught about aerodynamics, power-to-weight ratios, or how to transfer orbits. However, if they do know and understand that material, building, launching, and maneuvering an orbital craft becomes much easier."
 		},
 		{
 			"id": "adaptive_difficulty",
@@ -172,7 +172,7 @@
 					"description": "Game has several difficulties, and automatically adjusts the difficulty of the game as needed"
 				}
 			],
-			"examples": ""
+			"examples": "In The Logical Journey of the Zoombinis, players must complete challenges with 16 zoombinis. If the player passes the level, they continue with all their Zoombinis. If the player does poorly on the level, they can still pass the level; they just lose Zoombinis depending on how poorly they did. A lost zoombini returns to the previous checkpoint (spaced every 3 levels), and players can only embark from a checkpoint with 16 Zoombinis. If the player has a 100% success rate on the level, the level's difficulty increases, so that the next time the player plays the level they must either have a 100% success rate or lose a Zoombini, so that they must complete the level at the same difficulty again later."
 		},
 		{
 			"id": "contextual_tutorials",
@@ -201,7 +201,7 @@
 					"description": "Tutorials are offered continuously"
 				}
 			],
-			"examples": ""
+			"examples": "In The Oregon Trail, players are offered to 'ask someone for advice' every time that they have to stop. This means that experienced players aren't bothered by tutorials that they've seen before, and that newer players can stay confident that help is available if they need it."
 		},
 		{
 			"id": "resource_penalty",
@@ -230,7 +230,7 @@
 					"description": "Game resource penalty is nonexistent (e.g. unlimited lives)"
 				}
 			],
-			"examples": ""
+			"examples": "Light Bot and BotLogic are great examples of minimal resource penalties. Instead of having 3 tries to solve a level before reverting to a previous level, players can restart the level at any time, keeping their progress. In contrast, Number Munchers' resource penalty is very large; every time the player fails, they lose one of their three lives."
 		},
 		{
 			"id": "reset_penalty",
@@ -259,7 +259,7 @@
 					"description": "Reset time is very short (e.g. near instant)"
 				}
 			],
-			"examples": ""
+			"examples": "Light Bot and BotLogic are great examples of minimal reset penalties. Instead of having to wait several seconds while the level is reloaded after a failure, players are instantly reset. Games that score poorly on this are characterized by long load and setup times."
 		},
 		{
 			"id": "checkpoint_frequency",
@@ -288,7 +288,7 @@
 					"description": "Checkpoints are frequent (e.g. players can restart part of the way through puzzles)"
 				}
 			],
-			"examples": ""
+			"examples": "Light Bot and BotLogic have excellent checkpoints, represented by each level. In contrast, The Logical Journey of the Zoombinis has poor checkpoints, due to their appearance only every few levels."
 		},
 		{
 			"id": "exploration_freedom",
@@ -317,7 +317,7 @@
 					"description": "Players are free to choose the direction they want, both educationally and within the game world; allowed to jump between parallel lessons"
 				}
 			],
-			"examples": ""
+			"examples": "Pandemic 2 is a great example of a game with a high degree of freedom of exploration. Players can choose the methods and targets they use in the game world with little repercussion. By using completely different play styles each session, they can observe the choices of their actions and gain insight as to how the game world works."
 		},
 		{
 			"id": "iterative_feedback",
@@ -346,7 +346,7 @@
 					"description": "Game constantly gives feedback (e.g. during a puzzle)"
 				}
 			],
-			"examples": ""
+			"examples": "The Incredible Machine gives pretty good feedback during each puzzle; it's easy for players to see how close they came to achieving their goals (e.g. `the ball got closer to the basket that time'). "
 		},
 		{
 			"id": "problem_solving",
@@ -375,7 +375,7 @@
 					"description": "Players can solve a problem any way they like, or even circumvent the problem, and be given full (or bonus) points"
 				}
 			],
-			"examples": ""
+			"examples": "Lemmings is a perfect example of unorthodox problem solving. Players can solve any level any way they like, so long as they get the requisite number of Lemmings to the exit. Players can tell the Lemmings to dig, build, climb, or fall any way that they think will help them get to the exit, even if it's not what the original designers intended."
 		}
 	]
 }

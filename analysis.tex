@@ -7,9 +7,9 @@
 
 			When evaluating statistical significance for paired samples, we have to use a test called a two-tailed t-distribution. More information can be found here and here (citation)
 
-			First, we take our paired samples. For us, these are our pairs of pre-quiz and post-quiz scores for each worker. We find the difference for each pair, which gives us a \% change for each worker.
+			First, we take our paired samples. For us, these are our pairs of pre-quiz and post-quiz scores for each worker. We find the difference for each pair, which gives us a change for each worker.
 
-			Then, we calculate the mean and standard deviation of these quiz differences. Using either a 90\% or 95\% probability rating, we plug our number of raters, median, and standard deviation into a two-tailed t-distribution. Typically your degrees of freedom shoud be as high as possible; I used the number of raters minus one as our degrees of freedom.
+			Then, we calculate the mean and standard deviation of these quiz differences. Using either a 90\% or 95\% probability rating, we plug our number of raters, mean, and standard deviation into a two-tailed t-distribution. Increasing the number of samples will tend to reduce the uncertainty limits of the distribution. I used the number of raters minus one as our degrees of freedom.
 
 			The error bars displayed are our confidence limits - we are 90\% or 95\% sure that the true mean lies within these limits. 
 
@@ -25,7 +25,7 @@
 					\caption{Aggregated tdist}
 				\end{figure}
 
-				If we aggregate the score differences across all quizzes, our results show that the true mean cannot equal zero, and thus say that our results are statistically significant. However, there are significant differences across each quiz, so we can't use the data aggregated across quizzes.
+				If we aggregate the score differences across all quizzes, our results show that the true mean cannot equal zero, and thus say that our improvement in quiz scores are statistically significant. However, the quiz for each game contains different content and is laid out in a different manner, so we can't use the data aggregated across quizzes.
 
 			\subsubsection{Darfur is Dying}
 
@@ -119,7 +119,7 @@
 					\caption{Inter-rater reliability}
 				\end{figure}
 
-				The kappa values for each rubric item were very small. 11 fell in the ``Slight Agreement'' category, with Adaptive Difficulty barely in ``Fair Agreement'' and Checkpoint Frequency in ``Slight Disagreement.'' 
+				The kappa values for each rubric item were very small. All but one of the rubric items fell in the ``Slight Agreement'' category, with Adaptive Difficulty being the highest with a kappa value of 0.15. Checkpoint Frequency was the only negative rubric item. 
 
 				This was unexpected and disappointing. After some further consideration, I decided to process the data slightly differently, to see if it would give me a different result.
 
@@ -138,7 +138,7 @@
 					\caption{Inter-rater reliability with middle 3 options combined}
 				\end{figure}
 
-				Summing the outer pairs of options doesn't change our scores significantly, but summing the inner scores does. By considering the middle 3 options as a single option, Adaptive Difficulty, Contextual Tutorials, Unorthodox Problem-solving, and Game Resource Penalty all fall in the ``Slight Agreement'' category.
+				Summing the outer pairs of options doesn't change our scores significantly, but summing the inner scores does. By considering the middle 3 options as a single option, Adaptive Difficulty reaches the ``Fair Agreement'' category with a kappa value of 0.25. Contextual Tutorials, Unorthodox Problem-solving, and Game Resource Penalty all still fall in the ``Slight Agreement'' category, but they have improved kappa values of above 0.10.
 				
 			
 
