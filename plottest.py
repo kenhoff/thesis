@@ -122,13 +122,16 @@ def game_scores(all_rubricitem_data):
 		game_data[game] = []
 
 	for i in range(len(games)):
-		for k, v in all_rubricitem_data.iteritems():
+		for j in range(len(rubricitems)):
 			# print k, v[i]
 			# print all_rubricitem_data[rubricitems[]]
-			game_data[games[i]].append(v[i])
+			game_data[games[i]].append(all_rubricitem_data[rubricitems[j]][i])
 
 	# print all_rubricitem_data
-	# print game_data
+	# print "Game data: {}".format(game_data)
+
+
+
 
 
 	for k, v in game_data.iteritems():

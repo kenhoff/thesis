@@ -165,23 +165,94 @@ Amazon's Mechanical Turk will be used to gather large amounts of data about the 
 	It is my opinion that we can derive no significant results from the data without further analysis. However, there are numerous learnings considering the methods we used to obtain these results, and how we can optimize them to create better results.
 
 	\section{What worked well}
+		
+		\subsection{Web-based games}
+
+			Using web-based games to test worked relatively well; while we weren't able to find original versions of some educational games, online emulators and generic versions of the games let us avoid installing software on the workers' machines.
+
+		\subsection{Inter-rater Reliability}
+
+			Inter-rater Reliability turned out to be a very effective way to measure how well the rubric was designed. Even if it wasn't designed very well, it was fortunate that I found 
+
+		\subsection{Mechanical Turk: Volume}
+
+			Using Mechanical Turk to get a large number of responses worked very, very well. It allowed us to carefully manage the number of responses we received, as well as incrementally process results to make sure our system was working correctly. 
+
+			It was extremely cheap to get a large number of responses; I paid a total of \$60 for 300 responses, and further research could gain more responses per dollar by limiting the number of games and the size of the task.
+
+
 	\section{What didn't work well}
-		There are a number of reasons why the results may have fallen so flat.
+		\subsection{Quiz Design}
 
-		The quiz itself may have been faulty; perhaps the questions were too hard, too easy, or covered content that was not taught as part of the game. To combat this, the quizzes were designed to cover material that players were supposed to learn in the game, but it's possible that the multiple-choice format wasn't the best way to do that.
+			There are a number of reasons why the results may have fallen so flat.
 
-		It's also possible that the games weren't actually effective in teaching the players anything at all. Because of how the games were designed, players didn't retain any relevant information about what the game was trying to educate them on.
+			The quiz itself may have been faulty; perhaps the questions were too hard, too easy, or covered content that was not taught as part of the game. To combat this, the quizzes were designed to cover material that players were supposed to learn in the game, but it's possible that the multiple-choice format wasn't the best way to do that.
 
-		Another option is that the platform on which the surveys were administered has faults. There are spammers on Mechanical Turk, and while it is possible to review and reject responses deemed unusable, it's impractical to filter out every single one. However, if a spammer is selecting random responses, it's highly unlikely that they'll end up with a higher or lower score than when they started. 
+			It's also possible that the games weren't actually effective in teaching the players anything at all. Because of how the games were designed, players didn't retain any relevant information about what the game was trying to educate them on.
 
-		It's also possible to filter out poorly rated workers with an ``acceptance rate" criteria, where Workers that accept the task are required to have at least a 90\% acceptance rate across all of their HITs, but that increases response times and payout amounts.
+		\subsection{Rubric Elements}
 
-		Finally, it's possible that some workers lost interest in the HIT once they had finished the first sections, resulting in shoddy work on the second. This would mean that some workers would guess at the questions in the post-quiz, resulting in worse performance across the board.
-	\section{What I learned}
-	\section{What to do next}
-		For a future quiz/survey on the Mechanical Turk platform, I'd recommend both an ``acceptance rate" criteria, as well as some form of automated validation that the worker is actually completing the survey. This may include a ``dummy question," where the reviewer only has to click the right button, or some other kind of verification where they submit a screenshot of their highest score within the game. This will increase response times and require higher payout amounts, but if it's focused only on one game it won't be much.
+			It appears that there was little agreement on the scores rubric elements. This indicates that the prompts and descriptions were vague or confusing, and that scores would not be similar if contributed by multiple workers.
 
-		Another route worth exploring is paying out ``bonuses" to workers who show exemplary work in the quiz and survey. However, you'd have to make sure to incentivize honesty and not greed; my hunch is that asking workers to not use the internet to find solutions may not work when there's extra payouts involved.
+			The two elements that must be considered are the writing and coherence of the rubric, and the quality of the rubric items. My opinion is that the quality or writing style of the prompts was of poor quality, and caused the majority of disagreement between raters.
+
+			I think that the content that the rubric is derived from is sound. The rubric needs some adjustment, but there are good examples of games for each rubric item. In addition, there is clear (but not statistical) evidence that certain rubric items are clearly present in certain games; with adjustment of the descriptions and prompts, there could be greater agreement.  
+
+		\subsection{Mechanical Turk: Quality}
+
+			Another option is that the platform on which the surveys were administered has faults. There are spammers on Mechanical Turk, and while it is possible to review and reject responses deemed unusable, it's impractical to filter out every single one. However, if a spammer is selecting random responses, it's highly unlikely that they'll end up with a higher or lower score than when they started. 
+
+			It's also possible to filter out poorly rated workers with an ``acceptance rate" criteria, where Workers that accept the task are required to have at least a 90\% acceptance rate across all of their HITs, but that increases response times and payout amounts.
+
+			Finally, it's possible that some workers lost interest in the HIT once they had finished the first sections, resulting in shoddy work on the second. This would mean that some workers would guess at the questions in the post-quiz, resulting in worse performance across the board.
+
+			For a future quiz/survey on the Mechanical Turk platform, I'd recommend both an ``acceptance rate" criteria, as well as some form of automated validation that the worker is actually completing the survey. This may include a ``dummy question," where the reviewer only has to click the right button, or some other kind of verification where they submit a screenshot of their highest score within the game. This will increase response times and require higher payout amounts, but if it's focused only on one game it won't be much.
+
+			Another route worth exploring is paying out ``bonuses" to workers who show exemplary work in the quiz and survey. However, you'd have to make sure to incentivize honesty and not greed; my hunch is that asking workers to not use the internet to find solutions may not work when there's extra payouts involved.
+
+	\section{Personal learnings}
+
+		\subsection{Mechanical Turk}
+
+			Amazon's Mechanical Turk is an extremely powerful tool. It allows us to take tasks that are difficult or impossible to do (like rating a game) and scaling them immediately and effectively. We can allocate for more humans to complete our tasks much how we would allocate more servers to handle more requests. 
+
+			Mechanical Turk has a GUI, API, and command-line tools for requesters to access. Because the GUI is limited in functionality specifically for the type of research I was doing, I had to use the API and command line tools to build and test all the surveys. This involved extensive research on documentation, experimentation, and debugging on the Mechanical Turk platform.
+
+		\subsection{Automation and analysis with Python and visualization with PyPlot}
+
+			First, the information for the quizzes, surveys, rubric, and games were created in a JSON format. From this format, the final surveys and quizzes specific to each game can be created, while also generating some \LaTeX documents with the exact same format.
+
+			Then, the surveys are deployed to the Mechanical Turk platform. This involves authentication with my personal account, and setting up tasks with parameter specific to my research.
+
+			After the surveys are completed, they are retrieved and placed in a data directory. Then, the analysis script is run.
+
+			The analysis script first reads all of the files present in the data directory into a SQLite database stored in memory. It then grades all the quizzes, and uses PyPlot to generate the visualization graphs. It performs a similar task to generate the rubric and game score visualizations. Then, it calculates the t-distribution significance and inter-rater reliability scores, and graphs them. Finally, it writes the graphs to files.
+
+			Then, the \LaTeX compilation script is run, and all of the generated tex files, graphs, and other information is processed and placed into the final thesis document.
+
+			All of these instructions are placed in the Makefile, so that if more data is received, we only need to run make in order to generate new graphs and include them in the thesis document.
+
+			A total of about 2000 lines of code was written. All of the source code for the thesis can be found at \texttt{https://github.com/kenhoff/thesis}. 
+
+		\subsection{\LaTeX}
+
+			As part of conducting analysis alongside the experiment, a way was needed to generate the thesis document programmatically (e.g. without re-inserting the graphs every time the data changed). For this, \LaTeX was perfect; documents could be compiled via command line, and would use whatever versions of files were currently in the directory. I had never used it before, but the documentation and examples online were extensive.
+
+			\LaTeX had some problems. Throughout the course of this project, the large number of images and graphs wreaked havoc with the layout system. With the addition of each new set of images or graphs, there were extremely long compile times until the images could be wrangled into a format that \LaTeX could generate quickly. I feel like I've learned a great deal about \LaTeX, both the generalized knowledge of how to create good documents, but also the inner workings of images, generation, floats, section structure and the bibliography.
+
+		\subsection{What it's like to conduct research}
+			One of the goals for choosing to do a Senior Thesis (instead of a Senior Project) was to evaluate my own desire to perform research or attend grad school. Because I had experience doing several large group projects, I wanted to test and see if I would like performing research at the graduate school level.
+
+			I've learned a tremendous amount about the nature of conducting research. Notably, the difference between generating a highly-opinionated (but nonetheless experimentally unfounded) report on the nature of educational gaming, and conducting actual research by developing an exploratory hypothesis and running some experiments.
+
+	\section{Options for future research}
+		\subsection{An extension of this research}
+
+			This research generated some interesting but ultimately unusable results. However, there were many learnings on the rubric items, as well as how to use Mechanical Turk effectively. If the number of games and rubric items were reduced, while increasing the quality of the quizzes as well as ensuring better quality responses in general, there could be a great increase in both the measure inter-rater reliability and the quiz scores.
+
+		\subsection{Iterative scalable design testing for educational games}
+			
+			Mechanical Turk could be an extremely effective tool for anyone who is doing development or research on the development of educational games. For example, someone is creating a web-based educational game, and they've built in logging tools that automatically send player data (scores, actions, levels completed) to a server. They could cheaply and easily use Mechanical Turk to get workers to play the game for at least 10 minutes, or more; they have a way to track if the player actually completed the game, as well as how many questions they've gotten right, allowing them to track how much players have learned.
 
 
 

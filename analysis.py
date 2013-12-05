@@ -23,6 +23,8 @@ def main():
 	game_likert()
 	gamelists_and_comments()
 	whatilearned_and_gamecomments()
+
+
 	m = 22 # number of raters
 
 	data = prepInterRaterData(m)
@@ -49,6 +51,7 @@ def main():
 	# 	print k, "{0:.2f}".format(v)
 	plottest.interrater_plot(interrater_info, "inner_3")
 
+	# debugging()
 
 
 	outer_3 = modify_outer_3(data)
@@ -458,6 +461,7 @@ def prepInterRaterData(m):
 			# print sum(results[i])
 
 		data[rubricitem] = results
+	# print "Rubric item data: {}".format(data)
 
 	for rubricitem in rubricitems:
 		plottest.rubricitem_scores(data[rubricitem], rubricitem)
@@ -537,6 +541,8 @@ def game_likert():
 		c.execute(exec_string)
 		count = 0
 		for row in c.fetchall():
+			if (game == 'pandemic'):
+				print "{}: {}".format(game, row[0])
 			count += 1 
 			for i in range(len(fields)):
 				if (row[i] == "Stronglydisagree"):
@@ -620,6 +626,13 @@ def whatilearned_and_gamecomments():
 def scrub_latex(text):
 
 	return text.replace('&', '\&').replace('%', '\%').replace('$', '\$')
+
+def debugging():
+	exec_string = '''SELECT adaptive_difficulty from results WHERE gameid = "baseball"'''
+	c.execute(exec_string)
+	for row in c.fetchall():
+		# print row
+		pass
 
 # code for opening survey json
 # f = open('./turk_stuff/basic.json', 'r')

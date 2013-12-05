@@ -12,7 +12,7 @@ def main(N, md, sd, p):
 
 	c = (ta[1] * sd) / sqrt(N)
 
-	print "c: {}".format(c)
+	# print "c: {}".format(c)
 
 	# print md-c, md+c
 
