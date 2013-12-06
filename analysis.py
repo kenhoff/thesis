@@ -24,6 +24,8 @@ def main():
 	gamelists_and_comments()
 	whatilearned_and_gamecomments()
 
+	times()
+
 
 	m = 22 # number of raters
 
@@ -72,6 +74,10 @@ def main():
 
 
 	conn.close()
+
+def times():
+	import time_analysis
+	time_analysis.main(c)
 
 def modify_inner_3(data):
 	output = {}

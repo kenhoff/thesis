@@ -1,0 +1,13 @@
+times
+
+Average of all times: 13.5480934809 minutes
+Average of oregon times: 15.7205555556 minutes
+Average of lightbot times: 12.5061111111 minutes
+Average of darfur times: 14.5761111111 minutes
+Average of munchers times: 14.37 minutes
+Average of machine times: 9.30909090909 minutes
+Average of pandemic times: 20.4769230769 minutes
+Average of botlogic times: 14.7718390805 minutes
+Average of baseball times: 10.8401234568 minutes
+Average of notpron times: 10.28 minutes
+Average of lemmings times: 10.9583333333 minutes
