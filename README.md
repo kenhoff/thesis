@@ -1,7 +1,9 @@
 Senior Thesis
 ========================
 
-This is the entirety of the code written for my Senior Thesis, completed Fall 2013. It's not pretty, but it's documented here for official purposes, as well as for anyone who's interested in the implementation.
+This is the entirety of the code written for my Senior Thesis, completed Fall 2013. It's documented here for official purposes, as well as for anyone who's interested in the implementation.
+
+It's a little bit of a mess - that's what happens when you're up against a deadline! If you'd like to find out more, feel free to reach out to me at thekenhoff@gmail.com.
 
 Abstract
 --------------
@@ -21,4 +23,3 @@ Just about everything is written in Python, except for the provided Mechanical T
 
 
 
-It's a little bit of a mess - that's what happens when you're up against a deadline! If you'd like to find out more, feel free to reach out to me at thekenhoff@gmail.com.
